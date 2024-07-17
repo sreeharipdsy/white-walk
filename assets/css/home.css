@@ -1,3 +1,23 @@
 body h1, h2, h3, h4, h5, h6, p, a {
     font-family: 'poppins';
 }
+
+
+
+
+/* HERO-SECTION */
+section {
+    padding-top: 3em;
+}
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/home-page/hero-bg.jpg);
+    background-size: cover;
+}
+@media (max-width: 991px) {
+    .hero-section {
+        background-position: 30% 70%;
+    }
+}

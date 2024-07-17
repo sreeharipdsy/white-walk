@@ -1,14 +1,17 @@
 
 /* HEADER - NAVBAR */
 
+header {
+    position: fixed;
+    width: 100%;
+}
 header .navbar {
-    background: rgb(22,24,48);
-    background: linear-gradient(40deg, rgba(22,24,48,1) 25%, rgba(44,34,82,1) 52%, rgba(75,42,116,1) 95%);
+    background: transparent !important;
+    /* background: rgb(22,24,48);
+    background: linear-gradient(40deg, rgba(22,24,48,1) 25%, rgba(44,34,82,1) 52%, rgba(75,42,116,1) 95%); */
     padding: 0%;
 }
 header .navbar .navbar-toggler {
-    color: rgba(0, 0, 0, .55);
-    border-color: transparent;
     padding: 0%;
     padding-block: 3px !important;
 }
@@ -46,13 +49,29 @@ header .navbar button[aria-expanded="true"] .line:nth-child(2) {
 header .navbar button[aria-expanded="true"] .line:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -6px);
 }
+header .navbar ul {
+    gap: 1em;
+    margin-right: 3em;
+}
 header .navbar ul li a {
     color: #ffffff !important;
+    font-size: 14px;
 }
 @media (max-width: 991px) {
     header .navbar .menu-icon {
         display: flex;
     } 
+    header .navbar ul {
+        margin: 0;
+        text-align: center;
+        gap: 7.5px;
+        padding-block: 1em;
+        margin-bottom: 1em;
+        background: linear-gradient(40deg, rgb(22 24 48 / 61%) 25%, rgb(44 34 82 / 20%) 52%, rgb(75 42 116 / 40%) 95%);
+    }
+    header .navbar ul li a {
+        font-size: 13px;
+    }
 }
 header .navbar-brand {
     margin: 0;
@@ -60,12 +79,57 @@ header .navbar-brand {
     display: flex;
     align-items: center;
     gap: 10px;
-    color: #4A2F46;
     font-weight: 500;
     font-size: 36px;
     color: #fff;
     letter-spacing: 0.5px;
+    background: linear-gradient(to right, #ffffff 0%, #f3edff 100%), #ffffff 0%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 header .navbar-brand img {
     height: 3em;
+}
+header .navbar-brand:hover {
+    color: #fff;
+    cursor: pointer;
+}
+header .brand-mob {
+    display: none;
+}
+@media (max-width: 991px) {
+    header .brand-web {
+        display: none;
+    }
+    header .brand-mob {
+        display: flex;
+    }
+}
+header .navbar .cart {
+    width: 30px;
+}
+header .navbar .cart a {
+    text-decoration: none;
+}
+header .navbar .cart-count {
+    position: relative;
+    top: 12px;
+    right: -12px;
+    background-color: #fff;
+    color: #1f005b;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 1px 5px;
+}
+header .navbar .cart img {
+    margin-bottom: 1.5em;
+}
+@media (max-width: 991px) {
+    header .navbar .container {
+        padding-inline: 1.5em;
+    }
+    header .navbar-brand img {
+        height: 2em;
+    }
 }
