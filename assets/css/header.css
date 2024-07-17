@@ -1,6 +1,11 @@
 
 /* HEADER - NAVBAR */
 
+header .navbar {
+    background: rgb(22,24,48);
+    background: linear-gradient(40deg, rgba(22,24,48,1) 25%, rgba(44,34,82,1) 52%, rgba(75,42,116,1) 95%);
+    padding: 0%;
+}
 header .navbar .navbar-toggler {
     color: rgba(0, 0, 0, .55);
     border-color: transparent;
@@ -26,7 +31,7 @@ header .navbar .menu-icon .line {
     width: 1em;
     height: 2px;
     margin-left: 5px;
-    background-color: #422e20;
+    background-color: #ffffff;
     transition: all 0.3s;
 }
 header .navbar button[aria-expanded="true"] {
@@ -41,6 +46,9 @@ header .navbar button[aria-expanded="true"] .line:nth-child(2) {
 header .navbar button[aria-expanded="true"] .line:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -6px);
 }
+header .navbar ul li a {
+    color: #ffffff !important;
+}
 @media (max-width: 991px) {
     header .navbar .menu-icon {
         display: flex;
@@ -48,10 +56,16 @@ header .navbar button[aria-expanded="true"] .line:nth-child(3) {
 }
 header .navbar-brand {
     margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
+    color: #4A2F46;
+    font-weight: 500;
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 0.5px;
 }
 header .navbar-brand img {
-    height: 40px;
+    height: 3em;
 }
