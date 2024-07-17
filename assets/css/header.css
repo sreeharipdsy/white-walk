@@ -1,0 +1,57 @@
+
+/* HEADER - NAVBAR */
+
+header .navbar .navbar-toggler {
+    color: rgba(0, 0, 0, .55);
+    border-color: transparent;
+    padding: 0%;
+    padding-block: 3px !important;
+}
+header .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+header .navbar .menu-icon {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+header .navbar .menu-icon .line {
+    width: 1em;
+    height: 2px;
+    margin-left: 5px;
+    background-color: #422e20;
+    transition: all 0.3s;
+}
+header .navbar button[aria-expanded="true"] {
+    transform: translateX(0);
+}
+header .navbar button[aria-expanded="true"] .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+header .navbar button[aria-expanded="true"] .line:nth-child(2) {
+    opacity: 0;
+}
+header .navbar button[aria-expanded="true"] .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -6px);
+}
+@media (max-width: 991px) {
+    header .navbar .menu-icon {
+        display: flex;
+    } 
+}
+header .navbar-brand {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+header .navbar-brand img {
+    height: 40px;
+}
