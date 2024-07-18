@@ -5,8 +5,8 @@ body h1, h2, h3, h4, h5, h6, p, a {
 
 
 
-/* HERO-SECTION */
-.hero-section {
+/* HERO-SECTION */ /* animation: shrink 1s infinite alternate; */
+/* .hero-section {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -16,7 +16,7 @@ body h1, h2, h3, h4, h5, h6, p, a {
     background-attachment: fixed;
     background-position: center;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
-    /* animation: shrink 1s infinite alternate; */
+   
 }
 @keyframes shrink {
     0% {
@@ -36,7 +36,7 @@ body h1, h2, h3, h4, h5, h6, p, a {
         background-image: url(../images/home-page/wwbgm2.jpeg);
         background-position: 30% 70%;
     }
-}
+} */
 /* .hero-section .carousel {
     position: relative;
     width: 80%;
@@ -132,7 +132,6 @@ body h1, h2, h3, h4, h5, h6, p, a {
   width: 100%;
   height: 100vh;
 }
-
 .hero-section .carousel-slide {
   position: absolute;
   top: 0;
@@ -144,11 +143,14 @@ body h1, h2, h3, h4, h5, h6, p, a {
   opacity: 0;
   transition: opacity 1s ease-in-out;
 }
-
 .hero-section .carousel-slide.active {
   opacity: 1;
 }
-
+@media (max-width: 575px) {
+    .hero-section .carousel-slide:nth-child(1) {background-image: url('/assets/images/home-page/wwbgmob3.jpeg')}
+    .hero-section .carousel-slide:nth-child(2) {background-image: url('/assets/images/home-page/wwbgmob5.jpeg')}
+    .hero-section .carousel-slide:nth-child(3) {background-image: url('/assets/images/home-page/wwbgmob9.jpeg')}
+}
 .hero-section .hero-content {
   position: absolute;
   bottom: -10px;
