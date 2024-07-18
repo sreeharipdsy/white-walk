@@ -147,9 +147,9 @@ body h1, h2, h3, h4, h5, h6, p, a {
   opacity: 1;
 }
 @media (max-width: 575px) {
-    .hero-section .carousel-slide:nth-child(1) {background-image: url('/assets/images/home-page/wwbgmob3.jpeg')}
-    .hero-section .carousel-slide:nth-child(2) {background-image: url('/assets/images/home-page/wwbgmob5.jpeg')}
-    .hero-section .carousel-slide:nth-child(3) {background-image: url('/assets/images/home-page/wwbgmob9.jpeg')}
+    .hero-section .carousel-slide:nth-child(1) {background-image: url('../images/home-page/wwbgmob3.jpeg')}
+    .hero-section .carousel-slide:nth-child(2) {background-image: url('../images/home-page/wwbgmob5.jpeg')}
+    .hero-section .carousel-slide:nth-child(3) {background-image: url('../images/home-page/wwbgmob9.jpeg')}
 }
 .hero-section .hero-content {
   position: absolute;
