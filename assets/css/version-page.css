@@ -1,0 +1,20 @@
+body {
+    font-family: monospace;
+    margin: 0;
+}
+p {
+    display: none;
+}
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+h3:first-child {
+    text-align: end;
+    width: 60%;
+}
+h3:nth-child(2) {
+    width: 40%;
+    padding-left: 1em;
+}
