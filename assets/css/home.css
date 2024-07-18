@@ -6,18 +6,202 @@ body h1, h2, h3, h4, h5, h6, p, a {
 
 
 /* HERO-SECTION */
-section {
-    padding-top: 3em;
-}
 .hero-section {
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url(../images/home-page/hero-bg.jpg);
+    background-image: url(../images/home-page/wwbg3.jpeg);
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+    /* animation: shrink 1s infinite alternate; */
 }
+@keyframes shrink {
+    0% {
+      background-size: 101% 101%;
+    }
+    100% {
+      background-size: 100% 100%;
+    }
+  }
 @media (max-width: 991px) {
     .hero-section {
         background-position: 30% 70%;
     }
+}
+@media (max-width: 500px) {
+    .hero-section {
+        background-image: url(../images/home-page/wwbgm2.jpeg);
+        background-position: 30% 70%;
+    }
+}
+/* .hero-section .carousel {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    max-width: 800px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.hero-section .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.hero-section .carousel::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px 0px 100px 0px #00000082 inset;
+}
+.hero-section .carousel-images img {
+    width: 100%;
+    display: block;
+}
+.hero-section .carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(106, 106, 106, 0.607);
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+.hero-section .left-nav {
+    left: 10px;
+}
+.hero-section .right-nav {
+    right: 10px;
+}
+.hero-section .hero-text h1 {
+    color: #fcf8ff;
+    width: 80%;
+    font-size: 60px;
+    line-height: 1.2em;
+    font-weight: 600;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+}
+/* @media (max-width: 1400px) {
+    .hero-section .hero-text h1 {
+        font-size: 72px;
+    }
+} */
+/* @media (max-width: 991px) {
+    .hero-section .hero-text h1 {
+        font-size: 36px;
+        width: 100%;
+        line-height: 1.2em;
+    }
+}
+.hero-section .hero-buttons {
+    gap: 1em;
+    margin-top: 2em;
+}
+.hero-section .hero-buttons a {
+    border: 1px solid #fff;
+    padding: 0.5em 3em;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.hero-buttons a:first-child {
+    background: #006aff;
+    border: 1px solid #006aff;
+}
+@media (max-width: 991px) {
+    .hero-buttons {
+        gap: 10px !important;
+    }
+    .hero-buttons a {
+        width: 100%;
+        text-align: center;
+        padding: 10px !important;
+        font-size: 14px !important;
+    }
+}  */
+
+.hero-section .carousel {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero-section .carousel-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.hero-section .carousel-slide.active {
+  opacity: 1;
+}
+
+.hero-section .hero-content {
+  position: absolute;
+  bottom: -10px;
+  transform: translate(0, -50%);
+  text-align: center;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.hero-section .hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-section .hero-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.hero-section .hero-button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  color: white;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-section .hero-button:hover {
+  background-color: #0056b3;
+}
+
+.hero-section .nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.471);
+  text-align: center;
+  line-height: 50px;
+  font-size: 1em;
+  cursor: pointer;
+  justify-content: center;
+  z-index: 10;
+}
+
+.hero-section .nav.prev {
+  left: 0px;
+}
+
+.hero-section .nav.next {
+  right: 0px;
 }
