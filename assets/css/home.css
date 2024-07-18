@@ -142,7 +142,7 @@ body h1, h2, h3, h4, h5, h6, p, a {
     background-position: center;
     opacity: 0;
     box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 25%);
-    transition: opacity 0.8s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
 .hero-section .carousel-slide.active {
     opacity: 1;
@@ -194,12 +194,6 @@ body h1, h2, h3, h4, h5, h6, p, a {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 50px;
-  height: 50px;
-  color: rgba(255, 255, 255, 0.471);
-  text-align: center;
-  line-height: 50px;
-  font-size: 1em;
   cursor: pointer;
   justify-content: center;
   z-index: 10;

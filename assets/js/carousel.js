@@ -68,4 +68,4 @@ const prevSlide = () => {
 document.querySelector('.nav.next').addEventListener('click', nextSlide);
 document.querySelector('.nav.prev').addEventListener('click', prevSlide);
 
-setInterval(nextSlide, 2000);
+setInterval(nextSlide, 2500);
