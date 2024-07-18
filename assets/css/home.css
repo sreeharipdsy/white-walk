@@ -133,35 +133,40 @@ body h1, h2, h3, h4, h5, h6, p, a {
   height: 100vh;
 }
 .hero-section .carousel-slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 25%);
+    transition: opacity 0.8s ease-in-out;
 }
 .hero-section .carousel-slide.active {
-  opacity: 1;
+    opacity: 1;
+}
+.hero-section .carousel-slide:nth-child(1) {background-image: url('../images/home-page/wwbgdesk1.jpeg')}
+.hero-section .carousel-slide:nth-child(2) {background-image: url('../images/home-page/wwbgdesk2.jpeg')}
+.hero-section .carousel-slide:nth-child(3) {background-image: url('../images/home-page/wwbgdesk3.jpeg')}
+.hero-section .carousel-slide:nth-child(4) {background-image: url('../images/home-page/wwbgdesk4.jpeg')}
+.hero-section .hero-content {
+    position: absolute;
+    bottom: -10px;
+    transform: translate(0, -50%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
 }
 @media (max-width: 575px) {
-    .hero-section .carousel-slide:nth-child(1) {background-image: url('../images/home-page/wwbgmob3.jpeg')}
-    .hero-section .carousel-slide:nth-child(2) {background-image: url('../images/home-page/wwbgmob5.jpeg')}
-    .hero-section .carousel-slide:nth-child(3) {background-image: url('../images/home-page/wwbgmob9.jpeg')}
+    .hero-section .carousel-slide:nth-child(1) {background-image: url('../images/home-page/wwbgmob1.jpeg')}
+    .hero-section .carousel-slide:nth-child(2) {background-image: url('../images/home-page/wwbgmob2.jpeg')}
+    .hero-section .carousel-slide:nth-child(3) {background-image: url('../images/home-page/wwbgmob3.jpeg')}
+    .hero-section .carousel-slide:nth-child(4) {background-image: url('../images/home-page/wwbgmob4.jpeg')}
 }
-.hero-section .hero-content {
-  position: absolute;
-  bottom: -10px;
-  transform: translate(0, -50%);
-  text-align: center;
-  color: white;
-  padding: 20px;
-  border-radius: 10px;
-  width: 100%;
-}
-
 .hero-section .hero-content h1 {
   font-size: 3rem;
   margin-bottom: 10px;
