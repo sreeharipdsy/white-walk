@@ -42,6 +42,7 @@ body h1, h2, h3, h4, h5, h6, p, a {
     width: 100%;
 }
 @media (max-width: 575px) {
+    .hero-section .carousel-slide {height: 90vh;}
     .hero-section .carousel-slide:nth-child(1) {background-image: url('../images/home-page/wwbgmob1.jpeg')}
     .hero-section .carousel-slide:nth-child(2) {background-image: url('../images/home-page/wwbgmob2.jpeg')}
     .hero-section .carousel-slide:nth-child(3) {background-image: url('../images/home-page/wwbgmob3.jpeg')}
