@@ -42,7 +42,6 @@ body h1, h2, h3, h4, h5, h6, p, a {
     width: 100%;
 }
 @media (max-width: 575px) {
-    .hero-section .carousel-slide {height: 90vh;}
     .hero-section .carousel-slide:nth-child(1) {background-image: url('../images/home-page/hero-section/hero-bg-mobile-1.jpeg')}
     .hero-section .carousel-slide:nth-child(2) {background-image: url('../images/home-page/hero-section/hero-bg-mobile-2.jpeg')}
     .hero-section .carousel-slide:nth-child(3) {background-image: url('../images/home-page/hero-section/hero-bg-mobile-3.jpeg')}
@@ -97,3 +96,86 @@ body h1, h2, h3, h4, h5, h6, p, a {
 .hero-section .nav.next {
   right: 0px;
 }
+
+
+
+
+
+
+
+
+
+
+/* SECTION - TWO */
+.section-two {
+  padding-top: 7.5em;
+  padding-bottom: 12em;
+  background-color: #fcf9ff;
+}
+.section-two .section-title h1 {
+  margin-bottom: 0.5em;
+  font-size: 56px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #5b00b0 0%, #b105eb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes slides {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.logos {
+  overflow: hidden;
+  padding: 30px 0px;
+  white-space: nowrap;
+  position: relative;
+  background: #fff;
+}
+.logos:before, .logos:after {
+  position: absolute;
+  top: 0;
+  content: '';
+  width: 2em;
+  height: 100%;
+  z-index: 2;
+}
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6));
+}
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6));
+}
+.logo-items {
+  display: inline-block;
+  animation: 35s slides infinite linear;
+}
+/* .logos:hover .logo-items {
+  animation-play-state: paused;
+} */
+.logo-items img {
+  width: 15em;
+  padding-inline: 1em;
+}
+@media (max-width: 991px) {
+  .section-two {
+    padding-top: 5em;
+    padding-bottom: 7.5em;
+  }
+  .section-two .section-title h1 {
+    font-size: 36px;
+    margin-left: 10px;
+    margin-bottom: 1em;
+  }
+  .logo-items img {
+    width: 9em;
+  }
+}
+
+
