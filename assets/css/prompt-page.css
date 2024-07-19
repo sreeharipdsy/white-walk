@@ -1,0 +1,21 @@
+
+body {
+    font-family: monospace;
+    text-align: justify;
+}
+section {
+    padding-block: 3em;
+    width: 50%;
+    margin: auto;
+}
+span {
+    padding: 0.25em 0.5em;
+    margin-right: 0.5em;
+    background: black;
+    color: #fff;
+}
+@media (max-width: 991px) {
+    section {
+        width: 90%;
+    }
+}
