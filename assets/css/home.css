@@ -27,10 +27,10 @@ body h1, h2, h3, h4, h5, h6, p, a {
 .hero-section .carousel-slide.active {
     opacity: 1;
 }
-.hero-section .carousel-slide:nth-child(1) {background-image: url('../images/home-page/wwbgdesk1.jpeg')}
-.hero-section .carousel-slide:nth-child(2) {background-image: url('../images/home-page/wwbgdesk2.jpeg')}
-.hero-section .carousel-slide:nth-child(3) {background-image: url('../images/home-page/wwbgdesk3.jpeg')}
-.hero-section .carousel-slide:nth-child(4) {background-image: url('../images/home-page/wwbgdesk4.jpeg')}
+.hero-section .carousel-slide:nth-child(1) {background-image: url('../images/home-page/hero-section/hero-bg-desktop-1.jpeg')}
+.hero-section .carousel-slide:nth-child(2) {background-image: url('../images/home-page/hero-section/hero-bg-desktop-2.jpeg')}
+.hero-section .carousel-slide:nth-child(3) {background-image: url('../images/home-page/hero-section/hero-bg-desktop-3.jpeg')}
+.hero-section .carousel-slide:nth-child(4) {background-image: url('../images/home-page/hero-section/hero-bg-desktop-4.jpeg')}
 .hero-section .hero-content {
     position: absolute;
     bottom: 25px;
@@ -43,10 +43,10 @@ body h1, h2, h3, h4, h5, h6, p, a {
 }
 @media (max-width: 575px) {
     .hero-section .carousel-slide {height: 90vh;}
-    .hero-section .carousel-slide:nth-child(1) {background-image: url('../images/home-page/wwbgmob1.jpeg')}
-    .hero-section .carousel-slide:nth-child(2) {background-image: url('../images/home-page/wwbgmob2.jpeg')}
-    .hero-section .carousel-slide:nth-child(3) {background-image: url('../images/home-page/wwbgmob3.jpeg')}
-    .hero-section .carousel-slide:nth-child(4) {background-image: url('../images/home-page/wwbgmob4.jpeg')}
+    .hero-section .carousel-slide:nth-child(1) {background-image: url('../images/home-page/hero-section/hero-bg-mobile-1.jpeg')}
+    .hero-section .carousel-slide:nth-child(2) {background-image: url('../images/home-page/hero-section/hero-bg-mobile-2.jpeg')}
+    .hero-section .carousel-slide:nth-child(3) {background-image: url('../images/home-page/hero-section/hero-bg-mobile-3.jpeg')}
+    .hero-section .carousel-slide:nth-child(4) {background-image: url('../images/home-page/hero-section/hero-bg-mobile-4.jpeg')}
     .hero-section .hero-content {
         bottom: -5em;
     }
