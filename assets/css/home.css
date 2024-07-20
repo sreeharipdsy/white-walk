@@ -1,6 +1,9 @@
 body h1, h2, h3, h4, h5, h6, p, a {
     font-family: 'poppins';
 }
+body {
+  background-color: #fcf9ff !important;
+}
 
 
 
@@ -110,14 +113,13 @@ body h1, h2, h3, h4, h5, h6, p, a {
 .section-two {
   padding-top: 7.5em;
   padding-bottom: 12em;
-  background-color: #fcf9ff;
 }
 .section-title h1 {
   margin-bottom: 0.5em;
   font-size: 56px;
   font-weight: 800;
   text-transform: uppercase;
-  background: linear-gradient(to right, #5b00b0 0%, #b105eb 100%);
+  background: linear-gradient(to right, #430082 0%, #b105eb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -168,7 +170,7 @@ body h1, h2, h3, h4, h5, h6, p, a {
     padding-top: 5em;
     padding-bottom: 7.5em;
   }
-  .section-title h1 {
+.section-title h1 {
     font-size: 36px;
     margin-left: 10px;
     margin-bottom: 1em;

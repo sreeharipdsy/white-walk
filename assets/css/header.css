@@ -7,10 +7,16 @@ header {
     z-index: 999;
 }
 header .navbar {
+    /* background: linear-gradient(to right, #1f003c 0%, #69008d 100%) !important; */
     background: transparent !important;
-    /* background: rgb(22,24,48);
-    background: linear-gradient(40deg, rgba(22,24,48,1) 25%, rgba(44,34,82,1) 52%, rgba(75,42,116,1) 95%); */
+    transition: background 0.3s ease;
     padding: 0%;
+}
+header .navbar.transparent {
+    background: transparent !important;
+}
+header .navbar.scrolled {
+    background: linear-gradient(to right, #1f003c 0%, #69008d 100%) !important;
 }
 header .navbar .navbar-toggler {
     padding: 0%;
