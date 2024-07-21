@@ -9,13 +9,15 @@ header {
 header .navbar {
     /* background: linear-gradient(to right, #1f003c 0%, #69008d 100%) !important; */
     background: transparent !important;
-    transition: background 0.3s ease;
+    transition: 0.3s;
     padding: 0%;
 }
 header .navbar.transparent {
+    transition: 0.3s;
     background: transparent !important;
 }
 header .navbar.scrolled {
+    transition: 0.3s;
     background: linear-gradient(to right, #1f003c 0%, #69008d 100%) !important;
 }
 header .navbar .navbar-toggler {
