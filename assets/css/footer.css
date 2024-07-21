@@ -1,6 +1,6 @@
 
 .f-wave {
-    width: 100%;
+    width: -webkit-fill-available;
     margin-bottom: -1px;
 }
 footer {
@@ -14,7 +14,7 @@ footer p, ul li a {
     color: #fff;
 }
 footer p {
-    margin-left: 1.6em;
+    margin-left: 0.8em;
     font-weight: 600;
 }
 footer ul {
@@ -27,7 +27,7 @@ footer ul li {
 footer ul li a {
     text-decoration: none;
     font-size: 13px;
-    margin-left: 2em;
+    margin-left: 1em;
     transition: 0.3s;
 }
 footer ul li a:hover {
