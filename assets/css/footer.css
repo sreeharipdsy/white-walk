@@ -13,7 +13,7 @@
     .f-wave {height: 5em;}
 }
 footer {
-    background: #3b014f;
+    background: #22002d;
     padding-bottom: 2em;
 }
 .footer-link {
@@ -35,7 +35,7 @@ footer ul li {
 }
 footer ul li a {
     text-decoration: none;
-    font-size: 13px;
+    font-size: 12px;
     margin-left: 1em;
     transition: 0.3s;
 }

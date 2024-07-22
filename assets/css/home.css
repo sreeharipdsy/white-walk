@@ -237,10 +237,11 @@ body {
   }
 }
 .section-three {
-  background: #3b014f;
+  padding-top: 3em;
+  background: #22002d;
 }
 .section-three .section-title h1 {
-  background: linear-gradient(to right, #ffffff 0%, #bc68d8 100%);
+  background: linear-gradient(to right, #ffffff 0%, #ce98e0 100%);
 }
 .section-three .row {
   margin-top: 3em;
@@ -251,11 +252,14 @@ body {
   border: none;
   margin-bottom: 1.5em;
 }
+.section-three .product-section .card:hover {
+  transform: translateY(-10px);
+}
 .section-three .product-img img {
   height: 250px;
   margin-bottom: 1.5em;
   object-fit: cover;
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px;
 }
 .section-three .product-section .card h3 {
   display: flex;
@@ -263,9 +267,12 @@ body {
   justify-content: space-between;
   color: #3b014f;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: capitalize;
   margin-inline: 5px;
+}
+.section-three .product-section .card h3 span {
+  font-size: 14px;
 }
 .section-three .product-section .card .buy-button {
   text-decoration: none;
@@ -309,4 +316,68 @@ body {
   .section-three .product-section .card .buy-button {
     font-size: 12px;
   }
+}
+
+
+
+
+
+
+
+
+
+/* SECTION - FOUR */
+.section-four, .men-women .left, .men-women .center, .men-women .right {
+  height: 75vh;
+}
+@media (max-width: 991px) {
+  .section-four, .men-women .left, .men-women .center, .men-women .right {
+    height: 40vh;
+  }
+}
+.section-title-four h1 {
+  margin-bottom: 0.5em;
+  font-size: 56px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #430082 0%, #b105eb 100%);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+}
+.men-women {
+  display: flex;
+}
+.section-four .men-women .left {
+  width: 30%;
+  background: url('../images/home-page/section-four/men-bg.jpeg');
+  background-size: cover;
+  background-position: top;
+  box-shadow: inset 0 0 0 2000px rgba(26, 0, 49, 0.75);
+}
+.section-four .men-women .center {
+  width: 40%;
+  background: url('../images/home-page/section-four/ua-quality.jpg');
+  background-size: cover;
+  background-position: top;
+  box-shadow: inset 0 0 0 2000px rgba(26, 0, 49, 0.75);
+}
+.section-four .men-women .right {
+  width: 30%;
+  background: url('../images/home-page/section-four/women-bg.jpg');
+  background-size: cover;
+  background-position: top;
+  box-shadow: inset 0 0 0 2000px rgba(26, 0, 49, 0.75);
+}
+.men-women .left, .men-women .center, .men-women .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.men-women .left a, .men-women .center a, .men-women .right a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }

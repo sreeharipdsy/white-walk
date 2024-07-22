@@ -18,7 +18,7 @@ header .navbar.transparent {
 }
 header .navbar.scrolled {
     transition: 0.3s;
-    background: linear-gradient(to right, #1f003c 0%, #69008d 100%) !important;
+    background: linear-gradient(to right, #22002d 0%, #4d0067 100%) !important;
 }
 header .navbar .navbar-toggler {
     padding: 0%;
