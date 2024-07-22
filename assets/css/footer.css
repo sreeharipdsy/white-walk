@@ -1,7 +1,16 @@
 
 .f-wave {
-    width: -webkit-fill-available;
+    height: 20em;
+    background: url(../images/footer/footer-wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: -1px;
+}
+@media (max-width: 991px) {
+    .f-wave {height: 12em;}
+}
+@media (max-width: 500px) {
+    .f-wave {height: 5em;}
 }
 footer {
     background: #3b014f;
@@ -39,7 +48,7 @@ footer ul li a:hover {
     font-weight: 700;
     letter-spacing: 1px;
     line-height: 0.8em;
-    margin-bottom: 22.5px;
+    margin-bottom: 5px;
 }
 .footer-link h1:nth-child(2){
     color: #ffffffa3;
