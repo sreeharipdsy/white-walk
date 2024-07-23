@@ -421,6 +421,13 @@ body {
   text-align: justify;
   border: 2px solid #340068;
   border-radius: 10px;
+  transition: 0.3s !important;
+}
+.section-five .feedback-card:hover {
+  background: #22002dee;
+}
+.section-five .feedback-card:hover p, .section-five .feedback-card:hover h1 {
+  color: #fcf7ff;
 }
 .section-five .feedback-card h6 {
   text-align: center;
@@ -434,17 +441,20 @@ body {
   font-weight: 500;
   color: #300030;
   line-height: 1.6em;
+  transition: 0.3s;
 }
 .section-five .feedback-card h1 {
   text-align: center;
   font-size: 20px;
   font-weight: 600;
   color: #580058;
+  transition: 0.3s;
 }
 @media (max-width: 991px) {
   .section-five .feedback-card {
     width: 90%;
     margin-bottom: 0;
+    padding-block: 0.5em;
   }
   .section-five .feedback-card p {
     font-size: 13px;
@@ -453,4 +463,87 @@ body {
     font-size: 16px;
     margin-top: 10px;
   }
+}
+
+
+
+
+
+
+
+
+
+/* SECTION - SIX */
+.section-six {
+  padding-bottom: 3em;
+}
+.section-six .section-title h1 {
+  background: linear-gradient(to right, #470089 0%, #74019a 100%);
+}
+.section-six .faq-content {
+  width: 75%;
+  margin-top: 2em;
+  margin-inline: auto;
+}
+.faq-content .accordion-button {
+  padding: 10px 20px !important;
+  border-radius: 10px !important;
+}
+/* .faq-content .accordion-button:not(.collapsed) {
+  background-color: #f2defc !important;
+} */
+.section-six .faq-header {
+  padding-block: 10px;
+  margin: 0;
+} 
+.faq-content .accordion-button:focus {
+  box-shadow: none;
+  transition: 0.3s;
+}
+.faq-content .accordion-button:before {
+  content: "";
+  position: absolute;
+  right: 20px;
+  height: 3px;
+  width: 18px;
+  background-color: #300030;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.faq-content .accordion-button.collapsed:after {
+  content: "";
+  position: absolute;
+  right: 27.5px;
+  height: 18px;
+  width: 3px;
+  border-style: none;
+  background-color: #300030;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.faq-content .accordion-button h5 {
+  width: 90%;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #300030;
+}
+.faq-content .accordion-body {
+  background-color: #f7dfff1d;
+  padding-block: 12px;
+  border-radius: 10px;
+}
+.faq-content .accordion-body p {
+  margin-bottom: 0px;
+  padding-inline: 20px;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.75em;
+  color: #3b1946;
+}
+@media (max-width: 991px) {
+  .section-six .faq-content {width: 100%;}
+  .faq-content .accordion-button h5 {font-size: 16px;}
+  .faq-content .accordion-body p {font-size: 13px;}
+
 }
