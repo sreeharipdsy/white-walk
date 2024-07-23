@@ -9,6 +9,7 @@ section {
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 h3:first-child {
     text-align: end;
