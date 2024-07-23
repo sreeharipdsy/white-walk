@@ -328,11 +328,12 @@ body {
 
 /* SECTION - FOUR */
 .section-four, .men-women .left, .men-women .center, .men-women .right {
-  height: 75vh;
+  /* height: 75vh; */
+  height: auto;
 }
 @media (max-width: 991px) {
   .section-four, .men-women .left, .men-women .center, .men-women .right {
-    height: 25vh;
+    /* height: 25vh; */
     margin-bottom: -2.5px;
   }
   .men-women {
@@ -353,7 +354,33 @@ body {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
 }
-.men-women {
+.section-four .row {
+  margin: 0;
+}
+.segment-box {
+  padding-block: 6em;
+  background-size: cover !important;
+  background-position: center !important;
+  box-shadow: inset 0 0 0 2000px rgba(26, 0, 49, 0.85);
+}
+.segment-box:first-child {background: url('../images/home-page/section-four/men-bg.jpeg');}
+.segment-box:nth-child(2) {background: url('../images/home-page/section-four/women-bg.jpg');}
+.segment-box:nth-child(3) {background: url('../images/home-page/section-four/sports-shoe.jpeg'); background-position: top !important;}
+.segment-box:nth-child(4) {background: url('../images/home-page/section-four/ua-quality.jpg');}
+.segment-box:nth-child(5) {background: url('../images/home-page/section-four/clearance.jpeg');}
+.segment-box:nth-child(6) {background: url('../images/home-page/section-four/buy-one-get-one.jpeg');}
+.segment-box a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+/* .men-women {
   display: flex;
 }
 .section-four .men-women .left {
@@ -389,9 +416,15 @@ body {
   font-size: 60px;
   font-weight: 700;
   letter-spacing: 1px;
-}
+} */
 @media (max-width: 991px) {
-  .section-four {
+  .segment-box {
+    padding-block: 3em;
+  }
+  .segment-box a {
+    font-size: 24px;
+  }
+  /* .section-four {
     height: auto;
   }
   .section-four .men-women .left, .section-four .men-women .center, .section-four .men-women .right {
@@ -399,5 +432,5 @@ body {
   }
   .men-women .left a, .men-women .center a, .men-women .right a {
     font-size: 36px;
-  }
+  } */
 }
