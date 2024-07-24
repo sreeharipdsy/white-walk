@@ -105,6 +105,11 @@ header .navbar {
 .section-three .content-text {
     margin-block: 2em;
 }
+.section-three .content-text img {
+    width: 80%; 
+    display: flex; 
+    margin-left: auto;
+}
 .section-three .content-text h1 {
     text-align: justify;
     font-size: 40px;
@@ -139,6 +144,11 @@ header .navbar {
 @media (max-width: 991px) {
     .section-three .shop-button a {font-size: 14px;}
     .section-three .content-text {margin-block: 2em;}
+    .section-three .content-text img {
+        width: 755;
+        margin: auto;
+        margin-bottom: 2em;
+    }
     .section-three .content-text h1 {font-size: 30px;}
     .section-three .content-text p {font-size: 14px;}
 }
