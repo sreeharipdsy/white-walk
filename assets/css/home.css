@@ -191,10 +191,11 @@ body {
 .brand-button a {
   color: #fff;
   font-size: 15px;
+  font-weight: 500;
   text-decoration: none;
   background: linear-gradient(to right, #430082 0%, #8000ab 100%);
-  border-radius: 5px;
-  padding: 15px 25px 15px 30px;
+  border-radius: 10px;
+  padding: 15px 20px 15px 30px;
   margin-left: 10px;
   display: flex;
   align-items: center;
