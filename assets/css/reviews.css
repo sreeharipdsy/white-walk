@@ -104,10 +104,17 @@ header .navbar {
 @media (max-width: 991px) {
     
 }
+.section-three #card-count {
+    margin: 0;
+    text-align: end;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 10px;
+}
 .section-three .feedback-card {
   width: 30%;
   margin: 1em;
-  display: grid;
+  display: none;
   align-content: space-between;
   background: #fcf7ff;
   padding: 1em;
