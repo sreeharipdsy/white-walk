@@ -112,6 +112,7 @@
     <!-- SECTION THREE - REVIEWS -->
     <section class="section-three">
         <div class="container">
+            <div id="review-count"></div>
             <div class="row justify-content-center">
                 <div class="feedback-card" data-aos="zoom-in">
                   <h6>★★★★★</h6>
@@ -313,45 +314,14 @@
                 </div>
             </div>
             <div class="shop-button" data-aos="zoom-in">
-                <a href="">
-                    Shop Now
-                    <img src="assets/icons/double-arrow.svg" alt="">
+                <a href="" id="load-more">
+                    Load More
+                    <img src="assets/icons/refresh.svg" alt="">
                 </a>
-                
-                <div id="card-count"></div>
-                <button id="load-more">Load More</button>
-
+                <div id="review-count-2"></div>
             </div>
         </div>
     </section>
-
-
-    <script>
-$(document).ready(function(){
-    var totalCards = $(".feedback-card").length;
-    var cardsToShow = 3;
-    
-    function updateCardCount() {
-        var visibleCards = $(".feedback-card:visible").length;
-        $("#card-count").text(`Showing ${visibleCards} of ${totalCards} reviews`);
-    }
-
-    $(".feedback-card").slice(0, cardsToShow).show();
-    updateCardCount();
-
-    $("#load-more").click(function(e){
-        e.preventDefault();
-        $(".feedback-card:hidden").slice(0, cardsToShow).fadeIn(300, function() {
-            updateCardCount();
-        });
-
-        if($(".feedback-card:hidden").length == 0){
-            $("#load-more").fadeOut(300);
-        }
-    });
-});
-
-    </script>
 
 
     <!--------------------------------------------------------- REVIEWS-PAGE-END --------------------------------------------------------->
@@ -437,8 +407,8 @@ $(document).ready(function(){
 
     <!-- Toast Initialising -->
 
-    <!-- Carousel Initialising -->
-    <script src="assets/js/carousel.js"></script>
+    <!-- Review Count -->
+    <script src="assets/js/review-count.js"></script>
 
     <!-- Back to Top -->
     <script src="assets/js/back-to-top.js"></script>
