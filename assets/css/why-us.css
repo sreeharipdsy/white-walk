@@ -86,6 +86,9 @@ header .navbar {
     color: #3f0054c8 !important;
     font-size: 14px;
 }
+@media (max-width: 991px) {
+    .section-two {display: none;}
+}
 
 
 
@@ -97,4 +100,45 @@ header .navbar {
 /* SECTION - THREE */
 .section-three {
     padding-block: 2em;
+}
+.section-three .content {margin: 0;}
+.section-three .content .image img {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+    /* animation: shrink 0.6s infinite alternate; */
+}
+/* @keyframes shrink {
+    0% {
+      width: 75%;
+    }
+    100% {
+      width: 70%;
+    }
+} */
+.section-three .content .content-text h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #3f0055;
+    margin: 0;
+}
+.section-three .content .content-text p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1b0023a5;
+    text-align: justify;
+    margin-block: 10px;
+}
+@media (max-width: 991px) {
+    .section-three .content {
+        margin: 0;
+        padding-block: 2em;
+        margin-bottom: 2em;
+    }
+    .section-three .content .image img {width: 50%; margin-bottom: 1em;}
+    .section-three .content .content-text h1 {font-size: 22px; margin-top: 1em;}
+    .section-three .content .content-text p {font-size: 13px;}
 }
