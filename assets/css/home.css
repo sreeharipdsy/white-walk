@@ -506,7 +506,7 @@ body {
   right: 20px;
   height: 3px;
   width: 18px;
-  background-color: #300030;
+  background-color: #420042;
   border-radius: 10px;
   transition: 0.3s;
 }
@@ -517,7 +517,7 @@ body {
   height: 18px;
   width: 3px;
   border-style: none;
-  background-color: #300030;
+  background-color: #420042;
   border-radius: 10px;
   transition: 0.3s;
 }
@@ -526,10 +526,10 @@ body {
   margin: 0;
   font-size: 20px;
   font-weight: 600;
-  color: #300030;
+  color: #420042;
 }
 .faq-content .accordion-body {
-  background-color: #f7dfff1d;
+  background-color: #f7dfff47;
   padding-block: 12px;
   border-radius: 10px;
 }
