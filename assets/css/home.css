@@ -253,7 +253,7 @@ body {
   margin-bottom: 1.5em;
 }
 .section-three .product-section .card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 .section-three .product-img img {
   height: 250px;
@@ -425,6 +425,7 @@ body {
 }
 .section-five .feedback-card:hover {
   background: #22002dee;
+  transform: translateY(-5px) !important;
 }
 .section-five .feedback-card:hover p, .section-five .feedback-card:hover h1 {
   color: #fcf7ff;
