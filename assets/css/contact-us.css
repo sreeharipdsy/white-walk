@@ -1,0 +1,127 @@
+body h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'poppins';
+}
+body {
+  background-color: #fcf9ff !important;
+}
+
+
+
+
+
+
+
+/* HEADER */
+header .navbar {
+    background: linear-gradient(to right, #22002d 0%, #4d0067 100%) !important;
+}
+
+/* SECTION - ONE */
+.section-one {
+    height: 40vh;
+    background-color: #f8e6fe54;
+    padding-top: 100px; 
+    display: flex;
+    align-items: center;
+}
+.section-one .section-title h1 {
+    font-size: 66px;
+    font-weight: 800;
+    color: #4d0067;
+    margin: 0;
+    -webkit-animation: tracking-in-expand 0.3s ease-in-out both;
+    animation: tracking-in-expand 0.3s ease-in-out both;
+}
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+@keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+@media (max-width: 991px) {
+    .section-one {
+        padding-top: 70px;
+        height: 30vh;
+    }
+    .section-one .section-title h1 {
+        text-align: center;
+        font-size: 56px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* SECTION - THREE */
+.contact-form {
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+.contact-form .white-walk-form {
+  border-radius: 10px;
+  width: 100%;
+  /* border-bottom: 2px solid #3c2c1e;
+  border-left: 2px solid #3c2c1e; */
+  padding: 30px;
+  background: #fcf9ff;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.075);
+}
+.contact-form .white-walk-form .form-group {
+  margin-bottom: 20px;
+}
+.contact-form .white-walk-form label {
+  padding-bottom: 0px;
+  font-size: 14px;
+  margin-left: 2px;
+  color: #22002d;
+}
+.contact-form .white-walk-form input, .contact-form .white-walk-form textarea, .contact-form .white-walk-form select {
+  border-radius: 0px;
+  box-shadow: none;
+  font-size: 14px;
+  font-weight: 700;
+  background: #fcf9ff;
+  border: none;
+  color: #270034;
+  border-bottom: 1.5px solid #22002d;
+}
+.contact-form .white-walk-form input:focus, .contact-form .white-walk-form textarea:focus, .contact-form .white-walk-form select:focus {
+  border-color: #22002d;
+}
+.contact-form .white-walk-form textarea {
+  padding: 0px 0px;
+}
+.contact-form .white-walk-form button[type=submit] {
+  background: linear-gradient(to right, #2b0053 0%, #420057 100%);
+  width: 100%;
+  border: 2px solid #22002d;
+  padding: 8px 32px;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  color: #fffcfc;
+  transition: 0.3s !important;
+  border-radius: 5px;
+}
