@@ -1,7 +1,11 @@
 
 body {
-    font-family: monospace;
+    /* font-family: monospace; */
     text-align: justify;
+    background-color: #fcf9ff !important;
+}
+body h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'poppins';
 }
 section {
     width: 90%;
@@ -9,12 +13,17 @@ section {
     padding-top: 3em;
     padding-bottom: 1em;
 }
+h4 {
+    font-size: 15px;
+    font-weight: 600;
+}
 .prompts {
     padding-bottom: 2em;
+    font-size: 13px;
 }
 span {
     padding: 0.25em 0.5em;
     margin-right: 0.5em;
-    background: black;
+    background: #420042;
     color: #fff;
 }

@@ -7,7 +7,7 @@
     margin-bottom: -1px;
 }
 @media (max-width: 991px) {
-    footer {padding-block: 2em;}
+    footer {padding-top: 2em;}
     .f-wave {height: 12em;}
 }
 @media (max-width: 500px) {
@@ -15,7 +15,6 @@
 }
 footer {
     background: #22002d;
-    padding-bottom: 2em;
 }
 .footer-link {
     margin-bottom: 1em;
@@ -106,6 +105,15 @@ hr {
 }
 .scroll-to-top.show {
     display: block;
+}
+footer .others {
+    display: flex;
+    justify-content: center;
+    color: #f0e8ff6e;
+    gap: 5px;
+    font-size: 10px;
+    margin-top: 1.5em;
+    padding-bottom: 1em;
 }
 @media (max-width: 991px) {
     .scroll-to-top svg {

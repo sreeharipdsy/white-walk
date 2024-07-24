@@ -1,6 +1,7 @@
 body {
     font-family: monospace;
     margin: 0;
+    background-color: #fcf9ff !important;
 }
 p {
     display: none;
