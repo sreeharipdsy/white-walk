@@ -8,21 +8,16 @@ header {
 header .offer-header p {
     margin: 0;
     margin-top: -1px;
-    background: #fcf7ff;
+    background: #1e0048bd;
     text-align: center;
-    font-size: 16px;
-    color: #4d0067;
-    font-weight: 700;
-    padding-block: 1px;
+    font-size: 12px;
+    color: #dddddd;
+    font-weight: 500;
+    padding-block: 3px;
     letter-spacing: 0.25px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-@keyframes move {
-  to {
-    transform: translateX(-50%);
-  }
 }
 header .navbar {
     /* background: linear-gradient(to right, #1f003c 0%, #69008d 100%) !important; */
