@@ -98,6 +98,9 @@ header .navbar {
     color: #391146;
 }
 @media (max-width: 991px) {
+    .contact-form {
+      padding-bottom: 0;
+    } 
     .contact-form .details .links {text-align: center;}
     .contact-form .details .links h1 {justify-content: center;}
 }
@@ -145,4 +148,96 @@ header .navbar {
   color: #fffcfc;
   transition: 0.3s !important;
   border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/* SECTION - THREE */
+.section-three {
+  padding-block: 2em;
+}
+.section-three .section-title h1 {
+  margin-bottom: 0.5em;
+  font-size: 56px;
+  font-weight: 800;
+  text-transform: uppercase;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #460071 0%, #74019a 100%);
+}
+.section-three .faq-content {
+  width: 75%;
+  margin-top: 2em;
+  margin-inline: auto;
+}
+.faq-content .accordion-button {
+  padding: 10px 20px !important;
+  border-radius: 5px !important;
+}
+/* .faq-content .accordion-button:not(.collapsed) {
+  background-color: #f2defc !important;
+} */
+.section-three .faq-header {
+  padding-block: 10px;
+  margin: 0;
+} 
+.faq-content .accordion-button:focus {
+  box-shadow: none;
+  transition: 0.3s;
+}
+.faq-content .accordion-button:before {
+  content: "";
+  position: absolute;
+  right: 20px;
+  height: 3px;
+  width: 18px;
+  background-color: #420042;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.faq-content .accordion-button.collapsed:after {
+  content: "";
+  position: absolute;
+  right: 27.5px;
+  height: 18px;
+  width: 3px;
+  border-style: none;
+  background-color: #420042;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.faq-content .accordion-button h5 {
+  width: 90%;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #420042;
+}
+.faq-content .accordion-body {
+  background-color: #f7dfff35;
+  padding-block: 12px;
+  border-radius: 10px;
+}
+.faq-content .accordion-body p {
+  margin-bottom: 0px;
+  padding-inline: 20px;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.75em;
+  color: #3b1946;
+}
+@media (max-width: 991px) {
+  .section-three .section-title h1 {
+    font-size: 36px;
+  }
+  .section-three .faq-content {width: 100%;}
+  .faq-content .accordion-button h5 {font-size: 16px;}
+  .faq-content .accordion-body p {font-size: 13px;}
+  .faq-content .accordion-button:before {width: 15px;}
+  .faq-content .accordion-button.collapsed:after {right: 26px; height: 15px;}
 }
