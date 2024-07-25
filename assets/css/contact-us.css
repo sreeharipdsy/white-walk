@@ -115,14 +115,14 @@ header .navbar {
 }
 .contact-form .white-walk-form label {
   padding-bottom: 0px;
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 2px;
   color: #22002d;
 }
 .contact-form .white-walk-form input, .contact-form .white-walk-form textarea, .contact-form .white-walk-form select {
   border-radius: 0px;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   background: #fcf9ff;
   border: none;
