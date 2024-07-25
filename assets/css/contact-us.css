@@ -20,7 +20,7 @@ header .navbar {
 .section-one {
     height: 40vh;
     background-color: #f8e6fe54;
-    padding-top: 100px; 
+    padding-top: 120px; 
     display: flex;
     align-items: center;
 }
@@ -58,7 +58,7 @@ header .navbar {
 }
 @media (max-width: 991px) {
     .section-one {
-        padding-top: 70px;
+        padding-top: 90px;
         height: 30vh;
     }
     .section-one .section-title h1 {

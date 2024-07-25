@@ -63,7 +63,7 @@ header .navbar {
     }
     .section-one .section-title h1 {
         text-align: center;
-        font-size: 56px;
+        font-size: 36px;
     }
 }
 
@@ -97,61 +97,3 @@ header .navbar {
 
 
 
-
-/* SECTION - THREE */
-.section-three {
-    padding-top: 1em;
-}
-.section-three .content-text {
-    margin-block: 2em;
-}
-.section-three .content-text img {
-    width: 80%; 
-    display: flex; 
-    margin-left: auto;
-}
-.section-three .content-text h1 {
-    text-align: justify;
-    font-size: 40px;
-    font-weight: 700;
-    color: #450162;
-    margin-bottom: 10px;
-}
-.section-three .content-text p {
-    text-align: justify;
-    font-size: 16px;
-    color: #33133e;
-    line-height: 1.7em;
-}
-.section-three .shop-button a {
-    color: #fff;
-    font-size: 15px;
-    font-weight: 400;
-    text-decoration: none;
-    background: linear-gradient(to right, #2b0053 0%, #560172 100%);
-    border-radius: 7.5px;
-    padding: 12px 30px 12px 40px;
-    margin-left: 10px;
-    display: flex;
-    align-items: center;
-    width: fit-content;
-    margin: auto;
-    margin-top: 3em;
-    margin-bottom: 2em;
-    gap: 5px;
-    transition: 0.3s;
-}
-@media (max-width: 991px) {
-    .section-three .shop-button a {font-size: 14px;}
-    .section-three .content {
-        margin-inline: 1em;
-    }
-    .section-three .content-text {margin-block: 2em;}
-    .section-three .content-text img {
-        width: 60%;
-        margin: auto;
-        margin-bottom: 2em;
-    }
-    .section-three .content-text h1 {font-size: 30px;}
-    .section-three .content-text p {font-size: 14px;}
-}
