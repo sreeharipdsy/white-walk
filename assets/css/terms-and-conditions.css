@@ -1,0 +1,104 @@
+body h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'poppins';
+    color: #300040;
+}
+body {
+  background-color: #fcf9ff !important;
+}
+body p, ul {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+/* HEADER */
+header .navbar {
+    background: linear-gradient(to right, #22002d 0%, #4d0067 100%) !important;
+}
+
+/* SECTION - ONE */
+.section-one {
+    height: 40vh;
+    background-color: #f8e6fe54;
+    padding-top: 100px; 
+    display: flex;
+    align-items: center;
+}
+.section-one .section-title h1 {
+    font-size: 66px;
+    font-weight: 800;
+    color: #4d0067;
+    margin: 0;
+    -webkit-animation: tracking-in-expand 0.3s ease-in-out both;
+    animation: tracking-in-expand 0.3s ease-in-out both;
+}
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+@keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+@media (max-width: 991px) {
+    .section-one {
+        padding-top: 70px;
+        height: 30vh;
+    }
+    .section-one .section-title h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* SECTION - TWO */
+.section-two {
+  padding-block: 3em;
+  text-align: justify;
+  line-height: 1.7em;
+}
+.section-two h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 1em;
+  color: #300040;
+}
+@media (max-width: 991px) {
+    .section-two h1 {
+        font-size: 30px;
+    }
+}
+.section-two .content strong {
+  color: #300040;
+}
+.section-two ul li {
+  list-style: square;
+  color: #300040;
+}
