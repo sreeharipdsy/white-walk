@@ -1,10 +1,27 @@
 
 /* HEADER - NAVBAR */
-
 header {
     position: fixed;
     width: 100%;
     z-index: 999;
+}
+header .offer-header p {
+    margin: 0;
+    background: #fcf7ff;
+    text-align: center;
+    font-size: 12px;
+    color: #4d0067;
+    font-weight: 700;
+    padding-block: 2px;
+    letter-spacing: 0.25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes move {
+  to {
+    transform: translateX(-50%);
+  }
 }
 header .navbar {
     /* background: linear-gradient(to right, #1f003c 0%, #69008d 100%) !important; */
