@@ -90,6 +90,10 @@ header .navbar {
   margin-bottom: 1em;
   color: #300040;
 }
+.section-two a {
+  text-decoration: none;
+  color: blue !important;
+}
 @media (max-width: 991px) {
     .section-two h1 {
         font-size: 24px;
