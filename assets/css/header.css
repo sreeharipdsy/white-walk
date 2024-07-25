@@ -75,13 +75,13 @@ header .navbar ul li a {
         text-align: center;
         gap: 7.5px;
         padding-block: 1em;
-        margin-bottom: 1em;
-        border-radius: 10px;
-        background: #fdfdfd;
+        margin-bottom: 1.5em;
+        background: #fcf9ff;
     }
     header .navbar ul li a {
         font-size: 12px;
         color: #320032 !important;
+        font-weight: 500;
     }
 }
 header .navbar-brand {

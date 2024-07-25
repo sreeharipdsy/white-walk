@@ -452,6 +452,14 @@ body {
   color: #580058;
   transition: 0.3s;
 }
+.section-five .more-button a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #580058;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
 @media (max-width: 991px) {
   .section-five .feedback-card {
     width: 90%;
