@@ -63,7 +63,7 @@ header .navbar {
     }
     .section-one .section-title h1 {
         text-align: center;
-        font-size: 56px;
+        font-size: 50px;
     }
 }
 
@@ -79,6 +79,27 @@ header .navbar {
 .contact-form {
   padding-top: 3em;
   padding-bottom: 2em;
+}
+.contact-form .details {
+    padding: 4em;
+    display: grid;
+    gap: 25px;
+}
+.contact-form .details .links h1 {
+    display: flex;
+    color: #4d0067;
+    font-size: 24px;
+    font-weight: 600;
+    gap: 10px;
+}
+.contact-form .details .links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #391146;
+}
+@media (max-width: 991px) {
+    .contact-form .details .links {text-align: center;}
+    .contact-form .details .links h1 {justify-content: center;}
 }
 .contact-form .white-walk-form {
   border-radius: 10px;
