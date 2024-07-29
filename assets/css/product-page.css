@@ -1,0 +1,67 @@
+body h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'poppins';
+}
+body {
+    background-color: #fcf9ff !important;
+}
+
+
+
+
+/* HEADER */
+header .navbar {
+    background: linear-gradient(to right, #22002d 0%, #4d0067 100%) !important;
+}
+
+
+
+
+/* PRODUCT - SECTION */
+.product-section {
+    padding-top: 200px;
+}
+.product-section .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    align-items: center;
+}
+.product-section .parent .p-image {
+    display: flex;
+    justify-content: center;
+}
+.product-section .parent .p-image img {
+    width: 75%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.product-section .parent .p-details .p-name {
+    font-size: 40px;
+    font-weight: 700;
+    color: #4d0067;
+}
+.product-section .parent .p-details .p-about {
+    font-size: 16px;
+    width: 75%;
+    color: #331a3a;
+}
+.product-section .parent .p-details .p-price {
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+    color: #dd0000;
+}
+.product-section .parent .p-details .p-price span:first-child {
+    font-weight: 400;
+    color: #42264bbf;
+    text-decoration: line-through;
+}
+.product-section .parent .p-details .check-out {
+    border: none;
+    color: #fcf9ff;
+    background: #3f024f;
+    padding: 7px 28px;
+    border-radius: 5px;
+}    
