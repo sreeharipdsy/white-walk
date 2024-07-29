@@ -99,69 +99,34 @@ header .navbar {
 
 
 /* SECTION - THREE */
-.section-three .row {
-  margin-top: 2em;
-}
-/* .section-three .card {
-  max-width: 20%;
-  margin: 1em;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px #e5e5e5;
-  padding: 0;
-}
-.section-three .card .product-img img {
-  height: 12.5em;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 10px;
-}
-.section-three .product-description .name-rating {
+.section-three .search-container {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
+  margin-block: 1em;
 }
-.section-three .product-description {padding: 1em;}
-.section-three .product-description .rating {
-  color: #f5b301;
-  font-size: 16px;
+.section-three .search-container input {
+  background: none;
+  border: 1.5px solid #3f0055;
+  border-radius: 5px 0 0 5px;
+  padding: 5px 10px;
 }
-.section-three .product-description .product-name {
-  text-transform: capitalize;
-  font-size: 16px;
-  margin-bottom: 0;
-  color: #22002d;
+.section-three .search-container input:focus{
+  outline: none;
+  border-color: none;
+  box-shadow: 0 0 0 0 none;
+  -moz-box-shadow: 0 0 0 0 none;
+  -webkit-box-shadow: 0 0 0 0 none;
 }
-.section-three .product-description .product-about {
-  white-space: nowrap;
-  width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 12px;
-  color: #97869d;
-}
-.section-three .product-description .price-buy .price p {
-  margin-bottom: 0;
-  color: #22002d;
-  font-size: 16px;
-  font-weight: 600;
-}
-.section-three .product-description .price-buy .price p span {
-  color: rgba(34, 0, 45, 0.447);
-  text-decoration: line-through;
-  font-size: 15px;
-  font-weight: 400;
-}
-.section-three .product-description .price-buy .buy button {
-  text-transform: capitalize;
+.section-three .search-container button {
   border: none;
-  border-radius: 5px;
-  color: #fff;
-  background: #22002d;
-  font-size: 13px;
-  padding: 5px 15px;
-} */
+  padding: 8.5px;
+  background: #3f0055;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .section-three .parent {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -169,7 +134,7 @@ header .navbar {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   margin: 0em;
-  margin-top: 2em; 
+  margin-top: 1.5em; 
 }
 .section-three .card {
   border: none;
