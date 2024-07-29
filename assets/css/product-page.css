@@ -65,3 +65,18 @@ header .navbar {
     padding: 7px 28px;
     border-radius: 5px;
 }    
+@media (max-width: 991px) {
+    .product-section {padding-top: 120px;}
+    .product-section .parent {grid-template-columns: repeat(1, 1fr);}
+    .product-section .parent .p-image img {width: 95%;}
+    .product-section .parent .p-details {padding: 1em;}
+    .product-section .parent .p-details .p-name {font-size: 24px;}
+    .product-section .parent .p-details .p-about {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .product-section .parent .p-details .p-price {}
+    .product-section .parent .p-details .p-price span:first-child {}
+    .product-section .parent .p-details .check-out {width: 100%;}
+}
