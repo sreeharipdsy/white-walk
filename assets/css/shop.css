@@ -227,11 +227,11 @@ header .navbar {
   .section-three .product-description {margin-top: 5px;}
   .section-three .product-description .p-name, 
   .section-three .product-description .p-rating,
-  .section-three .product-description .p-price p {font-size: 10px;}
+  .section-three .product-description .p-price p {font-size: 12px;}
   .section-three .product-description .p-about p,
-  .section-three .product-description .p-price p span {font-size: 9px;}
+  .section-three .product-description .p-price p span {font-size: 10px;}
   .section-three .product-description .card-buttons button {
-    font-size: 9px;
+    font-size: 10px;
     border: 1px solid #3f0055;
     padding: 3px;
     border-radius: 2.5px;
