@@ -102,12 +102,13 @@ header .navbar {
 .section-three .row {
   margin-top: 2em;
 }
-.section-three .card {
+/* .section-three .card {
   max-width: 20%;
   margin: 1em;
   border: none;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px #e5e5e5;
+  padding: 0;
 }
 .section-three .card .product-img img {
   height: 12.5em;
@@ -116,12 +117,19 @@ header .navbar {
   object-position: center;
   border-radius: 10px;
 }
+.section-three .product-description .name-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .section-three .product-description {padding: 1em;}
-.section-three .product-description .rating {color: #f5b301;}
+.section-three .product-description .rating {
+  color: #f5b301;
+  font-size: 16px;
+}
 .section-three .product-description .product-name {
   text-transform: capitalize;
-  font-size: 20px;
-  margin-top: 5px;
+  font-size: 16px;
   margin-bottom: 0;
   color: #22002d;
 }
@@ -130,19 +138,19 @@ header .navbar {
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 14px;
+  font-size: 12px;
   color: #97869d;
 }
 .section-three .product-description .price-buy .price p {
   margin-bottom: 0;
   color: #22002d;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
 }
 .section-three .product-description .price-buy .price p span {
   color: rgba(34, 0, 45, 0.447);
   text-decoration: line-through;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
 }
 .section-three .product-description .price-buy .buy button {
@@ -153,4 +161,114 @@ header .navbar {
   background: #22002d;
   font-size: 13px;
   padding: 5px 15px;
+} */
+.section-three .parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin: 0em;
+  margin-top: 2em; 
+}
+.section-three .card {
+  border: none;
+  border-radius: 10px;
+  padding: 1em;
+  box-shadow: 0px 0px 10px 0px #d8d8d8;
+}
+.section-three .product-img img {
+  height: 12em;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+.section-three .product-description .name-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-three .product-description .p-name, 
+.section-three .product-description .p-rating {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #2c003c;
+}
+.section-three .product-description .p-rating {
+  background: #ffee8b26;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 2px 6px;
+}
+.section-three .product-description .p-rating span {
+  color: #ffb300;
+}
+.section-three .product-description .p-about p {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  color: #47354e86;
+  margin-bottom: 3px;
+}
+.section-three .product-description .p-price p span {
+  font-weight: 400;
+  text-decoration: line-through;
+  font-size: 14px;
+}
+.section-three .product-description .p-price p {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #2c003c;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.section-three .product-description .card-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section-three .product-description .card-buttons button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  font-size: 13px;
+  border: 1.5px solid #3f0055;
+  padding: 5px;
+  border-radius: 5px;
+}
+.section-three .product-description .card-buttons button:first-child {
+  background-color: #fcf9ff;
+  color: #3f0055;
+}
+.section-three .product-description .card-buttons button:last-child {
+  background-color: #3f0055;
+  color: #fcf9ff;
+}
+@media (max-width: 991px) {
+  .section-three .parent {grid-template-columns: repeat(2, 1fr);}
+  .section-three .card {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .section-three .product-img img {height: 9em;}
+  .section-three .product-description {margin-top: 5px;}
+  .section-three .product-description .p-name, 
+  .section-three .product-description .p-rating,
+  .section-three .product-description .p-price p {font-size: 10px;}
+  .section-three .product-description .p-about p,
+  .section-three .product-description .p-price p span {font-size: 9px;}
+  .section-three .product-description .card-buttons button {
+    font-size: 9px;
+    border: 1px solid #3f0055;
+    padding: 3px;
+    border-radius: 2.5px;
+  }
 }
