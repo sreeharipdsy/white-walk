@@ -223,7 +223,7 @@ header .navbar {
     padding: 10px;
     border-radius: 5px;
   }
-  .section-three .product-img img {height: 9em;}
+  .section-three .product-img img {max-height: 10em;}
   .section-three .product-description {margin-top: 5px;}
   .section-three .product-description .p-name, 
   .section-three .product-description .p-rating,

@@ -10,6 +10,7 @@ body {
 
 /* HEADER */
 header .navbar {
+    display: none;
     background: linear-gradient(to right, #22002d 0%, #4d0067 100%) !important;
 }
 
@@ -18,7 +19,20 @@ header .navbar {
 
 /* PRODUCT - SECTION */
 .product-section {
-    padding-top: 200px;
+    padding-top: 120px;
+}
+.product-section ol {
+    margin-bottom: 2em;
+    margin-inline: 1em;
+}
+.product-section ol li a {
+    font-size: 13px;
+    font-weight: 500;
+    color: #3f0055;
+}
+.breadcrumb-item+.breadcrumb-item::before, .breadcrumb-item  {
+    color: #3f0054c8 !important;
+    font-size: 14px;
 }
 .product-section .parent {
     display: grid;
@@ -36,6 +50,7 @@ header .navbar {
     width: 75%;
     border-radius: 10px;
     object-fit: cover;
+    object-position: center;
 }
 .product-section .parent .p-details .p-name {
     font-size: 48px;
@@ -47,6 +62,11 @@ header .navbar {
     width: 80%;
     line-height: 1.7em;
     color: #331a3a;
+}
+.product-section .parent .price-group {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
 }
 .product-section .parent .p-details .p-price {
     display: flex;
@@ -60,6 +80,29 @@ header .navbar {
     color: #42264bbf;
     text-decoration: line-through;
 }
+.product-section .reviews a {
+    display: flex;
+    align-items: center;
+    color: #420042;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 1.25em;
+}
+@media (min-width: 991px) {
+    .product-section .reviews a {
+        display: none;
+    }
+}
+.product-section .parent .alert {
+    padding: 0;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: justify;
+    color: #431f4383;
+    margin-bottom: 10px;
+    margin-top: 1em;
+}
 .product-section .parent .p-details .check-out {
     border: none;
     color: #fcf9ff;
@@ -68,30 +111,42 @@ header .navbar {
     border-radius: 10px;
 }    
 @media (max-width: 991px) {
-    .product-section {padding-top: 120px;}
+    .product-section {padding-top: 40px;}
+    .product-section ol {margin-bottom: 1em;}
+    .product-section ol li {font-size: 14px;}
+    .product-section ol li a {font-size: 12px;}
     .product-section .parent {grid-template-columns: repeat(1, 1fr);}
-    .product-section .parent .p-image img {width: 95%;}
+    .product-section .parent .p-image {
+        max-height: 18em; 
+        margin-inline: 1em;
+    }
+    .product-section .parent .p-image img {width: 100%;}
     .product-section .parent .p-details {padding: 1em;}
-    .product-section .parent .p-details .p-name {font-size: 24px;}
+    .product-section .parent .p-details .p-name {
+        font-size: 24px;
+        margin-top: 10px;
+    }
     .product-section .parent .p-details .p-about {
         font-size: 12px;
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 2.5em;
     }
     .product-section .parent .p-details .check-out {width: 100%;}
 }
-.product-section .reviews a {
-    display: flex;
-    align-items: center;
-    color: #420042;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 1.5em;
+.product-section .section-title h1 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  text-transform: uppercase;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #230039 0%, #5f007f 100%);
 }
 .faq-content {
   width: 90%;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-inline: auto;
 }
 .faq-content .accordion-button {
@@ -130,7 +185,7 @@ header .navbar {
 .faq-content .accordion-button h5 {
   width: 90%;
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: #420042;
 }
@@ -142,15 +197,16 @@ header .navbar {
 .faq-content .accordion-body p {
   margin-bottom: 0px;
   padding-inline: 20px;
-  font-size: 16px;
+  font-size: 15px;
   text-align: justify;
   line-height: 1.75em;
   color: #3b1946;
 }
 @media (max-width: 991px) {
+  .product-section .section-title h1 {font-size: 30px;}
   .faq-content {width: 100%;}
-  .faq-content .accordion-button h5 {font-size: 16px;}
-  .faq-content .accordion-body p {font-size: 13px;}
+  .faq-content .accordion-button h5 {font-size: 14px;}
+  .faq-content .accordion-body p {font-size: 12px;}
   .faq-content .accordion-button:before {width: 15px;}
   .faq-content .accordion-button.collapsed:after {right: 26px; height: 15px;}
 }
