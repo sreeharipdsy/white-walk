@@ -80,3 +80,77 @@ header .navbar {
     }
     .product-section .parent .p-details .check-out {width: 100%;}
 }
+.product-section .reviews a {
+    display: flex;
+    align-items: center;
+    color: #420042;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 1.5em;
+}
+.faq-content {
+  width: 90%;
+  margin-top: 2em;
+  margin-inline: auto;
+}
+.faq-content .accordion-button {
+  padding: 10px 20px !important;
+  border-radius: 5px !important;
+}
+.section-three .faq-header {
+  padding-block: 10px;
+  margin: 0;
+} 
+.faq-content .accordion-button:focus {
+  box-shadow: none;
+  transition: 0.3s;
+}
+.faq-content .accordion-button:before {
+  content: "";
+  position: absolute;
+  right: 20px;
+  height: 3px;
+  width: 18px;
+  background-color: #420042;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.faq-content .accordion-button.collapsed:after {
+  content: "";
+  position: absolute;
+  right: 27.5px;
+  height: 18px;
+  width: 3px;
+  border-style: none;
+  background-color: #420042;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.faq-content .accordion-button h5 {
+  width: 90%;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #420042;
+}
+.faq-content .accordion-body {
+  background-color: #f7dfff35;
+  padding-block: 12px;
+  border-radius: 10px;
+}
+.faq-content .accordion-body p {
+  margin-bottom: 0px;
+  padding-inline: 20px;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.75em;
+  color: #3b1946;
+}
+@media (max-width: 991px) {
+  .faq-content {width: 100%;}
+  .faq-content .accordion-button h5 {font-size: 16px;}
+  .faq-content .accordion-body p {font-size: 13px;}
+  .faq-content .accordion-button:before {width: 15px;}
+  .faq-content .accordion-button.collapsed:after {right: 26px; height: 15px;}
+}
