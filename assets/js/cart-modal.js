@@ -1,16 +1,17 @@
 
-// Cart-Modal
-$('#cart-icon').click(function() {
-    updateCartModal();
-    $('#cart-modal').fadeIn("300");
-});
-
-$('.close').click(function() {
-    $('#cart-modal').fadeOut("300");
-});
-
-$(window).click(function(event) {
-    if ($(event.target).is('#cart-modal')) {
-        $('#cart-modal').fadeOut("300");
-    }
+document.addEventListener('DOMContentLoaded', () => {
+    const cartModal = document.getElementById('cart-modal');
+    const closeModalButton = document.querySelector('.modal .close');
+    const cartIcon = document.getElementById('cart-icon');
+    cartIcon.addEventListener('click', () => {
+        cartModal.style.display = 'block';
+    });
+    closeModalButton.addEventListener('click', () => {
+        cartModal.style.display = 'none';
+    });
+    window.addEventListener('click', (event) => {
+        if (event.target === cartModal) {
+            cartModal.style.display = 'none';
+        }
+    });
 });
