@@ -111,7 +111,7 @@ header .navbar {
     border-radius: 10px;
 }    
 @media (max-width: 991px) {
-    .product-section {padding-top: 40px;}
+    .product-section {padding-top: 80px;}
     .product-section ol {margin-bottom: 1em;}
     .product-section ol li {font-size: 14px;}
     .product-section ol li a {font-size: 12px;}
