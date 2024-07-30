@@ -57,7 +57,7 @@
                 <img src="assets/logo/whitewalk-logo.png" alt="">
               </a>
               <div class="cart order-lg-2">
-                <a href="cart-icon" id="cart-icon">
+                <a id="cart-icon" onclick="toggleCartModal()">
                     <span class="cart-count">0</span>
                     <img src="assets/icons/cart-icon.svg" alt="">
                 </a>
@@ -68,7 +68,7 @@
                     <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="shop.html">Shop</a>
+                    <a class="nav-link" href="shop.html">Shop</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="why-us.html">Why Us</a>
@@ -88,9 +88,24 @@
         </nav>
     </header>
 
+    <!-- CART MODAL -->
+    <div class="cart-modal">
+      <div id="cart-modal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="toggleCartModal()">&times;</span>
+          <h2>My Cart</h2>
+          <ul id="cart-items">
+            <!-- Cart Items Will Be Injected Here -->
+          </ul>
+          <p id="total-price">Total: $0.00</p>
+          <button id="checkout-cart">Checkout Via WhatsApp</button>
+        </div>
+      </div>
+    </div>
+
 
     <!----------------------------------------------------------- PRODUCT-PAGE ----------------------------------------------------------->
-    
+
 
     <!-- PRODUCT -->
     <section class="product-section">
