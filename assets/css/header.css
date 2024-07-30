@@ -131,6 +131,7 @@ header .brand-mob {
 }
 header .navbar .cart {
     width: 30px;
+    cursor: pointer;
 }
 header .navbar .cart a {
     text-decoration: none;
