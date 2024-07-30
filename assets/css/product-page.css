@@ -38,19 +38,21 @@ header .navbar {
     object-fit: cover;
 }
 .product-section .parent .p-details .p-name {
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 700;
-    color: #4d0067;
+    color: #3d0051;
 }
 .product-section .parent .p-details .p-about {
     font-size: 16px;
-    width: 75%;
+    width: 80%;
+    line-height: 1.7em;
     color: #331a3a;
 }
 .product-section .parent .p-details .p-price {
     display: flex;
     gap: 10px;
     font-weight: 600;
+    font-size: 18px;
     color: #dd0000;
 }
 .product-section .parent .p-details .p-price span:first-child {
@@ -61,9 +63,9 @@ header .navbar {
 .product-section .parent .p-details .check-out {
     border: none;
     color: #fcf9ff;
-    background: #3f024f;
+    background: #3c004b;
     padding: 7px 28px;
-    border-radius: 5px;
+    border-radius: 10px;
 }    
 @media (max-width: 991px) {
     .product-section {padding-top: 120px;}
@@ -76,7 +78,5 @@ header .navbar {
         width: 100%;
         margin-bottom: 10px;
     }
-    .product-section .parent .p-details .p-price {}
-    .product-section .parent .p-details .p-price span:first-child {}
     .product-section .parent .p-details .check-out {width: 100%;}
 }

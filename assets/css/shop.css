@@ -230,6 +230,7 @@ header .navbar {
   .section-three .product-description .p-price p {font-size: 12px;}
   .section-three .product-description .p-about p,
   .section-three .product-description .p-price p span {font-size: 10px;}
+  .section-three .product-description .card-buttons {gap: 5px;}
   .section-three .product-description .card-buttons button {
     font-size: 10px;
     border: 1px solid #3f0055;
