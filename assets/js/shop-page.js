@@ -17,7 +17,11 @@ function renderProducts(products) {
     productCard.classList.add('card');
     productCard.innerHTML = `
       <div class="product-img">
-        <img src="${product.image}" class="w-100" alt="${product.name} Image">
+        <img 
+          src="${product.image}" 
+          class="w-100" 
+          alt="${product.name} Image"
+          onclick="openProductPage(${product.id})">
       </div>
       <div class="product-description">
         <div class="name-rating">
@@ -33,7 +37,7 @@ function renderProducts(products) {
         </div>
       </div>
     `;
-    productCard.addEventListener('click', () => openProductPage(product));
+    // productCard.addEventListener('click', () => openProductPage(product));
     productList.appendChild(productCard);
   });
 }

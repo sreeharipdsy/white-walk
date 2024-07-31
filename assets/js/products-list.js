@@ -40,4 +40,45 @@ const products = [
         price: 150, 
         discountedPrice: 130
     }
+    ,
+    { 
+        id: 6, 
+        name: 'Product 6', 
+        category: 'buy1get1', 
+        image: 'assets/images/2.jpeg', 
+        price: 150, 
+        discountedPrice: 130
+    },
+    { 
+        id: 7, 
+        name: 'Product 7', 
+        category: 'buy1get1', 
+        image: 'assets/images/2.jpeg', 
+        price: 150, 
+        discountedPrice: 130
+    },
+    { 
+        id: 8, 
+        name: 'Product 8', 
+        category: 'buy1get1', 
+        image: 'assets/images/2.jpeg', 
+        price: 150, 
+        discountedPrice: 130
+    },
+    { 
+        id: 9, 
+        name: 'Product 9', 
+        category: 'buy1get1', 
+        image: 'assets/images/2.jpeg', 
+        price: 150, 
+        discountedPrice: 130
+    },
+    { 
+        id: 10, 
+        name: 'Product 10', 
+        category: 'buy1get1', 
+        image: 'assets/images/2.jpeg', 
+        price: 150, 
+        discountedPrice: 130
+    }
 ];

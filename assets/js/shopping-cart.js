@@ -3,6 +3,20 @@ function addToCart(productId) {
     const product = products.find(p => p.id === productId);
     cart.push(product);
     updateCart();
+    showToast('Item Added to Cart');
+}
+
+function showToast(message) {
+    const toast = document.getElementById('toast');
+    toast.querySelector('span').textContent = message;
+  
+    toast.classList.add('show');
+    toast.classList.remove('hide');
+  
+    setTimeout(() => {
+      toast.classList.add('hide');
+      toast.classList.remove('show');
+    }, 1500);
 }
 
 function updateCart() {
