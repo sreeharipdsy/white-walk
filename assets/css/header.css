@@ -240,8 +240,15 @@ header .navbar .cart img {
     margin-block: 5px;
 }
 .cart-modal .modal-content ul li img {border-radius: 5px;}
+.cart-modal .modal-content ul li .name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 30%;
+}
 .cart-modal .modal-content ul li span {
     color: #450056;
+    font-size: 14px;
     font-weight: 600;
 }
 .cart-modal .modal-content ul li button {
@@ -277,7 +284,7 @@ header .navbar .cart img {
   left: 50%;
   transform: translateX(-50%);
   color: #fff;
-  padding: 10px 0px;
+  padding: 7.5px 0px;
   border-radius: 5px;
   font-size: 1rem;
   display: flex;
@@ -289,13 +296,14 @@ header .navbar .cart img {
 }
 
 .toast.show {
+  width: 75%;
   display: flex;
   justify-content: center;
   gap: 10px;
   opacity: 1;
   color: #3c004b;
   border: 2px solid #56006c;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   transform: translateX(-50%) translateY(0);
   background-color: #fbf9ff !important;
@@ -305,9 +313,9 @@ header .navbar .cart img {
   background-color: #009a24;
   color: #fff;
   border-radius: 50%;
-  padding: 1px 6px;
+  padding: 1px 4px;
   display: inline-block;
-  font-size: 16px;
+  font-size: 12px;
   animation: tickAnimation 0.5s ease forwards;
 }
 

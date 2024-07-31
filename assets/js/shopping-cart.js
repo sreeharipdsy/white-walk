@@ -28,14 +28,14 @@ function updateCart() {
         const cartItem = document.createElement('li');
         cartItem.innerHTML = `
         <img src="${product.image}" alt="${product.name}" width="50">
-        <span>${product.name}</span>
-        <span>$${product.discountedPrice}</span>
+        <span class="name">${product.name}</span>
+        <span>₹${product.discountedPrice}</span>
         <button onclick="removeFromCart(${product.id})">Delete<img src="assets/icons/delete.svg" alt="Delete"></button>
         `;
         cartItems.appendChild(cartItem);
     });
     const totalPrice = cart.reduce((sum, product) => sum + product.discountedPrice, 0);
-    document.getElementById('total-price').textContent = `Total: $${totalPrice.toFixed(2)}`;
+    document.getElementById('total-price').textContent = `Total: ₹${totalPrice.toFixed(2)}`;
 }
 
 function removeFromCart(productId) {
