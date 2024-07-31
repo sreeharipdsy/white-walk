@@ -105,13 +105,19 @@ header .navbar {
   align-items: center;
   margin-block: 1em;
 }
-.section-three .search-container input {
+.section-three .search-container input {width: 60%;}
+.section-three .search-container input, .section-three .search-container select  {
   background: none;
   border: 1.5px solid #3f0055;
   border-radius: 5px 0 0 5px;
   padding: 5px 10px;
 }
-.section-three .search-container input:focus{
+.section-three .search-container select {
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 6.5px ;
+}
+.section-three .search-container input:focus, .section-three .search-container select:focus {
   outline: none;
   border-color: none;
   box-shadow: 0 0 0 0 none;
