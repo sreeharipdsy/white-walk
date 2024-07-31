@@ -150,7 +150,7 @@ header .navbar {
 .section-three .card {
   border: none;
   border-radius: 10px;
-  padding: 1em;
+  padding: 10px;
   box-shadow: 0px 0px 10px 0px #d8d8d8;
 }
 .section-three .product-img img {
@@ -172,6 +172,11 @@ header .navbar {
   font-weight: 500;
   text-transform: capitalize;
   color: #2c003c;
+}
+.section-three .product-description .p-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .section-three .product-description .p-rating {
   background: #ffee8b26;
@@ -232,7 +237,6 @@ header .navbar {
 @media (max-width: 991px) {
   .section-three .parent {grid-template-columns: repeat(2, 1fr);}
   .section-three .card {
-    padding: 10px;
     border-radius: 5px;
   }
   .section-three .product-img img {max-height: 10em; margin-bottom: 0px;}
