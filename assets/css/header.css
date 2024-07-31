@@ -281,7 +281,7 @@ header .navbar .cart img {
   display: none;
   position: fixed;
   bottom: 20px;
-  left: 50%;
+  left: 12.5%;
   transform: translateX(-50%);
   color: #fff;
   padding: 7.5px 0px;
@@ -290,11 +290,10 @@ header .navbar .cart img {
   display: flex;
   align-items: center;
   z-index: 1000;
-  transition: opacity 0.5s ease, transform 0.5s ease;
   opacity: 0;
-  transform: translateX(-50%) translateY(20px);
+  transform: scale(0.8);
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
-
 .toast.show {
   width: 75%;
   display: flex;
@@ -305,7 +304,6 @@ header .navbar .cart img {
   border: 2px solid #56006c;
   font-size: 14px;
   font-weight: 600;
-  transform: translateX(-50%) translateY(0);
   background-color: #fbf9ff !important;
 }
 

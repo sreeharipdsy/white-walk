@@ -6,18 +6,19 @@ function addToCart(productId) {
     showToast('Item Added to Cart');
 }
 
-function showToast(message) {
+function showToast() {
     const toast = document.getElementById('toast');
-    toast.querySelector('span').textContent = message;
-  
     toast.classList.add('show');
-    toast.classList.remove('hide');
-  
+    toast.style.display = 'flex';
+    toast.style.opacity = '1';
+    toast.style.transform = 'scale(1)';
     setTimeout(() => {
-      toast.classList.add('hide');
-      toast.classList.remove('show');
-    }, 1500);
+      toast.style.opacity = '0';
+      toast.style.transform = 'scale(0.5)';
+      setTimeout(() => toast.classList.remove('show'), 300);
+    }, 2000);
 }
+  
 
 function updateCart() {
     const cartCount = document.querySelector('.cart-count');
