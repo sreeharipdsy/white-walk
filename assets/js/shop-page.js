@@ -15,6 +15,7 @@ function renderProducts(products) {
   products.forEach(product => {
     const productCard = document.createElement('div');
     productCard.classList.add('card');
+    productCard.setAttribute('data-aos', 'zoom-in');
     productCard.innerHTML = `
       <div class="product-img">
         <img 
