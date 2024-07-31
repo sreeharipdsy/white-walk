@@ -140,12 +140,12 @@ header .navbar .cart-count {
     position: relative;
     top: 12px;
     right: -12px;
-    background-color: #fff;
+    background-color: #ffffffde;
     color: #1f005b;
     border-radius: 50%;
     font-size: 12px;
     font-weight: 600;
-    padding: 1px 5px;
+    padding: 0px 4px;
 }
 header .navbar .cart img {
     margin-bottom: 1.5em;
