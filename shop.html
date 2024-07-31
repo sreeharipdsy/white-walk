@@ -150,7 +150,7 @@
                   </button>
                 </input>
                 <select id="filter">
-                  <option value="">All</option>
+                  <option value="">All Segments</option>
                   <option value="men">Men</option>
                   <option value="women">Women</option>
                   <option value="sports">Sports</option>
@@ -171,7 +171,7 @@
             <nav aria-label="breadcrumb" data-aos="fade-right">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                  <li class="breadcrumb-item"><a href="" onclick="showHomePage()">Shop</a></li>
+                  <li class="breadcrumb-item"><a onclick="showHomePage()">Shop</a></li>
                   <li class="breadcrumb-item active" aria-current="page" id="breadcrumb-product-name"></li>
                 </ol>
             </nav>
@@ -199,12 +199,12 @@
                     <p class="alert">
                         Check Size & Colour with the dealer while ordering
                     </p>
-                    <button class="check-out">Order Via WhatsApp</button>
-                    
+                    <button class="check-out" onclick="checkoutSingleProduct()">Order Via WhatsApp</button>
                 </div>
             </div>
+            <!-- FAQ -->
             <div class="row justify-content-center">
-                <div class="col-lg-8 faq-left">
+                <div class="col-lg-8">
                     <div class="section-title">
                         <h1>faq ></h1>
                     </div>

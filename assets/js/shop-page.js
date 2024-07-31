@@ -48,11 +48,11 @@ function filterProducts() {
 }
 
 function showHomePage() {
-  document.getElementById('banner').style.display = 'block';
+  document.getElementById('banner').style.display = 'flex';
   document.getElementById('breadcrumb').style.display = 'block';
   document.getElementById('search-container').style.display = 'flex';
   document.getElementById('product-page').style.display = 'none';
-  document.getElementById('product-list').style.display = 'block';
+  document.getElementById('product-list').style.display = 'grid';
 }
 
 function buyNow(productName) {
