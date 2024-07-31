@@ -329,20 +329,27 @@ header .navbar {
   text-decoration: none;
   font-size: 14px;
   font-weight: 700;
-  margin-bottom: 1.25em;
+  margin-bottom: 1.3em;
 }
 @media (min-width: 991px) {
   .product-section .reviews a {
       display: none;
   }
 }
+.product-section .parent .size {
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #431f43c0;
+}
+.product-section .parent .size span {color: #3c004b;}
 .product-section .parent .alert {
   padding: 0;
   font-size: 12px;
   font-weight: 600;
   text-align: justify;
-  color: #431f4383;
-  margin-bottom: 1em;
+  color: #431f43bc;
+  margin-bottom: 1.5em;
   margin-top: 0em;
 }
 .product-section .parent .p-details .check-out {

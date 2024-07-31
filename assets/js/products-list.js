@@ -2,11 +2,11 @@
 const products = [
     { 
         id: 1, 
-        name: 'Product 1', 
+        name: 'Nike Air Motion Max', 
         category: 'men', 
         image: 'assets/images/2.jpeg', 
-        price: 100, 
-        discountedPrice: 80 
+        price: 2499, 
+        discountedPrice: 1999
     },
     { 
         id: 2, 
