@@ -158,7 +158,8 @@ header .navbar {
   width: 100%;
   object-fit: cover;
   object-position: center;
-  border-radius: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 .section-three .product-description .name-rating {
   display: flex;
@@ -234,7 +235,7 @@ header .navbar {
     padding: 10px;
     border-radius: 5px;
   }
-  .section-three .product-img img {max-height: 10em;}
+  .section-three .product-img img {max-height: 10em; margin-bottom: 0px;}
   .section-three .product-description {margin-top: 5px;}
   .section-three .product-description .p-name, 
   .section-three .product-description .p-rating,
@@ -341,8 +342,8 @@ header .navbar {
   font-weight: 600;
   text-align: justify;
   color: #431f4383;
-  margin-bottom: 10px;
-  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-top: 0em;
 }
 .product-section .parent .p-details .check-out {
   border: none;
@@ -354,7 +355,7 @@ header .navbar {
 @media (max-width: 991px) {
   .product-section {padding-top: 120px;}
   .product-section ol {margin-bottom: 1em;}
-  .product-section ol li {font-size: 14px;}
+  .product-section ol li {font-size: 13px;}
   .product-section ol li a {font-size: 12px;}
   .product-section .parent {grid-template-columns: repeat(1, 1fr);}
   .product-section .parent .p-image {

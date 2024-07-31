@@ -12,7 +12,7 @@ const products = [
         id: 2, 
         name: 'Product 2', 
         category: 'women', 
-        image: 'assets/images/2.jpeg', 
+        image: 'assets/images/1.jpeg', 
         price: 120, 
         discountedPrice: 90 
     },
