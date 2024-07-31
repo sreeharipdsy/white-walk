@@ -17,9 +17,7 @@ function renderProducts(products) {
     productCard.classList.add('card');
     productCard.innerHTML = `
       <div class="product-img">
-        <a href="product-page.html">
-          <img src="${product.image}" class="w-100" alt="${product.name} Image">
-        </a>
+        <img src="${product.image}" class="w-100" alt="${product.name} Image">
       </div>
       <div class="product-description">
         <div class="name-rating">
@@ -50,6 +48,8 @@ function filterProducts() {
 }
 
 function showHomePage() {
+  document.getElementById('banner').style.display = 'block';
+  document.getElementById('breadcrumb').style.display = 'block';
   document.getElementById('search-container').style.display = 'flex';
   document.getElementById('product-page').style.display = 'none';
   document.getElementById('product-list').style.display = 'block';
