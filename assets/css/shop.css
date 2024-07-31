@@ -255,6 +255,7 @@ header .navbar {
 /* PRODUCT - SECTION */
 .product-section {
   padding-top: 175px;
+  display: none;
 }
 .product-section ol {
   margin-bottom: 2em;
