@@ -14,13 +14,26 @@ function renderProducts(products) {
   productList.innerHTML = '';
   products.forEach(product => {
     const productCard = document.createElement('div');
-    productCard.classList.add('product-card');
+    productCard.classList.add('card');
     productCard.innerHTML = `
-      <img src="${product.image}" alt="${product.name}">
-      <h3>${product.name}</h3>
-      <p><strike>$${product.price}</strike> $${product.discountedPrice}</p>
-      <button onclick="addToCart(${product.id})">Add to Cart</button>
-      <button onclick="buyNow('${product.name}')">Buy Now</button>
+      <div class="product-img">
+        <a href="product-page.html">
+          <img src="${product.image}" class="w-100" alt="${product.name} Image">
+        </a>
+      </div>
+      <div class="product-description">
+        <div class="name-rating">
+          <p class="p-name mb-0">${product.name}</p>
+          <div class="p-rating">5<span>★</span></div>
+        </div>
+        <div class="p-price">
+          <p><span>₹${product.price}</span> ₹${product.discountedPrice}</p>
+        </div>
+        <div class="card-buttons">
+          <button class="add-to-cart" onclick="addToCart(${product.id})">Add to Cart</button>
+          <button class="buy-now" onclick="buyNow('${product.name}')">Buy Now</button>
+        </div>
+      </div>
     `;
     productCard.addEventListener('click', () => openProductPage(product));
     productList.appendChild(productCard);
@@ -35,4 +48,27 @@ function filterProducts() {
   });
   renderProducts(filteredProducts);
 }
+
+function showHomePage() {
+  document.getElementById('search-container').style.display = 'flex';
+  document.getElementById('product-page').style.display = 'none';
+  document.getElementById('product-list').style.display = 'block';
+}
+
+function buyNow(productName) {
+  event.stopPropagation();
+  window.open(`https://wa.me/?text=I'm interested in buying ${productName}`, '_blank');
+}
+
+function checkoutCart() {
+  const productNames = cart.map(product => product.name).join(', ');
+  window.open(`https://wa.me/?text=I'm interested in buying the following products: ${productNames}`, '_blank');
+}
+
+function checkoutSingleProduct() {
+  const productName = document.getElementById('product-name').textContent;
+  window.open(`https://wa.me/?text=I'm interested in buying ${productName}`, '_blank');
+}
+
+
 
