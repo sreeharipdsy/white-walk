@@ -246,6 +246,22 @@ body {
 }
 .section-three .row {
   margin-top: 3em;
+  margin-inline: 0em;
+}
+.section-three .product-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+}
+@media (max-width: 991px) {
+  .section-three .product-section {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
 }
 .section-three .product-section .card {
   padding: 0.5em;
@@ -305,7 +321,7 @@ body {
     margin-bottom: 0.4em;
   }
   .section-three .product-img img {
-    height: 10em;
+    height: 9em;
   }
   .section-three .product-section .card h3 {
     font-size: 14px;
