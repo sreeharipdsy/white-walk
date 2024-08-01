@@ -1,5 +1,9 @@
 
 
+document.addEventListener('DOMContentLoaded', () => {
+    renderTrendingProducts(trendingProducts);
+});
+
 function renderTrendingProducts(trendingProducts) {
     const trendingProductList = document.getElementById('trending-list');
     trendingProductList.innerHTML = '';
@@ -10,7 +14,7 @@ function renderTrendingProducts(trendingProducts) {
         trendingProductCard.innerHTML = `
             <img 
                 class="w-100"
-                src="${trendingProduct.name}" 
+                src="${trendingProduct.image}" 
                 alt="${trendingProduct.name} Image" 
                 onclick="openProductPage(${trendingProduct.id})">
             <h3>product name <span>5 ★</span></h3>

@@ -1,3 +1,5 @@
+
+
 const trendingProducts = [
     { 
         id: 1, 
@@ -32,3 +34,4 @@ const trendingProducts = [
         discountedPrice: 130
     }
 ]
+

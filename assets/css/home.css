@@ -272,9 +272,9 @@ body {
 .section-three .product-section .card:hover {
   transform: translateY(-5px);
 }
-.section-three .product-img img {
+.section-three img {
   height: 250px;
-  margin-bottom: 1.5em;
+  margin-bottom: 0.75em;
   object-fit: cover;
   border-radius: 5px;
 }
@@ -324,15 +324,18 @@ body {
 }
 @media (max-width: 991px) {
   .section-three .product-section .card {
-    padding: 0.5em;
-    margin-bottom: 0.4em;
+    padding: 0.3em;
+    margin-bottom: 0em;
   }
-  .section-three .product-img img {
-    height: 9em;
+  .section-three img {
+    height: 10em;
   }
   .section-three .product-section .card h3 {
-    font-size: 14px;
+    font-size: 12px;
     gap: 5px;
+  }
+  .section-three .product-section .card h3 span {
+    font-size: 12px;
   }
   .section-three .product-section .card h3 img {
     height: 21px;
