@@ -24,8 +24,9 @@ function openProductPage(productId) {
           </div>
         </div>
         <p class="size">
-          Sizes Available: 
+          Sizes: 
           <span><strong>EURO <span>${product.size}</span></strong></span> 
+          Available
         </p>
         <p class="alert">
             Check Size & Colour with the dealer while ordering

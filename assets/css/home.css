@@ -361,13 +361,13 @@ body {
   top: 10px;
   right: 10px;
   font-size: 20px;
-  font-weight: 500;
-  color: #430054;
+  font-weight: 650;
+  color: #df0000;
   height: 28px;
   width: 28px;
   text-align: center;
   line-height: 15px;
-  background: #f9f3ff;
+  background: #fff0f0;
   padding: 5px;
   border-radius: 50%;
   cursor: pointer;
@@ -445,8 +445,8 @@ body {
 #modal-body .content .size span {color: #3c004b;}
 #modal-body .content .alert {
   padding: 0;
-  font-size: 10px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 500;
   color: #431f43bc;
   margin-bottom: 1.5em;
   margin-top: 0em;
