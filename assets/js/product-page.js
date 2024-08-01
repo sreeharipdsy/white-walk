@@ -12,4 +12,5 @@ function openProductPage(productId) {
     document.getElementById('product-name').textContent = product.name;
     document.getElementById('p-original-price').innerHTML = `₹${product.price}`;
     document.getElementById('p-discount-price').innerHTML = `₹${product.discountedPrice}`;
+    document.getElementById('p-size').innerHTML = `${product.size}`;
 }

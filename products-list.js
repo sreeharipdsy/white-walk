@@ -6,7 +6,8 @@ const products = [
         category: 'men', 
         image: 'assets/images/2.jpeg', 
         price: 2499, 
-        discountedPrice: 1999
+        discountedPrice: 1999,
+        size: '35-40'
     },
     { 
         id: 2, 
@@ -14,7 +15,8 @@ const products = [
         category: 'women', 
         image: 'assets/images/1.jpeg', 
         price: 120, 
-        discountedPrice: 90 
+        discountedPrice: 90,
+        size: '40-45'
     },
     { 
         id: 3, 
@@ -22,7 +24,8 @@ const products = [
         category: 'sports', 
         image: 'assets/images/2.jpeg', 
         price: 150, 
-        discountedPrice: 130
+        discountedPrice: 130,
+        size: '35-40'
     },
     { 
         id: 4, 
@@ -30,7 +33,8 @@ const products = [
         category: 'uaquality', 
         image: 'assets/images/2.jpeg', 
         price: 150, 
-        discountedPrice: 130
+        discountedPrice: 130,
+        size: '35-40'
     },
     { 
         id: 5, 
@@ -38,7 +42,8 @@ const products = [
         category: 'buy1get1', 
         image: 'assets/images/2.jpeg', 
         price: 150, 
-        discountedPrice: 130
+        discountedPrice: 130,
+        size: '35-40'
     }
     ,
     { 
@@ -47,7 +52,8 @@ const products = [
         category: 'buy1get1', 
         image: 'assets/images/2.jpeg', 
         price: 150, 
-        discountedPrice: 130
+        discountedPrice: 130,
+        size: '35-40'
     },
     { 
         id: 7, 
@@ -55,7 +61,8 @@ const products = [
         category: 'buy1get1', 
         image: 'assets/images/2.jpeg', 
         price: 150, 
-        discountedPrice: 130
+        discountedPrice: 130,
+        size: '35-40'
     },
     { 
         id: 8, 
@@ -63,7 +70,8 @@ const products = [
         category: 'buy1get1', 
         image: 'assets/images/2.jpeg', 
         price: 150, 
-        discountedPrice: 130
+        discountedPrice: 130,
+        size: '35-40'
     },
     { 
         id: 9, 
@@ -71,7 +79,8 @@ const products = [
         category: 'buy1get1', 
         image: 'assets/images/2.jpeg', 
         price: 150, 
-        discountedPrice: 130
+        discountedPrice: 130,
+        size: '35-40'
     },
     { 
         id: 10, 
@@ -79,6 +88,7 @@ const products = [
         category: 'buy1get1', 
         image: 'assets/images/2.jpeg', 
         price: 150, 
-        discountedPrice: 130
+        discountedPrice: 130,
+        size: '35-40'
     }
 ];

@@ -7,7 +7,8 @@ const trendingProducts = [
         category: 'men', 
         image: 'trending/asics.jpg', 
         price: 4999, 
-        discountedPrice: 3099
+        discountedPrice: 3099,
+        size: '40-45'
     },
     { 
         id: 2, 
@@ -15,7 +16,8 @@ const trendingProducts = [
         category: 'women', 
         image: 'trending/new-balance.jpg', 
         price: 5199, 
-        discountedPrice: 3699 
+        discountedPrice: 3699,
+        size: '35-40' 
     },
     { 
         id: 3, 
@@ -23,7 +25,8 @@ const trendingProducts = [
         category: 'sports', 
         image: 'trending/adidas.jpg', 
         price: 3999, 
-        discountedPrice: 2999
+        discountedPrice: 2999,
+        size: '35-40'
     },
     { 
         id: 4, 
@@ -31,7 +34,8 @@ const trendingProducts = [
         category: 'uaquality', 
         image: 'trending/asics-tiger.jpg', 
         price: 3499, 
-        discountedPrice: 2300
+        discountedPrice: 2300,
+        size: '35-40'
     }
 ]
 
