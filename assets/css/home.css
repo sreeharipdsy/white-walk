@@ -279,19 +279,17 @@ body {
   border-radius: 5px;
 }
 .section-three .product-section .card h3 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   color: #3b014f;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: capitalize;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.section-three .product-section .card h3 span {
-  font-size: 14px;
+.section-three .product-section .card .p-price {
+  display: flex;
+  justify-content: space-between;
 }
 .section-three .product-section .p-price p {
   margin: 0;
@@ -301,6 +299,11 @@ body {
   gap: 5px;
   color: #de0000;
   margin-bottom: 2px;
+}
+.section-three .product-section .card .p-price span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #340068;
 }
 .section-three .product-section .p-price p strike {
   color: #34214697;
@@ -328,13 +331,13 @@ body {
     margin-bottom: 0em;
   }
   .section-three img {
-    height: 10em;
+    height: 9em;
   }
   .section-three .product-section .card h3 {
     font-size: 12px;
     gap: 5px;
   }
-  .section-three .product-section .card h3 span {
+  .section-three .product-section .card .p-price span {
     font-size: 12px;
   }
   .section-three .product-section .card h3 img {
