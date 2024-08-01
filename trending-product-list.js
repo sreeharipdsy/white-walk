@@ -3,35 +3,35 @@
 const trendingProducts = [
     { 
         id: 1, 
-        name: 'Nike Air Motion Max', 
+        name: 'Asics Gel 1130', 
         category: 'men', 
-        image: 'assets/images/2.jpeg', 
-        price: 2499, 
-        discountedPrice: 1999
+        image: 'trending/asics.jpg', 
+        price: 4999, 
+        discountedPrice: 3099
     },
     { 
         id: 2, 
-        name: 'Product 2', 
+        name: 'New Balance 1000 Silver Metalic', 
         category: 'women', 
-        image: 'assets/images/1.jpeg', 
-        price: 120, 
-        discountedPrice: 90 
+        image: 'trending/new-balance.jpg', 
+        price: 5199, 
+        discountedPrice: 3699 
     },
     { 
         id: 3, 
-        name: 'Product 3', 
+        name: 'Adidas Originals Ozmillen', 
         category: 'sports', 
-        image: 'assets/images/2.jpeg', 
-        price: 150, 
-        discountedPrice: 130
+        image: 'trending/adidas.jpg', 
+        price: 3999, 
+        discountedPrice: 2999
     },
     { 
         id: 4, 
-        name: 'Product 4', 
+        name: 'Asics Onitsuka Tiger Kill Bill', 
         category: 'uaquality', 
-        image: 'assets/images/2.jpeg', 
-        price: 150, 
-        discountedPrice: 130
+        image: 'trending/asics-tiger.jpg', 
+        price: 3499, 
+        discountedPrice: 2300
     }
 ]
 
