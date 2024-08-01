@@ -62,17 +62,17 @@ function showHomePage() {
 
 function buyNow(productName) {
   event.stopPropagation();
-  window.open(`https://wa.me/?text=I'm interested in buying ${productName}`, '_blank');
+  window.open(`https://wa.me/+917592984622?text=I'm interested in buying ${productName}`, '_blank');
 }
 
 function checkoutCart() {
   const productNames = cart.map(product => product.name).join(', ');
-  window.open(`https://wa.me/?text=I'm interested in buying the following products: ${productNames}`, '_blank');
+  window.open(`https://wa.me/+917592984622?text=I'm interested in buying the following products: ${productNames}`, '_blank');
 }
 
 function checkoutSingleProduct() {
   const productName = document.getElementById('product-name').textContent;
-  window.open(`https://wa.me/?text=I'm interested in buying ${productName}`, '_blank');
+  window.open(`https://wa.me/+917592984622?text=I'm interested in buying ${productName}`, '_blank');
 }
 
 
