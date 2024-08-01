@@ -14,7 +14,7 @@ const trendingProducts = [
         name: 'New Balance 1000 Silver Metalic', 
         category: 'women', 
         image: 'trending/new-balance.jpg', 
-        price: 4999, 
+        price: 5199, 
         discountedPrice: 3699 
     },
     { 
