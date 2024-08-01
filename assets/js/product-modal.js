@@ -43,6 +43,7 @@ function toggleProductModal() {
   const modal = document.getElementById('product-modal');
   modal.classList.toggle('show');
   modal.style.display = modal.style.display === 'flex' ? 'none' : 'flex';
+  document.body.style.overflow = document.body.style.overflow === 'hidden' ? 'auto' : 'hidden';
 }
 
 function buyNow(productName) {
