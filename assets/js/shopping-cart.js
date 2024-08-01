@@ -19,7 +19,6 @@ function showToast() {
     }, 2000);
 }
   
-
 function updateCart() {
     const cartCount = document.querySelector('.cart-count');
     const cartItems = document.getElementById('cart-items');
@@ -42,9 +41,4 @@ function updateCart() {
 function removeFromCart(productId) {
     cart = cart.filter(product => product.id !== productId);
     updateCart();
-}
-
-function toggleCartModal() {
-    const modal = document.getElementById('cart-modal');
-    modal.style.display = modal.style.display === 'flex' ? 'none' : 'flex';
 }

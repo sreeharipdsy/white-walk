@@ -47,5 +47,5 @@ function toggleProductModal() {
 }
 
 function buyNow(productName) {
-  window.open(`https://wa.me/?text=I'm interested in buying ${productName}`, '_blank');
+  window.open(`https://wa.me/+917592984622?text=I'm interested in buying ${productName}`, '_blank');
 }
