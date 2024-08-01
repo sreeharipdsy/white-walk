@@ -1,13 +1,15 @@
+
+
 function openProductPage(productId) {
   const product = trendingProducts.find(p => p.id === productId);
   
   const modalBody = document.getElementById('modal-body');
   modalBody.innerHTML = `
     <div class="content">
-      <div class="p-image" data-aos="zoom-in">
+      <div class="p-image">
         <img src="${product.image}" alt="${product.name} Image">
       </div>
-      <div class="p-details" data-aos="zoom-in">
+      <div class="p-details">
         <h1 class="p-name">${product.name}</h1>
         <div class="price-group">
           <p class="p-price">
@@ -15,7 +17,7 @@ function openProductPage(productId) {
             <span>₹${product.discountedPrice}</span>
           </p>
           <div class="reviews">
-            <a href="reviews.html">
+            <a href="/reviews">
               Reviews
               <img src="assets/icons/arrow-forward.svg" alt="">
             </a>
