@@ -23,8 +23,12 @@ function openProductPage(productId) {
             </a>
           </div>
         </div>
+        <p class="size">
+          Sizes Available: 
+          <span><strong>EURO 40-45</strong></span> 
+        </p>
         <p class="alert">
-          Check Size & Colour with the dealer while ordering
+            Check Size & Colour with the dealer while ordering
         </p>
         <button class="check-out" onclick="buyNow('${product.name}')">Order Via WhatsApp</button>
       </div>
