@@ -410,7 +410,7 @@ body {
   align-items: end;
   justify-content: space-between;
 }
-#modal-body .content .p-details .p-price p {
+#modal-body .content .p-details .p-price {
   display: flex;
   gap: 10px;
   font-weight: 600 !important;
