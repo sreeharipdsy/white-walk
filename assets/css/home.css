@@ -358,17 +358,19 @@ body {
 }
 #product-modal .close {
   position: absolute;
-  bottom: 1.5em;
-  left: 46.25%;
+  top: 10px;
+  right: 10px;
   font-size: 20px;
-  color: #3c004b;
+  font-weight: 500;
+  color: #430054;
   height: 28px;
   width: 28px;
   text-align: center;
   line-height: 15px;
-  background: #fcf9ff;
+  background: #f9f3ff;
   padding: 5px;
   border-radius: 50%;
+  cursor: pointer;
 }
 #product-modal .modal-content {
   width: 90% !important;
