@@ -231,6 +231,26 @@
       </div>
       <div class="row justify-content-center product-section" id="trending-list">
         <!-- Trending Products will Injected Here -->
+        <div class="card">
+          <img 
+                class="w-100"
+                src="${trendingProduct.image}" 
+                alt="${trendingProduct.name} Image" 
+                onclick="">
+            <h3>Product name</h3>
+            <div class="p-price">
+                <p><strike>₹9999</strike> ₹6999</p>
+                <span>5★</span>
+            </div>
+            <!-- <a  class="buy-button text-center"
+                onclick="buyNow('${trendingProduct.name}')">
+                    Enquire Now
+            </a> -->
+            <div class="card-buttons">
+              <button class="add-to-cart" onclick="">Add to Cart</button>
+              <button class="buy-now" onclick="">Buy Now</button>
+            </div>
+        </div>
       </div>
   </section>
   <div class="section-three-wave-bottom"></div>
@@ -533,7 +553,7 @@
   <script src="assets/js/carousel.js"></script>
 
   <!-- Trending Products -->
-  <script src="assets/js/shop-trending.js"></script>
+  <!-- <script src="assets/js/shop-trending.js"></script> -->
   <script src="trending-product-list.js"></script>
   <script src="assets/js/product-modal.js"></script>
 
