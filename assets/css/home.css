@@ -487,9 +487,9 @@ body {
   margin-top: 0em;
 }
 #modal-body .content .p-details .add-to-cart {
-  border: 2px solid;
+  border: 1.5px solid;
   background: #fcf9ff;
-  color: #3c004b;
+  color: #4d0060;
   margin-bottom: 5px;
   padding: 5px 28px;
   border-radius: 5px;
