@@ -42,7 +42,7 @@ function updateTrendingCart() {
 
 function removeFromTrendingCart(productId) {
     trendingCart = trendingCart.filter(trendingProduct => trendingProduct.id !== productId);
-    updateCart();
+    updateTrendingCart();
 }
 
 function checkoutTrendingCart() {
