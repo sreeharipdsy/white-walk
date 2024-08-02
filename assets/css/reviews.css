@@ -123,7 +123,7 @@ header .navbar {
 }
 .section-three .feedback-card:hover {
   background: #22002dee;
-  transform: translateY(-5px) !important;
+  transform: scale(1.05) !important;
 }
 .section-three .feedback-card:hover p, .section-three .feedback-card:hover h1 {
   color: #fcf7ff;
