@@ -1,5 +1,4 @@
 
-
 const trendingProducts = [
     { 
         id: 1, 
