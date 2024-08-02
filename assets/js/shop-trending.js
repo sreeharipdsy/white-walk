@@ -24,7 +24,7 @@ function renderTrendingProducts(trendingProducts) {
             </div>
             <div class="card-buttons">
               <button class="add-to-cart" onclick="addToCartTrending(${trendingProduct.id})">Add to Cart</button>
-              <button class="buy-now" onclick="buyNow('${trendingProduct.name}')>Buy Now</button>
+              <button class="buy-now" onclick="buyNow('${trendingProduct.name}')">Buy Now</button>
             </div>
     `;
         // productCard.addEventListener('click', () => openProductPage(product));
