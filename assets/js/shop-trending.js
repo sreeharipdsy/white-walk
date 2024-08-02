@@ -13,19 +13,19 @@ function renderTrendingProducts(trendingProducts) {
         trendingProductCard.setAttribute('data-aos', 'zoom-in');
         trendingProductCard.innerHTML = `
             <img 
-                class="w-100"
+                class="w-100" 
                 src="${trendingProduct.image}" 
                 alt="${trendingProduct.name} Image" 
                 onclick="openProductPage(${trendingProduct.id})">
             <h3>${trendingProduct.name}</h3>
             <div class="p-price">
-                <p><strike>₹${trendingProduct.price}</strike> ₹${trendingProduct.discountedPrice}</p>
-                <span>5★</span>
+              <p><strike>₹${trendingProduct.price}</strike> ₹${trendingProduct.discountedPrice}</p>
+              <span>5★</span>
             </div>
-            <a  class="buy-button text-center"
-                onclick="buyNow('${trendingProduct.name}')">
-                    Enquire Now
-            </a>
+            <div class="card-buttons">
+              <button class="add-to-cart" onclick="addToCartTrending(${trendingProduct.id})">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('${trendingProduct.name}')>Buy Now</button>
+            </div>
     `;
         // productCard.addEventListener('click', () => openProductPage(product));
         trendingProductList.appendChild(trendingProductCard);
