@@ -31,7 +31,7 @@ const products = [
         id: 4, 
         name: 'ADIDAS FORUM 84 TRIPPLE WHITE', 
         category: 'women', 
-        image: 'assets/images/2.jpeg', 
+        image: 'shop/ADIDAS FORUM 84 TRIPPLE WHITE.jpeg', 
         price: 3499, 
         discountedPrice: 2799,
         size: '36-40'
