@@ -2,93 +2,47 @@
 const products = [
     { 
         id: 1, 
-        name: 'Nike Air Motion Max', 
+        name: 'NIKE SB DUNK STUSSY JUST DO IT', 
         category: 'men', 
         image: 'assets/images/2.jpeg', 
-        price: 2499, 
-        discountedPrice: 1999,
-        size: '35-40'
-    },
-    { 
-        id: 2, 
-        name: 'Product 2', 
-        category: 'women', 
-        image: 'assets/images/1.jpeg', 
-        price: 120, 
-        discountedPrice: 90,
+        price: 2999, 
+        discountedPrice: 2599,
         size: '40-45'
     },
     { 
+        id: 2, 
+        name: 'NEW BALANCE 530 GREEN', 
+        category: 'men', 
+        image: 'assets/images/1.jpeg', 
+        price: 2899, 
+        discountedPrice: 2575,
+        size: '36-44'
+    },
+    { 
         id: 3, 
-        name: 'Product 3', 
-        category: 'sports', 
+        name: 'NEW BALANCE 1906 KHAKHI', 
+        category: 'men', 
         image: 'assets/images/2.jpeg', 
-        price: 150, 
-        discountedPrice: 130,
-        size: '35-40'
+        price: 3499, 
+        discountedPrice: 2999,
+        size: '40-45'
     },
     { 
         id: 4, 
-        name: 'Product 4', 
-        category: 'uaquality', 
+        name: 'ADIDAS FORUM 84 TRIPPLE WHITE', 
+        category: 'women', 
         image: 'assets/images/2.jpeg', 
-        price: 150, 
-        discountedPrice: 130,
-        size: '35-40'
+        price: 3499, 
+        discountedPrice: 2799,
+        size: '36-40'
     },
     { 
         id: 5, 
-        name: 'Product 5', 
-        category: 'buy1get1', 
+        name: 'NIKE SB DUNK MOCHA', 
+        category: 'men', 
         image: 'assets/images/2.jpeg', 
-        price: 150, 
-        discountedPrice: 130,
-        size: '35-40'
-    }
-    ,
-    { 
-        id: 6, 
-        name: 'Product 6', 
-        category: 'buy1get1', 
-        image: 'assets/images/2.jpeg', 
-        price: 150, 
-        discountedPrice: 130,
-        size: '35-40'
-    },
-    { 
-        id: 7, 
-        name: 'Product 7', 
-        category: 'buy1get1', 
-        image: 'assets/images/2.jpeg', 
-        price: 150, 
-        discountedPrice: 130,
-        size: '35-40'
-    },
-    { 
-        id: 8, 
-        name: 'Product 8', 
-        category: 'buy1get1', 
-        image: 'assets/images/2.jpeg', 
-        price: 150, 
-        discountedPrice: 130,
-        size: '35-40'
-    },
-    { 
-        id: 9, 
-        name: 'Product 9', 
-        category: 'buy1get1', 
-        image: 'assets/images/2.jpeg', 
-        price: 150, 
-        discountedPrice: 130,
-        size: '35-40'
-    },
-    { 
-        id: 10, 
-        name: 'Product 10', 
-        category: 'buy1get1', 
-        image: 'assets/images/2.jpeg', 
-        price: 150, 
-        discountedPrice: 130,
-        size: '35-40'
+        price: 2999, 
+        discountedPrice: 2499,
+        size: '40-45'
     }
 ];
