@@ -1,20 +1,20 @@
 
 
 function openProductPage(productId) {
-  const product = trendingProducts.find(p => p.id === productId);
+  const trendingProduct = trendingProducts.find(p => p.id === productId);
   
   const modalBody = document.getElementById('modal-body');
   modalBody.innerHTML = `
     <div class="content">
       <div class="p-image">
-        <img src="${product.image}" alt="${product.name} Image">
+        <img src="${trendingProduct.image}" alt="${trendingProduct.name} Image">
       </div>
       <div class="p-details">
-        <h1 class="p-name">${product.name}</h1>
+        <h1 class="p-name">${trendingProduct.name}</h1>
         <div class="price-group">
           <p class="p-price">
-            <span>₹${product.price}</span> 
-            <span>₹${product.discountedPrice}</span>
+            <span>₹${trendingProduct.price}</span> 
+            <span>₹${trendingProduct.discountedPrice}</span>
           </p>
           <div class="reviews">
             <a href="/reviews">
@@ -25,13 +25,14 @@ function openProductPage(productId) {
         </div>
         <p class="size">
           Sizes: 
-          <span><strong>EURO <span>${product.size}</span></strong></span> 
+          <span><strong>EURO <span>${trendingProduct.size}</span></strong></span> 
           Available
         </p>
         <p class="alert">
             Check Size & Colour with the dealer while ordering
         </p>
-        <button class="check-out" onclick="buyNow('${product.name}')">Order Via WhatsApp</button>
+        <button class="add-to-cart" onclick="addToCartTrending(${trendingProduct.id})">Add to Cart</button>
+        <button class="check-out" onclick="buyNow('${trendingProduct.name}')">Order Via WhatsApp</button>
       </div>
     </div>
   `;
