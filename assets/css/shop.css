@@ -370,7 +370,7 @@ header .navbar {
   .product-section ol li a {font-size: 12px;}
   .product-section .parent {grid-template-columns: repeat(1, 1fr);}
   .product-section .parent .p-image {
-      max-height: 18em; 
+      max-height: 20em; 
       margin-inline: 1em;
   }
   .product-section .parent .p-image img {width: 100%;}
