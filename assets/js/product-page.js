@@ -1,6 +1,5 @@
 
 function openProductPage(productId) {
-    scrollToTop()
     const product = products.find(p => p.id === productId);
     document.getElementById('banner').style.display = 'none';
     document.getElementById('breadcrumb').style.display = 'none';
@@ -16,4 +15,5 @@ function openProductPage(productId) {
     document.getElementById('add-to-cart').onclick = function() {
         addToCart(product.id);
     }
+    scrollToTop();
 }
