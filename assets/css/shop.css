@@ -160,11 +160,13 @@ header .navbar {
   object-position: center;
   border-radius: 5px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 .section-three .product-description .name-rating {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
 .section-three .product-description .p-name, 
 .section-three .product-description .p-rating {
@@ -177,7 +179,9 @@ header .navbar {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin: 0;
 }
+.section-three .product-description .name-rating:hover .p-name {text-decoration: underline;}
 .section-three .product-description .p-rating {
   background: #ffee8b26;
   font-size: 14px;

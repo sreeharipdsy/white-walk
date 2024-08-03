@@ -13,4 +13,7 @@ function openProductPage(productId) {
     document.getElementById('p-original-price').innerHTML = `₹${product.price}`;
     document.getElementById('p-discount-price').innerHTML = `₹${product.discountedPrice}`;
     document.getElementById('p-size').innerHTML = `${product.size}`;
+    document.getElementById('add-to-cart').onclick = function() {
+        addToCart(product.id);
+    }
 }

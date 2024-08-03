@@ -2,7 +2,6 @@
 
 function openProductPage(productId) {
   const trendingProduct = trendingProducts.find(p => p.id === productId);
-  
   const modalBody = document.getElementById('modal-body');
   modalBody.innerHTML = `
     <div class="content">

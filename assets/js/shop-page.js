@@ -26,7 +26,7 @@ function renderProducts(products) {
           onclick="openProductPage(${product.id})">
       </div>
       <div class="product-description">
-        <div class="name-rating">
+        <div class="name-rating" onclick="openProductPage(${product.id})">
           <p class="p-name mb-0">${product.name}</p>
           <div class="p-rating">5<span>★</span></div>
         </div>
