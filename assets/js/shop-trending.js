@@ -17,7 +17,7 @@ function renderTrendingProducts(trendingProducts) {
                 src="${trendingProduct.image}" 
                 alt="${trendingProduct.name} Image" 
                 onclick="openProductPage(${trendingProduct.id})">
-            <h3>${trendingProduct.name}</h3>
+            <h3 onclick="openProductPage(${trendingProduct.id})">${trendingProduct.name}</h3>
             <div class="p-price">
               <p><strike>₹${trendingProduct.price}</strike> ₹${trendingProduct.discountedPrice}</p>
               <span>5★</span>
