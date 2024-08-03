@@ -55,7 +55,7 @@
     </div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container container-fluid" data-aos="fade">
-        <button class="order navbar-toggler menu-icon" type="button" data-bs-toggle="collapse"
+        <button class="order-2 navbar-toggler menu-icon" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="line"></span>
           <span class="line"></span>
@@ -65,16 +65,10 @@
           <img src="assets/logo/whitewalk-logo.png" alt="">
           WhiteWalk
         </a>
-        <a class="navbar-brand brand-mob">
+        <a class="order-1 navbar-brand brand-mob">
           <img src="assets/logo/whitewalk-logo.png" alt="">
         </a>
-        <div class="cart order-lg-2">
-          <a onclick="toggleCartModal()">
-            <span class="cart-count">0</span>
-            <img src="assets/icons/cart-icon.svg" alt="">
-          </a>
-        </div>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div class="order-3 collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="/index">Home</a>
@@ -99,22 +93,6 @@
       </div>
     </nav>
   </header>
-
-
-  <!-- CART MODAL -->
-  <div class="cart-modal">
-    <div id="cart-modal" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="toggleCartModal()">&times;</span>
-        <h2>My Cart</h2>
-        <ul id="cart-items">
-          <!-- Cart Items Will Be Injected Here -->
-        </ul>
-        <p id="total-price">Total: $0.00</p>
-        <button id="checkout-cart">Checkout Via WhatsApp</button>
-      </div>
-    </div>
-  </div>
 
 
   <!--------------------------------------------------------- PRIVACY-POLICY-PAGE --------------------------------------------------------->
@@ -322,9 +300,6 @@
   <!-- Animation On Scroll - AOS -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="assets/js/aos.js"></script>
-
-  <!-- Cart Modal -->
-  <script src="assets/js/cart-modal.js"></script>
   
   <!-- Back to Top -->
   <script src="assets/js/back-to-top.js"></script>
