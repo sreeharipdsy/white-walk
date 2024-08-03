@@ -23,6 +23,7 @@ header .navbar {
   background: transparent !important;
   transition: 0.3s;
   padding: 0%;
+  border-radius: 0 0 10px 10px;
 }
 header .navbar.transparent {
   transition: 0.3s;
@@ -83,6 +84,7 @@ header .navbar ul li a {
     display: flex;
   }
   header .navbar ul {
+    border-radius: 7.5px;
     margin: 0;
     text-align: center;
     gap: 7.5px;
