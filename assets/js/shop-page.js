@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function filterByCategory(category) {
-  window.location.href = `shop.html?category=${category}`;
+  window.location.href = `shop?category=${category}`;
 }
 
 
