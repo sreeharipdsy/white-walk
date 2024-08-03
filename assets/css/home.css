@@ -300,6 +300,10 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  cursor: pointer;
+}
+.section-three .product-section .card h3:hover {
+  text-decoration: underline;
 }
 .section-three .product-section .card .p-price {
   display: flex;
