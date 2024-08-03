@@ -27,7 +27,11 @@ function updateTrendingCart() {
         <img src="${trendingProduct.image}" alt="${trendingProduct.name}" width="50">
         <span class="name">${trendingProduct.name}</span>
         <span>₹${trendingProduct.discountedPrice}</span>
-        <button onclick="removeFromTrendingCart(${trendingProduct.id})">Delete<img src="assets/icons/delete.svg" alt="Delete"></button>
+        <button 
+          onclick="removeFromTrendingCart(${trendingProduct.id})">
+            Delete
+          <img src="assets/icons/delete.svg" alt="Delete">
+        </button>
         `;
     cartItemsTrending.appendChild(cartItemTrending);
   });

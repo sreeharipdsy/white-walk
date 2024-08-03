@@ -35,7 +35,11 @@ function updateCart() {
         <img src="${product.image}" alt="${product.name}" width="50">
         <span class="name">${product.name}</span>
         <span>₹${product.discountedPrice}</span>
-        <button onclick="removeFromCart(${product.id})">Delete<img src="assets/icons/delete.svg" alt="Delete"></button>
+        <button onclick="removeFromCart(${product.id})">
+            Delete
+            <img    src="assets/icons/delete.svg" 
+                    alt="Delete">
+        </button>
         `;
     cartItems.appendChild(cartItem);
   });
