@@ -1,5 +1,5 @@
 
-let trendingCart=[];
+let trendingCart = [];
 
 function addToCartTrending(productId) {
     const product = trendingProducts.find(p => p.id === productId);
@@ -15,9 +15,9 @@ function showToast() {
     toast.style.opacity = '1';
     toast.style.transform = 'scale(1)';
     setTimeout(() => {
-      toast.style.opacity = '0';
-      toast.style.transform = 'scale(0.5)';
-      setTimeout(() => toast.classList.remove('show'), 300);
+        toast.style.opacity = '0';
+        toast.style.transform = 'scale(0.5)';
+        setTimeout(() => toast.classList.remove('show'), 300);
     }, 2000);
 }
 
@@ -46,6 +46,7 @@ function removeFromTrendingCart(productId) {
 }
 
 function checkoutTrendingCart() {
-  const productNames = trendingCart.map(trendingProduct => trendingProduct.name).join(', ');
-  window.open(`https://wa.me/+917592984622?text=I'm interested in buying the following products: ${productNames}`, '_blank');
+    const productNames = trendingCart.map(trendingProduct => trendingProduct.name).join(', ');
+    window.open(`https://wa.me/+917592984622?text=I'm interested in buying the following products: ${productNames}`, '_blank');
 }
+

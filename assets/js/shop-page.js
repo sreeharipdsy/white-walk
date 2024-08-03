@@ -2,9 +2,6 @@
 
 let cart = [];
 
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
   renderProducts(products);
   document.getElementById('search-input').addEventListener('input', filterProducts);
@@ -12,8 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('checkout-cart').addEventListener('click', checkoutCart);
 
 });
-
-
 
 function renderProducts(products) {
   const productList = document.getElementById('product-list');
@@ -44,26 +39,23 @@ function renderProducts(products) {
         </div>
       </div>
     `;
-    // productCard.addEventListener('click', () => openProductPage(product));
     productList.appendChild(productCard);
   });
 }
 
 
+
 document.addEventListener('DOMContentLoaded', () => {
   const urlParams = new URLSearchParams(window.location.search);
   const category = urlParams.get('category');
-  
   if (category) {
     filterProductsByCategory(category);
     updateCategoryFilter(category);
   }
-
   function filterProductsByCategory(category) {
     const filteredProducts = products.filter(product => product.category === category);
     renderProducts(filteredProducts);
   }
-
   function updateCategoryFilter(category) {
     const categoryFilter = document.getElementById('filter');
     categoryFilter.value = category;
@@ -74,7 +66,6 @@ function filterByCategory(category) {
   window.location.href = `shop?category=${category}`;
 }
 
-
 function filterProducts() {
   const searchTerm = document.getElementById('search-input').value.toLowerCase();
   const filter = document.getElementById('filter').value;
@@ -83,6 +74,8 @@ function filterProducts() {
   });
   renderProducts(filteredProducts);
 }
+
+
 
 function showHomePage() {
   document.getElementById('banner').style.display = 'flex';

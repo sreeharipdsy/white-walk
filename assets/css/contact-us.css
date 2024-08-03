@@ -1,79 +1,72 @@
-body h1, h2, h3, h4, h5, h6, p, a {
-    font-family: 'poppins';
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "poppins";
 }
 body {
   background-color: #fcf9ff !important;
 }
 
-
-
-
-
-
-
 /* HEADER */
 header .navbar {
-    background: linear-gradient(to right, #22002d 0%, #4d0067 100%) !important;
+  background: linear-gradient(to right, #22002d 0%, #4d0067 100%) !important;
 }
 
 /* SECTION - ONE */
 .section-one {
-    height: 40vh;
-    background-color: #f8e6fe54;
-    padding-top: 120px; 
-    display: flex;
-    align-items: center;
+  height: 40vh;
+  background-color: #f8e6fe54;
+  padding-top: 120px;
+  display: flex;
+  align-items: center;
 }
 .section-one .section-title h1 {
-    font-size: 66px;
-    font-weight: 800;
-    color: #4d0067;
-    margin: 0;
-    -webkit-animation: tracking-in-expand 0.3s ease-in-out both;
-    animation: tracking-in-expand 0.3s ease-in-out both;
+  font-size: 66px;
+  font-weight: 800;
+  color: #4d0067;
+  margin: 0;
+  -webkit-animation: tracking-in-expand 0.3s ease-in-out both;
+  animation: tracking-in-expand 0.3s ease-in-out both;
 }
 @-webkit-keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @media (max-width: 991px) {
-    .section-one {
-        padding-top: 90px;
-        height: 30vh;
-    }
-    .section-one .section-title h1 {
-        text-align: center;
-        font-size: 50px;
-    }
+  .section-one {
+    padding-top: 90px;
+    height: 30vh;
+  }
+  .section-one .section-title h1 {
+    text-align: center;
+    font-size: 50px;
+  }
 }
-
-
-
-
-
-
-
-
 
 /* SECTION - TWO */
 .contact-form {
@@ -81,28 +74,32 @@ header .navbar {
   padding-bottom: 2em;
 }
 .contact-form .details {
-    padding: 4em;
-    display: grid;
-    gap: 25px;
+  padding: 4em;
+  display: grid;
+  gap: 25px;
 }
 .contact-form .details .links h1 {
-    display: flex;
-    color: #4d0067;
-    font-size: 24px;
-    font-weight: 600;
-    gap: 10px;
+  display: flex;
+  color: #4d0067;
+  font-size: 24px;
+  font-weight: 600;
+  gap: 10px;
 }
 .contact-form .details .links a {
-    text-decoration: none;
-    font-size: 14px;
-    color: #391146;
+  text-decoration: none;
+  font-size: 14px;
+  color: #391146;
 }
 @media (max-width: 991px) {
-    .contact-form {
-      padding-bottom: 0;
-    } 
-    .contact-form .details .links {text-align: center;}
-    .contact-form .details .links h1 {justify-content: center;}
+  .contact-form {
+    padding-bottom: 0;
+  }
+  .contact-form .details .links {
+    text-align: center;
+  }
+  .contact-form .details .links h1 {
+    justify-content: center;
+  }
 }
 .contact-form .white-walk-form {
   border-radius: 10px;
@@ -122,7 +119,9 @@ header .navbar {
   margin-left: 2px;
   color: #22002d;
 }
-.contact-form .white-walk-form input, .contact-form .white-walk-form textarea, .contact-form .white-walk-form select {
+.contact-form .white-walk-form input,
+.contact-form .white-walk-form textarea,
+.contact-form .white-walk-form select {
   border-radius: 0px;
   box-shadow: none;
   font-size: 16px;
@@ -132,13 +131,15 @@ header .navbar {
   color: #270034;
   border-bottom: 1.5px solid #22002d;
 }
-.contact-form .white-walk-form input:focus, .contact-form .white-walk-form textarea:focus, .contact-form .white-walk-form select:focus {
+.contact-form .white-walk-form input:focus,
+.contact-form .white-walk-form textarea:focus,
+.contact-form .white-walk-form select:focus {
   border-color: #22002d;
 }
 .contact-form .white-walk-form textarea {
   padding: 0px 0px;
 }
-.contact-form .white-walk-form button[type=submit] {
+.contact-form .white-walk-form button[type="submit"] {
   background: linear-gradient(to right, #2b0053 0%, #420057 100%);
   width: 100%;
   border: 2px solid #22002d;
@@ -149,13 +150,6 @@ header .navbar {
   transition: 0.3s !important;
   border-radius: 5px;
 }
-
-
-
-
-
-
-
 
 /* SECTION - THREE */
 .section-three {
@@ -182,7 +176,7 @@ header .navbar {
 .section-three .faq-header {
   padding-block: 10px;
   margin: 0;
-} 
+}
 .faq-content .accordion-button:focus {
   box-shadow: none;
   transition: 0.3s;
@@ -232,9 +226,20 @@ header .navbar {
   .section-three .section-title h1 {
     font-size: 36px;
   }
-  .section-three .faq-content {width: 100%;}
-  .faq-content .accordion-button h5 {font-size: 16px;}
-  .faq-content .accordion-body p {font-size: 13px;}
-  .faq-content .accordion-button:before {width: 15px;}
-  .faq-content .accordion-button.collapsed:after {right: 26px; height: 15px;}
+  .section-three .faq-content {
+    width: 100%;
+  }
+  .faq-content .accordion-button h5 {
+    font-size: 16px;
+  }
+  .faq-content .accordion-body p {
+    font-size: 13px;
+  }
+  .faq-content .accordion-button:before {
+    width: 15px;
+  }
+  .faq-content .accordion-button.collapsed:after {
+    right: 26px;
+    height: 15px;
+  }
 }

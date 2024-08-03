@@ -1,22 +1,22 @@
 body {
-    font-family: monospace;
-    margin: 0;
-    background-color: #fcf9ff !important;
+  font-family: monospace;
+  margin: 0;
+  background-color: #fcf9ff !important;
 }
 p {
-    display: none;
+  display: none;
 }
 section {
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 h3:first-child {
-    text-align: end;
-    width: 60%;
+  text-align: end;
+  width: 60%;
 }
 h3:nth-child(2) {
-    width: 40%;
-    padding-left: 1em;
+  width: 40%;
+  padding-left: 1em;
 }
