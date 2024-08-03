@@ -211,7 +211,7 @@ const products = [
         id: 24,
         name: 'nike airforce hemp coconut milk',
         category: 'men',
-        image: 'shop/nike airforce hemp coconut milk.jpg',
+        image: 'shop/nike AIRFORCE hemp coconut milk.jpg',
         price: 3899,
         discountedPrice: 2649,
         size: '40-45'
@@ -229,7 +229,7 @@ const products = [
         id: 26,
         name: 'Nike Sb Dunk Low x Otomo KOTSUHIRO GREY BLUE',
         category: 'men',
-        image: 'shop/Nike Sb Dunk Low x Otomo KOTSUHIRO GREY BLUE.jpg',
+        image: 'shop/Nike Sb Dunk Low x Otomo KOTSUHIRO GREY Blue.jpg',
         price: 3499,
         discountedPrice: 2499,
         size: '40-45'
@@ -247,7 +247,7 @@ const products = [
         id: 28,
         name: 'ADIDAS STAN SMITH SCUBA GREEN',
         category: 'clearance',
-        image: 'shop/ADIDAS STAN SMITH SCUBA GREEN.jpg',
+        image: 'shop/adidas stan smith scuba green.jpg',
         price: 3999,
         discountedPrice: 1849,
         size: '40-45'
