@@ -137,9 +137,9 @@ const products = [
     },
     {
         id: 16,
-        name: 'ADIDAS ORGINAL 00S BLACK SOLE',
+        name: 'ADIDAS ORGINALS 00S BLACK SOLE',
         category: 'unisex',
-        image: 'shop/ADIDAS ORGINAL 00S BLACK SOLE.jpg',
+        image: 'shop/ADIDAS ORGINALS 00S BLACK SOLE.jpg',
         price: 3399,
         discountedPrice: 2599,
         size: '36-44'
