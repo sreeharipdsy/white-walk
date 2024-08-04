@@ -251,12 +251,14 @@ header .navbar .cart img {
 }
 .cart-modal .modal-content ul li img {
   border-radius: 5px;
+  max-height: 50px;
 }
 .cart-modal .modal-content ul li .name {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   width: 30%;
+  text-transform: uppercase;
 }
 .cart-modal .modal-content ul li span {
   color: #450056;

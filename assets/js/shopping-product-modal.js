@@ -1,4 +1,5 @@
 
+
 function openProductPage(productId) {
   const product = products.find((p) => p.id === productId);
   const modalBody = document.getElementById("modal-body");
@@ -38,13 +39,34 @@ function openProductPage(productId) {
   toggleProductModal();
 }
 
+// function toggleProductModal() {
+//   const modal = document.getElementById("product-modal");
+//   modal.classList.toggle("show");
+//   modal.style.display = modal.style.display === "flex" ? "none" : "flex";
+//   document.body.style.overflow =
+//     document.body.style.overflow === "hidden" ? "auto" : "hidden";
+// }
+
 function toggleProductModal() {
   const modal = document.getElementById("product-modal");
-  modal.classList.toggle("show");
-  modal.style.display = modal.style.display === "flex" ? "none" : "flex";
-  document.body.style.overflow =
-    document.body.style.overflow === "hidden" ? "auto" : "hidden";
+  if (modal.classList.contains("show")) {
+    window.history.back();
+  } else {
+    modal.classList.add("show");
+    modal.style.display = "flex";
+    document.body.style.overflow = "hidden";
+    window.history.pushState({ modalOpen: true }, "");
+  }
 }
+
+window.addEventListener("popstate", function (event) {
+  const modal = document.getElementById("product-modal");
+  if (modal.classList.contains("show")) {
+    modal.classList.remove("show");
+    modal.style.display = "none";
+    document.body.style.overflow = "auto";
+  }
+});
 
 function buyNow(productName) {
   window.open(
