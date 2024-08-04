@@ -349,7 +349,9 @@ header .navbar {
   border: 0;
   height: 80%;
   overflow: auto;
-  background: #fcf9ff;
+  background: #fcf9ff;    
+  padding-bottom: 2em;
+  padding-top: 1em;
 }
 #modal-body .content {
   display: grid;
