@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function renderProducts(products) {
+  products.sort((a, b) => b.id - a.id);
   const productList = document.getElementById("product-list");
   productList.innerHTML = "";
   products.forEach((product) => {
