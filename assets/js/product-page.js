@@ -1,4 +1,5 @@
 
+
 function openProductPage(productId) {
     const product = products.find(p => p.id === productId);
     document.getElementById('banner').style.display = 'none';
@@ -20,6 +21,4 @@ function openProductPage(productId) {
     }
     scrollToTop();
 }
-
-
 
