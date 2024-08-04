@@ -16,7 +16,7 @@ const trendingProducts = [
         image: 'trending/new-balance.jpg', 
         price: 5199, 
         discountedPrice: 3699,
-        size: '35-40' 
+        size: '40-45' 
     },
     { 
         id: 3, 
@@ -25,7 +25,7 @@ const trendingProducts = [
         image: 'trending/adidas.jpg', 
         price: 3999, 
         discountedPrice: 2999,
-        size: '35-40'
+        size: '40-45'
     },
     { 
         id: 4, 
@@ -34,7 +34,7 @@ const trendingProducts = [
         image: 'trending/asics-tiger.jpg', 
         price: 3499, 
         discountedPrice: 2300,
-        size: '35-40'
+        size: '36-44'
     }
 ]
 
