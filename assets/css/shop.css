@@ -192,7 +192,7 @@ header .navbar {
 .section-three .product-description .p-rating {
   font-size: 16px;
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: #2c003c;
 }
 
@@ -347,6 +347,8 @@ header .navbar {
 #modal-body .content .p-image {
   display: flex;
   justify-content: center;
+  max-height: 30em;
+  margin-block: 2em;
 }
 #modal-body .content .p-image img {
   width: 75%;
@@ -358,6 +360,8 @@ header .navbar {
   font-size: 48px;
   font-weight: 700;
   color: #3d0051;
+  text-transform: uppercase;
+  width: 90%;
 }
 #modal-body .content .p-details .p-about {
   font-size: 16px;
@@ -436,6 +440,8 @@ header .navbar {
   #modal-body .content .p-image {
     max-height: 18em;
     margin-inline: 1em;
+    margin-top: 3em;
+    margin-block: 0;
   }
   #modal-body .content .p-image img {
     width: 100%;
