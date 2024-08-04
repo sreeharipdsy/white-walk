@@ -34,7 +34,6 @@ function openProductPage(productId) {
       </div>
     </div>
   `;
-
   toggleProductModal();
 }
 
