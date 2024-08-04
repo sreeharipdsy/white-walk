@@ -15,5 +15,11 @@ function openProductPage(productId) {
     document.getElementById('add-to-cart').onclick = function() {
         addToCart(product.id);
     }
+    document.getElementById('back-to-shop').onclick = function() {
+        showHomePage(product.id);
+    }
     scrollToTop();
 }
+
+
+

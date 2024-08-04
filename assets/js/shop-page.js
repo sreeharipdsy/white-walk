@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('search-input').addEventListener('input', filterProducts);
   document.getElementById('filter').addEventListener('change', filterProducts);
   document.getElementById('checkout-cart').addEventListener('click', checkoutCart);
-
 });
+
 
 function renderProducts(products) {
   const productList = document.getElementById('product-list');
@@ -17,6 +17,7 @@ function renderProducts(products) {
     const productCard = document.createElement('div');
     productCard.classList.add('card');
     productCard.setAttribute('data-aos', 'zoom-in');
+    productCard.setAttribute('data-product-id', product.id);
     productCard.innerHTML = `
       <div class="product-img">
         <img 
@@ -77,13 +78,29 @@ function filterProducts() {
 
 
 
-function showHomePage() {
-  document.getElementById('banner').style.display = 'flex';
-  document.getElementById('breadcrumb').style.display = 'block';
-  document.getElementById('search-container').style.display = 'flex';
-  document.getElementById('product-page').style.display = 'none';
-  document.getElementById('product-list').style.display = 'grid';
+document.addEventListener('DOMContentLoaded', () => {
+  const viewedProductId = localStorage.getItem('viewedProduct');
+  if (viewedProductId) {
+      const productCard = document.querySelector(`[data-product-id="${viewedProductId}"]`);
+      if (productCard) {
+          productCard.scrollIntoView({ behavior: 'smooth' });
+          productCard.classList.add('highlight');
+      }
+      localStorage.removeItem('viewedProduct');
+  }
+});
+
+function showHomePage(productId) {
+  document.getElementById('banner').style.visibility = 'flex';
+  document.getElementById('breadcrumb').style.visibility = 'block';
+  document.getElementById('search-container').style.visibility = 'flex';
+  document.getElementById('product-page').style.visibility = 'none';
+  document.getElementById('product-list').style.visibility = 'grid';
+  localStorage.setItem('viewedProduct', productId);
+  window.location.href = `shop?id=${productId}`;
 }
+
+
 
 function buyNow(productName) {
   event.stopPropagation();
