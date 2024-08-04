@@ -2,22 +2,25 @@
 
 let cart = [];
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   renderProducts(products);
-  document.getElementById('search-input').addEventListener('input', filterProducts);
-  document.getElementById('filter').addEventListener('change', filterProducts);
-  document.getElementById('checkout-cart').addEventListener('click', checkoutCart);
+  document
+    .getElementById("search-input")
+    .addEventListener("input", filterProducts);
+  document.getElementById("filter").addEventListener("change", filterProducts);
+  document
+    .getElementById("checkout-cart")
+    .addEventListener("click", checkoutCart);
 });
 
-
 function renderProducts(products) {
-  const productList = document.getElementById('product-list');
-  productList.innerHTML = '';
-  products.forEach(product => {
-    const productCard = document.createElement('div');
-    productCard.classList.add('card');
-    productCard.setAttribute('data-aos', 'zoom-in');
-    productCard.setAttribute('data-product-id', product.id);
+  const productList = document.getElementById("product-list");
+  productList.innerHTML = "";
+  products.forEach((product) => {
+    const productCard = document.createElement("div");
+    productCard.classList.add("card");
+    productCard.setAttribute("data-aos", "zoom-in");
+    productCard.setAttribute("data-product-id", product.id);
     productCard.innerHTML = `
       <div class="product-img">
         <img 
@@ -46,19 +49,22 @@ function renderProducts(products) {
 
 
 
-document.addEventListener('DOMContentLoaded', () => {
+
+document.addEventListener("DOMContentLoaded", () => {
   const urlParams = new URLSearchParams(window.location.search);
-  const category = urlParams.get('category');
+  const category = urlParams.get("category");
   if (category) {
     filterProductsByCategory(category);
     updateCategoryFilter(category);
   }
   function filterProductsByCategory(category) {
-    const filteredProducts = products.filter(product => product.category === category);
+    const filteredProducts = products.filter(
+      (product) => product.category === category
+    );
     renderProducts(filteredProducts);
   }
   function updateCategoryFilter(category) {
-    const categoryFilter = document.getElementById('filter');
+    const categoryFilter = document.getElementById("filter");
     categoryFilter.value = category;
   }
 });
@@ -68,54 +74,66 @@ function filterByCategory(category) {
 }
 
 function filterProducts() {
-  const searchTerm = document.getElementById('search-input').value.toLowerCase();
-  const filter = document.getElementById('filter').value;
-  const filteredProducts = products.filter(product => {
-    return product.name.toLowerCase().includes(searchTerm) && (filter === '' || product.category === filter);
+  const searchTerm = document
+    .getElementById("search-input")
+    .value.toLowerCase();
+  const filter = document.getElementById("filter").value;
+  const filteredProducts = products.filter((product) => {
+    return (
+      product.name.toLowerCase().includes(searchTerm) &&
+      (filter === "" || product.category === filter)
+    );
   });
   renderProducts(filteredProducts);
 }
 
-
-
-document.addEventListener('DOMContentLoaded', () => {
-  const viewedProductId = localStorage.getItem('viewedProduct');
+document.addEventListener("DOMContentLoaded", () => {
+  const viewedProductId = localStorage.getItem("viewedProduct");
   if (viewedProductId) {
-      const productCard = document.querySelector(`[data-product-id="${viewedProductId}"]`);
-      if (productCard) {
-          productCard.scrollIntoView({ behavior: 'smooth' });
-          productCard.classList.add('highlight');
-      }
-      localStorage.removeItem('viewedProduct');
+    const productCard = document.querySelector(
+      `[data-product-id="${viewedProductId}"]`
+    );
+    if (productCard) {
+      productCard.scrollIntoView({ behavior: "smooth" });
+      productCard.classList.add("highlight");
+    }
+    localStorage.removeItem("viewedProduct");
   }
 });
 
+
+
+
 function showHomePage(productId) {
-  document.getElementById('banner').style.visibility = 'flex';
-  document.getElementById('breadcrumb').style.visibility = 'block';
-  document.getElementById('search-container').style.visibility = 'flex';
-  document.getElementById('product-page').style.visibility = 'none';
-  document.getElementById('product-list').style.visibility = 'grid';
-  localStorage.setItem('viewedProduct', productId);
+  document.getElementById("banner").style.visibility = "flex";
+  document.getElementById("breadcrumb").style.visibility = "block";
+  document.getElementById("search-container").style.visibility = "flex";
+  document.getElementById("product-page").style.visibility = "none";
+  document.getElementById("product-list").style.visibility = "grid";
+  localStorage.setItem("viewedProduct", productId);
   window.location.href = `shop?id=${productId}`;
 }
 
-
-
 function buyNow(productName) {
   event.stopPropagation();
-  window.open(`https://wa.me/+917592984622?text=I'm interested in buying ${productName}`, '_blank');
+  window.open(
+    `https://wa.me/+917592984622?text=I'm interested in buying ${productName}`,
+    "_blank"
+  );
 }
 
 function checkoutCart() {
-  const productNames = cart.map(product => product.name).join(', ');
-  window.open(`https://wa.me/+917592984622?text=I'm interested in buying the following products: ${productNames}`, '_blank');
+  const productNames = cart.map((product) => product.name).join(", ");
+  window.open(
+    `https://wa.me/+917592984622?text=I'm interested in buying the following products: ${productNames}`,
+    "_blank"
+  );
 }
 
 function checkoutSingleProduct() {
-  const productName = document.getElementById('product-name').textContent;
-  window.open(`https://wa.me/+917592984622?text=I'm interested in buying ${productName}`, '_blank');
+  const productName = document.getElementById("product-name").textContent;
+  window.open(
+    `https://wa.me/+917592984622?text=I'm interested in buying ${productName}`,
+    "_blank"
+  );
 }
-
-
-
