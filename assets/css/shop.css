@@ -318,21 +318,29 @@ header .navbar {
   z-index: 1;
 }
 #product-modal .close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 18px;
-  font-weight: 650;
-  color: #df0000;
-  height: 28px;
-  width: 28px;
-  text-align: center;
-  line-height: 18px;
-  background: #fff0f0;
-  font-family: "FontAwesome";
-  padding: 5px 4px 5px 5px;
-  border-radius: 50%;
+  /* position: absolute; */
+  /* top: 10px; */
+  /* right: 10px; */
+  left: 12px;
+  /* font-size: 18px; */
+  font-size: 14px;
+  /* font-weight: 650; */
+  font-weight: 500;
+  /* color: #df0000; */
+  color: #3d0051;
+  /* height: 28px; */
+  /* width: 28px; */
+  /* text-align: center; */
+  /* line-height: 18px; */
+  /* background: #fff0f0; */
+  /* font-family: "FontAwesome"; */
+  /* padding: 5px 4px 5px 5px; */
+  padding: 5px;
+  /* border-radius: 50%; */
   cursor: pointer;
+}
+#product-modal .close:hover {
+  text-decoration: underline;
 }
 #product-modal .modal-content {
   /* width: 90% !important; */
@@ -453,7 +461,9 @@ header .navbar {
   }
   #modal-body .content .p-image img {
     width: 100%;
-    margin-top: 2.5em;
+    /* margin-top: 2.5em; */
+    margin-top: 1em;
+    max-height: 25em;
   }
   #modal-body .content .p-details {
     padding: 1em;
