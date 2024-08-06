@@ -26,3 +26,7 @@ div:where(.swal2-icon).swal2-success .swal2-success-ring {
 div:where(.swal2-icon).swal2-success .swal2-success-ring {
   border: 0.25em solid rgb(48 133 0) !important;
 }
+div:where(.swal2-container) {
+  align-content: end;
+  padding-bottom: 5em !important;
+}
