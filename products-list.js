@@ -605,9 +605,9 @@ const products = [
     },
     {
         id: 69,
-        name: 'ADIDAS  FORUM BAD BUNNY BLACK',
+        name: 'ADIDAS FORUM BAD BUNNY BLACK',
         category: 'unisex',
-        image: 'shop/ADIDAS  FORUM BAD BUNNY BLACK.jpg',
+        image: 'shop/ADIDAS FORUM BAD BUNNY BLACK.jpg',
         price: 2999,
         discountedPrice: 2449,
         size: 'EUR 36-44'
@@ -668,9 +668,9 @@ const products = [
     },
     {
         id: 76,
-        name: 'NIKE X UNION FIELD GENERAL SP SHIMMER',
+        name: 'NIKE X UNION FIELD GENERAL SP SHIMMER EDITION',
         category: 'men',
-        image: 'shop/NIKE X UNION FIELD GENERAL SP SHIMMER.jpg',
+        image: 'shop/NIKE X UNION FIELD GENERAL SP SHIMMER EDITION.jpg',
         price: 3999,
         discountedPrice: 2949,
         size: 'EUR 36-40'
@@ -686,9 +686,9 @@ const products = [
     },
     {
         id: 78,
-        name: 'ONITSUKA TIGER TOKUTEN WHITE NAVY EDITION ',
+        name: 'ONITSUKA TIGER TOKUTEN WHITE NAVY EDITION',
         category: 'men',
-        image: 'shop/ONITSUKA TIGER TOKUTEN WHITE NAVY EDITION .jpg',
+        image: 'shop/ONITSUKA TIGER TOKUTEN WHITE NAVY EDITION.jpg',
         price: 3499,
         discountedPrice: 2399,
         size: 'EUR 40-45'
@@ -812,9 +812,9 @@ const products = [
     },
     {
         id: 92,
-        name: 'NIKE X UNION FIELD GENERAL SP SHIMMER',
+        name: 'NIKE X UNION FIELD GENERAL SP SHIMMER EDITION',
         category: 'men',
-        image: 'shop/NIKE X UNION FIELD GENERAL SP SHIMMER.jpg',
+        image: 'shop/NIKE X UNION FIELD GENERAL SP SHIMMER EDITION.jpg',
         price: 4299,
         discountedPrice: 2999,
         size: 'EUR 40-45'
@@ -1115,13 +1115,130 @@ const products = [
         price: 3699,
         discountedPrice: 2799,
         size: 'EUR 40-45'
+    },
+    {
+        id: 126,
+        name: 'ADIDAS SUPERSTAR ORIGINAL RABBIT HOLE WOOD',
+        category: 'men',
+        image: 'shop/ADIDAS SUPERSTAR ORIGINAL RABBIT HOLE WOOD.jpg',
+        price: 3699,
+        discountedPrice: 2799,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 127,
+        name: 'VANS OLD SKOOL MIDANKLE',
+        category: 'unisex',
+        image: 'shop/VANS OLD SKOOL MIDANKLE.jpg',
+        price: 1999,
+        discountedPrice: 1299,
+        size: 'EUR 36-45'
+    },
+    {
+        id: 128,
+        name: 'ADIDAS GAZELLE INDOOR NAVY',
+        category: 'unisex',
+        image: 'shop/ADIDAS GAZELLE INDOOR NAVY.jpg',
+        price: 3999,
+        discountedPrice: 2649,
+        size: 'EUR 36-45'
+    },
+    {
+        id: 129,
+        name: 'ASICS GEL 1130 GREEN',
+        category: 'men',
+        image: 'shop/ASICS GEL 1130 GREEN.jpg',
+        price: 4999,
+        discountedPrice: 3099,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 130,
+        name: 'ASICS GEL 1130 SILVER',
+        category: 'men',
+        image: 'shop/ASICS GEL 1130 SILVER.jpg',
+        price: 4999,
+        discountedPrice: 3099,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 131,
+        name: 'CROCS MTN ATLAS BLACK',
+        category: 'crocs',
+        image: 'shop/CROCS MTN ATLAS BLACK.jpg',
+        price: 2899,
+        discountedPrice: 1899,
+        size: 'M6-M11'
+    },
+    {
+        id: 132,
+        name: 'CROCS MTN ATLAS GREEN',
+        category: 'crocs',
+        image: 'shop/CROCS MTN ATLAS GREEN.jpg',
+        price: 2899,
+        discountedPrice: 1899,
+        size: 'M6-M11'
+    },
+    {
+        id: 133,
+        name: 'CROCS MTN ATLAS FLURACENT',
+        category: 'crocs',
+        image: 'shop/CROCS MTN ATLAS FLURACENT.jpg',
+        price: 2899,
+        discountedPrice: 1899,
+        size: 'M6-M11'
+    },
+    {
+        id: 134,
+        name: 'CROCS MTN ATLAS ELEPHANT',
+        category: 'crocs',
+        image: 'shop/CROCS MTN ATLAS ELEPHANT.jpg',
+        price: 2899,
+        discountedPrice: 1899,
+        size: 'M6-M11'
+    },
+    {
+        id: 135,
+        name: 'CROCS CLASSIC HOLE GREEN',
+        category: 'crocs',
+        image: 'shop/CROCS CLASSIC HOLE GREEN.jpg',
+        price: 2399,
+        discountedPrice: 1599,
+        size: 'M6-M11'
+    },
+    {
+        id: 136,
+        name: 'CROCS CLASSIC HOLE BLACK',
+        category: 'crocs',
+        image: 'shop/CROCS CLASSIC HOLE BLACK.jpg',
+        price: 2399,
+        discountedPrice: 1599,
+        size: 'M6-M11'
+    },
+    {
+        id: 137,
+        name: 'CROCS CLASSIC HOLE BLUE',
+        category: 'crocs',
+        image: 'shop/CROCS CLASSIC HOLE BLUE.jpg',
+        price: 2399,
+        discountedPrice: 1599,
+        size: 'M6-M11'
+    },
+    {
+        id: 138,
+        name: 'NEW BALANCE 1000 SILVER METALLIC',
+        category: 'uaquality',
+        image: 'shop/NEW BALANCE 1000 SILVER METALLIC.jpg',
+        price: 5299,
+        discountedPrice: 3899,
+        size: 'EUR 40-45'
     }
     // ,
     // {
     //     id: ,
     //     name: '',
     //     category: '',
-    //     image: 'shop/',
+    //     image: 'shop/.jpg',
     //     price: ,
     //     discountedPrice: ,
     //     size: ''
