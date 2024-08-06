@@ -611,6 +611,510 @@ const products = [
         price: 2999,
         discountedPrice: 2449,
         size: 'EUR 36-44'
+    },
+    {
+        id: 70,
+        name: 'AIR JORDAN JUMPMAN MVP',
+        category: 'men',
+        image: 'shop/AIR JORDAN JUMPMAN MVP.jpg',
+        price: 3599,
+        discountedPrice: 2899,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 71,
+        name: 'ADIDAS ORIGINALS CAMPUS PURPLE',
+        category: 'women',
+        image: 'shop/ADIDAS ORIGINALS CAMPUS PURPLE.jpg',
+        price: 3499,
+        discountedPrice: 2699,
+        size: 'EUR 36-40'
+    },
+    {
+        id: 72,
+        name: 'UNDER ARMOUR PHANTOM HOVR 2023 BLACK',
+        category: 'men',
+        image: 'shop/UNDER ARMOUR PHANTOM HOVR 2023 BLACK.jpg',
+        price: 3999,
+        discountedPrice: 2899,
+        size: 'EUR 36-40'
+    },
+    {
+        id: 73,
+        name: 'UNDER ARMOUR PHANTOM HOVR 2023 GREEN',
+        category: 'men',
+        image: 'shop/UNDER ARMOUR PHANTOM HOVR 2023 GREEN.jpg',
+        price: 3999,
+        discountedPrice: 2899,
+        size: 'EUR 36-40'
+    },
+    {
+        id: 74,
+        name: 'NIKE AIRFORCE NORTH FACE GUCCI',
+        category: 'men',
+        image: 'shop/NIKE AIRFORCE NORTH FACE GUCCI.jpg',
+        price: 3499,
+        discountedPrice: 2449,
+        size: 'EUR 36-40'
+    },
+    {
+        id: 75,
+        name: 'NIKE SB DUNK MOCHA LOW',
+        category: 'men',
+        image: 'shop/NIKE SB DUNK MOCHA LOW.jpg',
+        price: 3999,
+        discountedPrice: 2499,
+        size: 'EUR 36-40'
+    },
+    {
+        id: 76,
+        name: 'NIKE X UNION FIELD GENERAL SP SHIMMER',
+        category: 'men',
+        image: 'shop/NIKE X UNION FIELD GENERAL SP SHIMMER.jpg',
+        price: 3999,
+        discountedPrice: 2949,
+        size: 'EUR 36-40'
+    },
+    {
+        id: 77,
+        name: 'ADIDAS GAZZELE BOLD BLACK WHITE',
+        category: 'women',
+        image: 'shop/ADIDAS GAZZELE BOLD BLACK WHITE.jpg',
+        price: 3899,
+        discountedPrice: 2699,
+        size: 'EUR 36-40'
+    },
+    {
+        id: 78,
+        name: 'ONITSUKA TIGER TOKUTEN WHITE NAVY EDITION ',
+        category: 'men',
+        image: 'shop/ONITSUKA TIGER TOKUTEN WHITE NAVY EDITION .jpg',
+        price: 3499,
+        discountedPrice: 2399,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 79,
+        name: 'CONVERSE CHUCK 70 BLACK WHITE',
+        category: 'unisex',
+        image: 'shop/CONVERSE CHUCK 70 BLACK WHITE.jpg',
+        price: 3799,
+        discountedPrice: 2499,
+        size: 'EUR 36-45'
+    },
+    {
+        id: 80,
+        name: 'NIKE AIR JORDAN RETRO TRAVIS SCOTT',
+        category: 'men',
+        image: 'shop/NIKE AIR JORDAN RETRO TRAVIS SCOTT.jpg',
+        price: 4299,
+        discountedPrice: 2899,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 81,
+        name: 'NEW BALANCE 1906 LIGHTON GREY',
+        category: 'men',
+        image: 'shop/NEW BALANCE 1906 LIGHTON GREY.jpg',
+        price: 4399,
+        discountedPrice: 2999,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 82,
+        name: 'NIKE SB DUNK OTOMO KOTSUHIRO DBRN',
+        category: 'men',
+        image: 'shop/NIKE SB DUNK OTOMO KOTSUHIRO DBRN.jpg',
+        price: 3399,
+        discountedPrice: 2499,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 83,
+        name: 'ADIDAS ORIGINALS SAMBA NEIGHBORHOOD',
+        category: 'men',
+        image: 'shop/ADIDAS ORIGINALS SAMBA NEIGHBORHOOD.jpg',
+        price: 3299,
+        discountedPrice: 2599,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 84,
+        name: 'ADIDAS ORIGINALS SAMBA BONER END',
+        category: 'men',
+        image: 'shop/ADIDAS ORIGINALS SAMBA BONER END.jpg',
+        price: 3299,
+        discountedPrice: 2599,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 85,
+        name: 'NIKE AIRFORCE BANG CHUNKY',
+        category: 'men',
+        image: 'shop/NIKE AIRFORCE BANG CHUNKY.jpg',
+        price: 3399,
+        discountedPrice: 2499,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 86,
+        name: 'NIKE AIRFORCE ONE CRISTIANO RONALDO',
+        category: 'men',
+        image: 'shop/NIKE AIRFORCE ONE CRISTIANO RONALDO.jpg',
+        price: 2599,
+        discountedPrice: 1399,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 87,
+        name: 'NIKE SB DUNK TIGHTBOOTH EDITION',
+        category: 'men',
+        image: 'shop/NIKE SB DUNK TIGHTBOOTH EDITION.jpg',
+        price: 3299,
+        discountedPrice: 2499,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 88,
+        name: 'NIKE BLAZER 77 VINTAGE LOW',
+        category: 'men',
+        image: 'shop/NIKE BLAZER 77 VINTAGE LOW.jpg',
+        price: 2999,
+        discountedPrice: 2349,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 89,
+        name: 'ADIDAS ORIGINALS CENTENNIAL 85',
+        category: 'men',
+        image: 'shop/ADIDAS ORIGINALS CENTENNIAL 85.jpg',
+        price: 2999,
+        discountedPrice: 2299,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 90,
+        name: 'ADIDAS FORUM 84 MID WHITE BLACK EDITION',
+        category: 'men',
+        image: 'shop/ADIDAS FORUM 84 MID WHITE BLACK EDITION.jpg',
+        price: 3199,
+        discountedPrice: 2149,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 91,
+        name: 'NIKE SB DUNK YEAR OF THE TIGER',
+        category: 'men',
+        image: 'shop/NIKE SB DUNK YEAR OF THE TIGER.jpg',
+        price: 3699,
+        discountedPrice: 2649,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 92,
+        name: 'NIKE X UNION FIELD GENERAL SP SHIMMER',
+        category: 'men',
+        image: 'shop/NIKE X UNION FIELD GENERAL SP SHIMMER.jpg',
+        price: 4299,
+        discountedPrice: 2999,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 93,
+        name: 'NEW BALANCE 2002r PROTECTION PACK SEA SALT',
+        category: 'unisex',
+        image: 'shop/NEW BALANCE 2002r PROTECTION PACK SEA SALT.jpg',
+        price: 3999,
+        discountedPrice: 2999,
+        size: 'EUR 36-45'
+    },
+    {
+        id: 94,
+        name: 'ADIDAS ORIGINALS SAMBA WHITE AND BLACK',
+        category: 'unisex',
+        image: 'shop/ADIDAS ORIGINALS SAMBA WHITE AND BLACK.jpg',
+        price: 2999,
+        discountedPrice: 1899,
+        size: 'EUR 36-45'
+    },
+    {
+        id: 95,
+        name: 'ADIDAS ORIGINALS SAMBA  NAKED',
+        category: '',
+        image: 'shop/ADIDAS ORIGINALS SAMBA  NAKED.jpg',
+        price: 2999,
+        discountedPrice: 1899,
+        size: 'EUR 36-45'
+    },
+    {
+        id: 96,
+        name: 'NIKE AIRFORCE ONE SHADOW',
+        category: 'clearance',
+        image: 'shop/NIKE AIRFORCE ONE SHADOW.jpg',
+        price: 2999,
+        discountedPrice: 1599,
+        size: 'EUR 36-40'
+    },
+    {
+        id: 97,
+        name: 'LOUIS VUITTON X NIKE AIR FORCE 1 DENIM BLACK',
+        category: 'men',
+        image: 'shop/LOUIS VUITTON X NIKE AIR FORCE 1 DENIM BLACK.jpg',
+        price: ,
+        discountedPrice: ,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 98,
+        name: 'NEW BALANCE 1000 BLACK PATENT',
+        category: 'uaquality',
+        image: 'shop/NEW BALANCE 1000 BLACK PATENT.jpg',
+        price: 4299,
+        discountedPrice: 3599,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 99,
+        name: 'NIKE AIR JORDAN 1 TRUE BLUE',
+        category: 'uaquality',
+        image: 'shop/NIKE AIR JORDAN 1 TRUE BLUE.jpg',
+        price: 3999,
+        discountedPrice: 2799,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 100,
+        name: 'PUMA MELO BALL MB 0.3 ICE BLUE',
+        category: 'uaquality',
+        image: 'shop/PUMA MELO BALL MB 0.3 ICE BLUE.jpg',
+        price: 3999,
+        discountedPrice: 2799,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 101,
+        name: 'ADIDAS FEAR OF GOD LOW',
+        category: 'men',
+        image: 'shop/ADIDAS FEAR OF GOD LOW.jpg',
+        price: 3999,
+        discountedPrice: 2899,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 102,
+        name: 'ADIDAS FEAR OF GOD MID',
+        category: '',
+        image: 'shop/ADIDAS FEAR OF GOD MID.jpg',
+        price: 3999,
+        discountedPrice: 3299,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 103,
+        name: 'ADIDAS FEAR OF GOD WHITE MID',
+        category: 'men',
+        image: 'shop/ADIDAS FEAR OF GOD WHITE MID.jpg',
+        price: 4299,
+        discountedPrice: 3299,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 104,
+        name: 'ADIDAS FEAR OF GOD WHITE 1 MID',
+        category: 'men',
+        image: 'shop/ADIDAS FEAR OF GOD WHITE 1 MID.jpg',
+        price: 4299,
+        discountedPrice: 3299,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 105,
+        name: 'NIKE AIR JORDAN 1 PANDA DIAMOND',
+        category: 'uaquality',
+        image: 'shop/NIKE AIR JORDAN 1 PANDA DIAMOND.jpg',
+        price: 4299,
+        discountedPrice: 3599,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 106,
+        name: 'NEW BALANCE 2002r SPRING 2023 SKY',
+        category: 'men',
+        image: 'shop/NEW BALANCE 2002r SPRING 2023 SKY.jpg',
+        price: ,
+        discountedPrice: ,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 107,
+        name: 'NIKE DUNK BEETROOT CRUSH',
+        category: 'men',
+        image: 'shop/NIKE DUNK BEETROOT CRUSH.jpg',
+        price: 3699,
+        discountedPrice: 2599,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 108,
+        name: 'ADIDAS ORIGINAL SAMBA MESSI',
+        category: 'men',
+        image: 'shop/ADIDAS ORIGINAL SAMBA MESSI.jpg',
+        price: 3999,
+        discountedPrice: 2599,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 109,
+        name: 'NEW BALANCE 1906 GANNI',
+        category: 'men',
+        image: 'shop/NEW BALANCE 1906 GANNI.jpg',
+        price: 3699,
+        discountedPrice: 2999,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 110,
+        name: 'NEW BALANCE 2002r Spring 2023 SKY BLUE',
+        category: 'men',
+        image: 'shop/NEW BALANCE 2002r Spring 2023 SKY BLUE.jpg',
+        price: 3999,
+        discountedPrice: 2799,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 111,
+        name: 'NIKE AIRFORCE KEEP FRESH',
+        category: 'men',
+        image: 'shop/NIKE AIRFORCE KEEP FRESH.jpg',
+        price: 3899,
+        discountedPrice: 2599,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 112,
+        name: 'NIKE SB DUNK RUN THE JEWELS',
+        category: 'men',
+        image: 'shop/NIKE SB DUNK RUN THE JEWELS.jpg',
+        price: 3999,
+        discountedPrice: 2699,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 113,
+        name: 'ADIDAS ORIGINAL BERMUDA 2024 GREY',
+        category: 'men',
+        image: 'shop/ADIDAS ORIGINAL BERMUDA 2024 GREY.jpg',
+        price: 3899,
+        discountedPrice: 2699,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 114,
+        name: 'ONITSUKA TIGER TRAINERS SILVER COLOR',
+        category: 'men',
+        image: 'shop/ONITSUKA TIGER TRAINERS SILVER COLOR.jpg',
+        price: 3899,
+        discountedPrice: 2749,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 115,
+        name: 'ADIDAS FORUM 84 WHITE BLUE',
+        category: 'uaquality',
+        image: 'shop/ADIDAS FORUM 84 WHITE BLUE.jpg',
+        price: 3899,
+        discountedPrice: 2799,
+        size: 'EUR 36-45'
+    },
+    {
+        id: 116,
+        name: 'VANS OLD SKOOL KNU OLIVE GREEN',
+        category: 'unisex',
+        image: 'shop/VANS OLD SKOOL KNU OLIVE GREEN.jpg',
+        price: 3999,
+        discountedPrice: 2699,
+        size: 'EUR 36-45'
+    },
+    {
+        id: 117,
+        name: 'NIKE SB DUNK YEAR OF RABBIT 2023',
+        category: 'men',
+        image: 'shop/NIKE SB DUNK YEAR OF RABBIT 2023.jpg',
+        price: 3799,
+        discountedPrice: 2599,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 118,
+        name: 'NIKE JORDAN RETRO 4 PINE GREEN',
+        category: 'unisex',
+        image: 'shop/NIKE JORDAN RETRO 4 PINE GREEN.jpg',
+        price: 3499,
+        discountedPrice: 2399,
+        size: 'EUR 36-45'
+    },
+    {
+        id: 119,
+        name: 'ASICS TIGER JAPAN OFF WHITE',
+        category: 'men',
+        image: 'shop/ASICS TIGER JAPAN OFF WHITE.jpg',
+        price: 4499,
+        discountedPrice: 3299,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 120,
+        name: 'VANS WAVY BABY',
+        category: 'clearance',
+        image: 'shop/VANS WAVY BABY.jpg',
+        price: 1999,
+        discountedPrice: 999,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 121,
+        name: 'SKECHERS MAX CUSHION GREY',
+        category: 'sports',
+        image: 'shop/SKECHERS MAX CUSHION GREY.jpg',
+        price: 3999,
+        discountedPrice: 2699,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 122,
+        name: 'SKECHERS MAX CUSHION BLACK',
+        category: 'sports',
+        image: 'shop/SKECHERS MAX CUSHION BLACK.jpg',
+        price: 3999,
+        discountedPrice: 2699,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 123,
+        name: 'SKECHERS MAX CUSHION WHITE',
+        category: 'sports',
+        image: 'shop/SKECHERS MAX CUSHION WHITE.jpg',
+        price: 3999,
+        discountedPrice: 2699,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 124,
+        name: 'NIKE SB DUNK VANEER',
+        category: 'men',
+        image: 'shop/NIKE SB DUNK VANEER.jpg',
+        price: 2999,
+        discountedPrice: 2299,
+        size: 'EUR 40-45'
+    },
+    {
+        id: 125,
+        name: 'ADIDAS SUPERSTAR ORIGINALS RABBIT HOLE BLACK',
+        category: 'men',
+        image: 'shop/ADIDAS SUPERSTAR ORIGINALS RABBIT HOLE BLACK.jpg',
+        price: 3699,
+        discountedPrice: 2799,
+        size: 'EUR 40-45'
     }
     // ,
     // {
