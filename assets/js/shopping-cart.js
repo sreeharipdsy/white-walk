@@ -8,7 +8,11 @@ function addToCart(productId) {
   cart.push(product);
   saveCart();
   updateCart();
-  showToast("Item Added to Cart");
+  // showToast("Item Added to Cart");
+  Swal.fire({
+    title: "Item Added to Cart",
+    icon: "success",
+  });
 }
 
 function showToast() {

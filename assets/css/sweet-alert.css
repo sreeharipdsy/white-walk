@@ -18,8 +18,11 @@ div:where(.swal2-container) h2:where(.swal2-title) {
   color: #560070 !important;
 }
 div:where(.swal2-icon).swal2-success [class^="swal2-success-line"] {
-  background-color: #48c700 !important;
+  background-color: rgb(48 133 0) !important;
 }
 div:where(.swal2-icon).swal2-success .swal2-success-ring {
   border: 0.25em solid rgb(165 220 134) !important;
+}
+div:where(.swal2-icon).swal2-success .swal2-success-ring {
+  border: 0.25em solid rgb(48 133 0) !important;
 }

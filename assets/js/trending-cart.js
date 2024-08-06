@@ -9,7 +9,11 @@ function addToCartTrending(productId) {
   trendingCart.push(product);
   updateTrendingCart();
   saveCartToLocalStorage();
-  showToast("Item Added to Cart");
+  // showToast("Item Added to Cart");
+  Swal.fire({
+    title: "Item Added to Cart",
+    icon: "success",
+  });
 }
 
 function saveCartToLocalStorage() {
