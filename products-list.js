@@ -860,8 +860,8 @@ const products = [
         name: 'LOUIS VUITTON X NIKE AIR FORCE 1 DENIM BLACK',
         category: 'men',
         image: 'shop/LOUIS VUITTON X NIKE AIR FORCE 1 DENIM BLACK.jpg',
-        price: ,
-        discountedPrice: ,
+        price: 4399,
+        discountedPrice: 3099,
         size: 'EUR 40-45'
     },
     {
@@ -941,8 +941,8 @@ const products = [
         name: 'NEW BALANCE 2002r SPRING 2023 SKY',
         category: 'men',
         image: 'shop/NEW BALANCE 2002r SPRING 2023 SKY.jpg',
-        price: ,
-        discountedPrice: ,
+        price: 3999,
+        discountedPrice: 2799,
         size: 'EUR 40-45'
     },
     {
