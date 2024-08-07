@@ -128,9 +128,9 @@ const products = [
     },
     {
         id: 15,
-        name: 'ADIDAS  ORIGINALS SAMBA XLG FEI FEI RUN',
+        name: 'ADIDAS ORIGINALS SAMBA XLG FEI FEI RUN',
         category: 'men',
-        image: 'shop/ADIDAS  ORIGINALS SAMBA XLG FEI FEI RUN.jpg',
+        image: 'shop/ADIDAS ORIGINALS SAMBA XLG FEI FEI RUN.jpg',
         price: 3699,
         discountedPrice: 2599,
         size: 'EUR 40-44'
@@ -425,9 +425,9 @@ const products = [
     },
     {
         id: 48,
-        name: 'CROCS  LITERIDE',
+        name: 'CROCS LITERIDE',
         category: 'men',
-        image: 'shop/CROCS  LITERIDE.jpg',
+        image: 'shop/CROCS LITERIDE.jpg',
         price: 1699,
         discountedPrice: 1299,
         size: 'EUR 40-44'
