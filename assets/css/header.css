@@ -252,6 +252,7 @@ header .navbar .cart img {
 .cart-modal .modal-content ul li img {
   border-radius: 5px;
   max-height: 50px;
+  object-fit: cover;
 }
 .cart-modal .modal-content ul li .name {
   white-space: nowrap;
