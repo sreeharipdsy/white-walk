@@ -1853,15 +1853,437 @@ const products = [
         price: 3899,
         discountedPrice: 2349,
         size: 'EUR 36-45'
+    },
+    {
+        id: 208,
+        name: "ADIDAS ORIGINALS SAMBA SPORTY AND RICH",
+        category: "men",
+        image: "shop/ADIDAS ORIGINALS SAMBA SPORTY AND RICH.jpg",
+        price: 2849,
+        discountedPrice: 1849,
+        size: "EUR 40-45"
+    },
+    {
+        id: 209,
+        name: "NIKE JORDAN SB DUNK X TRAVIS SCOTT GULF",
+        category: "men",
+        image: "shop/NIKE JORDAN SB DUNK X TRAVIS SCOTT GULF.jpg",
+        price: 3249,
+        discountedPrice: 2149,
+        size: "EUR 40-45"
+    },
+    {
+        id: 210,
+        name: "NIKE SB DUNK LOW X OTOMO KATSUHIRO COFFEE",
+        category: "men",
+        image: "shop/NIKE SB DUNK LOW X OTOMO KATSUHIRO COFFEE.jpg",
+        price: 3799,
+        discountedPrice: 2499,
+        size: "EUR 40-45"
+    },
+    {
+        id: 211,
+        name: "ADIDAS SAMBA X WALES BONER",
+        category: "men",
+        image: "shop/ADIDAS SAMBA X WALES BONER.jpg",
+        price: 4099,
+        discountedPrice: 2599,
+        size: "EUR 40-45"
+    },
+    {
+        id: 212,
+        name: "ADIDAS FORUM 84 MID UNIVERSITY BLUE",
+        category: "men",
+        image: "shop/ADIDAS FORUM 84 MID UNIVERSITY BLUE.jpg",
+        price: 3249,
+        discountedPrice: 2149,
+        size: "EUR 40-45"
+    },
+    {
+        id: 213,
+        name: "NEW BALANCE 1906R WHITE",
+        category: "men",
+        image: "shop/NEW BALANCE 1906R WHITE.jpg",
+        price: 4249,
+        discountedPrice: 2899,
+        size: "EUR 40-45"
+    },
+    {
+        id: 214,
+        name: "NEW BALANCE 1906R GOLD",
+        category: "men",
+        image: "shop/NEW BALANCE 1906R GOLD.jpg",
+        price: 4249,
+        discountedPrice: 2899,
+        size: "EUR 40-45"
+    },
+    {
+        id: 215,
+        name: "NEW BALANCE 1906R BLUE",
+        category: "men",
+        image: "shop/NEW BALANCE 1906R BLUE.jpg",
+        price: 4249,
+        discountedPrice: 2899,
+        size: "EUR 40-45"
+    },
+    {
+        id: 216,
+        name: "ADIDAS BAD BUNNY RED",
+        category: "unisex",
+        image: "shop/ADIDAS BAD BUNNY RED.jpg",
+        price: 3999,
+        discountedPrice: 2499,
+        size: "EUR 36-45"
+    },
+    {
+        id: 217,
+        name: "NIKE AIRFORCE ONE ORIGINALS BROWN TICK",
+        category: "men",
+        image: "shop/NIKE AIRFORCE ONE ORIGINALS BROWN TICK.jpg",
+        price: 3799,
+        discountedPrice: 2299,
+        size: "EUR 40-45"
+    },
+    {
+        id: 218,
+        name: "ADIDAS ULTRA BOOST 2023",
+        category: "sports",
+        image: "shop/ADIDAS ULTRA BOOST 2023.jpg",
+        price: 3899,
+        discountedPrice: 2399,
+        size: "EUR 40-45"
+    },
+    {
+        id: 219,
+        name: "NIKE CORTEZ HAWKINS",
+        category: "men",
+        image: "shop/NIKE CORTEZ HAWKINS.jpg",
+        price: 3799,
+        discountedPrice: 2299,
+        size: "EUR 40-45"
+    },
+    {
+        id: 220,
+        name: "VANS OLD SKOOL KNU",
+        category: "women",
+        image: "shop/VANS OLD SKOOL KNU.jpg",
+        price: 3899,
+        discountedPrice: 2399,
+        size: "EUR 36-40"
+    },
+    {
+        id: 221,
+        name: "NIKE SB DUNK LOW ARGON",
+        category: "unisex",
+        image: "shop/NIKE SB DUNK LOW ARGON.jpg",
+        price: 4099,
+        discountedPrice: 2599,
+        size: "EUR 36-45"
+    },
+    {
+        id: 222,
+        name: "ADIDAS ORIGINALS SAMBA BASIC BLACK AND WHITE",
+        category: "unisex",
+        image: "shop/ADIDAS ORIGINALS SAMBA BASIC BLACK AND WHITE.jpg",
+        price: 3849,
+        discountedPrice: 2349,
+        size: "EUR 36-45"
+    },
+    {
+        id: 223,
+        name: "NIKE SB DUNK LOW PRO MIDNIGHT NAVY",
+        category: "men",
+        image: "shop/NIKE SB DUNK LOW PRO MIDNIGHT NAVY.jpg",
+        price: 4199,
+        discountedPrice: 2699,
+        size: "EUR 40-45"
+    },
+    {
+        id: 224,
+        name: "NIKE AIR JORDAN JUMPMAN PRO QUICK ANTHRACITE WOLF GREY BLACK",
+        category: "men",
+        image: "shop/NIKE AIR JORDAN JUMPMAN PRO QUICK ANTHRACITE WOLF GREY BLACK.jpg",
+        price: 4399,
+        discountedPrice: 2899,
+        size: "EUR 40-45"
+    },
+    {
+        id: 225,
+        name: "ADIDAS BAD BUNNY RESPONSE CL ECRU TINT",
+        category: "men",
+        image: "shop/ADIDAS BAD BUNNY RESPONSE CL ECRU TINT.jpg",
+        price: 4399,
+        discountedPrice: 2899,
+        size: "EUR 40-45"
+    },
+    {
+        id: 226,
+        name: "ADIDAS BAD BUNNY RESPONSE CL BASIC",
+        category: "men",
+        image: "shop/ADIDAS BAD BUNNY RESPONSE CL BASIC.jpg",
+        price: 4349,
+        discountedPrice: 2849,
+        size: "EUR 40-45"
+    },
+    {
+        id: 227,
+        name: "ADIDAS ORIGINALS CAMPUS 00s 2024 MAROON",
+        category: "men",
+        image: "shop/ADIDAS ORIGINALS CAMPUS 00S 2024 MAROON.jpg",
+        price: 4199,
+        discountedPrice: 2699,
+        size: "EUR 40-45"
+    },
+    {
+        id: 228,
+        name: "ADIDAS ORIGINALS CAMPUS 00s CRYSTAL WHITE",
+        category: "women",
+        image: "shop/ADIDAS ORIGINALS CAMPUS 00S CRYSTAL WHITE.jpg",
+        price: 4199,
+        discountedPrice: 2699,
+        size: "EUR 36-40"
+    },
+    {
+        id: 229,
+        name: "NIKE SB DUNK BIG MONEY SAVINGS",
+        category: "ua",
+        image: "shop/NIKE SB DUNK BIG MONEY SAVINGS.jpg",
+        price: 4399,
+        discountedPrice: 2899,
+        size: "EUR 40-45"
+    },
+    {
+        id: 230,
+        name: "NIKE SB DUNK OLIVE GREEN",
+        category: "unisex",
+        image: "shop/NIKE SB DUNK OLIVE GREEN.jpg",
+        price: 3849,
+        discountedPrice: 2349,
+        size: "EUR 36-45"
+    },
+    {
+        id: 231,
+        name: "NIKE SB DUNK CRENSHAW CLUB",
+        category: "men",
+        image: "shop/NIKE SB DUNK CRENSHAW CLUB.jpg",
+        price: 4199,
+        discountedPrice: 2699,
+        size: "EUR 40-45"
+    },
+    {
+        id: 232,
+        name: "NIKE SB DUNK STRAWBERRY COUGH",
+        category: "unisex",
+        image: "shop/NIKE SB DUNK STRAWBERRY COUGH.jpg",
+        price: 4199,
+        discountedPrice: 2699,
+        size: "EUR 36-45"
+    },
+    {
+        id: 233,
+        name: "ADIDAS SAMBA BASIC BLACK GUM SOLE",
+        category: "unisex",
+        image: "shop/ADIDAS SAMBA BASIC BLACK GUM SOLE.jpg",
+        price: 3999,
+        discountedPrice: 2499,
+        size: "EUR 36-45"
+    },
+    {
+        id: 234,
+        name: "NIKE SB DUNK PINK STRIPE",
+        category: "unisex",
+        image: "shop/NIKE SB DUNK PINK STRIPE.jpg",
+        price: 4199,
+        discountedPrice: 2699,
+        size: "EUR 36-45"
+    },
+    {
+        id: 235,
+        name: "NIKE SB DUNK GREEN LIGHT",
+        category: "unisex",
+        image: "shop/NIKE SB DUNK GREEN LIGHT.jpg",
+        price: 4199,
+        discountedPrice: 2699,
+        size: "EUR 36-45"
+    },
+    {
+        id: 236,
+        name: "NIKE SB DUNK LOBSTER",
+        category: "men",
+        image: "shop/NIKE SB DUNK LOBSTER.jpg",
+        price: 4399,
+        discountedPrice: 2899,
+        size: "EUR 40-45"
+    },
+    {
+        id: 237,
+        name: "NIKE SB DUNK LOW PINE GREEN",
+        category: "men",
+        image: "shop/NIKE SB DUNK LOW PINE GREEN.jpg",
+        price: 4199,
+        discountedPrice: 2699,
+        size: "EUR 40-45"
+    },
+    {
+        id: 238,
+        name: "ADIDAS SAMBA X PHARREL WILLIAMS BLACK AND WHITE",
+        category: "men",
+        image: "shop/ADIDAS SAMBA X PHARREL WILLIAMS BLACK AND WHITE.jpg",
+        price: 3799,
+        discountedPrice: 2299,
+        size: "EUR 40-45"
+    },
+    {
+        id: 239,
+        name: "ADIDAS SAMBA X PHARREL WILLIAMS WHITE AND BLACK",
+        category: "men",
+        image: "shop/ADIDAS SAMBA X PHARREL WILLIAMS WHITE AND BLACK.jpg",
+        price: 3799,
+        discountedPrice: 2299,
+        size: "EUR 40-45"
+    },
+    {
+        id: 240,
+        name: "ADIDAS SAMBA X PHARREL WILLIAMS ORANGE AND WHITE",
+        category: "men",
+        image: "shop/ADIDAS SAMBA X PHARREL WILLIAMS ORANGE AND WHITE.jpg",
+        price: 3799,
+        discountedPrice: 2299,
+        size: "EUR 40-45"
+    },
+    {
+        id: 241,
+        name: "ADIDAS SAMBA X PHARREL WILLIAMS BURGUNDY",
+        category: "men",
+        image: "shop/ADIDAS SAMBA X PHARREL WILLIAMS BURGUNDY.jpg",
+        price: 3799,
+        discountedPrice: 2299,
+        size: "EUR 40-45"
+    },
+    {
+        id: 242,
+        name: "NIKE SB DUNK GREEN MONSTER",
+        category: "unisex",
+        image: "shop/NIKE SB DUNK GREEN MONSTER.jpg",
+        price: 4299,
+        discountedPrice: 2799,
+        size: "EUR 36-45"
+    },
+    {
+        id: 243,
+        name: "ADIDAS BAD BUNNY RESPONSE CL YELLOW",
+        category: "unisex",
+        image: "shop/ADIDAS BAD BUNNY RESPONSE CL YELLOW.jpg",
+        price: 4349,
+        discountedPrice: 2849,
+        size: "EUR 36-45"
+    },
+    {
+        id: 244,
+        name: "NIKE SB DUNK OLD SCHOOL BLACK AND WHITE",
+        category: "unisex",
+        image: "shop/NIKE SB DUNK OLD SCHOOL BLACK AND WHITE.jpg",
+        price: 3899,
+        discountedPrice: 2399,
+        size: "EUR 36-45"
+    },
+    {
+        id: 245,
+        name: "NIKE SB DUNK MUMMY HALLOWEEN",
+        category: "unisex",
+        image: "shop/NIKE SB DUNK MUMMY HALLOWEEN.jpg",
+        price: 4399,
+        discountedPrice: 2899,
+        size: "EUR 36-45"
+    },
+    {
+        id: 246,
+        name: "NIKE SB DUNK PARIS SAINT GERMAIN",
+        category: "men",
+        image: "shop/NIKE SB DUNK PARIS SAINT GERMAIN.jpg",
+        price: 4299,
+        discountedPrice: 2799,
+        size: "EUR 40-45"
+    },
+    {
+        id: 247,
+        name: "NIKE SB DUNK SPACE BLUE",
+        category: "unisex",
+        image: "shop/NIKE SB DUNK SPACE BLUE.jpg",
+        price: 4199,
+        discountedPrice: 2699,
+        size: "EUR 36-45"
+    },
+    {
+        id: 248,
+        name: "NIKE SB DUNK BLACK WHITE",
+        category: "unisex",
+        image: "shop/NIKE SB DUNK BLACK WHITE.jpg",
+        price: 4099,
+        discountedPrice: 2599,
+        size: "EUR 36-45"
+    },
+    {
+        id: 249,
+        name: "NIKE SB DUNK BRIGHT PINK",
+        category: "unisex",
+        image: "shop/NIKE SB DUNK BRIGHT PINK.jpg",
+        price: 4199,
+        discountedPrice: 2699,
+        size: "EUR 36-45"
+    },
+    {
+        id: 250,
+        name: "ADIDAS ORIGINALS YEEZY BOOST 350 V2 MONO MIST",
+        category: "unisex",
+        image: "shop/ADIDAS ORIGINALS YEEZY BOOST 350 V2 MONO MIST.jpg",
+        price: 4399,
+        discountedPrice: 2899,
+        size: "EUR 36-45"
+    },
+    {
+        id: 251,
+        name: "NIKE JORDAN 1 RETRO HIGH OG BLACK AND WHITE",
+        category: "unisex",
+        image: "shop/NIKE JORDAN 1 RETRO HIGH OG BLACK AND WHITE.jpg",
+        price: 4699,
+        discountedPrice: 3099,
+        size: "EUR 36-45"
+    },
+    {
+        id: 252,
+        name: "NIKE SB DUNK NAVY BLUE",
+        category: "unisex",
+        image: "shop/NIKE SB DUNK NAVY BLUE.jpg",
+        price: 3999,
+        discountedPrice: 2499,
+        size: "EUR 36-45"
+    },
+    {
+        id: 253,
+        name: "ADIDAS ORIGINALS SAMBA BEIGE AND WHITE",
+        category: "unisex",
+        image: "shop/ADIDAS ORIGINALS SAMBA BEIGE AND WHITE.jpg",
+        price: 3799,
+        discountedPrice: 2299,
+        size: "EUR 36-45"
+    },
+    {
+        id: 254,
+        name: "ADIDAS ORIGINALS SAMBA GREEN AND WHITE",
+        category: "unisex",
+        image: "shop/ADIDAS ORIGINALS SAMBA GREEN AND WHITE.jpg",
+        price: 3799,
+        discountedPrice: 2299,
+        size: "EUR 36-45"
+    },
+    {
+        id: 255,
+        name: "ADIDAS ORIGINALS SAMBA WHITE AND BLACK",
+        category: "unisex",
+        image: "shop/ADIDAS ORIGINALS SAMBA WHITE AND BLACK.jpg",
+        price: 3799,
+        discountedPrice: 2299,
+        size: "EUR 36-45"
     }
-    // ,
-    // {
-    //     id: ,
-    //     name: '',
-    //     category: '',
-    //     image: 'shop/.jpg',
-    //     price: ,
-    //     discountedPrice: ,
-    //     size: ''
-    // }
 ];
