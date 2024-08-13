@@ -8,6 +8,8 @@ header .marquee-container {
   overflow: hidden;
   white-space: nowrap;
   box-sizing: border-box;
+  background: #fcf9ff;
+  margin-top: -1px;
 }
 header .marquee-content {
   display: inline-block;
