@@ -2181,15 +2181,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 244,
-    name: "ADIDAS FORUM EXHIBIT MULTI BLUE",
-    category: "women",
-    image: "shop/ADIDAS FORUM EXHIBIT MULTI BLUE.jpg",
-    price: 3499,
-    discountedPrice: 2499,
-    size: "EUR 36-40",
-  },
-  {
     id: 245,
     name: "ADIDAS ORIGINALS SAMBA WONDER BLACK",
     category: "unisex",
