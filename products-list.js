@@ -2405,4 +2405,252 @@ const products = [
     discountedPrice: 2599,
     size: "EUR 36-45",
   },
+  {
+    id: 270,
+    name: "NEW BALANCE 9060 BLACK GREY",
+    category: "men",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTP2R__SwdVKiFTDSreQ0eCrAmBhGlw5izWOopC8MBQeNjDFXVejkgljM&s=10",
+    price: 4299, // 2999 + 1300
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 271,
+    name: "NEW BLANCE 9060 BLUE HAZE",
+    category: "men",
+    image:
+      "https://lebrouges.in/cdn/shop/files/NB-9060-BLUE-HAZE_1024x1024.webp?v=1714730916",
+    price: 4299, // 2999 + 1300
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 272,
+    name: "NIKE SB DUNK FUTURA LABORATORIES",
+    category: "men",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Bnhh5dUy1G3gy-gDOE5WpJw6kFUW9envMRnfLtCGhrXeIdVrAAPGPoo&s=10",
+    price: 4199, // 2799 + 1400
+    discountedPrice: 2799,
+    size: "EUR 40-45",
+  },
+  {
+    id: 273,
+    name: "NIKE JORDANS RETRO 1 LOW TRAVIS SCOTT NOIRE",
+    category: "men",
+    image:
+      "https://culture-cirlce-static-dge7g8b8eue6fvcv.z02.azurefd.net/products/trscxaijoloogli/trscxaijoloogli_photo1.png",
+    price: 3799, // 2349 + 1450
+    discountedPrice: 2349,
+    size: "EUR 40-45",
+  },
+  {
+    id: 274,
+    name: "AMIRI LEGACY SNEAKERS",
+    category: "men",
+    image:
+      "https://thedriproad.com/cdn/shop/files/4_be3c9d80-79fa-4558-929f-13783db66f46.png?v=1699202659&width=990",
+    price: 4299, // 2999 + 1300
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 275,
+    name: "AMIRI LEGACY SNEAKERS 1",
+    category: "men",
+    image: "https://is4.fwrdassets.com/images/p/fw/z/AMIF-MZ199_V1.jpg",
+    price: 4299, // 2999 + 1300
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 276,
+    name: "NEW BALANCE 1906 KHAKI",
+    category: "men",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKOK519tRdjTyyuUQ2cq646tv6otmCwRAc-A&usqp=CAU",
+    price: 4299, // 2999 + 1300
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 277,
+    name: "NEW BALANCE 1906 MINDFULL GREY",
+    category: "men",
+    image:
+      "https://nb.in.ua/image/cache/catalog/image/catalog/image/catalog/0000-newbalance/1906/zb-2353563/28055-1000x1340.webp",
+    price: 4649, // 3149 + 1500
+    discountedPrice: 3149,
+    size: "EUR 40-45",
+  },
+  {
+    id: 278,
+    name: "NIKE DUNK OTOMO OST GREEN BLACK",
+    category: "men",
+    image:
+      "https://static.wixstatic.com/media/f185a2_2400774d16b54a7e925290f5fdb01288~mv2.jpg/v1/fill/w_560,h_373,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f185a2_2400774d16b54a7e925290f5fdb01288~mv2.jpg",
+    price: 4099, // 2699 + 1400
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 279,
+    name: "NEW BALANCE 2002r PROTECTION GREEN",
+    category: "men",
+    image:
+      "https://www.theeditldn.com/cdn/shop/products/Screenshot2022-05-31at17.20.02.png?v=1654014094&width=600",
+    price: 4299, // 2999 + 1300
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 280,
+    name: "NIKE SB DUNK LOW ANTHRACITE",
+    category: "men",
+    image:
+      "https://imagedelivery.net/2DfovxNet9Syc-4xYpcsGg/0472c415-864b-40b2-be1f-b14a286fc200/product",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 281,
+    name: "NIKE SB DUNK SPLIT ATHLETIC DEPARTMENT",
+    category: "men",
+    image:
+      "https://cdn-images.farfetch-contents.com/21/98/28/17/21982817_51830294_600.jpg",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 282,
+    name: "NIKE AIRFORCE BANG CHUNKY",
+    category: "men",
+    image:
+      "https://manilaqeshm.ir/wp-content/uploads/2023/12/Air_Force_1_31561273.jpg",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 283,
+    name: "NIKE AIRFORCE ONE MID",
+    category: "unisex",
+    image:
+      "https://limitededt.com/cdn/shop/products/CW2289-111_700x.jpg?v=1709140389",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 36-45",
+  },
+  {
+    id: 284,
+    name: "NIKE JORDAN CUT LOW JACK CACTUS RED AND WHITE",
+    category: "men",
+    image:
+      "https://static.wixstatic.com/media/3de690_fd78fd3ffd724af2bbb5541023c74c9a~mv2.png/v1/fill/w_524,h_524,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3de690_fd78fd3ffd724af2bbb5541023c74c9a~mv2.png",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 285,
+    name: "NIKE JORDAN 3 X TRAVIS SCOTT",
+    category: "men",
+    image:
+      "https://www.datocms-assets.com/24293/1685432193-travis-scott-x-air-jordan-3-brown-elephant-release-heat-mvmnt-1.png?fm=webp&max-h=420&max-w=645",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 286,
+    name: "NIKE AIRFORCE AMBUSH",
+    category: "men",
+    image:
+      "https://luxzilla.in/cdn/shop/files/19899110_44658778_1000_1024x1024.webp?v=1692623220",
+    price: 4149, // 2649 + 1500
+    discountedPrice: 2649,
+    size: "EUR 40-45",
+  },
+  {
+    id: 287,
+    name: "ONITSUKA TIGER MEXICO 66 1",
+    category: "men",
+    image:
+      "https://asics.scene7.com/is/image/asics/1183A201_304_SR_RT_GLB?$otmag_zoom$&qlt=99,1",
+    price: 3799, // 2299 + 1500
+    discountedPrice: 2299,
+    size: "EUR 40-45",
+  },
+  {
+    id: 288,
+    name: "ONITSUKA TIGER MEXICO 66 2",
+    category: "men",
+    image:
+      "https://images.asics.com/is/image/asics/1183C015_201_SR_RT_GLB?qlt=100&wid=1024&hei=768&bgc=255,255,255&resMode=bisharp",
+    price: 3799, // 2299 + 1500
+    discountedPrice: 2299,
+    size: "EUR 40-45",
+  },
+  {
+    id: 289,
+    name: "ONITSUKA TIGER MEXICO 66 3",
+    category: "men",
+    image:
+      "https://image.goxip.com/L9rDvpIRMn-GU47sK3p-Espi7z4=/fit-in/1000x1000/filters:format(jpg):quality(80)/https:%2F%2Fcdn-images.farfetch-contents.com%2F21%2F92%2F49%2F50%2F21924950_51865109_1000.jpg",
+    price: 3799, // 2299 + 1500
+    discountedPrice: 2299,
+    size: "EUR 40-45",
+  },
+  {
+    id: 290,
+    name: "ONITSUKA TIGER MEXICO 66 4",
+    category: "men",
+    image:
+      "https://images.asics.com/is/image/asics/1183C102_104_SR_RT_GLB?$sfcc-product$",
+    price: 3799, // 2299 + 1500
+    discountedPrice: 2299,
+    size: "EUR 40-45",
+  },
+  {
+    id: 291,
+    name: "ONITSUKA TIGER MEXICO 66 5",
+    category: "men",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2nlZdPkNWyPNRroF4TkLtQHhxpAVULC9tQw&usqp=CAU",
+    price: 3799, // 2299 + 1500
+    discountedPrice: 2299,
+    size: "EUR 40-45",
+  },
+  {
+    id: 292,
+    name: "ONITSUKA TIGER MEXICO 66 6",
+    category: "men",
+    image:
+      "https://cdn-images.farfetch-contents.com/22/95/10/62/22951062_53058795_600.jpg",
+    price: 3799, // 2299 + 1500
+    discountedPrice: 2299,
+    size: "EUR 40-45",
+  },
+  {
+    id: 293,
+    name: "ASICS GEL VENTURE 6 TRIPLE WHITE EDITION",
+    category: "men",
+    image: "https://ir.ozone.ru/s3/multimedia-5/wc500/6668959757.jpg",
+    price: 3649, // 2149 + 1500
+    discountedPrice: 2149,
+    size: "EUR 40-45",
+  },
+  {
+    id: 294,
+    name: "ASICS KAHANA GEL 8 WHITE AND BLUE EDITION",
+    category: "men",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEdPNzFuy6zqZhkNUen2jEbzIjEcYYziR_dg&usqp=CAU",
+    price: 4399, // 2899 + 1500
+    discountedPrice: 2899,
+    size: "EUR 40-45",
+  },
 ];
