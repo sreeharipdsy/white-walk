@@ -390,4 +390,204 @@ const products = [
     discountedPrice: 1799,
     size: "EUR 41-44",
   },
+  {
+    id: 40,
+    name: "CROCS LITERIDE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240607-WA0121.jpg?v=1717792797&width=990",
+    price: 2799, // 1299 + 1500
+    discountedPrice: 1299,
+    size: "EUR 40-44",
+  },
+  {
+    id: 41,
+    name: "NIKE SB DUNK DE LA SOUL",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_2c2add15-a49e-4e17-9902-80e75f00fc41.jpg?v=1710099193&width=990",
+    price: 4249, // 2749 + 1500
+    discountedPrice: 2749,
+    size: "EUR 40-45",
+  },
+  {
+    id: 42,
+    name: "NIKE SB DUNK LOW OREWOOD BROWN SASHIKO OFF WHITE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240731-WA0098.jpg?v=1722375440&width=990",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 43,
+    name: "CROCS 2024(BLACK)",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-05-17at01.17.32_1c82f94f.jpg?v=1717794694&width=990",
+    price: 3199, // 1699 + 1500
+    discountedPrice: 1699,
+    size: "m8-m10",
+  },
+  {
+    id: 44,
+    name: "CROCS 2024(WHITE)",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-05-17at01.17.36_07702f95.jpg?v=1717794880&width=990",
+    price: 3199, // 1699 + 1500
+    discountedPrice: 1699,
+    size: "m8-m10",
+  },
+  {
+    id: 45,
+    name: "CROCS 2024(KHAKHI)",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240802-WA0244.jpg?v=1722597304&width=990",
+    price: 3199, // 1699 + 1500
+    discountedPrice: 1699,
+    size: "m8-m10",
+  },
+  {
+    id: 46,
+    name: "Nike calm mule sandel (black)",
+    category: "sandals",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240802-WA0250_7d8392cf-cdf7-4415-bf19-5ca8a7981223.jpg?v=1722598011&width=990",
+    price: 2849, // 1349 + 1500
+    discountedPrice: 1349,
+    size: "EUR 40-45",
+  },
+  {
+    id: 47,
+    name: "Nike calm mule sandel (orange)",
+    category: "sandals",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240802-WA0251.jpg?v=1722597708&width=990",
+    price: 2859, // 1359 + 1500
+    discountedPrice: 1359,
+    size: "EUR 40-45",
+  },
+  {
+    id: 48,
+    name: "Nike calm mule sandel (white)",
+    category: "sandals",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240802-WA0253.jpg?v=1722598052&width=990",
+    price: 2849, // 1349 + 1500
+    discountedPrice: 1349,
+    size: "EUR 40-45",
+  },
+  {
+    id: 49,
+    name: "Nike calm mule sandel (green)",
+    category: "sandals",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240802-WA0252.jpg?v=1722598108&width=990",
+    price: 2849, // 1349 + 1500
+    discountedPrice: 1349,
+    size: "EUR 40-45",
+  },
+  {
+    id: 50,
+    name: "ADIDAS FORUM BAD BUNNY BLACK",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_ddac6280-05e9-4863-ad21-6cce92bb0142.jpg?v=1709792476&width=990",
+    price: 3949, // 2449 + 1500
+    discountedPrice: 2449,
+    size: "EUR 36-44",
+  },
+  {
+    id: 51,
+    name: "ADIDAS ORIGINALS CAMPUS PURPLE",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240805-WA0062.jpg?v=1722798837&width=990",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 36-40",
+  },
+  {
+    id: 52,
+    name: "NIKE AIRFORCE NORTH FACE GUCCI",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240612-WA0030.jpg?v=1718210744&width=990",
+    price: 3949, // 2449 + 1500
+    discountedPrice: 2449,
+    size: "EUR 40-45",
+  },
+  {
+    id: 53,
+    name: "NIKE SB DUNK MOCHA LOW",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-04-25at21.58.52_6c9754cb.jpg?v=1714136663&width=990",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 54,
+    name: "NIKE X UNION FIELD GENERAL SP SHIMMER",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240805-WA0087.jpg?v=1722799676&width=990",
+    price: 4449, // 2949 + 1500
+    discountedPrice: 2949,
+    size: "EUR 40-45",
+  },
+  {
+    id: 55,
+    name: "ADIDAS GAZZELE BOLD BLACK WHITE",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_79a51976-3f18-4ad6-9252-048b1a644b7d.jpg?v=1714078407&width=990",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 36-40",
+  },
+  {
+    id: 56,
+    name: "ONITSUKA TIGER TOKUTEN WHITE NAVY EDITION",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240601-WA0017.jpg?v=1717236598&width=990",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 57,
+    name: "CONVERSE CHUCK 70 BLACK WHITE",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240714-WA0093.jpg?v=1720907858&width=990",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 36-45",
+  },
+  {
+    id: 58,
+    name: "NEW BALANCE 1906 LIGHTON GREY",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240612-WA0086.jpg?v=1718214923&width=990",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 59,
+    name: "NIKE SB DUNK OTOMO KOTSUHIRO DBRN",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_46713d70-3030-4c37-b719-1bb956e74a6c.jpg?v=1710098054&width=990",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
 ];
