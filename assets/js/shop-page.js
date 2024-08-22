@@ -14,10 +14,22 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function renderProducts(products) {
-  products.sort((a, b) => b.id - a.id);
+  const sortedProducts = products.sort((a, b) => {
+    const idA = parseInt(a.id, 10);
+    const idB = parseInt(b.id, 10);
+    return idB - idA;
+  });
+  const uniqueProducts = [];
+  const seenIds = new Set();
+  sortedProducts.forEach(product => {
+    if (!seenIds.has(product.id)) {
+      uniqueProducts.push(product);
+      seenIds.add(product.id);
+    }
+  });
   const productList = document.getElementById("product-list");
   productList.innerHTML = "";
-  products.forEach((product) => {
+  uniqueProducts.forEach((product) => {
     const productCard = document.createElement("div");
     productCard.classList.add("card");
     productCard.setAttribute("data-aos", "zoom-in");
