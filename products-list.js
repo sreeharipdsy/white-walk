@@ -2100,4 +2100,174 @@ const products = [
     discountedPrice: 2699,
     size: "EUR 40-45",
   },
+  {
+    id: 201,
+    name: "NIKE AIRFORCE ONE WHITE",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_00f8cdf2-0a84-4b86-9473-a32b12ec95d2.jpg?v=1717261552&width=990",
+    price: 3399, // 1899 + 1500
+    discountedPrice: 1899,
+    size: "EUR 36-45",
+  },
+  {
+    id: 202,
+    name: "Nike Sb Dunk Panda",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_d3b68cfd-5c2c-4dd3-9725-bf0c104fce5e.jpg?v=1709704708&width=990",
+    price: 3799, // 2299 + 1500
+    discountedPrice: 2299,
+    size: "EUR 36-45",
+  },
+  {
+    id: 203,
+    name: "Asics Gel 1130 Hal Studios",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_da1b8b2e-c5b1-4a81-9ccc-961a9e375147.jpg?v=1710098868&width=990",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 204,
+    name: "Asics Gel 1130 Hal Studios",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240731-WA0072.jpg?v=1722374859&width=990",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 205,
+    name: "NEW BALANCE 9060",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240729-WA0008_cd14c5d1-6001-48d4-9fc4-330a9fe2e4b4.jpg?v=1722270177&width=990",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 206,
+    name: "ADIDAS SAMBA X WALES BONER BEIGE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240524-WA0042.jpg?v=1716588391&width=990",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-44",
+  },
+  {
+    id: 207,
+    name: "ADIDAS SAMBA x WALES BONER BLACK",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_3b7bd355-b76f-4568-8f43-eb8d7a0ad4c2.jpg?v=1714382354&width=990",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-44",
+  },
+  {
+    id: 208,
+    name: "New Balance 530 Silver",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-07-13at13.11.49_296704f2.jpg?v=1720907060&width=533",
+    price: 4075, // 2575 + 1500
+    discountedPrice: 2575,
+    size: "EUR 36-45",
+  },
+  {
+    id: 209,
+    name: "New balance 530",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240727-WA0246.jpg?v=1722078441&width=990",
+    price: 3949, // 2449 + 1500
+    discountedPrice: 2449,
+    size: "EUR 36-45",
+  },
+  {
+    id: 210,
+    name: "NEW BALANCE 1906 CORDURA GREY",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240815-WA0115.jpg?v=1723751852&width=990",
+    price: 4649, // 3149 + 1500
+    discountedPrice: 3149,
+    size: "EUR 40-45",
+  },
+  {
+    id: 211,
+    name: "NEW BALANCE 1906 BLACK CREAM",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240511-WA0127.jpg?v=1716582982&width=990",
+    price: 4475, // 2975 + 1500
+    discountedPrice: 2975,
+    size: "EUR 40-45",
+  },
+  {
+    id: 212,
+    name: "New balance 1906 WHITE GREEN CREAM",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240607-WA0006.jpg?v=1717778410&width=990",
+    price: 4375, // 2875 + 1500
+    discountedPrice: 2875,
+    size: "EUR 40-45",
+  },
+  {
+    id: 213,
+    name: "NEW BALANCE 1906 PROTECTION BLACK",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240727-WA0202.jpg?v=1722029695&width=990",
+    price: 4475, // 2975 + 1500
+    discountedPrice: 2975,
+    size: "EUR 40-45",
+  },
+  {
+    id: 214,
+    name: "NEW BALANCE 1906D",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240727-WA0202.jpg?v=1722029695&width=990",
+    price: 4399, // 2899 + 1500
+    discountedPrice: 2899,
+    size: "EUR 41-45",
+  },
+  {
+    id: 215,
+    name: "Asics Ex 89",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_ecc82007-9198-4bf5-bfdb-90bf938a9162.jpg?v=1717098875&width=990",
+    price: 4250, // 2750 + 1500
+    discountedPrice: 2750,
+    size: "EUR 40-45",
+  },
+  {
+    id: 216,
+    name: "ADIDAS OZELIA WHITE SKY",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_68447597-6126-4a0c-9bad-f348a6a0f54d.jpg?v=1715891499&width=990",
+    price: 4249, // 2749 + 1500
+    discountedPrice: 2749,
+    size: "EUR 40-45",
+  },
+  {
+    id: 217,
+    name: "New balance RC elite V4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-07-10at14.54.10_b00e7949.jpg?v=1720607684&width=990",
+    price: 4375, // 2875 + 1500
+    discountedPrice: 2875,
+    size: "EUR 40-44",
+  }
 ];
