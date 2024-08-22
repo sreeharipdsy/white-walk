@@ -1400,4 +1400,304 @@ const products = [
     discountedPrice: 2849,
     size: "EUR 40-45",
   },
+  {
+    id: 131,
+    name: "ADIDAS ORIGINALS CAMPUS 00s 2024 MAROON",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240811-WA0083.jpg?v=1723324925&width=990",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 132,
+    name: "ADIDAS ORIGINALS CAMPUS 00s CRYSTAL WHITE",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240811-WA0077.jpg?v=1723324807&width=533",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 36-40",
+  },
+  {
+    id: 133,
+    name: "NIKE SB DUNK BIG MONEY SAVINGS",
+    category: "ua",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240712-WA0062.jpg?v=1720730280&width=990",
+    price: 4399, // 2899 + 1500
+    discountedPrice: 2899,
+    size: "EUR 40-45",
+  },
+  {
+    id: 134,
+    name: "NIKE SB DUNK OLIVE GREEN",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240710-WA0007.jpg?v=1720557768&width=990",
+    price: 3849, // 2349 + 1500
+    discountedPrice: 2349,
+    size: "EUR 36-45",
+  },
+  {
+    id: 135,
+    name: "NIKE SB DUNK CRENSHAW CLUB",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_5efc58d2-e939-4446-b2a9-b7907457760b.jpg?v=1709790949&width=990",
+    price: 4299, // 2799 + 1500
+    discountedPrice: 2799,
+    size: "EUR 40-45",
+  },
+  {
+    id: 136,
+    name: "NIKE SB DUNK LOW SE 85",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240727-WA0255.jpg?v=1722078565&width=990",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 137,
+    name: "ADIDAS ORIGINALS CAMPUS BROWN",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240712-WA0015.jpg?v=1720728461&width=990",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 36-45",
+  },
+  {
+    id: 138,
+    name: "ONITSUKA TIGER MEXICO 66 NAVY",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240623-WA0023.jpg?v=1719086692&width=990",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 36-45",
+  },
+  {
+    id: 139,
+    name: "NIKE AIR JORDANS RETRO 4 PE FIRST CLASS",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240717-WA0038.jpg?v=1721162777&width=990",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 140,
+    name: "NIKE SB DUNK RENOWN MAZDA",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240727-WA0260.jpg?v=1722078706&width=990",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 141,
+    name: "NIKE ALPHAFLY 3 NEXT WHITE",
+    category: "sports",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240625-WA0040.jpg?v=1719321085&width=533",
+    price: 4649, // 3149 + 1500
+    discountedPrice: 3149,
+    size: "EUR 40-45",
+  },
+  {
+    id: 142,
+    name: "NIKE ALPHAFLY 3 NEXT BLACK",
+    category: "sports",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240625-WA0025_b67aa2fc-df46-4723-8f0e-a067278f13d7.jpg?v=1719320769&width=533",
+    price: 4649, // 3149 + 1500
+    discountedPrice: 3149,
+    size: "EUR 40-45",
+  },
+  {
+    id: 143,
+    name: "NEW BALANCE 2002r SALEHE BEMBURRY",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240712-WA0028.jpg?v=1720728645&width=990",
+    price: 4699, // 3199 + 1500
+    discountedPrice: 3199,
+    size: "EUR 40-45",
+  },
+  {
+    id: 144,
+    name: "ASICS GEL CONTEND 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240727-WA0227.jpg?v=1722077813&width=990",
+    price: 4449, // 2949 + 1500
+    discountedPrice: 2949,
+    size: "EUR 40-45",
+  },
+  {
+    id: 145,
+    name: "NIKE SB DUNK IRONSTONE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_45efb059-97b1-4549-af00-ab361a9cdbf2.jpg?v=1710063633&width=990",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 146,
+    name: "ADIDAS FORUM EXHIBIT MID 2023 BLACK",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_6b0553a7-0c61-4c6f-8d18-e5deca2e80ca.jpg?v=1717103975&width=990",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 147,
+    name: "ADIDAS FORUM EXHIBIT MID 2023 MULTI WHITE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_0f0e0228-1ee8-407c-8208-b23fd57870ea.jpg?v=1715810911&width=990",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 148,
+    name: "NEW BALANCE 1906 PROTECTION TURTLEDOVE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240727-WA0163.jpg?v=1722028727&width=990",
+    price: 4649, // 3149 + 1500
+    discountedPrice: 3149,
+    size: "EUR 40-45",
+  },
+  {
+    id: 149,
+    name: "NEW BALANCE 9060 CASTLEROCK INDIGO",
+    category: "men",
+    image:
+      "https://hamrobazaar.blr1.cdn.digitaloceanspaces.com/User/Posts/2024/07/16/57f9e678-f89c-cf91-cb15-f1f205f43c43.webp?x-image-process=image/resize,m_lfit,h_500,w_500",
+    price: 4599, // 3099 + 1500
+    discountedPrice: 3099,
+    size: "EUR 40-45",
+  },
+  {
+    id: 150,
+    name: "NIKE CORTEZ PETALS UNITED",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240511-WA0078.jpg?v=1717015874&width=600",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 151,
+    name: "ADIDAS FORUM EXHIBIT TRIPPLE WHITE",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240709-WA0069.jpg?v=1720548498&width=600",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 36-40",
+  },
+  {
+    id: 152,
+    name: "ADIDAS FORUM EXHIBIT MULTI BLUE",
+    category: "women",
+    image:
+      "https://5.imimg.com/data5/ANDROID/Default/2024/8/440381775/KO/CV/ZR/184941413/prod-20240805-0733543799770634270112522-jpg-500x500.jpg",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 36-40",
+  },
+  {
+    id: 153,
+    name: "ADIDAS ORIGINALS SAMBA GUM XLG GREEN",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240428-WA0088.jpg?v=1714334507&width=600",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 154,
+    name: "ONITSUKA TIGER TOKUTEN GUM SOLE EDITION",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/25c8174f-8b3a-44f0-9c19-96834ed81069.jpg?v=1717097962&width=2200",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 155,
+    name: "NIKE AIRFORCE AMBUSH CHICAGO EDITION",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240511-WA0078.jpg?v=1717015874&width=600",
+    price: 4149, // 2649 + 1500
+    discountedPrice: 2649,
+    size: "EUR 40-45",
+  },
+  {
+    id: 156,
+    name: "NIKE JORDANS RETRO 1 LUCKY GREEN",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240811-WA0064.jpg?v=1723391449&width=600",
+    price: 3749, // 2249 + 1500
+    discountedPrice: 2249,
+    size: "EUR 40-45",
+  },
+  {
+    id: 157,
+    name: "NIKE SB DUNK STARRY NIGHT",
+    category: "clearance",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_02d9bbfa-ded4-4310-bf75-86c548df981c.jpg?v=1717103548&width=600",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 158,
+    name: "ADIDAS ORIGINALS SAMBA SKY",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_c862643a-5c9a-4128-9e42-6415864b33af.jpg?v=1711543659&width=600",
+    price: 3299, // 1799 + 1500
+    discountedPrice: 1799,
+    size: "EUR 36-45",
+  },
+  {
+    id: 159,
+    name: "ADIDAS ORIGINAL NEO VL COURT 2.0 MILK WHITE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240714-WA0049.jpg?v=1720905911&width=600",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 160,
+    name: "ADIDAS GAZZELE INDOOR BEAM ORANGE",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_e579ea3f-57fb-4076-86fd-a6f696b61dc8.jpg?v=1709667233&width=600",
+    price: 3799, // 2299 + 1500
+    discountedPrice: 2299,
+    size: "EUR 36-40",
+  },
 ];
