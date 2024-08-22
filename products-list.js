@@ -1099,5 +1099,305 @@ const products = [
     price: 4099, // 2599 + 1500
     discountedPrice: 2599,
     size: "EUR 36-45",
-  }
+  },
+  {
+    id: 101,
+    name: "CONVERSE CHUCK TAYLOR 70 LOW",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240518-WA0045.jpg?v=1716058245&width=990",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 102,
+    name: "ADIDAS ORIGINALS CAMPUS LEOPERD PRINT",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240708-WA0016.jpg?v=1720378619&width=990",
+    price: 4299, // 2799 + 1500
+    discountedPrice: 2799,
+    size: "EUR 36-40",
+  },
+  {
+    id: 103,
+    name: "ASICS KAHANA GEL 8",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240807-WA0011.jpg?v=1722977157&width=533",
+    price: 4149, // 2649 + 1500
+    discountedPrice: 2649,
+    size: "EUR 40-45",
+  },
+  {
+    id: 104,
+    name: "NIKE JORDANS RETRO 1 LOW VOODO ZION",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_b57411e5-090e-419a-9142-d47de1388f9f.jpg?v=1716496060&width=533",
+    price: 3949, // 2449 + 1500
+    discountedPrice: 2449,
+    size: "EUR 40-45",
+  },
+  {
+    id: 105,
+    name: "ADIDAS ADIMETIC ORIGINALS GREEN",
+    category: "clearance",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240623-WA0009.jpg?v=1719085978&width=533",
+    price: 3199, // 1699 + 1500
+    discountedPrice: 1699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 106,
+    name: "NIKE MK 2 TEKNO OG WHITE GREY",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_913100fc-f8f4-4ee2-a260-8492a82419dd.jpg?v=1717098821&width=990",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 36-45",
+  },
+  {
+    id: 107,
+    name: "NIKE SB DUNK RED PANDA REMAKE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240712-WA0095.jpg?v=1720773726&width=990",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 108,
+    name: "ADIDAS SAMBA WHITE RED",
+    category: "uaquality",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240808-WA0027.jpg?v=1723118556&width=990",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 36-45",
+  },
+  {
+    id: 109,
+    name: "NEW BLANCE 9060 RAINCLOUD",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240808-WA0021.jpg?v=1723118305&width=990",
+    price: 4599, // 3099 + 1500
+    discountedPrice: 3099,
+    size: "EUR 40-45",
+  },
+  {
+    id: 110,
+    name: "NIKE JORDAN RETRO TRAVIS SCOTT CUT THE CHECK NOIRE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240807-WA0034.jpg?v=1722978255&width=990",
+    price: 4399, // 2899 + 1500
+    discountedPrice: 2899,
+    size: "EUR 40-45",
+  },
+  {
+    id: 111,
+    name: "NIKE JORDAN RETRO TRAVIS SCOTT CUT THE CHECK YELLOW",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240731-WA0160.jpg?v=1722376614&width=990",
+    price: 4399, // 2899 + 1500
+    discountedPrice: 2899,
+    size: "EUR 40-45",
+  },
+  {
+    id: 112,
+    name: "NIKE JORDAN RETRO TRAVIS SCOTT CUT THE UNIVERSITY RED",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240727-WA0168.jpg?v=1722028940&width=990",
+    price: 4399, // 2899 + 1500
+    discountedPrice: 2899,
+    size: "EUR 40-45",
+  },
+  {
+    id: 113,
+    name: "NIKE JORDAN RETRO TRAVIS SCOTT CUT THE MOCHA",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240731-WA0168.jpg?v=1722376815&width=990",
+    price: 4399, // 2899 + 1500
+    discountedPrice: 2899,
+    size: "EUR 40-45",
+  },
+  {
+    id: 114,
+    name: "ADIDAS GAZELLE INDOOR GREEN",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_28b836d5-3141-4f2b-a290-b4cb3a93d963.jpg?v=1718399508&width=990",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 115,
+    name: "ADIDAS GAZELLE INDOOR PRELOVED INK",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240613-WA0032.jpg?v=1718284614&width=990",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 116,
+    name: "ASICS EX-89 BLACK",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_ecc82007-9198-4bf5-bfdb-90bf938a9162.jpg?v=1717098875&width=990",
+    price: 5499, // 3999 + 1500
+    discountedPrice: 3999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 117,
+    name: "ADIDAS ORIGINALS CAMPUS GREY",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240710-WA0052.jpg?v=1720610267&width=990",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 36-45",
+  },
+  {
+    id: 118,
+    name: "ASICS EX-89 NEEDLES BUTTERFLY",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240723-WA0024.jpg?v=1721678778&width=990",
+    price: 4249, // 2749 + 1500
+    discountedPrice: 2749,
+    size: "EUR 40-45",
+  },
+  {
+    id: 119,
+    name: "ADIDAS SUPERSTAR BASIC",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_5e5dca28-79c8-4f0a-a84b-faa33c0da753.jpg?v=1709971331&width=990",
+    price: 3499, // 1999 + 1500
+    discountedPrice: 1999,
+    size: "EUR 36-45",
+  },
+  {
+    id: 120,
+    name: "ADIDAS ORIGINALS OZELIA JOKER",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240524-WA0057.jpg?v=1716589320&width=990",
+    price: 4249, // 2749 + 1500
+    discountedPrice: 2749,
+    size: "EUR 40-45",
+  },
+  {
+    id: 121,
+    name: "ADIDAS ORIGINALS SAMBA SPORTY AND RICH",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240808-WA0035.jpg?v=1723119058&width=990",
+    price: 2849, // 1849 + 1500
+    discountedPrice: 1849,
+    size: "EUR 40-45",
+  },
+  {
+    id: 122,
+    name: "NIKE JORDAN SB DUNK X TRAVIS SCOTT GULF",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_91eba77a-8cce-4088-a055-25982adbb738.jpg?v=1710077317&width=990",
+    price: 3649, // 2149 + 1500
+    discountedPrice: 2149,
+    size: "EUR 40-45",
+  },
+  {
+    id: 123,
+    name: "NIKE SB DUNK LOW X OTOMO KATSUHIRO COFFEE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_94091f00-6e25-4d7e-b21a-71e8cf81d3e3.jpg?v=1717098797&width=990",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 124,
+    name: "ADIDAS SAMBA X WALES BONER",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240709-WA0074.jpg?v=1720548657&width=990",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-46",
+  },
+  {
+    id: 125,
+    name: "ADIDAS FORUM 84 MID UNIVERSITY BLUE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_76712076-9f80-4f5c-b075-3f75f9dade87.jpg?v=1709578805&width=990",
+    price: 3649, // 2149 + 1500
+    discountedPrice: 2149,
+    size: "EUR 40-45",
+  },
+  {
+    id: 126,
+    name: "NEW BALANCE 1906R BLUE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-07-29at12.42.54_2ffd7b03.jpg?v=1722283003&width=533",
+    price: 4399, // 2899 + 1500
+    discountedPrice: 2899,
+    size: "EUR 40-45",
+  },
+  {
+    id: 127,
+    name: "NIKE CORTEZ HAWKINS",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_b49bd108-a786-48d3-ac34-306ab3a90854.jpg?v=1716674770&width=990",
+    price: 3799, // 2299 + 1500
+    discountedPrice: 2299,
+    size: "EUR 40-45",
+  },
+  {
+    id: 128,
+    name: "VANS OLD SKOOL KNU",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240721-WA0023.jpg?v=1721545702&width=990",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 36-40",
+  },
+  {
+    id: 129,
+    name: "ADIDAS BAD BUNNY RESPONSE CL ECRU TINT",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240721-WA0024.jpg?v=1721545971&width=990",
+    price: 4399, // 2899 + 1500
+    discountedPrice: 2899,
+    size: "EUR 40-45",
+  },
+  {
+    id: 130,
+    name: "ADIDAS BAD BUNNY RESPONSE CL BASIC",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_08990dd7-ef49-48e3-93e9-bebc776f8a59.jpg?v=1717358810&width=533",
+    price: 4349, // 2849 + 1500
+    discountedPrice: 2849,
+    size: "EUR 40-45",
+  },
 ];
