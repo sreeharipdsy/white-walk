@@ -3340,4 +3340,204 @@ const products = [
     discountedPrice: 2799,
     size: "EUR 40-45",
   },
+  {
+    id: 325,
+    name: "ADIDAS ORIGINALS CAMPUS GREY",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240710-WA0050.jpg?v=1720610267&width=600",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 36-45",
+  },
+  {
+    id: 326,
+    name: "ADIDAS ORIGINALS CAMPUS WHITE PRELOVED BLUE",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240708-WA0008.jpg?v=1720378180&width=600",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 36-45",
+  },
+  {
+    id: 327,
+    name: "ADIDAS ORIGINALS CAMPUS 00S 2024 BLUE HEART",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240717-WA0020.jpg?v=1721159814&width=2200",
+    price: 4299, // 2799 + 1500
+    discountedPrice: 2799,
+    size: "EUR 36-45",
+  },
+  {
+    id: 328,
+    name: "NIKE SB DUNK OLIVE GREEN",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240710-WA0004.jpg?v=1720557768&width=600",
+    price: 3849, // 2349 + 1500
+    discountedPrice: 2349,
+    size: "EUR 36-45",
+  },
+  {
+    id: 329,
+    name: "NIKE SB DUNK AMBUSH DRIFTWOOD",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240612-WA0011.jpg?v=1718204105&width=600",
+    price: 3849, // 2349 + 1500
+    discountedPrice: 2349,
+    size: "EUR 40-45",
+  },
+  {
+    id: 330,
+    name: "NIKE SB DUNK SYRACUSE ORANGE",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240714-WA0101.jpg?v=1720908044&width=600",
+    price: 3799, // 2299 + 1500
+    discountedPrice: 2299,
+    size: "EUR 36-45",
+  },
+  {
+    id: 331,
+    name: "NIKE SB DUNK YUTO HORIGOME",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_db596f6a-15f4-4c52-a3f9-a0b762306a7c.jpg?v=1710099352&width=600",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 332,
+    name: "NIKE SB DUNK AMBUSH SAINT SEIYA",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_457d0676-ffbf-4bac-a316-9010ad25c4a6.jpg?v=1715063817&width=600",
+    price: 3849, // 2349 + 1500
+    discountedPrice: 2349,
+    size: "EUR 40-45",
+  },
+  {
+    id: 333,
+    name: "NIKE SB DUNK DUNKIN DONUT",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_44a6f6e4-55a1-4aa4-8d83-0a6d3ad41461.jpg?v=1717915057&width=600",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 334,
+    name: "NIKE SB DUNK SNORLAX",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240524-WA0049.jpg?v=1716588635&width=2200",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 335,
+    name: "NIKE SB DUNK HEINEKEN",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_ad5d8f74-6317-4990-ac28-26d463438609.jpg?v=1717099416&width=600",
+    price: 3649, // 2149 + 1500
+    discountedPrice: 2149,
+    size: "EUR 40-45",
+  },
+  {
+    id: 336,
+    name: "NIKE SB DUNK DRAGONBALLS",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240511-WA0045.jpg?v=1718993756&width=2200",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 337,
+    name: "NIKE SB DUNK MULTI CAMO",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_88af4e30-733f-4f2e-bd15-772ebde994f9.jpg?v=1716297561&width=600",
+    price: 3649, // 2149 + 1500
+    discountedPrice: 2149,
+    size: "EUR 40-45",
+  },
+  {
+    id: 338,
+    name: "NIKE SB DUNK CLOT CORK",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240603-WA0058.jpg?v=1717438463&width=600",
+    price: 3699, // 2199 + 1500
+    discountedPrice: 2199,
+    size: "EUR 40-45",
+  },
+  {
+    id: 339,
+    name: "NIKE SB DUNK SETSUBAN",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240530-WA0034.jpg?v=1717098703&width=600",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 340,
+    name: "NIKE SB DUNK DISRUPT",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240602-WA0013.jpg?v=1717348046&width=600",
+    price: 3649, // 2149 + 1500
+    discountedPrice: 2149,
+    size: "EUR 40-45",
+  },
+  {
+    id: 341,
+    name: "NIKE SB DUNK APRIL",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_336cdaf6-e24a-4ca1-bacc-9cf8c619ba88.jpg?v=1711548623&width=600",
+    price: 4299, // 2799 + 1500
+    discountedPrice: 2799,
+    size: "EUR 40-45",
+  },
+  {
+    id: 342,
+    name: "NIKE SB DUNK PRO LONDON",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240601-WA0028.jpg?v=1717250502&width=600",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 343,
+    name: "NIKE SB DUNK STUSSY BLUE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_cb4f5f19-20b5-4b83-919c-bab68c4b32bc.jpg?v=1717104050&width=600",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 344,
+    name: "NIKE SB DUNK OTOMO KATSUHIRO",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_00929feb-9887-4db8-825c-5693d2e77ccf.jpg?v=1717098779&width=600",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
 ];
