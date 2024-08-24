@@ -2809,5 +2809,65 @@ const products = [
     price: 4049, // 2549 + 1500
     discountedPrice: 2549,
     size: "EUR 40-45",
-  }
+  },
+  {
+    id: 272,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.38.52_a750abb9_2f7d6d7a-7c42-4bfe-b79f-1c94826e927e.jpg?v=1717685852&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 273,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.27.33_d5ef1c62.jpg?v=1717685891&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 274,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.28.35_0b893567.jpg?v=1717684552&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 275,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.40.07_61698af9.jpg?v=1717687153&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 276,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.34.10_ce532136.jpg?v=1717686809&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 277,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.42.26_b8d6b9ab.jpg?v=1717685644&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
 ];
