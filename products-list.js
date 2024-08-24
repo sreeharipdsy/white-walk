@@ -2430,4 +2430,164 @@ const products = [
     discountedPrice: 2999,
     size: "EUR 40-45",
   },
+  {
+    id: 234,
+    name: "NIKE AIR JORDANS RETRO 1 PANDA MID",
+    category: "women",
+    image:
+      "https://firstcopyshop.com/wp-content/uploads/2024/07/FIRST-COPY-JORDANS-RETRO-1-OG-BLACK-WHITE-PANDA-FOR-MEN-AND-WOMEN-1.jpeg",
+    price: 2699, // 1199 + 1500
+    discountedPrice: 1199,
+    size: "EUR 36-40",
+  },
+  {
+    id: 235,
+    name: "ADIDAS SUPERSTAR PARLEY",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_88edbf5f-6fb9-4e5d-b296-a80701ad91a7.jpg?v=1709649355&width=600",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 36-45",
+  },
+  {
+    id: 236,
+    name: "ADIDAS SUPERSTAR BASIC",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_5e5dca28-79c8-4f0a-a84b-faa33c0da753.jpg?v=1709971331&width=600",
+    price: 2999, // 1499 + 1500
+    discountedPrice: 1499,
+    size: "EUR 36-40",
+  },
+  {
+    id: 237,
+    name: "NIKE MK2 TEKNO MONARCH",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_29a2f202-238c-4247-bb20-2b663e23eaf6.jpg?v=1716062211&width=600",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 238,
+    name: "NIKE MK2 TEKNO MONARCH",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_d92286fa-f318-4dd0-92e0-01bf4b238a60.jpg?v=1709814201&width=600",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 239,
+    name: "NIKE MK2 TEKNO",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_579aec0e-639d-43a8-ba2e-8e625d75ff29.jpg?v=1709704059&width=600",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 36-40",
+  },
+  {
+    id: 240,
+    name: "NIKE MK2 TEKNO CHUNKY GREEN",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_509e0eb7-fbc9-4304-bd01-dfd411c6997a.jpg?v=1717099623&width=600",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 36-45",
+  },
+  {
+    id: 241,
+    name: "NIKE MK2 TEKNO ATMOSPHERE COOL GREY",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240702-WA0023.jpg?v=1719864476&width=600",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 242,
+    name: "NIKE MK2 TEKNO",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240816-WA0009.jpg?v=1723751962&width=600",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 36-45",
+  },
+  {
+    id: 243,
+    name: "NIKE MK2 TEKNO TRIPLE WHITE",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_033b414d-22d6-411a-bc8d-26d1427f8ca9.jpg?v=1709641579&width=600",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 36-45",
+  },
+  {
+    id: 244,
+    name: "ADIDAS CAMPUS 00S OREO",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_d9650b4e-a260-4858-a974-e7bd7033dded.jpg?v=1715810821&width=600",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 36-45",
+  },
+  {
+    id: 245,
+    name: "ADIDAS CAMPUS WHITE PRELOVED BLUE",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_616bdab9-e53e-41df-b641-abbdf694a2f3.jpg?v=1709630504&width=600",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 36-45",
+  },
+  {
+    id: 246,
+    name: "ADIDAS ORIGINALS CAMPUS LEOPARD PRINT",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240708-WA0016.jpg?v=1720378619&width=600",
+    price: 4299, // 2799 + 1500
+    discountedPrice: 2799,
+    size: "EUR 36-40",
+  },
+  {
+    id: 247,
+    name: "ADIDAS ORIGINALS CAMPUS BROWN",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_c124393b-146d-4510-9da8-67656124a715.jpg?v=1715810952&width=600",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 36-45",
+  },
+  {
+    id: 248,
+    name: "ADIDAS CAMPUS 00s WHITE BLACK",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240815-WA0101.jpg?v=1723736356&width=600",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 36-45",
+  },
+  {
+    id: 249,
+    name: "NIKE OFFCOURT ADJUST SLIDE",
+    category: "slide",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240823-WA0029.jpg?v=1724393799&width=990",
+    price: 2750, // 1250 + 1500
+    discountedPrice: 1250,
+    size: "EUR 40-45",
+  }
 ];
