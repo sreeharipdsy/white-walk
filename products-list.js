@@ -453,7 +453,7 @@ const products = [
   {
     id: 46,
     name: "Nike calm mule sandel (black)",
-    category: "sandals",
+    category: "slide",
     image:
       "https://snapkicks.in/cdn/shop/files/IMG-20240802-WA0250_7d8392cf-cdf7-4415-bf19-5ca8a7981223.jpg?v=1722598011&width=990",
     price: 2849, // 1349 + 1500
@@ -463,7 +463,7 @@ const products = [
   {
     id: 47,
     name: "Nike calm mule sandel (orange)",
-    category: "sandals",
+    category: "slide",
     image:
       "https://snapkicks.in/cdn/shop/files/IMG-20240802-WA0251.jpg?v=1722597708&width=990",
     price: 2859, // 1359 + 1500
@@ -473,7 +473,7 @@ const products = [
   {
     id: 48,
     name: "Nike calm mule sandel (white)",
-    category: "sandals",
+    category: "slide",
     image:
       "https://snapkicks.in/cdn/shop/files/IMG-20240802-WA0253.jpg?v=1722598052&width=990",
     price: 2849, // 1349 + 1500
@@ -483,7 +483,7 @@ const products = [
   {
     id: 49,
     name: "Nike calm mule sandel (green)",
-    category: "sandals",
+    category: "slide",
     image:
       "https://snapkicks.in/cdn/shop/files/IMG-20240802-WA0252.jpg?v=1722598108&width=990",
     price: 2849, // 1349 + 1500
@@ -2588,6 +2588,226 @@ const products = [
       "https://snapkicks.in/cdn/shop/files/IMG-20240823-WA0029.jpg?v=1724393799&width=990",
     price: 2750, // 1250 + 1500
     discountedPrice: 1250,
+    size: "EUR 40-45",
+  },
+  {
+    id: 250,
+    name: "NIKE OFFCOURT ADJUST SLIDE",
+    category: "slide",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240823-WA0030.jpg?v=1724393892&width=990",
+    price: 2250, // 1250 + 1000
+    discountedPrice: 1250,
+    size: "EUR 40-45",
+  },
+  {
+    id: 251,
+    name: "NIKE OFFCOURT ADJUST SLIDE",
+    category: "slide",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240823-WA0031.jpg?v=1724394082&width=990",
+    price: 2250, // 1250 + 1000
+    discountedPrice: 1250,
+    size: "EUR 40-45",
+  },
+  {
+    id: 252,
+    name: "NIKE OFFCOURT ADJUST SLIDE",
+    category: "slide",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240823-WA0028_24b1ce9d-1b06-4186-b53c-3f2932c475cc.jpg?v=1724393592&width=990",
+    price: 2250, // 1250 + 1000
+    discountedPrice: 1250,
+    size: "EUR 40-45",
+  },
+  {
+    id: 253,
+    name: "ASICS GEL VENTURE 6",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_bdab26df-3b44-4527-8b89-e4c4a573227a.jpg?v=1709668287&width=990",
+    price: 4149, // 2649 + 1500
+    discountedPrice: 2649,
+    size: "EUR 41-45",
+  },
+  {
+    id: 254,
+    name: "ASICS GEL VENTURE 6",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_639c8c3d-adaf-4d36-954f-2df3f0f366e2.jpg?v=1716407467&width=990",
+    price: 4149, // 2649 + 1500
+    discountedPrice: 2649,
+    size: "EUR 41-45",
+  },
+  {
+    id: 255,
+    name: "ASICS GEL VENTURE 6",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_0b3105e5-1fbf-446c-a669-9aa784387ef4.jpg?v=1709629129&width=990",
+    price: 4149, // 2649 + 1500
+    discountedPrice: 2649,
+    size: "EUR 41-45",
+  },
+  {
+    id: 256,
+    name: "ASICS GEL VENTURE 6",
+    category: "men",
+    image:
+      "https://5.imimg.com/data5/ANDROID/Default/2024/4/409782161/FJ/SW/PI/19051907/product-jpeg-500x500.jpg",
+    price: 4140, // 2640 + 1500
+    discountedPrice: 2640,
+    size: "EUR 41-45",
+  },
+  {
+    id: 257,
+    name: "ASICS GEL VENTURE 6",
+    category: "men",
+    image:
+      "https://5.imimg.com/data5/ANDROID/Default/2024/4/409782131/LN/RP/CI/19051907/product-jpeg-500x500.jpg",
+    price: 4149, // 2649 + 1500
+    discountedPrice: 2649,
+    size: "EUR 41-45",
+  },
+  {
+    id: 258,
+    name: "ASICS GEL VENTURE 6",
+    category: "men",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6XkBxQyIxBBiG4SwZqWMlnEpoasCsf1KppA&usqp=CAU",
+    price: 4349, // 2849 + 1500
+    discountedPrice: 2849,
+    size: "EUR 41-45",
+  },
+  {
+    id: 259,
+    name: "ASICS GEL VENTURE 6",
+    category: "men",
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2024/2/389621239/ZE/WZ/RT/9581609/asics-gel-venture-6-250x250.jpg",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 41-45",
+  },
+  {
+    id: 260,
+    name: "ASICS GEL VENTURE 6",
+    category: "men",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK9kmuSFRF0j07yBLB6nCgQaVPcRcVohXd8Q&usqp=CAU",
+    price: 4149, // 2649 + 1500
+    discountedPrice: 2649,
+    size: "EUR 41-45",
+  },
+  {
+    id: 261,
+    name: "ADIDAS ORIGINALS CAMPUS 00S 2024 BROWN",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240712-WA0015.jpg?v=1720728461&width=600",
+    price: 4249, // 2749 + 1500
+    discountedPrice: 2749,
+    size: "EUR 36-45",
+  },
+  {
+    id: 262,
+    name: "Jordan Retro 1 Suede Panda",
+    category: "clearance",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_22fac2fe-d574-4047-ac0c-b57292c209d3.jpg?v=1716496276&width=990",
+    price: 2549, // 1549 + 1000
+    discountedPrice: 1549,
+    size: "EUR 36-45",
+  },
+  {
+    id: 263,
+    name: "Vans Old Skool",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_b96e9be2-39fd-4919-9658-11fb43fab30b.jpg?v=1709667036&width=990",
+    price: 2199, // 1199 + 1000
+    discountedPrice: 1199,
+    size: "EUR 36-45",
+  },
+  {
+    id: 264,
+    name: "Air Jordan Retro 4 ROYALTY",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240603-WA0045.jpg?v=1717437830&width=990",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 265,
+    name: "AIR JORDANS RETRO 1 TRAVIS SCOTT MOCHA REVERSE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240815-WA0056.jpg?v=1723752060&width=990",
+    price: 3849, // 2349 + 1500
+    discountedPrice: 2349,
+    size: "EUR 40-45",
+  },
+  {
+    id: 266,
+    name: "AIR JORDANS RETRO 1 TRAVIS SCOTT FRAGMENT",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240702-WA0055.jpg?v=1719865947&width=990",
+    price: 3849, // 2349 + 1500
+    discountedPrice: 2349,
+    size: "EUR 40-45",
+  },
+  {
+    id: 267,
+    name: "Air Jordan Retro 1 Low Travis Scott Noire",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_48e8c912-a36c-4f81-831f-c2daa0f58ac2.jpg?v=1716065139&width=990",
+    price: 3849, // 2349 + 1500
+    discountedPrice: 2349,
+    size: "EUR 40-45",
+  },
+  {
+    id: 268,
+    name: "Air Jordan Retro 1 Travis Scott",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_adcfe07a-4062-4545-8a84-6c79852cc345.jpg?v=1716148361&width=990",
+    price: 3849, // 2349 + 1500
+    discountedPrice: 2349,
+    size: "EUR 40-45",
+  },
+  {
+    id: 269,
+    name: "AIR JORDAN RETRO 1 LUCKY GREEN",
+    category: "clearance",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240811-WA0063.jpg?v=1723391449&width=990",
+    price: 3150, // 2150 + 1000
+    discountedPrice: 2150,
+    size: "EUR 40-45",
+  },
+  {
+    id: 270,
+    name: "NIKE AIR JORDAN 1 LOW OG X TROPHY ROOM SAIL AND VARSITY",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240731-WA0058.jpg?v=1722374296&width=990",
+    price: 4049, // 2549 + 1500
+    discountedPrice: 2549,
+    size: "EUR 40-45",
+  },
+  {
+    id: 271,
+    name: "AIR JORDANS RETRO 1 LOW GREY BLACK ORANGE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240726-WA0052.jpg?v=1721937061&width=990",
+    price: 4049, // 2549 + 1500
+    discountedPrice: 2549,
     size: "EUR 40-45",
   }
 ];
