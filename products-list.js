@@ -3540,4 +3540,34 @@ const products = [
     discountedPrice: 2499,
     size: "EUR 40-45",
   },
+  {
+    id: 345,
+    name: "NIKE SB DUNK 2023 CHROME HEARTS",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240607-WA0084.jpg?v=1717791636&width=600",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 346,
+    name: "NIKE SB DUNK GREEN APPLE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240731-WA0137.jpg?v=1722375891&width=600",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 347,
+    name: "NIKE SB DUNK WHITE GUM",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240731-WA0147.jpg?v=1722376126&width=600",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
 ];
