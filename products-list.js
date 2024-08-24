@@ -2269,5 +2269,165 @@ const products = [
     price: 4375, // 2875 + 1500
     discountedPrice: 2875,
     size: "EUR 40-44",
-  }
+  },
+  {
+    id: 218,
+    name: "NEW BALANCE 9060 RICH OAK",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240510-WA0015.jpg?v=1716585894&width=600",
+    price: 4599, // 3099 + 1500
+    discountedPrice: 3099,
+    size: "EUR 40-45",
+  },
+  {
+    id: 219,
+    name: "NEW BALANCE 9060 TRIPLE BLACK",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240702-WA0119.jpg?v=1719867084&width=2200",
+    price: 4699, // 3199 + 1500
+    discountedPrice: 3199,
+    size: "EUR 40-45",
+  },
+  {
+    id: 220,
+    name: "NEW BALANCE 9060 BRICKS AND WOOD",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-07-20at01.31.46_6047d2c8.jpg?v=1721419601&width=600",
+    price: 4599, // 3099 + 1500
+    discountedPrice: 3099,
+    size: "EUR 40-45",
+  },
+  {
+    id: 221,
+    name: "NEW BALANCE 9060 BLACK AND WHITE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240726-WA0099.jpg?v=1721938594&width=600",
+    price: 4599, // 3099 + 1500
+    discountedPrice: 3099,
+    size: "EUR 40-45",
+  },
+  {
+    id: 222,
+    name: "NEW BALANCE 9060",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240729-WA0002.jpg?v=1722269924&width=600",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 223,
+    name: "NEW BALANCE 9060",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_7173284e-6f09-4068-b69a-ea96d642ea22.jpg?v=1713926294&width=600",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 224,
+    name: "NEW BALANCE 9060",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240729-WA0008_cd14c5d1-6001-48d4-9fc4-330a9fe2e4b4.jpg?v=1722270177&width=600",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 225,
+    name: "NEW BALANCE 9060",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-07-10at16.35.54_af7335cf.jpg?v=1720614436&width=600",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 226,
+    name: "NEW BALANCE 9060",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-05-01at05.19.23_46c2c2be.jpg?v=1714564765",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 227,
+    name: "NEW BALANCE 9060",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240729-WA0004_59a0253a-7e76-4f10-a109-96c4e824b281.jpg?v=1722270125&width=600",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 228,
+    name: "NEW BALANCE 9060",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_29a90124-61de-49d7-9dba-032f07c7a8b6.jpg?v=1713926461&width=600",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 229,
+    name: "NEW BALANCE 9060",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_8e6a5960-0448-4bdb-8a91-e736b30d7750.jpg?v=1713926393&width=600",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 230,
+    name: "NEW BALANCE 9060",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240729-WA0003_3960b510-c848-4d32-b8a5-9f1c18dc5e66.jpg?v=1722270058&width=600",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 231,
+    name: "NEW BALANCE 9060",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-07-10at16.35.50_37474d5f.jpg?v=1720614526&width=600",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 232,
+    name: "NEW BALANCE 9060",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-05-02at05.31.12_f4443c0e.jpg?v=1714682660&width=600",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 233,
+    name: "NEW BALANCE 9060",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_9ef59d5f-4e28-4db1-ad3d-ee2b901fd608.jpg?v=1713926130&width=600",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
 ];
