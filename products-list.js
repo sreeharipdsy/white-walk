@@ -2870,4 +2870,474 @@ const products = [
     discountedPrice: 2399,
     size: "EUR 40-45",
   },
+  {
+    id: 278,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.38.14_bb41e741.jpg?v=1717685376&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 279,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.32.11_aeaaca0d.jpg?v=1717686067&width=990",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 280,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.40.51_204a9c4a.jpg?v=1717687230&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 281,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.31.24_5e81a1b3.jpg?v=1717684827&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 282,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.37.14_a1b0dedf.jpg?v=1717686973&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 283,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.32.11_aeaaca0d.jpg?v=1717686067&width=990",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 284,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.29.56_b4d5d5e3.jpg?v=1717685969&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 285,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.35.46_28675ddd.jpg?v=1717686889&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 286,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.33.33_78ab5b2c_f3c162df-49a9-44ad-aab9-34f413ccffec.jpg?v=1717686734&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 287,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.39.37_152b41b3.jpg?v=1717687067&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 288,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.29.56_b4d5d5e3.jpg?v=1717685969&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 289,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.33.02_b1960774.jpg?v=1717686689&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 290,
+    name: "AIR JORDAN RETRO 4",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-06at01.41.28_b155b0ad.jpg?v=1717684689&width=990",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 291,
+    name: "Jordan retro 4 sail off white",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240426-WA0003.jpg?v=1716581920&width=990",
+    price: 3875, // 2375 + 1500
+    discountedPrice: 2375,
+    size: "EUR 40-45",
+  },
+  {
+    id: 292,
+    name: "AIR JORDAN RETRO 4 YELLOW FLIGHT",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240726-WA0025.jpg?v=1721936222&width=990",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 293,
+    name: "Air Jordan Retro 4 Messy Room",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_c99cb7da-7e9d-4fa3-889f-2bfadfb50df2.jpg?v=1709704147&width=990",
+    price: 3849, // 2349 + 1500
+    discountedPrice: 2349,
+    size: "EUR 40-45",
+  },
+  {
+    id: 294,
+    name: "Air Jordan Retro 4 Cool Grey",
+    category: "clearance",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_8a06c3e0-872f-4e8a-b7aa-147a7b64d145.jpg?v=1709792605&width=990",
+    price: 3599, // 2099 + 1500
+    discountedPrice: 2099,
+    size: "EUR 40-45",
+  },
+  {
+    id: 295,
+    name: "Jordan Retro 1 Spiderverse",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_ab779de9-074b-4344-bed9-0ee9a8642595.jpg?v=1713298990&width=990",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 296,
+    name: "CR9CS LITERIDE 360 BLUE RED",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240824-WA0005.jpg?v=1724438030&width=533",
+    price: 2849, // 1349 + 1500
+    discountedPrice: 1349,
+    size: "M6-M11",
+  },
+  {
+    id: 297,
+    name: "CROCS LAKERS BASKETBALL",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240614-WA0015.jpg?v=1718394701&width=990",
+    price: 3099, // 1599 + 1500
+    discountedPrice: 1599,
+    size: "M6-M11",
+  },
+  {
+    id: 298,
+    name: "CROCS LAKERS BASKETBALL",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240614-WA0019.jpg?v=1718394793&width=990",
+    price: 3099, // 1599 + 1500
+    discountedPrice: 1599,
+    size: "M6-M11",
+  },
+  {
+    id: 299,
+    name: "CROCS LAKERS BASKETBALL",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240607-WA0047.jpg?v=1717790652&width=990",
+    price: 3099, // 1599 + 1500
+    discountedPrice: 1599,
+    size: "M6-M11",
+  },
+  {
+    id: 300,
+    name: "CROCS LAKERS BASKETBALL",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240607-WA0045.jpg?v=1717790573&width=533",
+    price: 3099, // 1599 + 1500
+    discountedPrice: 1599,
+    size: "M6-M11",
+  },
+  {
+    id: 301,
+    name: "CROCS LAKERS BASKETBALL",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240607-WA0041.jpg?v=1717790711&width=533",
+    price: 3099, // 1599 + 1500
+    discountedPrice: 1599,
+    size: "M6-M11",
+  },
+  {
+    id: 302,
+    name: "NEW BALANCE 1906D",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-07-29at12.47.57_c88b429c.jpg?v=1722283509&width=533",
+    price: 4399, // 2899 + 1500
+    discountedPrice: 2899,
+    size: "EUR 41-45",
+  },
+  {
+    id: 303,
+    name: "NEW BALANCE 2002r CASTLEROCK INDIGO",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240823-WA0053.jpg?v=1724437678&width=990",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 304,
+    name: "NEW BALANCE 1906D",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-07-29at12.45.26_8c867d7a.jpg?v=1722283365&width=533",
+    price: 4399, // 2899 + 1500
+    discountedPrice: 2899,
+    size: "EUR 41-45",
+  },
+  {
+    id: 305,
+    name: "NEW BALANCE 1906D",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-07-29at12.48.24_d3fc3d27.jpg?v=1722283587&width=533",
+    price: 4399, // 2899 + 1500
+    discountedPrice: 2899,
+    size: "EUR 41-45",
+  },
+  {
+    id: 306,
+    name: "NEW BALANCE 1906D",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-07-29at12.47.29_9ecccbd0.jpg?v=1722283442&width=533",
+    price: 4399, // 2899 + 1500
+    discountedPrice: 2899,
+    size: "EUR 41-45",
+  },
+  {
+    id: 307,
+    name: "NEW BALANCE 1906D",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-07-29at12.44.52_326e579f.jpg?v=1722283197&width=533",
+    price: 4399, // 2899 + 1500
+    discountedPrice: 2899,
+    size: "EUR 41-45",
+  },
+  {
+    id: 308,
+    name: "New balance 2002r Shadow",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_839c5983-fa2b-4d00-b63c-2734d2cd04ba.jpg?v=1717103866&width=990",
+    price: 4275, // 2775 + 1500
+    discountedPrice: 2775,
+    size: "EUR 40-45",
+  },
+  {
+    id: 309,
+    name: "New balance 2002r Cherry Bordeaux",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_eb0d1761-db40-4b18-b916-8515599e6b03.jpg?v=1711210651&width=990",
+    price: 4599, // 3099 + 1500
+    discountedPrice: 3099,
+    size: "EUR 40-45",
+  },
+  {
+    id: 310,
+    name: "NEW BALANCE 2002r GORETEX JJJOUND",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240727-WA0151.jpg?v=1722028416&width=990",
+    price: 4749, // 3249 + 1500
+    discountedPrice: 3249,
+    size: "EUR 40-45",
+  },
+  {
+    id: 311,
+    name: "NEW BALANCE 2002r DARK GREY",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240617-WA0018.jpg?v=1718621385&width=990",
+    price: 4649, // 3149 + 1500
+    discountedPrice: 3149,
+    size: "EUR 40-45",
+  },
+  {
+    id: 312,
+    name: "NEW BALANCE 2002r PROTECTION PACK SEA SALT",
+    category: "UNISEX",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240708-WA0040.jpg?v=1720379936&width=990",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 36-45",
+  },
+  {
+    id: 313,
+    name: "VANS OLD SKOOL KNU DEVIL",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240816-WA0073.jpg?v=1723812527&width=990",
+    price: 3849, // 2349 + 1500
+    discountedPrice: 2349,
+    size: "EUR 36-40",
+  },
+  {
+    id: 314,
+    name: "VANS OLD SKOOL KNU BLUE",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240820-WA0017.jpg?v=1724098653&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 36-45",
+  },
+  {
+    id: 315,
+    name: "VANS OLD SKOOL KNU DISNEY",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240607-WA0104.jpg?v=1717792053&width=990",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 36-45",
+  },
+  {
+    id: 316,
+    name: "VANS OLD SKOOL KNU BLACK WHITE",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-08-13at13.07.36_700390ad.jpg?v=1723579873&width=990",
+    price: 4049, // 2549 + 1500
+    discountedPrice: 2549,
+    size: "EUR 36-45",
+  },
+  {
+    id: 317,
+    name: "VANS OLD SKOOL KNU CORE BLACK",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240714-WA0064.jpg?v=1720906817&width=990",
+    price: 4149, // 2649 + 1500
+    discountedPrice: 2649,
+    size: "EUR 40-45",
+  },
+  {
+    id: 318,
+    name: "VANS OLD SKOOL KNU PEACHES",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240721-WA0023.jpg?v=1721545702&width=990",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 36-40",
+  },
+  {
+    id: 319,
+    name: "NIKE SB DUNK MUMMY",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240712-WA0105.jpg?v=1720774633&width=600",
+    price: 4299, // 2799 + 1500
+    discountedPrice: 2799,
+    size: "EUR 40-45",
+  },
+  {
+    id: 320,
+    name: "NIKE SB DUNK JOKER",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240821-WA0007.jpg?v=1724184740&width=600",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 321,
+    name: "NIKE SB DUNK LOW MEDIUM CURRY",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240705-WA0035.jpg?v=1720172537&width=2200",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 322,
+    name: "NIKE SB DUNK STUSSY LUV FREE HUGS",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240717-WA0027.jpg?v=1721161196&width=600",
+    price: 4149, // 2649 + 1500
+    discountedPrice: 2649,
+    size: "EUR 40-45",
+  },
+  {
+    id: 323,
+    name: "NIKE SB DUNK DRAGON BALLS",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_fee2283f-5ba3-40ee-9cc5-73e955e1dc17.jpg?v=1717954826&width=600",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 324,
+    name: "NIKE SB DUNK GHOST RIDER",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_6cc9dfb7-3dd9-45e7-a43e-4c2f4ec2aa08.jpg?v=1718910952&width=600",
+    price: 4299, // 2799 + 1500
+    discountedPrice: 2799,
+    size: "EUR 40-45",
+  },
 ];
