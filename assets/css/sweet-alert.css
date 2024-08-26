@@ -1,16 +1,3 @@
-/*
-Theme Name: Whitewalk Theme
-Theme URI: http://whitewalk.in
-Author: Your Name
-Author URI: http://whitewalk.in
-Description: A custom WordPress theme based on the Whitewalk semi-ecommerce website.
-Version: 1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: custom-theme, ecommerce
-Text Domain: whitewalk-theme
-*/
-
 div:where(.swal2-container) div:where(.swal2-popup) {
   border-radius: 10px !important;
   background-color: #fcf9ff !important;
