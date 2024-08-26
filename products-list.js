@@ -3570,4 +3570,774 @@ const products = [
     discountedPrice: 2599,
     size: "EUR 40-45",
   },
+  {
+    id: 348,
+    name: "Puma Palermo",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240603-WA0009.jpg?v=1717437983&width=990",
+    price: 4149, // 2649 + 1500
+    discountedPrice: 2649,
+    size: "EUR 40-45",
+  },
+  {
+    id: 349,
+    name: "Puma Palermo",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_e0cb5e75-bc67-4064-adc0-1416902ea536.jpg?v=1712606738&width=990",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 350,
+    name: "Puma Cali Dream NYC",
+    category: "women",
+    image:
+      "https://shoeseller.in/wp-content/uploads/2024/04/WhatsApp-Image-2024-04-30-at-4.58.23-PM-2-scaled.jpeg",
+    price: 3849, // 2349 + 1500
+    discountedPrice: 2349,
+    size: "EUR 36-40",
+  },
+  {
+    id: 351,
+    name: "Puma Cali Dream",
+    category: "women",
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2024/4/411159686/TQ/LV/EZ/192412408/whatsapp-image-2024-04-17-at-13-37-55-500x500.jpeg",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 36-40",
+  },
+  {
+    id: 352,
+    name: "PUMA RS BMW",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_09a0cef2-e0aa-4e5f-b0c5-ae6dc688e0fe.jpg?v=1709653629&width=990",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 353,
+    name: "ASICS GT 2160 WHITE PURE SILVER",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240824-WA0033.jpg?v=1724438921&width=990",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 354,
+    name: "ASICS EX-89 WHITE SKY",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240824-WA0041.jpg?v=1724439131&width=990",
+    price: 4250, // 2750 + 1500
+    discountedPrice: 2750,
+    size: "EUR 40-45",
+  },
+  {
+    id: 355,
+    name: "ASICS EX 89 WHITE BLUE",
+    category: "men",
+    image:
+      "https://classyfashionfluence.com/cdn/shop/files/WhatsAppImage2024-03-24at4.47.55PM_1946x.jpg?v=1711354350",
+    price: 4450, // 2950 + 1500
+    discountedPrice: 2950,
+    size: "EUR 40-45",
+  },
+  {
+    id: 356,
+    name: "ASICS EX 89 KITH",
+    category: "men",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLZ5qcyKb12r5VsBDB3xecnB2D7GhqDSmHSQ&usqp=CAU",
+    price: 4599, // 3099 + 1500
+    discountedPrice: 3099,
+    size: "EUR 40-45",
+  },
+  {
+    id: 357,
+    name: "NEW BALANCE 530 SKY",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240723-WA0036.jpg?v=1721678978&width=990",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 36-40",
+  },
+  {
+    id: 358,
+    name: "New Balance 539 Triple White",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_dfe5c05e-012e-40e5-815a-550ea9e51333.jpg?v=1711453087&width=990",
+    price: 3650, // 2150 + 1500
+    discountedPrice: 2150,
+    size: "EUR 36-40",
+  },
+  {
+    id: 359,
+    name: "New Balance 530 Ivory",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_bd3d893d-42d8-490d-8cf8-4e41641d9ad0.jpg?v=1716584379&width=990",
+    price: 4150, // 2650 + 1500
+    discountedPrice: 2650,
+    size: "EUR 36-45",
+  },
+  {
+    id: 360,
+    name: "New Balance 530 Oreo",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_5023be02-5817-4ac1-b2dd-0897b6bcc8c0.jpg?v=1709582432&width=1920",
+    price: 3799, // 2299 + 1500
+    discountedPrice: 2299,
+    size: "EUR 36-45",
+  },
+  {
+    id: 361,
+    name: "CONVERSE CHUCK 70",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240815-WA0042.jpg?v=1723717050&width=990",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "unisex",
+  },
+  {
+    id: 362,
+    name: "CONVERSE CHUCK 70",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_a26749e8-9461-4482-9ccb-49f31c0d07ee.jpg?v=1710075612&width=990",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "unisex",
+  },
+  {
+    id: 363,
+    name: "Louis Vuitton Skate Trainer",
+    category: "men",
+    image:
+      "https://5.imimg.com/data5/ANDROID/Default/2024/7/433557175/MR/VA/BH/192473731/product-jpeg.jpg",
+    price: 3649, // 2149 + 1500
+    discountedPrice: 2149,
+    size: "EUR 40-45",
+  },
+  {
+    id: 364,
+    name: "Adidas Adimetic Original Grey Blue",
+    category: "clearance",
+    image:
+      "https://5.imimg.com/data5/ANDROID/Default/2024/7/433798170/GI/YN/BD/192473731/product-jpeg-500x500.jpg",
+    price: 2849, // 1849 + 1500
+    discountedPrice: 1849,
+    size: "EUR 40-45",
+  },
+  {
+    id: 365,
+    name: "ADIDAS ADIMETIC",
+    category: "clearance",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240610-WA0062.jpg?v=1718050175&width=990",
+    price: 3299, // 1799 + 1500
+    discountedPrice: 1799,
+    size: "EUR 40-45",
+  },
+  {
+    id: 366,
+    name: "ADIDAS ADIMETIC",
+    category: "clearance",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240702-WA0016.jpg?v=1719864098&width=990",
+    price: 3299, // 1799 + 1500
+    discountedPrice: 1799,
+    size: "EUR 40-45",
+  },
+  {
+    id: 367,
+    name: "ADIDAS ADIMETIC",
+    category: "clearance",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240712-WA0047.jpg?v=1720729785&width=990",
+    price: 3299, // 1799 + 1500
+    discountedPrice: 1799,
+    size: "EUR 40-45",
+  },
+  {
+    id: 368,
+    name: "ADIDAS ADIMETIC",
+    category: "clearance",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_5f710ba7-2b7c-4b29-92e3-5f8856b00838.jpg?v=1709640221&width=990",
+    price: 3299, // 1799 + 1500
+    discountedPrice: 1799,
+    size: "EUR 40-45",
+  },
+  {
+    id: 369,
+    name: "ONITSUKA TIGER TOKUTEN BLACK WHITE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240718-WA0027.jpg?v=1721246943&width=533",
+    price: 3849, // 2349 + 1500
+    discountedPrice: 2349,
+    size: "EUR 40-45",
+  },
+  {
+    id: 370,
+    name: "ONITSUKA TIGER TOKUTEN HUM SOLE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_4fe77a2b-6a72-4b1f-ac4e-11e2db7f26d7.jpg?v=1709814943&width=533",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 371,
+    name: "ONITSUKA TIGER TOKUTEN HUM SOLE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_e32aa912-6c00-436f-9896-68bafdcfd03d.jpg?v=1709661983&width=990",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 372,
+    name: "ONITSUKA TIGER TOKUTEN HUM SOLE",
+    category: "men",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeDuCcTaIjZEEBtpkeEK2-9faH9t_eZLfpJw&usqp=CAU",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 373,
+    name: "ONITSUKA TIGER TOKUTEN HUM SOLE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_170013e9-08ef-48d4-8b93-05bbe2436c58.jpg?v=1720036107&width=1920",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 374,
+    name: "CROCS LITERIDE",
+    category: "crocs",
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/420125817/VD/GS/US/192412408/whatsapp-image-2024-05-18-at-20-38-01.jpeg",
+    price: 2299, // 1299 + 1000
+    discountedPrice: 1299,
+    size: "M6-M10",
+  },
+  {
+    id: 375,
+    name: "Nike Jordan 6 City of Flight",
+    category: "men",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHuw8rRxQvR2dtWuzNq14Qw9AcIu_nWEII0g&usqp=CAU",
+    price: 3649, // 2149 + 1500
+    discountedPrice: 2149,
+    size: "EUR 41-45",
+  },
+  {
+    id: 376,
+    name: "Louis Vuitton",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_33614dd6-8a13-4e2e-9fd1-c5771131fad6.jpg?v=1709788119&width=990",
+    price: 3649, // 2149 + 1500
+    discountedPrice: 2149,
+    size: "EUR 41-45",
+  },
+  {
+    id: 377,
+    name: "Louis Vuitton",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_013658d3-ef7d-4ced-b4d6-03f2ebdaf1e0.jpg?v=1709582570&width=990",
+    price: 3649, // 2149 + 1500
+    discountedPrice: 2149,
+    size: "EUR 41-45",
+  },
+  {
+    id: 378,
+    name: "Louis Vuitton",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240710-WA0061.jpg?v=1720611302&width=990",
+    price: 3649, // 2149 + 1500
+    discountedPrice: 2149,
+    size: "EUR 41-45",
+  },
+  {
+    id: 379,
+    name: "Louis Vuitton",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240605-WA0099.jpg?v=1717593636&width=990",
+    price: 3649, // 2149 + 1500
+    discountedPrice: 2149,
+    size: "EUR 41-45",
+  },
+  {
+    id: 380,
+    name: "Louis Vuitton",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_a01ba544-db4e-479b-954e-17568ec887b5.jpg?v=1709662463&width=990",
+    price: 3649, // 2149 + 1500
+    discountedPrice: 2149,
+    size: "EUR 41-45",
+  },
+  {
+    id: 381,
+    name: "Louis Vuitton",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/b8377ea5-0426-4ecb-b7c3-7311052dc2a3.jpg?v=1709662323&width=990",
+    price: 3649, // 2149 + 1500
+    discountedPrice: 2149,
+    size: "EUR 41-45",
+  },
+  {
+    id: 382,
+    name: "Louis Vuitton",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/2b009ab5-89e3-47e8-85b6-603d9522a8d8.jpg?v=1708865872&width=990",
+    price: 3649, // 2149 + 1500
+    discountedPrice: 2149,
+    size: "EUR 41-45",
+  },
+  {
+    id: 383,
+    name: "Louis Vuitton",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_be66824a-ae33-4d63-a9c1-d2dea4e41c31.jpg?v=1712606894&width=990",
+    price: 3649, // 2149 + 1500
+    discountedPrice: 2149,
+    size: "EUR 41-45",
+  },
+  {
+    id: 384,
+    name: "CONVERSE CHUCK 70",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240815-WA0050.jpg?v=1723717410&width=990",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 36-45",
+  },
+  {
+    id: 385,
+    name: "CONVERSE CHUCK 70",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240824-WA0052.jpg?v=1724492229&width=990",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 36-45",
+  },
+  {
+    id: 386,
+    name: "Converse All Star",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_f6a89d34-200d-484c-8766-e1f565a3c654.jpg?v=1709638451&width=990",
+    price: 2699, // 1199 + 1500
+    discountedPrice: 1199,
+    size: "EUR 36-45",
+  },
+  {
+    id: 387,
+    name: "Converse Star Vintage",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/4f655408-2a2e-40db-9747-6a56fd77200e.jpg?v=1709637533&width=990",
+    price: 2849, // 1349 + 1500
+    discountedPrice: 1349,
+    size: "EUR 36-45",
+  },
+  {
+    id: 388,
+    name: "Nike Blazer Low 77 Jumbo",
+    category: "clearance",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_8ff17998-dc0e-4793-9bf8-c01c505e3a9c.jpg?v=1717097694&width=990",
+    price: 3299, // 1799 + 1500
+    discountedPrice: 1799,
+    size: "EUR 36-45",
+  },
+  {
+    id: 389,
+    name: "Nike Blazer Mid 77 Jumbo",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_246f48ac-c517-4912-9248-896cc3a52f1c.jpg?v=1709565966&width=990",
+    price: 3799, // 2299 + 1500
+    discountedPrice: 2299,
+    size: "EUR 36-45",
+  },
+  {
+    id: 390,
+    name: "NIKE AIRFORCE ONE LOUIS VUITTON",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240702-WA0041.jpg?v=1719865281",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 41-45",
+  },
+  {
+    id: 391,
+    name: "Air Jordan Retro 4 Paris",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_2350d013-3bbd-4d91-903e-84377dd9c2f8.jpg?v=1716235543&width=990",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 41-45",
+  },
+  {
+    id: 392,
+    name: "Nike Sb Dunk Jarritos",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_8cfd94fa-808e-4200-82f9-c115fdfe0401.jpg?v=1710147354&width=990",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 41-45",
+  },
+  {
+    id: 393,
+    name: "Nike Sb Dunk Otomo Katsuhiro",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240731-WA0067.jpg?v=1722374604&width=533",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 41-45",
+  },
+  {
+    id: 394,
+    name: "Nike Sb Dunk Otomo Katsuhiro",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_00929feb-9887-4db8-825c-5693d2e77ccf.jpg?v=1717098779&width=533",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 41-45",
+  },
+  {
+    id: 395,
+    name: "Nike Sb Dunk Otomo Katsuhiro",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_5c8bc8d8-db2a-4464-9fae-b303ef52e249.jpg?v=1712435157&width=533",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 41-45",
+  },
+  {
+    id: 396,
+    name: "Nike Sb Dunk Otomo Katsuhiro",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240530-WA0021.jpg?v=1717052678&width=533",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 41-45",
+  },
+  {
+    id: 397,
+    name: "Nike Sb Dunk Otomo Katsuhiro",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_8c9896fd-3e26-4634-9085-ea526d6e5336.jpg?v=1709667809&width=990",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 41-45",
+  },
+  {
+    id: 398,
+    name: "ONITSUKA TIGER TRAINERS SILVER",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240727-WA0185.jpg?v=1722029275&width=990",
+    price: 4199, // 2699 + 1500
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 399,
+    name: "Adidas Samba Silver",
+    category: "unisex",
+    image:
+      "https://5.imimg.com/data5/IOS/Default/2024/6/423753196/KL/EV/AT/221850826/product-jpeg-500x500.png",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 36-45",
+  },
+  {
+    id: 400,
+    name: "CROCS OFF GRID CLOG",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240721-WA0120.jpg?v=1721587057&width=990",
+    price: 3199, // 1699 + 1500
+    discountedPrice: 1699,
+    size: "m6-m11",
+  },
+  {
+    id: 401,
+    name: "CROCS DYLAN CLOGS",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240620-WA0086.jpg?v=1718828673&width=990",
+    price: 3299, // 1799 + 1500
+    discountedPrice: 1799,
+    size: "EUR 40-45",
+  },
+  {
+    id: 402,
+    name: "CROCS DYLAN CLOGS",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240620-WA0089.jpg?v=1718828584&width=990",
+    price: 3299, // 1799 + 1500
+    discountedPrice: 1799,
+    size: "EUR 40-45",
+  },
+  {
+    id: 403,
+    name: "CROCS DYLAN CLOGS",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240620-WA0061.jpg?v=1718827826&width=990",
+    price: 3299, // 1799 + 1500
+    discountedPrice: 1799,
+    size: "EUR 40-45",
+  },
+  {
+    id: 404,
+    name: "CROCS X SALEHE BEMBURRY POLEX SLIDE",
+    category: "slide",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240620-WA0077.jpg?v=1718828106&width=990",
+    price: 3349, // 1849 + 1500
+    discountedPrice: 1849,
+    size: "EUR 40-45",
+  },
+  {
+    id: 405,
+    name: "CROCS X SALEHE BEMBURRY POLEX SLIDE",
+    category: "slide",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240613-WA0022.jpg?v=1718284374&width=990",
+    price: 3349, // 1849 + 1500
+    discountedPrice: 1849,
+    size: "EUR 40-45",
+  },
+  {
+    id: 406,
+    name: "CROCS X SALEHE BEMBURRY POLEX SLIDE",
+    category: "slide",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240620-WA0073.jpg?v=1718828218&width=990",
+    price: 3349, // 1849 + 1500
+    discountedPrice: 1849,
+    size: "EUR 40-45",
+  },
+  {
+    id: 407,
+    name: "CROCS X SALEHE BEMBURRY POLEX SLIDE",
+    category: "slide",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240625-WA0067.jpg?v=1719321954&width=990",
+    price: 3349, // 1849 + 1500
+    discountedPrice: 1849,
+    size: "EUR 40-45",
+  },
+  {
+    id: 408,
+    name: "CROCS X SALEHE BEMBURRY POLEX SLIDE",
+    category: "slide",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240607-WA0094.jpg?v=1717791922&width=990",
+    price: 3349, // 1849 + 1500
+    discountedPrice: 1849,
+    size: "EUR 40-45",
+  },
+  {
+    id: 409,
+    name: "CROCS LITERIDE 360",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240607-WA0090.jpg?v=1717791828&width=990",
+    price: 2899, // 1399 + 1500
+    discountedPrice: 1399,
+    size: "m6-m11",
+  },
+  {
+    id: 410,
+    name: "CROCS ALL TERRAIN ATLAS",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240620-WA0051.jpg?v=1718827701&width=990",
+    price: 3299, // 1799 + 1500
+    discountedPrice: 1799,
+    size: "EUR 40-45",
+  },
+  {
+    id: 411,
+    name: "CROCS ALL TERRAIN ATLAS",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240708-WA0047.jpg?v=1720380131&width=990",
+    price: 3299, // 1799 + 1500
+    discountedPrice: 1799,
+    size: "EUR 40-45",
+  },
+  {
+    id: 412,
+    name: "Crocs Classic all Terrain",
+    category: "crocs",
+    image:
+      "https://cdn.shopify.com/s/files/1/0687/6014/2083/files/IMG-20240620-WA0019.jpg?v=1718825394&width=533",
+    price: 3149, // 1649 + 1500
+    discountedPrice: 1649,
+    size: "EUR 40-45",
+  },
+  {
+    id: 413,
+    name: "Crocs Classic all Terrain",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-11at04.24.23_67ff1ec3c.jpg?v=1718214515&width=990",
+    price: 3149, // 1649 + 1500
+    discountedPrice: 1649,
+    size: "EUR 40-45",
+  },
+  {
+    id: 414,
+    name: "Crocs Classic all Terrain",
+    category: "crocs",
+    image:
+      "https://cdn.shopify.com/s/files/1/0687/6014/2083/files/WhatsAppImage2024-06-11at04.24.22_f443141b.jpg?v=1718214561&width=533",
+    price: 3149, // 1649 + 1500
+    discountedPrice: 1649,
+    size: "EUR 40-45",
+  },
+  {
+    id: 415,
+    name: "Crocs Classic all Terrain",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-11at04.24.21_87a4add8.jpg?v=1718214440&width=990",
+    price: 3149, // 1649 + 1500
+    discountedPrice: 1649,
+    size: "EUR 40-45",
+  },
+  {
+    id: 416,
+    name: "Crocs Classic all Terrain",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240802-WA0214.jpg?v=1722547603&width=990",
+    price: 3199, // 1699 + 1500
+    discountedPrice: 1699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 417,
+    name: "CROCS ALL TERRAIN ATLAS",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240712-WA0051.jpg?v=1720730124&width=990",
+    price: 3499, // 1999 + 1500
+    discountedPrice: 1999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 418,
+    name: "CROCS ALL TERRAIN ATLAS",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240617-WA0030.jpg?v=1718622190&width=990",
+    price: 3249, // 1749 + 1500
+    discountedPrice: 1749,
+    size: "EUR 40-45",
+  },
+  {
+    id: 419,
+    name: "CROCS LITERIDE 360",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-01at22.38.35_e069ab59.jpg?v=1717793431&width=990",
+    price: 2899, // 1399 + 1500
+    discountedPrice: 1399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 420,
+    name: "CROCS LITERIDE 360",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-01at22.38.38_8e471411.jpg?v=1717793544&width=990",
+    price: 2899, // 1399 + 1500
+    discountedPrice: 1399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 421,
+    name: "CROCS LITERIDE 360",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240710-WA0070.jpg?v=1720611476&width=990",
+    price: 2899, // 1399 + 1500
+    discountedPrice: 1399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 422,
+    name: "CROCS LITERIDE",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240607-WA0124.jpg?v=1717793039&width=533",
+    price: 2849, // 1349 + 1500
+    discountedPrice: 1349,
+    size: "EUR 40-45",
+  },
+  {
+    id: 423,
+    name: "CROCS LITERIDE",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240607-WA0120.jpg?v=1717792624&width=533",
+    price: 2849, // 1349 + 1500
+    discountedPrice: 1349,
+    size: "EUR 40-45",
+  },
+  {
+    id: 424,
+    name: "CROCS LITERIDE",
+    category: "crocs",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240607-WA0126.jpg?v=1717793294&width=533",
+    price: 2849, // 1349 + 1500
+    discountedPrice: 1349,
+    size: "EUR 40-45",
+  },
 ];
