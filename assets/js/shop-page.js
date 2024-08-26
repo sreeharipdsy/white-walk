@@ -47,7 +47,7 @@ function renderProducts(products) {
                                       color: #3f0055; 
                                       padding-top: 1em; 
                                       text-align: center;">
-                                      No results found ...
+                                      No results found...
                               </p>`;
   } else {
     uniqueProducts.forEach((product) => {
