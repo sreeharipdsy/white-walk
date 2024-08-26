@@ -1,12 +1,10 @@
-
-
 let cart = [];
 
 document.addEventListener("DOMContentLoaded", () => {
   renderProducts(products);
   document
-    .getElementById("search-input")
-    .addEventListener("input", filterProducts);
+    .getElementById("search-button")
+    .addEventListener("click", filterProducts);
   document.getElementById("filter").addEventListener("change", filterProducts);
   document
     .getElementById("checkout-cart")
@@ -21,7 +19,7 @@ function renderProducts(products) {
   });
   const uniqueProducts = [];
   const seenIds = new Set();
-  sortedProducts.forEach(product => {
+  sortedProducts.forEach((product) => {
     if (!seenIds.has(product.id)) {
       uniqueProducts.push(product);
       seenIds.add(product.id);
@@ -60,44 +58,119 @@ function renderProducts(products) {
   });
 }
 
+function showPageLoader() {
+  const pageLoader = document.getElementById("page-loader");
+  const productList = document.getElementById("product-list");
 
+  if (pageLoader) {
+    pageLoader.classList.remove("hidden");
+  } else {
+    console.error("Page loader not found");
+  }
 
+  if (productList) {
+    productList.classList.add("hidden");
+  } else {
+    console.error("Product list not found");
+  }
+}
+
+// Hide page loader and show product list after a delay
+function hidePageLoader() {
+  const pageLoader = document.getElementById("page-loader");
+  const productList = document.getElementById("product-list");
+
+  if (pageLoader) {
+    pageLoader.classList.add("hidden");
+  } else {
+    console.error("Page loader not found");
+  }
+
+  // Simulate a delay before showing the product list
+  setTimeout(() => {
+    if (productList) {
+      productList.classList.remove("hidden");
+    } else {
+      console.error("Product list not found");
+    }
+  }, 1000); // 1-second delay
+}
 
 document.addEventListener("DOMContentLoaded", () => {
+  showPageLoader();
+
   const urlParams = new URLSearchParams(window.location.search);
   const category = urlParams.get("category");
   if (category) {
     filterProductsByCategory(category);
     updateCategoryFilter(category);
   }
+
   function filterProductsByCategory(category) {
     const filteredProducts = products.filter(
       (product) => product.category === category
     );
     renderProducts(filteredProducts);
   }
+
   function updateCategoryFilter(category) {
     const categoryFilter = document.getElementById("filter");
     categoryFilter.value = category;
   }
+  
+  hidePageLoader();
+
+  document.getElementById("filter").addEventListener("change", () => {
+    const selectedCategory = document.getElementById("filter").value;
+    filterByCategory(selectedCategory);
+  });
 });
 
 function filterByCategory(category) {
   window.location.href = `shop?category=${category}`;
 }
 
+document
+  .getElementById("search-button")
+  .addEventListener("click", filterProducts);
+
+function showLoadingSpinner() {
+  const spinnerContainer = document.getElementById("spinner-container");
+  if (spinnerContainer) {
+    spinnerContainer.classList.remove("hidden");
+  } else {
+    console.error("Spinner container not found");
+  }
+}
+
+function hideLoadingSpinner() {
+  const spinnerContainer = document.getElementById("spinner-container");
+  if (spinnerContainer) {
+    spinnerContainer.classList.add("hidden");
+  } else {
+    console.error("Spinner container not found");
+  }
+}
+
 function filterProducts() {
+  showLoadingSpinner();
+
   const searchTerm = document
     .getElementById("search-input")
     .value.toLowerCase();
   const filter = document.getElementById("filter").value;
+
   const filteredProducts = products.filter((product) => {
     return (
       product.name.toLowerCase().includes(searchTerm) &&
       (filter === "" || product.category === filter)
     );
   });
-  renderProducts(filteredProducts);
+
+  setTimeout(() => {
+    renderProducts(filteredProducts);
+    hideLoadingSpinner();
+  }, 1000);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -113,9 +186,6 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.removeItem("viewedProduct");
   }
 });
-
-
-
 
 function showHomePage(productId) {
   document.getElementById("banner").style.visibility = "flex";

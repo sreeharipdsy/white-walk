@@ -12,6 +12,38 @@ a {
 body {
   background-color: #fcf9ff !important;
 }
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+@keyframes spin {
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #22002d;
+  background-color: #fcf9ffd2;
+  z-index: 1000; /* Ensure it is on top of other content */
+}
+
+.hidden {
+  display: none;
+}
 
 /* HEADER */
 header .navbar {

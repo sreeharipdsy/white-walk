@@ -160,9 +160,14 @@
   <!-- SECTION THREE - SHOP -->
   <section class="section-three">
     <div class="container">
+      <div id="page-loader" class="loader">
+        <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+      </div>
       <div class="search-container" id="search-container" data-aos="zoom-in">
         <input type="text" id="search-input" class="search-input" placeholder="Search for products...">
-        <button class="search-button" onclick="searchProducts()">
+        <button class="search-button" id="search-button">
           <img src="assets/icons/search.svg" alt="">
         </button>
         </input>
@@ -182,7 +187,12 @@
 
         
       </div>
-      <div class="row justify-content-center align-items-center parent" id="product-list">
+      <div id="spinner-container" class="spinner hidden">
+        <div class="spinner-border" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center parent" id="product-list">  
         <!-- Products Card will Injected Here -->
       </div>
     </div>
