@@ -4225,7 +4225,7 @@ const products = [
     name: "Crocs Classic all Terrain",
     category: "crocs",
     image:
-      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-11at04.24.23_67ff1ec3c.jpg?v=1718214515&width=990",
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-06-11at04.24.23_67ff1ec3.jpg?v=1718214515&width=990",
     price: 3149, // 1649 + 1500
     discountedPrice: 1649,
     size: "EUR 40-45",
