@@ -75,7 +75,6 @@ function showPageLoader() {
   }
 }
 
-// Hide page loader and show product list after a delay
 function hidePageLoader() {
   const pageLoader = document.getElementById("page-loader");
   const productList = document.getElementById("product-list");
@@ -85,15 +84,13 @@ function hidePageLoader() {
   } else {
     console.error("Page loader not found");
   }
-
-  // Simulate a delay before showing the product list
   setTimeout(() => {
     if (productList) {
       productList.classList.remove("hidden");
     } else {
       console.error("Product list not found");
     }
-  }, 1000); // 1-second delay
+  }, 1000);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -117,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const categoryFilter = document.getElementById("filter");
     categoryFilter.value = category;
   }
-  
+
   hidePageLoader();
 
   document.getElementById("filter").addEventListener("change", () => {
@@ -129,7 +126,6 @@ document.addEventListener("DOMContentLoaded", () => {
 function filterByCategory(category) {
   window.location.href = `shop?category=${category}`;
 }
-
 document
   .getElementById("search-button")
   .addEventListener("click", filterProducts);
