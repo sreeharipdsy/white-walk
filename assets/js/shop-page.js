@@ -5,6 +5,17 @@ document.addEventListener("DOMContentLoaded", () => {
   document
     .getElementById("search-button")
     .addEventListener("click", filterProducts);
+  document.getElementById("search-input").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault(); // Prevent form submission if it's inside a form
+      filterProducts();
+    }
+  });
+
+  // Handle touch end on search button (for mobile devices)
+  document.getElementById("search-button").addEventListener("touchend", () => {
+    filterProducts();
+  });
   document.getElementById("filter").addEventListener("change", filterProducts);
   document
     .getElementById("checkout-cart")
@@ -26,36 +37,50 @@ function renderProducts(products) {
     }
   });
   const productList = document.getElementById("product-list");
+  const emptyProduct = document.getElementById("empty");
+
   productList.innerHTML = "";
-  uniqueProducts.forEach((product) => {
-    const productCard = document.createElement("div");
-    productCard.classList.add("card");
-    productCard.setAttribute("data-aos", "zoom-in");
-    productCard.setAttribute("data-product-id", product.id);
-    productCard.innerHTML = `
-      <div class="product-img">
-        <img 
-          src="${product.image}" 
-          class="w-100" 
-          alt="${product.name} Image"
-          onclick="openProductPage(${product.id})">
-      </div>
-      <div class="product-description">
-        <div class="name-rating" onclick="openProductPage(${product.id})">
-          <p class="p-name mb-0">${product.name}</p>
-          <div class="p-rating">5<span>★</span></div>
+  if (products.length === 0) {
+    document.getElementById("empty").style.display = "block";
+    emptyProduct.innerHTML = `<p style="
+                                      font-size: 14px; 
+                                      color: #3f0055; 
+                                      padding-top: 1em; 
+                                      text-align: center;">
+                                      No results found ...
+                              </p>`;
+  } else {
+    uniqueProducts.forEach((product) => {
+      document.getElementById("empty").style.display = "none";
+      const productCard = document.createElement("div");
+      productCard.classList.add("card");
+      productCard.setAttribute("data-aos", "zoom-in");
+      productCard.setAttribute("data-product-id", product.id);
+      productCard.innerHTML = `
+        <div class="product-img">
+          <img 
+            src="${product.image}" 
+            class="w-100" 
+            alt="${product.name} Image"
+            onclick="openProductPage(${product.id})">
         </div>
-        <div class="p-price">
-          <p><span>₹${product.price}</span> ₹${product.discountedPrice}</p>
+        <div class="product-description">
+          <div class="name-rating" onclick="openProductPage(${product.id})">
+            <p class="p-name mb-0">${product.name}</p>
+            <div class="p-rating">5<span>★</span></div>
+          </div>
+          <div class="p-price">
+            <p><span>₹${product.price}</span> ₹${product.discountedPrice}</p>
+          </div>
+          <div class="card-buttons">
+            <button class="add-to-cart" onclick="addToCart(${product.id})">Add to Cart</button>
+            <button class="buy-now" onclick="buyNow('${product.name}')">Buy Now</button>
+          </div>
         </div>
-        <div class="card-buttons">
-          <button class="add-to-cart" onclick="addToCart(${product.id})">Add to Cart</button>
-          <button class="buy-now" onclick="buyNow('${product.name}')">Buy Now</button>
-        </div>
-      </div>
-    `;
-    productList.appendChild(productCard);
-  });
+      `;
+      productList.appendChild(productCard);
+    });
+  }
 }
 
 function showPageLoader() {
@@ -150,7 +175,7 @@ function hideLoadingSpinner() {
 
 function filterProducts() {
   showLoadingSpinner();
-
+  document.getElementById("empty").style.display = "none";
   const searchTerm = document
     .getElementById("search-input")
     .value.toLowerCase();
