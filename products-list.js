@@ -4340,4 +4340,554 @@ const products = [
     discountedPrice: 1349,
     size: "EUR 40-45",
   },
+  {
+    id: 425,
+    name: "ADIDAS SAMBA X WALES BONER",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240731-WA0110.jpg?v=1722375655&width=990",
+    price: 3599,
+    discountedPrice: 2599,
+    size: "EUR 40-44",
+  },
+  {
+    id: 426,
+    name: "ADIDAS SAMBA X WALES BONER",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_26fe9021-c7a2-4cdc-a32a-861f3fc47336.jpg?v=1714382504&width=990",
+    price: 3599,
+    discountedPrice: 2599,
+    size: "EUR 40-44",
+  },
+  {
+    id: 427,
+    name: "ADIDAS SAMBA X WALES BONER ESSENTIAL BROWN",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240723-WA0089.jpg?v=1721759148&width=990",
+    price: 3699,
+    discountedPrice: 2699,
+    size: "EUR 40-44",
+  },
+  {
+    id: 428,
+    name: "ADIDAS SUPERSTAR YANWAI",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240723-WA0008.jpg?v=1721678342&width=990",
+    price: 3699,
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 429,
+    name: "ADIDAS SUPERSTAR FLORAL",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240731-WA0036.jpg?v=1722373493&width=990",
+    price: 3149,
+    discountedPrice: 2149,
+    size: "EUR 36-40",
+  },
+  {
+    id: 430,
+    name: "ADIDAS SUPERSTAR CHAIN",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_0172789c-e58a-451a-afba-326c4c8a645c.jpg?v=1715972182&width=990",
+    price: 3349,
+    discountedPrice: 2349,
+    size: "EUR 36-40",
+  },
+  {
+    id: 431,
+    name: "Adidas Superstar Bonega",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_1c5cc5c8-c508-46eb-8967-5f9a65622b29.jpg?v=1712780161&width=990",
+    price: 3599,
+    discountedPrice: 2599,
+    size: "EUR 36-40",
+  },
+  {
+    id: 432,
+    name: "Adidas Superstar Pride",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_903a2e61-c185-42c0-abf4-ec0b1bd51677.jpg?v=1715973049&width=990",
+    price: 3299,
+    discountedPrice: 2299,
+    size: "EUR 36-40",
+  },
+  {
+    id: 433,
+    name: "Adidas Superstar Multi",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_d8a26ded-70e9-4585-9586-45515cc4b126.jpg?v=1709704444&width=990",
+    price: 3399,
+    discountedPrice: 2399,
+    size: "EUR 36-40",
+  },
+  {
+    id: 434,
+    name: "ADIDAS SUPERSTAR TRIPPLE BLACK",
+    category: "clearance",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240712-WA0040.jpg?v=1720729523&width=990",
+    price: 2399,
+    discountedPrice: 1399,
+    size: "EUR 36-44",
+  },
+  {
+    id: 435,
+    name: "Adidas Superstar Cappuccino",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240626-WA0012.jpg?v=1719381093&width=990",
+    price: 2849,
+    discountedPrice: 1849,
+    size: "EUR 36-40",
+  },
+  {
+    id: 436,
+    name: "Adidas Superstar Hello Kitty",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_0d99f1aa-d6fd-4f65-a528-c996af8f426b.jpg?v=1715972333&width=990",
+    price: 2849,
+    discountedPrice: 1849,
+    size: "EUR 36-40",
+  },
+  {
+    id: 437,
+    name: "Adidas Originals Superstar PEACHES",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240605-WA0032.jpg?v=1717591305&width=990",
+    price: 3599,
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 438,
+    name: "ADIDAS ORIGINALS SUPERSTAR BROWN BUTTON",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240607-WA0063.jpg?v=1717790979&width=990",
+    price: 3599,
+    discountedPrice: 2599,
+    size: "EUR 36-40",
+  },
+  {
+    id: 439,
+    name: "Adidas Superstar Cream Black White",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_4087b4cd-2ea2-4e5f-ab36-941b4aad0119.jpg?v=1709790654&width=990",
+    price: 3599,
+    discountedPrice: 2599,
+    size: "EUR 36-40",
+  },
+  {
+    id: 440,
+    name: "Adidas Originals SUPERSTAR bloody red",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240705-WA0049.jpg?v=1720173344&width=990",
+    price: 3599,
+    discountedPrice: 2599,
+    size: "EUR 41-44",
+  },
+  {
+    id: 441,
+    name: "Nike Sb Dunk ninja",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-04-20at22.27.24_d733c8ce.jpg?v=1719171015&width=990",
+    price: 3499,
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 442,
+    name: "NIKE SB DUNK LOW PRIME BACON",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240714-WA0053.jpg?v=1720906551&width=990",
+    price: 3599,
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 443,
+    name: "Nike AIRFORCE dollars",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240717-WA0057.jpg?v=1721212715&width=990",
+    price: 3599,
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 444,
+    name: "Nike Airforce North Face Gucci",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_df32ec08-b433-48ec-8378-34990d9d4c83.jpg?v=1709792228&width=990",
+    price: 3399,
+    discountedPrice: 2399,
+    size: "EUR 41-45",
+  },
+  {
+    id: 445,
+    name: "Nike Airforce North Face Gucci",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_78c8dca9-2613-4daf-bdfe-ad357cf53fa6.jpg?v=1709720437&width=990",
+    price: 3399,
+    discountedPrice: 2399,
+    size: "EUR 41-45",
+  },
+  {
+    id: 446,
+    name: "ASICS GEL 1130 SILVER SOLAR",
+    category: "men",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUhnoCxTF--hyOspoSc0uiigW_ouwzp8RVpg&usqp=CAU",
+    price: 3999,
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 447,
+    name: "Adidas Samba Gum",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_f458a60a-2c14-4734-a35f-eae678748fd6.jpg?v=1709653902&width=990",
+    price: 3599,
+    discountedPrice: 2599,
+    size: "EUR 36-44",
+  },
+  {
+    id: 448,
+    name: "Adidas Samba Gum",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_9a73de10-4bd1-4d50-be83-3ba064f65a55.jpg?v=1709720714&width=990",
+    price: 3599,
+    discountedPrice: 2599,
+    size: "EUR 36-40",
+  },
+  {
+    id: 449,
+    name: "Adidas Samba white Green",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_28a4a55a-3ac9-4edc-a292-482aece7e429.jpg?v=1709630625&width=990",
+    price: 3199,
+    discountedPrice: 2199,
+    size: "EUR 36-44",
+  },
+  {
+    id: 450,
+    name: "Adidas Orginals Ozelia",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_296022d2-3bdc-4c37-82cd-91c672bcaf50.jpg?v=1715810985&width=990",
+    price: 3699,
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 451,
+    name: "Adidas Orginals Ozelia",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_cfcef993-ef78-4670-9c33-55936ac1e710.jpg?v=1715810975&width=990",
+    price: 3699,
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 452,
+    name: "Adidas Orginals Ozelia",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_7bd1a6f5-f0d2-4bbf-a1c1-0125a6bc48fd.jpg?v=1709629360",
+    price: 3699,
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 453,
+    name: "Adidas Orginals Ozelia",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_73ccc39b-21ed-4e1f-9ed8-f7cb7964a64c.jpg?v=1715809871",
+    price: 3699,
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 454,
+    name: "Adidas Orginals Ozelia",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240605-WA0138.jpg?v=1717594828",
+    price: 3699,
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 455,
+    name: "Adidas Orginals Ozelia",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_068d150f-55e6-417e-90e7-8ef4f8caf3fd.jpg?v=1715810997",
+    price: 3699,
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 456,
+    name: "Adidas Orginals Ozelia",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_14f224c8-554b-484e-873f-de1c097c62be.jpg?v=1710075880",
+    price: 3699,
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 457,
+    name: "Adidas Orginals Ozelia",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_2208041a-af82-47b1-976a-7418e07d3bf1.jpg?v=1712608887",
+    price: 3699,
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 458,
+    name: "Adidas Orginals Ozelia",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240601-WA0008.jpg?v=1717236425",
+    price: 3699,
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 459,
+    name: "Adidas Orginals Ozelia",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240519-WA0011.jpg?v=1716150657",
+    price: 3699,
+    discountedPrice: 2699,
+    size: "EUR 40-45",
+  },
+  {
+    id: 460,
+    name: "Nike sb dunk vegeta",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240511-WA0070.jpg?v=1719171414",
+    price: 3599,
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 461,
+    name: "NIKE SB DUNK OTOMO KATSUHIRO STEAMBOY",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240731-WA0067.jpg?v=1722374604",
+    price: 3499,
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 462,
+    name: "Nike Sb Dunk Dusty Olive Green",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240705-WA0055.jpg?v=1720178058",
+    price: 3599,
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 463,
+    name: "Nike Sb Dunk Chrome Hearts",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_b4065a37-f11d-4344-9b0b-4a9ef89ca918.jpg?v=1710080610",
+    price: 3499,
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 464,
+    name: "NIKE AIRMAX 1 BROWN STONE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240712-WA0058.jpg?v=1720896848",
+    price: 3799,
+    discountedPrice: 2799,
+    size: "EUR 40-45",
+  },
+  {
+    id: 465,
+    name: "NIKE SB DUNK OTOMO KATSUHIRO STEAMBOY",
+    category: "Men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240731-WA0067.jpg?v=1722374604",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 466,
+    name: "Nike Sb Dunk Dusty Olive Green",
+    category: "Men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240705-WA0055.jpg?v=1720178058",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 467,
+    name: "Nike Sb Dunk Chrome Hearts",
+    category: "Men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_b4065a37-f11d-4344-9b0b-4a9ef89ca918.jpg?v=1710080610",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 468,
+    name: "NIKE AIRMAX 1 BROWN STONE",
+    category: "Men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240712-WA0087.jpg?v=1720773576&width=600",
+    price: 4299, // 2799 + 1500
+    discountedPrice: 2799,
+    size: "EUR 40-45",
+  },
+  {
+    id: 469,
+    name: "NIKE SB DUNK AMBUSH SAINT SEIYA",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_4b5e4c0b-edec-4118-8116-e1fa9ed0be18.jpg?v=1717617529&width=600",
+    price: 3299, // 1799 + 1500
+    discountedPrice: 1799,
+    size: "EUR 36-44",
+  },
+  {
+    id: 470,
+    name: "NIKE SB DUNK LOW SE OLDER DANCE",
+    category: "Men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_e09498c6-2557-49cd-b5f9-b371f1c5be4a.jpg?v=1711898742&width=600",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 471,
+    name: "NIKE AIR JORDAN RETRO 4 ROYALTY",
+    category: "Men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240603-WA0045.jpg?v=1717437830&width=600",
+    price: 3849, // 2349 + 1500
+    discountedPrice: 2349,
+    size: "EUR 40-45",
+  },
+  {
+    id: 472,
+    name: "ADIDAS BAD BUNNY BLACK",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_ddac6280-05e9-4863-ad21-6cce92bb0142.jpg?v=1709792476&width=600",
+    price: 3999, // 2499 + 1500
+    discountedPrice: 2499,
+    size: "EUR 36-44",
+  },
+  {
+    id: 473,
+    name: "ADIDAS FORUM EXHIBIT MULTI COLOUR",
+    category: "Men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_04bf9772-d656-4438-932c-f8025351cc21.jpg?v=1709578451&width=600",
+    price: 3649, // 2149 + 1500
+    discountedPrice: 2149,
+    size: "EUR 40-45",
+  },
+  {
+    id: 474,
+    name: "ASICS FUZE GEL ORTHO",
+    category: "Men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240428-WA0076.jpg?v=1714333841&width=600",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 475,
+    name: "ADIDAS ORIGINALS CAMPUS PANDA",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240428-WA0063.jpg?v=1714332530&width=600",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 36-44",
+  },
+  {
+    id: 476,
+    name: "NIKE BLAZER CITY LOW",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240529-WA0012.jpg?v=1716999766&width=600",
+    price: 4299, // 2799 + 1500
+    discountedPrice: 2799,
+    size: "EUR 36-44",
+  },
+  {
+    id: 477,
+    name: "CROCS DYLAN CLOGS",
+    category: "Men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240620-WA0064.jpg?v=1718827826&width=600",
+    price: 3349, // 1849 + 1500
+    discountedPrice: 1849,
+    size: "M6-M11",
+  },
+  {
+    id: 478,
+    name: "CROCS DYLAN CLOGS",
+    category: "Men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240620-WA0086.jpg?v=1718828673&width=600",
+    price: 3349, // 1849 + 1500
+    discountedPrice: 1849,
+    size: "M6-M11",
+  },
+  {
+    id: 479,
+    name: "CROCS DYLAN CLOGS",
+    category: "Men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240620-WA0084.jpg?v=1718828584&width=600",
+    price: 3349, // 1849 + 1500
+    discountedPrice: 1849,
+    size: "M6-M11",
+  }
 ];
