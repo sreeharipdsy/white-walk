@@ -101,16 +101,6 @@ const products = [
     size: "41-46",
   },
   {
-    id: 11,
-    name: "NIKE AIRMAX 1 BROWN STONE",
-    category: "men",
-    image:
-      "https://snapkicks.in/cdn/shop/files/IMG-20240712-WA0087.jpg?v=1720773576&width=990",
-    price: 4149, // 2649 + 1500
-    discountedPrice: 2649,
-    size: "41-45",
-  },
-  {
     id: 12,
     name: "ADIDAS ORIGINALS SAMBA XLG FEI FEI RUN",
     category: "men",
@@ -4728,16 +4718,6 @@ const products = [
       "https://snapkicks.in/cdn/shop/files/image_b4065a37-f11d-4344-9b0b-4a9ef89ca918.jpg?v=1710080610",
     price: 3499,
     discountedPrice: 2499,
-    size: "EUR 40-45",
-  },
-  {
-    id: 464,
-    name: "NIKE AIRMAX 1 BROWN STONE",
-    category: "men",
-    image:
-      "https://snapkicks.in/cdn/shop/files/IMG-20240712-WA0058.jpg?v=1720896848",
-    price: 3799,
-    discountedPrice: 2799,
     size: "EUR 40-45",
   },
   {
