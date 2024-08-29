@@ -187,6 +187,24 @@ header .navbar {
   align-items: center;
 }
 
+.section-three #recommendations {
+  position: absolute;
+  z-index: 1;
+  background: #fdf7ff;
+  max-width: 80%;
+  border-radius: 10px;
+  box-shadow: #6d5a7e4d 0px 0px 20px 0px;
+}
+
+.section-three #recommendations p {
+  padding: 10px 20px 10px 10px;
+  margin: 0;
+  border-bottom: 0.5px solid #432c524a;
+  color: #22002d;
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
 .section-three .parent {
   display: grid;
   grid-template-columns: repeat(5, 1fr);

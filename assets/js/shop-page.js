@@ -7,19 +7,66 @@ document.addEventListener("DOMContentLoaded", () => {
     .addEventListener("click", filterProducts);
   document.getElementById("search-input").addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
-      e.preventDefault(); // Prevent form submission if it's inside a form
+      e.preventDefault();
+      hideRecommendations();
       filterProducts();
     }
   });
-
-  // Handle touch end on search button (for mobile devices)
   document.getElementById("search-button").addEventListener("touchend", () => {
+    hideRecommendations();
     filterProducts();
   });
   document.getElementById("filter").addEventListener("change", filterProducts);
   document
     .getElementById("checkout-cart")
     .addEventListener("click", checkoutCart);
+});
+
+
+function showRecommendations(recommendations) {
+  const recommendationsContainer = document.getElementById("recommendations");
+  recommendationsContainer.innerHTML = "";
+
+  const limitedRecommendations = recommendations.slice(0, 8);
+  
+  if (limitedRecommendations.length === 0) {
+    recommendationsContainer.innerHTML = "<p>No suggestions found...</p>";
+  } else {
+    limitedRecommendations.forEach((product) => {
+      const recommendationItem = document.createElement("div");
+      recommendationItem.classList.add("recommendation-item");
+      recommendationItem.innerHTML = `<p onclick="openProductPage(${product.id})">${product.name}</p>`;
+      recommendationsContainer.appendChild(recommendationItem);
+    });
+  }
+}
+
+function hideRecommendations() {
+  document.getElementById("recommendations").innerHTML = "";
+}
+
+// document.getElementById("search-input").addEventListener("keydown", function (event) {
+//   if (event.key === "Enter") {
+//     event.preventDefault();
+//     hideRecommendations();
+//   }
+// });
+
+// document.getElementById("search-button").addEventListener("click", function () {
+//   hideRecommendations();
+// });
+
+document.getElementById("search-input").addEventListener("input", function () {
+  const query = this.value.toLowerCase().trim();
+
+  if (query.length > 0) {
+    const recommendedProducts = products.filter(product =>
+      product.name.toLowerCase().includes(query)
+    );
+    showRecommendations(recommendedProducts);
+  } else {
+    document.getElementById("recommendations").innerHTML = "";
+  }
 });
 
 function renderProducts(products) {
