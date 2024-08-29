@@ -4869,5 +4869,223 @@ const products = [
     price: 3349, // 1849 + 1500
     discountedPrice: 1849,
     size: "M6-M11",
+  },
+  {
+    id: 480,
+    name: "ADIDAS SUPERSTAR",
+    category: "women",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_d307e521-195d-4aa6-801c-e0f67e34db6d.jpg?v=1715970735&width=600",
+    price: 3499, // 2149 + 1350
+    discountedPrice: 2149,
+    size: "EUR 36-40",
+  },
+  {
+    id: 481,
+    name: "NIKE MK2 TECNO",
+    category: "clearance",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_c1c43fb1-f57e-47a0-a25b-b65dd65a86f2.jpg?v=1709630383&width=600",
+    price: 3799, // 2349 + 1450
+    discountedPrice: 2349,
+    size: "EUR 36-44",
+  },
+  {
+    id: 482,
+    name: "NIKE VAPORFLY NEXT 3",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240828-WA0092.jpg?v=1724843142&width=600",
+    price: 3799, // 2349 + 1450
+    discountedPrice: 2349,
+    size: "EUR 40-45",
+  },
+  {
+    id: 483,
+    name: "NEW BALANCE 530 IVORY",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_db51433d-604a-48ae-baed-0a171934a18e.jpg?v=1716584379&width=600",
+    price: 3999, // 2599 + 1400
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 484,
+    name: "NIKE SB DUNK BATMAN X JOKER",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_6ce9a8ba-309c-4e7e-98cd-5f8a41b0d610.jpg?v=1709666599&width=600",
+    price: 3899, // 2499 + 1400
+    discountedPrice: 2499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 485,
+    name: "NIKE AIR JORDAN 1 LOW X DIOR",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_a4921297-7a9a-4690-8a61-300a94772113.jpg?v=1709835918&width=600",
+    price: 2799, // 1399 + 1400
+    discountedPrice: 1399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 486,
+    name: "NIKE AIRFORCE AMBUSH TRIPPLE WHITE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240603-WA0049.jpg?v=1717438221&width=600",
+    price: 4149, // 2649 + 1500
+    discountedPrice: 2649,
+    size: "EUR 40-45",
+  },
+  {
+    id: 487,
+    name: "NIKE SB DUNK YEAR OF RABBIT 2023",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240602-WA0021.jpg?v=1717348397&width=600",
+    price: 4099, // 2599 + 1500
+    discountedPrice: 2599,
+    size: "EUR 40-45",
+  },
+  {
+    id: 488,
+    name: "NIKE AIRMAX WORLDWIDE",
+    category: "men",
+    image:
+      "https://5.imimg.com/data5/ANDROID/Default/2024/6/428115752/UT/ZL/XZ/32302589/product-jpeg-500x500.jpg",
+    price: 3349, // 1849 + 1500
+    discountedPrice: 1849,
+    size: "EUR 40-45",
+  },
+  {
+    id: 489,
+    name: "ADIDAS SUPERSTAR SHADOW GRAY",
+    category: "women",
+    image:
+      "https://5.imimg.com/data5/ECOM/Default/2023/10/353253596/TP/EI/MG/200358557/1695190683140-sku-1682-0-500x500.jpg",
+    price: 3349, // 1849 + 1500
+    discountedPrice: 1849,
+    size: "EUR 36-40",
+  },
+  {
+    id: 490,
+    name: "NIKE AIR JORDAN RETRO 1 LOW TRAVIS SCOTT NOIRE",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/image_48e8c912-a36c-4f81-831f-c2daa0f58ac2.jpg?v=1716065139&width=600",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 40-45",
+  },
+  {
+    id: 491,
+    name: "ADIDAS FORUM EXHIBIT YELLOW",
+    category: "women",
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2024/2/389351045/BM/SU/OO/9581609/adidas-forum-exhibit-500x500.jpg",
+    price: 3899, // 2399 + 1500
+    discountedPrice: 2399,
+    size: "EUR 36-40",
+  },
+  {
+    id: 492,
+    name: "NIKE X UNION FIELD GENERAL SP SHIMMER",
+    category: "men",
+    image:
+      "https://snapkicks.in/cdn/shop/files/IMG-20240805-WA0087.jpg?v=1722799676&width=360",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 493,
+    name: "NIKE AIRFORCE HEMP COCONUT MILK",
+    category: "men",
+    image: "https://cloudgarment.com/wp-content/uploads/2024/06/Picture3-3.jpg",
+    price: 4149, // 2649 + 1500
+    discountedPrice: 2649,
+    size: "EUR 40-45",
+  },
+  {
+    id: 494,
+    name: "VANS OLD SKOOL KNU BLACK WHITE",
+    category: "unisex",
+    image:
+      "https://snapkicks.in/cdn/shop/files/WhatsAppImage2024-08-13at13.07.36_700390ad.jpg?v=1723579873&width=600",
+    price: 4149, // 2649 + 1500
+    discountedPrice: 2649,
+    size: "EUR 36-44",
+  },
+  {
+    id: 495,
+    name: "NIKE AIRFORCE ALL PETALS UNITED BEIGE",
+    category: "men",
+    image: "https://cdn.dotpe.in/longtail/store-items/6013510/TA4fdAVu.jpeg",
+    price: 4149, // 2649 + 1500
+    discountedPrice: 2649,
+    size: "EUR 40-45",
+  },
+  {
+    id: 496,
+    name: "EMPORIO ARMANI SNEAKERS WHITE",
+    category: "men",
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2024/7/437783704/AB/IP/VR/9581609/emporio-armani-sneakers-500x500.jpg",
+    price: 4999, // 3499 + 1500
+    discountedPrice: 3499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 497,
+    name: "EMPORIO ARMANI SNEAKERS BLACK",
+    category: "men",
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2024/2/390022633/LP/HD/BA/9581609/emporio-armani-sneakers-500x500.jpg",
+    price: 4999, // 3499 + 1500
+    discountedPrice: 3499,
+    size: "EUR 40-45",
+  },
+  {
+    id: 498,
+    name: "ADIDAS ORGINALS OZMILLEN",
+    category: "Men",
+    image:
+      "https://www.courir.com/dw/image/v2/BCCL_PRD/on/demandware.static/-/Sites-master-catalog-courir/default/dwd3d7e717/images/hi-res/001514878_105.jpg?sw=600&sh=600&sm=fit&q=90&frz-v=43",
+    price: 4499, // 2999 + 1500
+    discountedPrice: 2999,
+    size: "EUR 40-45",
+  },
+  {
+    id: 499,
+    name: "CLOGS",
+    category: "crocs",
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2024/6/425274805/DL/GM/MP/192412408/whatsapp-image-2024-06-07-at-10-59-10-500x500.jpeg",
+    price: 2599, // 1099 + 1500
+    discountedPrice: 1099,
+    size: "M6-M11",
+  },
+  {
+    id: 500,
+    name: "VERSACE SLIDES",
+    category: "slide",
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/416435565/YW/MH/OC/192412408/whatsapp-image-2024-05-04-at-18-54-43-500x500.jpeg",
+    price: 2449, // 949 + 1500
+    discountedPrice: 949,
+    size: "EUR 40-45",
+  },
+  {
+    id: 501,
+    name: "LOUIS VUITTON SLIDES",
+    category: "slide",
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/420133646/LR/ZO/OG/192412408/whatsapp-image-2024-05-18-at-21-23-18-250x250.jpeg",
+    price: 2399, // 899 + 1500
+    discountedPrice: 899,
+    size: "EUR 40-45",
   }
 ];
