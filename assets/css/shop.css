@@ -190,18 +190,25 @@ header .navbar {
 .section-three #recommendations {
   position: absolute;
   z-index: 1;
-  background: #fdf7ff;
+  background: #fef9ff;
   max-width: 80%;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: #6d5a7e4d 0px 0px 20px 0px;
+  left: 20%;
+}
+@media (max-width: 767px) {
+  .section-three #recommendations {
+    left: auto;
+  }
 }
 
 .section-three #recommendations p {
   padding: 10px 20px 10px 10px;
   margin: 0;
   border-bottom: 0.5px solid #432c524a;
-  color: #22002d;
+  color: #4d0067;
   font-size: 14px;
+  font-weight: 500;
   text-transform: lowercase;
 }
 
