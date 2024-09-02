@@ -8,7 +8,7 @@ const products = [
       "https://www.toteeme.in/cdn/shop/files/IMG-20240509-WA0035.jpg?v=1715274285",
     price: 4099, // 2599 + 1500
     discountedPrice: 2599,
-    size: "40-45",
+    size: "EUR 40-45",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const products = [
       "https://dukaan.b-cdn.net/700x700/webp/media/080cb1ce-4b02-4536-bb19-8dba8d12325d.jpg",
     price: 4075, // 2575 + 1500
     discountedPrice: 2575,
-    size: "36-44",
+    size: "EUR 36-44",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const products = [
       "https://snapkicks.in/cdn/shop/files/IMG-20240511-WA0016.jpg?v=1716583147&width=533",
     price: 4499, // 2999 + 1500
     discountedPrice: 2999,
-    size: "40-45",
+    size: "EUR 40-45",
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const products = [
       "https://snapkicks.in/cdn/shop/files/image_65c33e6f-d0da-47aa-984f-78595841a30e.jpg?v=1711794536&width=990",
     price: 4299, // 2799 + 1500
     discountedPrice: 2799,
-    size: "36-40",
+    size: "EUR 36-40",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const products = [
       "https://snapkicks.in/cdn/shop/files/image_846c7af1-d81e-478d-bd26-04262f32bdc2.jpg?v=1710146025&width=990",
     price: 3999, // 2499 + 1500
     discountedPrice: 2499,
-    size: "40-45",
+    size: "EUR 40-45",
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ const products = [
       "https://snapkicks.in/cdn/shop/files/IMG-20240803-WA0090.jpg?v=1722629848&width=533",
     price: 4199, // 2699 + 1500
     discountedPrice: 2699,
-    size: "40-45",
+    size: "EUR 40-45",
   },
   {
     id: 7,
@@ -68,7 +68,7 @@ const products = [
       "https://snapkicks.in/cdn/shop/files/image_1184f140-8ffa-4966-b7a0-178018a5d414.jpg?v=1709636964&width=990",
     price: 3999, // 2499 + 1500
     discountedPrice: 2499,
-    size: "40-45",
+    size: "EUR 40-45",
   },
   {
     id: 8,
@@ -78,7 +78,7 @@ const products = [
       "https://snapkicks.in/cdn/shop/files/IMG-20240512-WA0008.jpg?v=1717099153&width=990",
     price: 4475, // 2975 + 1500
     discountedPrice: 2975,
-    size: "40-45",
+    size: "EUR 40-45",
   },
   {
     id: 9,
@@ -88,7 +88,7 @@ const products = [
       "https://snapkicks.in/cdn/shop/files/IMG-20240712-WA0112.jpg?v=1720775043&width=990",
     price: 4299, // 2799 + 1500
     discountedPrice: 2799,
-    size: "40-45",
+    size: "EUR 40-45",
   },
   {
     id: 10,
@@ -98,7 +98,7 @@ const products = [
       "https://snapkicks.in/cdn/shop/files/IMG-20240720-WA0030.jpg?v=1721419828&width=990",
     price: 3999, // 2499 + 1500
     discountedPrice: 2499,
-    size: "41-46",
+    size: "EUR 41-46",
   },
   {
     id: 12,
@@ -108,7 +108,7 @@ const products = [
       "https://snapkicks.in/cdn/shop/files/IMG-20240530-WA0017.jpg?v=1717052264&width=533",
     price: 4099, // 2599 + 1500
     discountedPrice: 2599,
-    size: "40-44",
+    size: "EUR 40-44",
   },
   {
     id: 13,
@@ -118,7 +118,7 @@ const products = [
       "https://snapkicks.in/cdn/shop/files/image_77244e45-65e2-4268-a9f9-7ff4e4086032.jpg?v=1722547747&width=990",
     price: 4099, // 2599 + 1500
     discountedPrice: 2599,
-    size: "36-44",
+    size: "EUR 36-44",
   },
   {
     id: 14,
@@ -128,7 +128,7 @@ const products = [
       "https://snapkicks.in/cdn/shop/files/image_1f1b99c4-38aa-447f-b97e-29934519d42d.jpg?v=1709664383&width=990",
     price: 3999, // 2499 + 1500
     discountedPrice: 2499,
-    size: "36-45",
+    size: "EUR 36-45",
   },
   {
     id: 15,
@@ -138,7 +138,7 @@ const products = [
       "https://snapkicks.in/cdn/shop/files/IMG-20240802-WA0222.jpg?v=1722547874&width=990",
     price: 4199, // 2699 + 1500
     discountedPrice: 2699,
-    size: "40-45",
+    size: "EUR 40-45",
   },
   {
     id: 16,
@@ -148,7 +148,7 @@ const products = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdgBV9-vs0KAKH5vqa0KOA1mjmIXfg7sB8XA&usqp=CAU",
     price: 3875, // 2375 + 1500
     discountedPrice: 2375,
-    size: "36-44",
+    size: "EUR 36-44",
   },
   {
     id: 17,
@@ -158,7 +158,7 @@ const products = [
       "https://5.imimg.com/data5/ANDROID/Default/2024/5/423423437/XZ/SV/YP/32302589/product-500x500.jpg",
     price: 3099, // 1599 + 1500
     discountedPrice: 1599,
-    size: "41-44",
+    size: "EUR 41-44",
   },
   {
     id: 18,
@@ -168,7 +168,7 @@ const products = [
       "https://snapkicks.in/cdn/shop/files/image_6e5de952-ee07-474c-89ef-33b68d26c793.jpg?v=1709637413&width=990",
     price: 3999, // 2499 + 1500
     discountedPrice: 2499,
-    size: "36-44",
+    size: "EUR 36-44",
   },
   {
     id: 19,
@@ -178,7 +178,7 @@ const products = [
       "https://snapkicks.in/cdn/shop/files/image_96ba8faa-61cb-4743-a183-53153320c619.jpg?v=1717016772&width=533",
     price: 4149, // 2649 + 1500
     discountedPrice: 2649,
-    size: "40-45",
+    size: "EUR 40-45",
   },
   {
     id: 20,

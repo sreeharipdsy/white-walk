@@ -45,17 +45,6 @@ function hideRecommendations() {
   document.getElementById("recommendations").innerHTML = "";
 }
 
-// document.getElementById("search-input").addEventListener("keydown", function (event) {
-//   if (event.key === "Enter") {
-//     event.preventDefault();
-//     hideRecommendations();
-//   }
-// });
-
-// document.getElementById("search-button").addEventListener("click", function () {
-//   hideRecommendations();
-// });
-
 document.getElementById("search-input").addEventListener("input", function () {
   const query = this.value.toLowerCase().trim();
 

@@ -24,7 +24,7 @@ function openProductPage(productId) {
           </div>
           <p class="size">
             Sizes: 
-            <span><strong>EURO <span>${product.size}</span></strong></span> 
+            <span><strong>${product.size}</strong></span> 
             Available
           </p>
           <p class="alert">
