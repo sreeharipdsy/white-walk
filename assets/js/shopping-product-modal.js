@@ -1,5 +1,3 @@
-
-
 function openProductPage(productId) {
   const product = products.find((p) => p.id === productId);
   const modalBody = document.getElementById("modal-body");
@@ -35,7 +33,12 @@ function openProductPage(productId) {
         </div>
       </div>
     `;
-
+  const productImages = document.querySelectorAll(".p-image img");
+  productImages.forEach((image) => {
+    image.addEventListener("contextmenu", (event) => {
+      event.preventDefault();
+    });
+  });
   toggleProductModal();
 }
 

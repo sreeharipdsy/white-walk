@@ -22,13 +22,12 @@ document.addEventListener("DOMContentLoaded", () => {
     .addEventListener("click", checkoutCart);
 });
 
-
 function showRecommendations(recommendations) {
   const recommendationsContainer = document.getElementById("recommendations");
   recommendationsContainer.innerHTML = "";
 
   const limitedRecommendations = recommendations.slice(0, 8);
-  
+
   if (limitedRecommendations.length === 0) {
     recommendationsContainer.innerHTML = "<p>No suggestions found...</p>";
   } else {
@@ -49,7 +48,7 @@ document.getElementById("search-input").addEventListener("input", function () {
   const query = this.value.toLowerCase().trim();
 
   if (query.length > 0) {
-    const recommendedProducts = products.filter(product =>
+    const recommendedProducts = products.filter((product) =>
       product.name.toLowerCase().includes(query)
     );
     showRecommendations(recommendedProducts);
@@ -99,6 +98,7 @@ function renderProducts(products) {
             class="w-100" 
             alt="${product.name} Image"
             onclick="openProductPage(${product.id})">
+          <div class="overlay"></div>
         </div>
         <div class="product-description">
           <div class="name-rating" onclick="openProductPage(${product.id})">
@@ -114,6 +114,12 @@ function renderProducts(products) {
           </div>
         </div>
       `;
+      const productImages = document.querySelectorAll(".card img");
+      productImages.forEach((image) => {
+        image.addEventListener("contextmenu", (event) => {
+          event.preventDefault();
+        });
+      });
       productList.appendChild(productCard);
     });
   }
