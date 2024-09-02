@@ -1,187 +1,168 @@
 // PRODUCT LISTS
 const products = [
   {
-    id: 1,
     name: "NIKE SB DUNK STUSSY JUST DO IT",
     category: "men",
     image:
       "https://www.toteeme.in/cdn/shop/files/IMG-20240509-WA0035.jpg?v=1715274285",
     price: 4099, // 2599 + 1500
     discountedPrice: 2599,
-    size: "EUR 40-45",
+    size: "40-45",
   },
   {
-    id: 2,
     name: "NEW BALANCE 530 GREEN",
     category: "unisex",
     image:
       "https://dukaan.b-cdn.net/700x700/webp/media/080cb1ce-4b02-4536-bb19-8dba8d12325d.jpg",
     price: 4075, // 2575 + 1500
     discountedPrice: 2575,
-    size: "EUR 36-44",
+    size: "36-44",
   },
   {
-    id: 3,
     name: "NEW BALANCE 1906 KHAKHI",
     category: "men",
     image:
       "https://snapkicks.in/cdn/shop/files/IMG-20240511-WA0016.jpg?v=1716583147&width=533",
     price: 4499, // 2999 + 1500
     discountedPrice: 2999,
-    size: "EUR 40-45",
+    size: "40-45",
   },
   {
-    id: 4,
     name: "ADIDAS FORUM 84 TRIPPLE WHITE",
     category: "women",
     image:
       "https://snapkicks.in/cdn/shop/files/image_65c33e6f-d0da-47aa-984f-78595841a30e.jpg?v=1711794536&width=990",
     price: 4299, // 2799 + 1500
     discountedPrice: 2799,
-    size: "EUR 36-40",
+    size: "36-40",
   },
   {
-    id: 5,
     name: "NIKE SB DUNK MOCHA",
     category: "men",
     image:
       "https://snapkicks.in/cdn/shop/files/image_846c7af1-d81e-478d-bd26-04262f32bdc2.jpg?v=1710146025&width=990",
     price: 3999, // 2499 + 1500
     discountedPrice: 2499,
-    size: "EUR 40-45",
+    size: "40-45",
   },
   {
-    id: 6,
     name: "NIKE SB DUNK KLEKT",
     category: "men",
     image:
       "https://snapkicks.in/cdn/shop/files/IMG-20240803-WA0090.jpg?v=1722629848&width=533",
     price: 4199, // 2699 + 1500
     discountedPrice: 2699,
-    size: "EUR 40-45",
+    size: "40-45",
   },
   {
-    id: 7,
     name: "Nike Sb Dunk Low x Otomo Katsuhiro green",
     category: "men",
     image:
       "https://snapkicks.in/cdn/shop/files/image_1184f140-8ffa-4966-b7a0-178018a5d414.jpg?v=1709636964&width=990",
     price: 3999, // 2499 + 1500
     discountedPrice: 2499,
-    size: "EUR 40-45",
+    size: "40-45",
   },
   {
-    id: 8,
     name: "NEW BALANCE 1906 TRIPPLE BLACK",
     category: "men",
     image:
       "https://snapkicks.in/cdn/shop/files/IMG-20240512-WA0008.jpg?v=1717099153&width=990",
     price: 4475, // 2975 + 1500
     discountedPrice: 2975,
-    size: "EUR 40-45",
+    size: "40-45",
   },
   {
-    id: 9,
     name: "Nike Sb dunk RAYSSA LEAL",
     category: "men",
     image:
       "https://snapkicks.in/cdn/shop/files/IMG-20240712-WA0112.jpg?v=1720775043&width=990",
     price: 4299, // 2799 + 1500
     discountedPrice: 2799,
-    size: "EUR 40-45",
+    size: "40-45",
   },
   {
-    id: 10,
     name: "Nike Sb Dunk Low x otomo brown white",
     category: "men",
     image:
       "https://snapkicks.in/cdn/shop/files/IMG-20240720-WA0030.jpg?v=1721419828&width=990",
     price: 3999, // 2499 + 1500
     discountedPrice: 2499,
-    size: "EUR 41-46",
+    size: "41-46",
   },
   {
-    id: 12,
     name: "ADIDAS ORIGINALS SAMBA XLG FEI FEI RUN",
     category: "men",
     image:
       "https://snapkicks.in/cdn/shop/files/IMG-20240530-WA0017.jpg?v=1717052264&width=533",
     price: 4099, // 2599 + 1500
     discountedPrice: 2599,
-    size: "EUR 40-44",
+    size: "40-44",
   },
   {
-    id: 13,
     name: "ADIDAS ORGINAL 00S BLACK SOLE",
     category: "unisex",
     image:
       "https://snapkicks.in/cdn/shop/files/image_77244e45-65e2-4268-a9f9-7ff4e4086032.jpg?v=1722547747&width=990",
     price: 4099, // 2599 + 1500
     discountedPrice: 2599,
-    size: "EUR 36-44",
+    size: "36-44",
   },
   {
-    id: 14,
     name: "ONITSUKA tiger leather",
     category: "unisex",
     image:
       "https://snapkicks.in/cdn/shop/files/image_1f1b99c4-38aa-447f-b97e-29934519d42d.jpg?v=1709664383&width=990",
     price: 3999, // 2499 + 1500
     discountedPrice: 2499,
-    size: "EUR 36-45",
+    size: "36-45",
   },
   {
-    id: 15,
     name: "NIKE SB DUNK RUSH HOURS",
     category: "men",
     image:
       "https://snapkicks.in/cdn/shop/files/IMG-20240802-WA0222.jpg?v=1722547874&width=990",
     price: 4199, // 2699 + 1500
     discountedPrice: 2699,
-    size: "EUR 40-45",
+    size: "40-45",
   },
   {
-    id: 16,
     name: "ADIDAS SAMBA BASIC BLACK AND WHITE",
     category: "unisex",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdgBV9-vs0KAKH5vqa0KOA1mjmIXfg7sB8XA&usqp=CAU",
     price: 3875, // 2375 + 1500
     discountedPrice: 2375,
-    size: "EUR 36-44",
+    size: "36-44",
   },
   {
-    id: 17,
     name: "Jordan RETRO 1 Fearless patent",
     category: "clearance",
     image:
       "https://5.imimg.com/data5/ANDROID/Default/2024/5/423423437/XZ/SV/YP/32302589/product-500x500.jpg",
     price: 3099, // 1599 + 1500
     discountedPrice: 1599,
-    size: "EUR 41-44",
+    size: "41-44",
   },
   {
-    id: 18,
     name: "ADIDAS ORGINAL CAMPUS",
     category: "unisex",
     image:
       "https://snapkicks.in/cdn/shop/files/image_6e5de952-ee07-474c-89ef-33b68d26c793.jpg?v=1709637413&width=990",
     price: 3999, // 2499 + 1500
     discountedPrice: 2499,
-    size: "EUR 36-44",
+    size: "36-44",
   },
   {
-    id: 19,
     name: "nike airforce hemp coconut milk",
     category: "men",
     image:
       "https://snapkicks.in/cdn/shop/files/image_96ba8faa-61cb-4743-a183-53153320c619.jpg?v=1717016772&width=533",
     price: 4149, // 2649 + 1500
     discountedPrice: 2649,
-    size: "EUR 40-45",
+    size: "40-45",
   },
   {
-    id: 20,
     name: "NIKE SB DUNK SUPREME WORLD FAMOUS",
     category: "men",
     image:
@@ -191,7 +172,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 21,
     name: "NIKE SB DUNK LOW X OTOMO KOTSUHIRO GREY BLUE",
     category: "men",
     image:
@@ -201,7 +181,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 22,
     name: "NIKE SB DUNK LOW ANTHRACITE",
     category: "men",
     image:
@@ -211,7 +190,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 23,
     name: "ADIDAS STAN SMITH SCUBA GREEN",
     category: "clearance",
     image:
@@ -221,7 +199,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 24,
     name: "NIKE AIRFORCE BROWN SWOOSH 07 LTD",
     category: "clearance",
     image:
@@ -231,7 +208,6 @@ const products = [
     size: "EUR 40-44",
   },
   {
-    id: 25,
     name: "ADIDAS ORIGINALS SAMBA TRIPPLE SNEAKER",
     category: "men",
     image:
@@ -241,7 +217,6 @@ const products = [
     size: "EUR 40-44",
   },
   {
-    id: 26,
     name: "REEBOK CLASSIC CHALK PAPERWHITE",
     category: "men",
     image:
@@ -251,7 +226,6 @@ const products = [
     size: "EUR 40-44",
   },
   {
-    id: 27,
     name: "ADIDAS ORIGINALS SAMBA WALES AND BONER SNAKE SKIN",
     category: "men",
     image:
@@ -261,7 +235,6 @@ const products = [
     size: "EUR 40-44",
   },
   {
-    id: 28,
     name: "NIKE SB DUNK SETSUBAN",
     category: "men",
     image:
@@ -271,7 +244,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 29,
     name: "NIKE SB DUNK DUNKIN DONUT",
     category: "men",
     image:
@@ -281,7 +253,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 30,
     name: "NIKE AIRFORCE AMBUSH WHITE BLUE ORANGE",
     category: "men",
     image:
@@ -291,7 +262,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 31,
     name: "NIKE CORTEZ PETALS UNITED",
     category: "men",
     image:
@@ -301,7 +271,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 32,
     name: "ADIDAS SUPERSTAR NEIGHBORHOOD",
     category: "men",
     image:
@@ -311,7 +280,6 @@ const products = [
     size: "EUR 40-44",
   },
   {
-    id: 33,
     name: "NEW BALANCE WRPD RUNNER",
     category: "men",
     image:
@@ -321,7 +289,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 34,
     name: "ADIDAS ORIGINALS CAMPUS 00s 2024 GREEN",
     category: "men",
     image:
@@ -331,7 +298,6 @@ const products = [
     size: "EUR 40-44",
   },
   {
-    id: 35,
     name: "NEW BALANCE 2002 THE BASEMENT MOSS GREEN",
     category: "men",
     image:
@@ -341,7 +307,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 36,
     name: "NIKE AIRFORCE AMBUSH HAMAWA",
     category: "men",
     image:
@@ -351,7 +316,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 37,
     name: "NEW BALANCE 530 SILVER",
     category: "unisex",
     image:
@@ -361,7 +325,6 @@ const products = [
     size: "EUR 36-44",
   },
   {
-    id: 38,
     name: "ADIDAS FORUM 84 WHITE GREEN EDITION",
     category: "unisex",
     image:
@@ -371,7 +334,6 @@ const products = [
     size: "EUR 36-44",
   },
   {
-    id: 39,
     name: "CROCS VISTA YUKON",
     category: "men",
     image:
@@ -381,7 +343,6 @@ const products = [
     size: "EUR 41-44",
   },
   {
-    id: 40,
     name: "CROCS LITERIDE",
     category: "men",
     image:
@@ -391,7 +352,6 @@ const products = [
     size: "EUR 40-44",
   },
   {
-    id: 41,
     name: "NIKE SB DUNK DE LA SOUL",
     category: "men",
     image:
@@ -401,7 +361,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 42,
     name: "NIKE SB DUNK LOW OREWOOD BROWN SASHIKO OFF WHITE",
     category: "men",
     image:
@@ -411,7 +370,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 43,
     name: "CROCS 2024(BLACK)",
     category: "crocs",
     image:
@@ -421,7 +379,6 @@ const products = [
     size: "m8-m10",
   },
   {
-    id: 44,
     name: "CROCS 2024(WHITE)",
     category: "crocs",
     image:
@@ -431,7 +388,6 @@ const products = [
     size: "m8-m10",
   },
   {
-    id: 45,
     name: "CROCS 2024(KHAKHI)",
     category: "crocs",
     image:
@@ -441,7 +397,6 @@ const products = [
     size: "m8-m10",
   },
   {
-    id: 46,
     name: "Nike calm mule sandel (black)",
     category: "slide",
     image:
@@ -451,7 +406,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 47,
     name: "Nike calm mule sandel (orange)",
     category: "slide",
     image:
@@ -461,7 +415,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 48,
     name: "Nike calm mule sandel (white)",
     category: "slide",
     image:
@@ -471,7 +424,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 49,
     name: "Nike calm mule sandel (green)",
     category: "slide",
     image:
@@ -481,7 +433,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 50,
     name: "ADIDAS FORUM BAD BUNNY BLACK",
     category: "unisex",
     image:
@@ -491,7 +442,6 @@ const products = [
     size: "EUR 36-44",
   },
   {
-    id: 51,
     name: "ADIDAS ORIGINALS CAMPUS PURPLE",
     category: "women",
     image:
@@ -501,7 +451,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 52,
     name: "NIKE AIRFORCE NORTH FACE GUCCI",
     category: "men",
     image:
@@ -511,7 +460,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 53,
     name: "NIKE SB DUNK MOCHA LOW",
     category: "men",
     image:
@@ -521,7 +469,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 54,
     name: "NIKE X UNION FIELD GENERAL SP SHIMMER",
     category: "men",
     image:
@@ -531,7 +478,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 55,
     name: "ADIDAS GAZZELE BOLD BLACK WHITE",
     category: "women",
     image:
@@ -541,7 +487,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 56,
     name: "ONITSUKA TIGER TOKUTEN WHITE NAVY EDITION",
     category: "men",
     image:
@@ -551,7 +496,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 57,
     name: "CONVERSE CHUCK 70 BLACK WHITE",
     category: "unisex",
     image:
@@ -561,7 +505,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 58,
     name: "NEW BALANCE 1906 LIGHTON GREY",
     category: "men",
     image:
@@ -571,7 +514,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 59,
     name: "NIKE SB DUNK OTOMO KOTSUHIRO DBRN",
     category: "men",
     image:
@@ -581,7 +523,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 60,
     name: "ADIDAS ORIGINALS SAMBA NEIGHBORHOOD",
     category: "men",
     image:
@@ -591,7 +532,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 61,
     name: "ADIDAS ORIGINALS SAMBA BONER END",
     category: "men",
     image:
@@ -601,7 +541,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 62,
     name: "NIKE AIRFORCE BANG CHUNKY",
     category: "men",
     image:
@@ -611,7 +550,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 63,
     name: "NIKE AIRFORCE ONE CRISTIANO RONALDO",
     category: "men",
     image:
@@ -621,7 +559,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 64,
     name: "NIKE SB DUNK TIGHTBOOTH EDITION",
     category: "men",
     image:
@@ -631,7 +568,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 65,
     name: "ADIDAS ORIGINALS CENTENNIAL 85",
     category: "men",
     image:
@@ -641,7 +577,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 66,
     name: "NIKE SB DUNK YEAR OF THE TIGER",
     category: "men",
     image:
@@ -651,7 +586,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 67,
     name: "NIKE X UNION FIELD GENERAL SP SHIMMER",
     category: "men",
     image:
@@ -661,7 +595,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 68,
     name: "NEW BALANCE 2002r PROTECTION PACK SEA SALT",
     category: "unisex",
     image:
@@ -671,7 +604,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 69,
     name: "ADIDAS ORIGINALS SAMBA NAKED",
     category: "unisex",
     image:
@@ -681,7 +613,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 60,
     name: "ADIDAS ORIGINALS SAMBA NEIGHBORHOOD",
     category: "men",
     image:
@@ -691,7 +622,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 61,
     name: "ADIDAS ORIGINALS SAMBA BONER END",
     category: "men",
     image:
@@ -701,7 +631,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 62,
     name: "NIKE AIRFORCE BANG CHUNKY",
     category: "men",
     image:
@@ -711,7 +640,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 63,
     name: "NIKE AIRFORCE ONE CRISTIANO RONALDO",
     category: "men",
     image:
@@ -721,7 +649,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 64,
     name: "NIKE SB DUNK TIGHTBOOTH EDITION",
     category: "men",
     image:
@@ -731,7 +658,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 65,
     name: "ADIDAS ORIGINALS CENTENNIAL 85",
     category: "men",
     image:
@@ -741,7 +667,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 66,
     name: "NIKE SB DUNK YEAR OF THE TIGER",
     category: "men",
     image:
@@ -751,7 +676,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 67,
     name: "NIKE X UNION FIELD GENERAL SP SHIMMER",
     category: "men",
     image:
@@ -761,7 +685,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 68,
     name: "NEW BALANCE 2002r PROTECTION PACK SEA SALT",
     category: "unisex",
     image:
@@ -771,7 +694,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 69,
     name: "ADIDAS ORIGINALS SAMBA NAKED",
     category: "unisex",
     image:
@@ -781,7 +703,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 70,
     name: "NIKE AIRFORCE ONE SHADOW",
     category: "clearance",
     image:
@@ -791,7 +712,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 71,
     name: "ADIDAS FEAR OF GOD LOW",
     category: "men",
     image:
@@ -801,7 +721,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 72,
     name: "ADIDAS FEAR OF GOD MID",
     category: "men",
     image:
@@ -811,7 +730,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 73,
     name: "NEW BALANCE 2002r SPRING 2023 SKY",
     category: "men",
     image:
@@ -821,7 +739,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 74,
     name: "NIKE DUNK BEETROOT CRUSH",
     category: "men",
     image:
@@ -831,7 +748,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 75,
     name: "ADIDAS ORIGINAL SAMBA MESSI",
     category: "men",
     image:
@@ -841,7 +757,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 76,
     name: "NEW BALANCE 1906 GANNI",
     category: "men",
     image:
@@ -851,7 +766,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 77,
     name: "NIKE AIRFORCE KEEP FRESH",
     category: "men",
     image:
@@ -861,7 +775,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 78,
     name: "NIKE SB DUNK RUN THE JEWELS",
     category: "men",
     image:
@@ -871,7 +784,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 79,
     name: "ADIDAS ORIGINAL BERMUDA 2024 GREY",
     category: "men",
     image:
@@ -881,7 +793,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 80,
     name: "ONITSUKA TIGER TRAINERS SILVER COLOR",
     category: "men",
     image:
@@ -891,7 +802,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 81,
     name: "ADIDAS FORUM 84 WHITE BLUE",
     category: "uaquality",
     image:
@@ -901,7 +811,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 82,
     name: "VANS OLD SKOOL KNU OLIVE GREEN",
     category: "unisex",
     image:
@@ -911,7 +820,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 83,
     name: "NIKE SB DUNK YEAR OF RABBIT 2023",
     category: "men",
     image:
@@ -921,7 +829,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 84,
     name: "NIKE JORDAN RETRO 4 PINE GREEN",
     category: "unisex",
     image:
@@ -931,7 +838,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 85,
     name: "NIKE SB DUNK VANEER",
     category: "men",
     image:
@@ -941,7 +847,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 86,
     name: "ADIDAS SUPERSTAR ORIGINALS RABBIT HOLE BLACK",
     category: "men",
     image:
@@ -951,7 +856,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 87,
     name: "ADIDAS SUPERSTAR ORIGINAL RABBIT HOLE WOOD",
     category: "men",
     image:
@@ -961,7 +865,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 88,
     name: "VANS OLD SKOOL MIDANKLE",
     category: "unisex",
     image:
@@ -971,7 +874,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 89,
     name: "ADIDAS GAZELLE INDOOR NAVY",
     category: "unisex",
     image:
@@ -981,7 +883,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 90,
     name: "ASICS GEL 1130 GREEN",
     category: "men",
     image:
@@ -991,7 +892,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 91,
     name: "ASICS GEL 1130 SILVER",
     category: "men",
     image:
@@ -1001,7 +901,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 92,
     name: "CROCS MTN ATLAS ELEPHANT",
     category: "crocs",
     image:
@@ -1011,7 +910,6 @@ const products = [
     size: "M6-M11",
   },
   {
-    id: 93,
     name: "ADIDAS SLTN ADIFOM WHITE GREEN",
     category: "men",
     image:
@@ -1021,7 +919,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 94,
     name: "ADIDAS SLTN ADIFOM WHITE BLACK",
     category: "men",
     image:
@@ -1031,7 +928,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 95,
     name: "NIKE SB DUNK NAVY 2023",
     category: "men",
     image:
@@ -1041,7 +937,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 96,
     name: "ADIDAS FORUM BAD BUNNY CLOUD WHITE",
     category: "unisex",
     image:
@@ -1051,7 +946,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 97,
     name: "CONVERSE ALL STAR BLACK",
     category: "men",
     image:
@@ -1061,7 +955,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 98,
     name: "NIKE SB DUNK IVORY HYPER ROYAL",
     category: "women",
     image:
@@ -1071,7 +964,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 99,
     name: "ADIDAS ORIGINALS SAMBA XLG GUM BLACK",
     category: "unisex",
     image:
@@ -1081,7 +973,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 100,
     name: "ADIDAS SAMBA 2023 GREY GREEN",
     category: "unisex",
     image:
@@ -1091,7 +982,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 101,
     name: "CONVERSE CHUCK TAYLOR 70 LOW",
     category: "men",
     image:
@@ -1101,7 +991,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 102,
     name: "ADIDAS ORIGINALS CAMPUS LEOPERD PRINT",
     category: "women",
     image:
@@ -1111,7 +1000,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 103,
     name: "ASICS KAHANA GEL 8",
     category: "men",
     image:
@@ -1121,7 +1009,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 104,
     name: "NIKE JORDANS RETRO 1 LOW VOODO ZION",
     category: "men",
     image:
@@ -1131,7 +1018,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 105,
     name: "ADIDAS ADIMETIC ORIGINALS GREEN",
     category: "clearance",
     image:
@@ -1141,7 +1027,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 106,
     name: "NIKE MK 2 TEKNO OG WHITE GREY",
     category: "unisex",
     image:
@@ -1151,7 +1036,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 107,
     name: "NIKE SB DUNK RED PANDA REMAKE",
     category: "men",
     image:
@@ -1161,7 +1045,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 108,
     name: "ADIDAS SAMBA WHITE RED",
     category: "uaquality",
     image:
@@ -1171,7 +1054,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 109,
     name: "NEW BLANCE 9060 RAINCLOUD",
     category: "men",
     image:
@@ -1181,7 +1063,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 110,
     name: "NIKE JORDAN RETRO TRAVIS SCOTT CUT THE CHECK NOIRE",
     category: "men",
     image:
@@ -1191,7 +1072,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 111,
     name: "NIKE JORDAN RETRO TRAVIS SCOTT CUT THE CHECK YELLOW",
     category: "men",
     image:
@@ -1201,7 +1081,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 112,
     name: "NIKE JORDAN RETRO TRAVIS SCOTT CUT THE UNIVERSITY RED",
     category: "men",
     image:
@@ -1211,7 +1090,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 113,
     name: "NIKE JORDAN RETRO TRAVIS SCOTT CUT THE MOCHA",
     category: "men",
     image:
@@ -1221,7 +1099,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 114,
     name: "ADIDAS GAZELLE INDOOR GREEN",
     category: "men",
     image:
@@ -1231,7 +1108,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 115,
     name: "ADIDAS GAZELLE INDOOR PRELOVED INK",
     category: "men",
     image:
@@ -1241,7 +1117,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 116,
     name: "ASICS EX-89 BLACK",
     category: "men",
     image:
@@ -1251,7 +1126,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 117,
     name: "ADIDAS ORIGINALS CAMPUS GREY",
     category: "unisex",
     image:
@@ -1261,7 +1135,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 118,
     name: "ASICS EX-89 NEEDLES BUTTERFLY",
     category: "men",
     image:
@@ -1271,7 +1144,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 119,
     name: "ADIDAS SUPERSTAR BASIC",
     category: "unisex",
     image:
@@ -1281,7 +1153,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 120,
     name: "ADIDAS ORIGINALS OZELIA JOKER",
     category: "men",
     image:
@@ -1291,7 +1162,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 121,
     name: "ADIDAS ORIGINALS SAMBA SPORTY AND RICH",
     category: "men",
     image:
@@ -1301,7 +1171,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 122,
     name: "NIKE JORDAN SB DUNK X TRAVIS SCOTT GULF",
     category: "men",
     image:
@@ -1311,7 +1180,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 123,
     name: "NIKE SB DUNK LOW X OTOMO KATSUHIRO COFFEE",
     category: "men",
     image:
@@ -1321,7 +1189,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 124,
     name: "ADIDAS SAMBA X WALES BONER",
     category: "men",
     image:
@@ -1331,7 +1198,6 @@ const products = [
     size: "EUR 40-46",
   },
   {
-    id: 125,
     name: "ADIDAS FORUM 84 MID UNIVERSITY BLUE",
     category: "men",
     image:
@@ -1341,7 +1207,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 126,
     name: "NEW BALANCE 1906R BLUE",
     category: "men",
     image:
@@ -1351,7 +1216,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 127,
     name: "NIKE CORTEZ HAWKINS",
     category: "men",
     image:
@@ -1361,7 +1225,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 128,
     name: "VANS OLD SKOOL KNU",
     category: "women",
     image:
@@ -1371,7 +1234,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 129,
     name: "ADIDAS BAD BUNNY RESPONSE CL ECRU TINT",
     category: "men",
     image:
@@ -1381,7 +1243,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 130,
     name: "ADIDAS BAD BUNNY RESPONSE CL BASIC",
     category: "men",
     image:
@@ -1391,7 +1252,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 131,
     name: "ADIDAS ORIGINALS CAMPUS 00s 2024 MAROON",
     category: "men",
     image:
@@ -1401,7 +1261,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 132,
     name: "ADIDAS ORIGINALS CAMPUS 00s CRYSTAL WHITE",
     category: "women",
     image:
@@ -1411,7 +1270,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 133,
     name: "NIKE SB DUNK BIG MONEY SAVINGS",
     category: "ua",
     image:
@@ -1421,7 +1279,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 134,
     name: "NIKE SB DUNK OLIVE GREEN",
     category: "unisex",
     image:
@@ -1431,7 +1288,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 135,
     name: "NIKE SB DUNK CRENSHAW CLUB",
     category: "men",
     image:
@@ -1441,7 +1297,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 136,
     name: "NIKE SB DUNK LOW SE 85",
     category: "men",
     image:
@@ -1451,7 +1306,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 137,
     name: "ADIDAS ORIGINALS CAMPUS BROWN",
     category: "unisex",
     image:
@@ -1461,7 +1315,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 138,
     name: "ONITSUKA TIGER MEXICO 66 NAVY",
     category: "unisex",
     image:
@@ -1471,7 +1324,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 139,
     name: "NIKE AIR JORDANS RETRO 4 PE FIRST CLASS",
     category: "men",
     image:
@@ -1481,7 +1333,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 140,
     name: "NIKE SB DUNK RENOWN MAZDA",
     category: "men",
     image:
@@ -1491,7 +1342,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 141,
     name: "NIKE ALPHAFLY 3 NEXT WHITE",
     category: "sports",
     image:
@@ -1501,7 +1351,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 142,
     name: "NIKE ALPHAFLY 3 NEXT BLACK",
     category: "sports",
     image:
@@ -1511,7 +1360,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 143,
     name: "NEW BALANCE 2002r SALEHE BEMBURRY",
     category: "men",
     image:
@@ -1521,7 +1369,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 144,
     name: "ASICS GEL CONTEND 4",
     category: "men",
     image:
@@ -1531,7 +1378,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 145,
     name: "NIKE SB DUNK IRONSTONE",
     category: "men",
     image:
@@ -1541,7 +1387,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 146,
     name: "ADIDAS FORUM EXHIBIT MID 2023 BLACK",
     category: "men",
     image:
@@ -1551,7 +1396,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 147,
     name: "ADIDAS FORUM EXHIBIT MID 2023 MULTI WHITE",
     category: "men",
     image:
@@ -1561,7 +1405,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 148,
     name: "NEW BALANCE 1906 PROTECTION TURTLEDOVE",
     category: "men",
     image:
@@ -1571,7 +1414,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 149,
     name: "NEW BALANCE 9060 CASTLEROCK INDIGO",
     category: "men",
     image:
@@ -1581,7 +1423,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 150,
     name: "NIKE CORTEZ PETALS UNITED",
     category: "men",
     image:
@@ -1591,7 +1432,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 151,
     name: "ADIDAS FORUM EXHIBIT TRIPPLE WHITE",
     category: "women",
     image:
@@ -1601,7 +1441,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 152,
     name: "ADIDAS FORUM EXHIBIT MULTI BLUE",
     category: "women",
     image:
@@ -1611,7 +1450,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 153,
     name: "ADIDAS ORIGINALS SAMBA GUM XLG GREEN",
     category: "men",
     image:
@@ -1621,7 +1459,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 154,
     name: "ONITSUKA TIGER TOKUTEN GUM SOLE EDITION",
     category: "men",
     image:
@@ -1631,7 +1468,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 155,
     name: "NIKE AIRFORCE AMBUSH CHICAGO EDITION",
     category: "men",
     image:
@@ -1641,7 +1477,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 156,
     name: "NIKE JORDANS RETRO 1 LUCKY GREEN",
     category: "men",
     image:
@@ -1651,7 +1486,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 157,
     name: "NIKE SB DUNK STARRY NIGHT",
     category: "clearance",
     image:
@@ -1661,7 +1495,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 158,
     name: "ADIDAS ORIGINALS SAMBA SKY",
     category: "unisex",
     image:
@@ -1671,7 +1504,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 159,
     name: "ADIDAS ORIGINAL NEO VL COURT 2.0 MILK WHITE",
     category: "men",
     image:
@@ -1681,7 +1513,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 160,
     name: "ADIDAS GAZZELE INDOOR BEAM ORANGE",
     category: "women",
     image:
@@ -1691,7 +1522,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 161,
     name: "ADIDAS SAMBA NOTITLE GREEN",
     category: "ua",
     image:
@@ -1701,7 +1531,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 162,
     name: "NIKE SB DUNK BRAINER",
     category: "men",
     image:
@@ -1711,7 +1540,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 163,
     name: "NEW BALANCE ON RUNNING CLOUD MONSTER",
     category: "sports",
     image:
@@ -1721,7 +1549,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 164,
     name: "NEW BALANCE 2002r SPRING",
     category: "men",
     image:
@@ -1731,7 +1558,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 165,
     name: "ADIDAS ORIGINAL SAMBA WHITE VIOLET TONE",
     category: "women",
     image:
@@ -1741,7 +1567,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 166,
     name: "NIKE JORDAN RETRO 4 MILITARY BLUE",
     category: "men",
     image:
@@ -1751,7 +1576,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 167,
     name: "NIKE JORDAN RETRO 4 SB X JORDAN",
     category: "men",
     image:
@@ -1761,7 +1585,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 168,
     name: "ADIDAS ORIGINALS SUPERSTAR DIME",
     category: "women",
     image:
@@ -1771,7 +1594,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 169,
     name: "ADIDAS SAMBA NOTITLE MAROON",
     category: "men",
     image:
@@ -1781,7 +1603,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 170,
     name: "ADIDAS ORIGINALS SAMBA PRIME KNIT SOCKS",
     category: "unisex",
     image:
@@ -1791,7 +1612,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 171,
     name: "NIKE AIRFORCE DOLLARS",
     category: "unisex",
     image:
@@ -1801,7 +1621,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 172,
     name: "NIKE JORDANS RETRO 4 FEAR PACK",
     category: "men",
     image:
@@ -1811,7 +1630,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 173,
     name: "ADIDAS ORIGINALS SUPERSTAR XLG",
     category: "unisex",
     image:
@@ -1821,7 +1639,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 174,
     name: "NEW BALANCE 9060 BLACK GREY",
     category: "men",
     image:
@@ -1831,7 +1648,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 175,
     name: "NEW BLANCE 9060 BLUE HAZE",
     category: "men",
     image:
@@ -1841,7 +1657,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 176,
     name: "NIKE SB DUNK FUTURA LABORATORIES",
     category: "men",
     image:
@@ -1851,7 +1666,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 177,
     name: "NIKE JORDANS RETRO 1 LOW TRAVIS SCOTT NOIRE",
     category: "men",
     image:
@@ -1861,7 +1675,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 178,
     name: "AMIRI LEGACY SNEAKERS",
     category: "men",
     image:
@@ -1871,7 +1684,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 179,
     name: "AMIRI LEGACY SNEAKERS 1",
     category: "men",
     image:
@@ -1881,7 +1693,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 180,
     name: "NEW BALANCE 1906 KHAKI",
     category: "men",
     image:
@@ -1891,7 +1702,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 181,
     name: "NEW BALANCE 1906 MINDFULL GREY",
     category: "men",
     image:
@@ -1901,7 +1711,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 182,
     name: "NIKE DUNK OTOMO OST GREEN BLACK",
     category: "men",
     image:
@@ -1911,7 +1720,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 183,
     name: "NEW BALANCE 2002r PROTECTION GREEN",
     category: "men",
     image:
@@ -1921,7 +1729,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 184,
     name: "NIKE SB DUNK LOW ANTHRACITE",
     category: "men",
     image:
@@ -1931,7 +1738,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 185,
     name: "NIKE SB DUNK SPLIT ATHLETIC DEPARTMENT",
     category: "men",
     image:
@@ -1941,7 +1747,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 186,
     name: "NIKE AIRFORCE BANG CHUNKY",
     category: "men",
     image:
@@ -1951,7 +1756,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 187,
     name: "NIKE AIRFORCE ONE MID",
     category: "unisex",
     image:
@@ -1961,7 +1765,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 188,
     name: "NIKE JORDAN CUT LOW JACK CACTUS RED AND WHITE",
     category: "men",
     image:
@@ -1971,7 +1774,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 189,
     name: "NIKE JORDAN 3 X TRAVIS SCOTT",
     category: "men",
     image:
@@ -1981,7 +1783,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 190,
     name: "NIKE AIRFORCE AMBUSH",
     category: "men",
     image:
@@ -1991,7 +1792,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 191,
     name: "ONITSUKA TIGER MEXICO 66 1",
     category: "men",
     image:
@@ -2001,7 +1801,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 192,
     name: "ONITSUKA TIGER MEXICO 66 2",
     category: "men",
     image:
@@ -2011,7 +1810,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 193,
     name: "ONITSUKA TIGER MEXICO 66 3",
     category: "men",
     image:
@@ -2021,7 +1819,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 194,
     name: "ONITSUKA TIGER MEXICO 66 4",
     category: "men",
     image:
@@ -2031,7 +1828,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 195,
     name: "ONITSUKA TIGER MEXICO 66 5",
     category: "men",
     image:
@@ -2041,7 +1837,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 196,
     name: "ONITSUKA TIGER MEXICO 66 6",
     category: "men",
     image:
@@ -2051,7 +1846,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 197,
     name: "ASICS GEL VENTURE 6 TRIPLE WHITE EDITION",
     category: "men",
     image:
@@ -2061,7 +1855,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 198,
     name: "ASICS KAHANA GEL 8 WHITE AND BLUE EDITION",
     category: "men",
     image:
@@ -2071,7 +1864,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 199,
     name: "Puma Rs Ferrari",
     category: "men",
     image:
@@ -2081,7 +1873,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 200,
     name: "NIKE SB DUNK BURGUNDY CRUSH",
     category: "men",
     image:
@@ -2091,7 +1882,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 201,
     name: "NIKE AIRFORCE ONE WHITE",
     category: "unisex",
     image:
@@ -2101,7 +1891,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 202,
     name: "Nike Sb Dunk Panda",
     category: "unisex",
     image:
@@ -2111,7 +1900,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 203,
     name: "Asics Gel 1130 Hal Studios",
     category: "men",
     image:
@@ -2121,7 +1909,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 204,
     name: "Asics Gel 1130 Hal Studios",
     category: "men",
     image:
@@ -2131,7 +1918,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 205,
     name: "NEW BALANCE 9060",
     category: "men",
     image:
@@ -2141,7 +1927,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 206,
     name: "ADIDAS SAMBA X WALES BONER BEIGE",
     category: "men",
     image:
@@ -2151,7 +1936,6 @@ const products = [
     size: "EUR 40-44",
   },
   {
-    id: 207,
     name: "ADIDAS SAMBA x WALES BONER BLACK",
     category: "men",
     image:
@@ -2161,7 +1945,6 @@ const products = [
     size: "EUR 40-44",
   },
   {
-    id: 208,
     name: "New Balance 530 Silver",
     category: "unisex",
     image:
@@ -2171,7 +1954,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 209,
     name: "New balance 530",
     category: "unisex",
     image:
@@ -2181,7 +1963,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 210,
     name: "NEW BALANCE 1906 CORDURA GREY",
     category: "men",
     image:
@@ -2191,7 +1972,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 211,
     name: "NEW BALANCE 1906 BLACK CREAM",
     category: "men",
     image:
@@ -2201,7 +1981,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 212,
     name: "New balance 1906 WHITE GREEN CREAM",
     category: "men",
     image:
@@ -2211,7 +1990,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 213,
     name: "NEW BALANCE 1906 PROTECTION BLACK",
     category: "men",
     image:
@@ -2221,7 +1999,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 214,
     name: "NEW BALANCE 1906D",
     category: "men",
     image:
@@ -2231,7 +2008,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 215,
     name: "Asics Ex 89",
     category: "men",
     image:
@@ -2241,7 +2017,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 216,
     name: "ADIDAS OZELIA WHITE SKY",
     category: "men",
     image:
@@ -2251,7 +2026,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 217,
     name: "New balance RC elite V4",
     category: "men",
     image:
@@ -2261,7 +2035,6 @@ const products = [
     size: "EUR 40-44",
   },
   {
-    id: 218,
     name: "NEW BALANCE 9060 RICH OAK",
     category: "men",
     image:
@@ -2271,7 +2044,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 219,
     name: "NEW BALANCE 9060 TRIPLE BLACK",
     category: "men",
     image:
@@ -2281,7 +2053,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 220,
     name: "NEW BALANCE 9060 BRICKS AND WOOD",
     category: "men",
     image:
@@ -2291,7 +2062,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 221,
     name: "NEW BALANCE 9060 BLACK AND WHITE",
     category: "men",
     image:
@@ -2301,7 +2071,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 222,
     name: "NEW BALANCE 9060",
     category: "men",
     image:
@@ -2311,7 +2080,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 223,
     name: "NEW BALANCE 9060",
     category: "men",
     image:
@@ -2321,7 +2089,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 224,
     name: "NEW BALANCE 9060",
     category: "men",
     image:
@@ -2331,7 +2098,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 225,
     name: "NEW BALANCE 9060",
     category: "men",
     image:
@@ -2341,7 +2107,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 226,
     name: "NEW BALANCE 9060",
     category: "men",
     image:
@@ -2351,7 +2116,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 227,
     name: "NEW BALANCE 9060",
     category: "men",
     image:
@@ -2361,7 +2125,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 228,
     name: "NEW BALANCE 9060",
     category: "men",
     image:
@@ -2371,7 +2134,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 229,
     name: "NEW BALANCE 9060",
     category: "men",
     image:
@@ -2381,7 +2143,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 230,
     name: "NEW BALANCE 9060",
     category: "men",
     image:
@@ -2391,7 +2152,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 231,
     name: "NEW BALANCE 9060",
     category: "men",
     image:
@@ -2401,7 +2161,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 232,
     name: "NEW BALANCE 9060",
     category: "men",
     image:
@@ -2411,7 +2170,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 233,
     name: "NEW BALANCE 9060",
     category: "men",
     image:
@@ -2421,7 +2179,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 234,
     name: "NIKE AIR JORDANS RETRO 1 PANDA MID",
     category: "women",
     image:
@@ -2431,7 +2188,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 235,
     name: "ADIDAS SUPERSTAR PARLEY",
     category: "unisex",
     image:
@@ -2441,7 +2197,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 236,
     name: "ADIDAS SUPERSTAR BASIC",
     category: "women",
     image:
@@ -2451,7 +2206,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 237,
     name: "NIKE MK2 TEKNO MONARCH",
     category: "men",
     image:
@@ -2461,7 +2215,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 238,
     name: "NIKE MK2 TEKNO MONARCH",
     category: "men",
     image:
@@ -2471,7 +2224,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 239,
     name: "NIKE MK2 TEKNO",
     category: "women",
     image:
@@ -2481,7 +2233,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 240,
     name: "NIKE MK2 TEKNO CHUNKY GREEN",
     category: "unisex",
     image:
@@ -2491,7 +2242,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 241,
     name: "NIKE MK2 TEKNO ATMOSPHERE COOL GREY",
     category: "men",
     image:
@@ -2501,7 +2251,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 242,
     name: "NIKE MK2 TEKNO",
     category: "unisex",
     image:
@@ -2511,7 +2260,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 243,
     name: "NIKE MK2 TEKNO TRIPLE WHITE",
     category: "unisex",
     image:
@@ -2521,7 +2269,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 244,
     name: "ADIDAS CAMPUS 00S OREO",
     category: "unisex",
     image:
@@ -2531,7 +2278,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 245,
     name: "ADIDAS CAMPUS WHITE PRELOVED BLUE",
     category: "unisex",
     image:
@@ -2541,7 +2287,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 246,
     name: "ADIDAS ORIGINALS CAMPUS LEOPARD PRINT",
     category: "women",
     image:
@@ -2551,7 +2296,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 247,
     name: "ADIDAS ORIGINALS CAMPUS BROWN",
     category: "unisex",
     image:
@@ -2561,7 +2305,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 248,
     name: "ADIDAS CAMPUS 00s WHITE BLACK",
     category: "unisex",
     image:
@@ -2571,7 +2314,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 249,
     name: "NIKE OFFCOURT ADJUST SLIDE",
     category: "slide",
     image:
@@ -2581,7 +2323,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 250,
     name: "NIKE OFFCOURT ADJUST SLIDE",
     category: "slide",
     image:
@@ -2591,7 +2332,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 251,
     name: "NIKE OFFCOURT ADJUST SLIDE",
     category: "slide",
     image:
@@ -2601,7 +2341,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 252,
     name: "NIKE OFFCOURT ADJUST SLIDE",
     category: "slide",
     image:
@@ -2611,7 +2350,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 253,
     name: "ASICS GEL VENTURE 6",
     category: "men",
     image:
@@ -2621,7 +2359,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 254,
     name: "ASICS GEL VENTURE 6",
     category: "men",
     image:
@@ -2631,7 +2368,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 255,
     name: "ASICS GEL VENTURE 6",
     category: "men",
     image:
@@ -2641,7 +2377,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 256,
     name: "ASICS GEL VENTURE 6",
     category: "men",
     image:
@@ -2651,7 +2386,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 257,
     name: "ASICS GEL VENTURE 6",
     category: "men",
     image:
@@ -2661,7 +2395,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 258,
     name: "ASICS GEL VENTURE 6",
     category: "men",
     image:
@@ -2671,7 +2404,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 259,
     name: "ASICS GEL VENTURE 6",
     category: "men",
     image:
@@ -2681,7 +2413,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 260,
     name: "ASICS GEL VENTURE 6",
     category: "men",
     image:
@@ -2691,7 +2422,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 261,
     name: "ADIDAS ORIGINALS CAMPUS 00S 2024 BROWN",
     category: "unisex",
     image:
@@ -2701,7 +2431,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 262,
     name: "Jordan Retro 1 Suede Panda",
     category: "clearance",
     image:
@@ -2711,7 +2440,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 263,
     name: "Vans Old Skool",
     category: "men",
     image:
@@ -2721,7 +2449,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 264,
     name: "Air Jordan Retro 4 ROYALTY",
     category: "men",
     image:
@@ -2731,7 +2458,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 265,
     name: "AIR JORDANS RETRO 1 TRAVIS SCOTT MOCHA REVERSE",
     category: "men",
     image:
@@ -2741,7 +2467,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 266,
     name: "AIR JORDANS RETRO 1 TRAVIS SCOTT FRAGMENT",
     category: "men",
     image:
@@ -2751,7 +2476,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 267,
     name: "Air Jordan Retro 1 Low Travis Scott Noire",
     category: "men",
     image:
@@ -2761,7 +2485,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 268,
     name: "Air Jordan Retro 1 Travis Scott",
     category: "men",
     image:
@@ -2771,7 +2494,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 269,
     name: "AIR JORDAN RETRO 1 LUCKY GREEN",
     category: "clearance",
     image:
@@ -2781,7 +2503,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 270,
     name: "NIKE AIR JORDAN 1 LOW OG X TROPHY ROOM SAIL AND VARSITY",
     category: "men",
     image:
@@ -2791,7 +2512,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 271,
     name: "AIR JORDANS RETRO 1 LOW GREY BLACK ORANGE",
     category: "men",
     image:
@@ -2801,7 +2521,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 272,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2811,7 +2530,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 273,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2821,7 +2539,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 274,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2831,7 +2548,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 275,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2841,7 +2557,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 276,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2851,7 +2566,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 277,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2861,7 +2575,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 278,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2871,7 +2584,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 279,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2881,7 +2593,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 280,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2891,7 +2602,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 281,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2901,7 +2611,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 282,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2911,7 +2620,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 283,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2921,7 +2629,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 284,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2931,7 +2638,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 285,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2941,7 +2647,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 286,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2951,7 +2656,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 287,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2961,7 +2665,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 288,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2971,7 +2674,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 289,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2981,7 +2683,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 290,
     name: "AIR JORDAN RETRO 4",
     category: "men",
     image:
@@ -2991,7 +2692,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 291,
     name: "Jordan retro 4 sail off white",
     category: "men",
     image:
@@ -3001,7 +2701,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 292,
     name: "AIR JORDAN RETRO 4 YELLOW FLIGHT",
     category: "men",
     image:
@@ -3011,7 +2710,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 293,
     name: "Air Jordan Retro 4 Messy Room",
     category: "men",
     image:
@@ -3021,7 +2719,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 294,
     name: "Air Jordan Retro 4 Cool Grey",
     category: "clearance",
     image:
@@ -3031,7 +2728,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 295,
     name: "Jordan Retro 1 Spiderverse",
     category: "men",
     image:
@@ -3041,7 +2737,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 296,
     name: "CR9CS LITERIDE 360 BLUE RED",
     category: "crocs",
     image:
@@ -3051,7 +2746,6 @@ const products = [
     size: "M6-M11",
   },
   {
-    id: 297,
     name: "CROCS LAKERS BASKETBALL",
     category: "crocs",
     image:
@@ -3061,7 +2755,6 @@ const products = [
     size: "M6-M11",
   },
   {
-    id: 298,
     name: "CROCS LAKERS BASKETBALL",
     category: "crocs",
     image:
@@ -3071,7 +2764,6 @@ const products = [
     size: "M6-M11",
   },
   {
-    id: 299,
     name: "CROCS LAKERS BASKETBALL",
     category: "crocs",
     image:
@@ -3081,7 +2773,6 @@ const products = [
     size: "M6-M11",
   },
   {
-    id: 300,
     name: "CROCS LAKERS BASKETBALL",
     category: "crocs",
     image:
@@ -3091,7 +2782,6 @@ const products = [
     size: "M6-M11",
   },
   {
-    id: 301,
     name: "CROCS LAKERS BASKETBALL",
     category: "crocs",
     image:
@@ -3101,7 +2791,6 @@ const products = [
     size: "M6-M11",
   },
   {
-    id: 302,
     name: "NEW BALANCE 1906D",
     category: "men",
     image:
@@ -3111,7 +2800,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 303,
     name: "NEW BALANCE 2002r CASTLEROCK INDIGO",
     category: "men",
     image:
@@ -3121,7 +2809,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 304,
     name: "NEW BALANCE 1906D",
     category: "men",
     image:
@@ -3131,7 +2818,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 305,
     name: "NEW BALANCE 1906D",
     category: "men",
     image:
@@ -3141,7 +2827,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 306,
     name: "NEW BALANCE 1906D",
     category: "men",
     image:
@@ -3151,7 +2836,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 307,
     name: "NEW BALANCE 1906D",
     category: "men",
     image:
@@ -3161,7 +2845,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 308,
     name: "New balance 2002r Shadow",
     category: "men",
     image:
@@ -3171,7 +2854,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 309,
     name: "New balance 2002r Cherry Bordeaux",
     category: "men",
     image:
@@ -3181,7 +2863,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 310,
     name: "NEW BALANCE 2002r GORETEX JJJOUND",
     category: "men",
     image:
@@ -3191,7 +2872,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 311,
     name: "NEW BALANCE 2002r DARK GREY",
     category: "men",
     image:
@@ -3201,7 +2881,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 312,
     name: "NEW BALANCE 2002r PROTECTION PACK SEA SALT",
     category: "UNISEX",
     image:
@@ -3211,7 +2890,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 313,
     name: "VANS OLD SKOOL KNU DEVIL",
     category: "women",
     image:
@@ -3221,7 +2899,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 314,
     name: "VANS OLD SKOOL KNU BLUE",
     category: "unisex",
     image:
@@ -3231,7 +2908,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 315,
     name: "VANS OLD SKOOL KNU DISNEY",
     category: "unisex",
     image:
@@ -3241,7 +2917,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 316,
     name: "VANS OLD SKOOL KNU BLACK WHITE",
     category: "unisex",
     image:
@@ -3251,7 +2926,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 317,
     name: "VANS OLD SKOOL KNU CORE BLACK",
     category: "men",
     image:
@@ -3261,7 +2935,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 318,
     name: "VANS OLD SKOOL KNU PEACHES",
     category: "women",
     image:
@@ -3271,7 +2944,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 319,
     name: "NIKE SB DUNK MUMMY",
     category: "men",
     image:
@@ -3281,7 +2953,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 320,
     name: "NIKE SB DUNK JOKER",
     category: "men",
     image:
@@ -3291,7 +2962,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 321,
     name: "NIKE SB DUNK LOW MEDIUM CURRY",
     category: "men",
     image:
@@ -3301,7 +2971,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 322,
     name: "NIKE SB DUNK STUSSY LUV FREE HUGS",
     category: "men",
     image:
@@ -3311,7 +2980,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 323,
     name: "NIKE SB DUNK DRAGON BALLS",
     category: "men",
     image:
@@ -3321,7 +2989,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 324,
     name: "NIKE SB DUNK GHOST RIDER",
     category: "men",
     image:
@@ -3331,7 +2998,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 325,
     name: "ADIDAS ORIGINALS CAMPUS GREY",
     category: "unisex",
     image:
@@ -3341,7 +3007,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 326,
     name: "ADIDAS ORIGINALS CAMPUS WHITE PRELOVED BLUE",
     category: "unisex",
     image:
@@ -3351,7 +3016,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 327,
     name: "ADIDAS ORIGINALS CAMPUS 00S 2024 BLUE HEART",
     category: "unisex",
     image:
@@ -3361,7 +3025,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 328,
     name: "NIKE SB DUNK OLIVE GREEN",
     category: "unisex",
     image:
@@ -3371,7 +3034,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 329,
     name: "NIKE SB DUNK AMBUSH DRIFTWOOD",
     category: "men",
     image:
@@ -3381,7 +3043,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 330,
     name: "NIKE SB DUNK SYRACUSE ORANGE",
     category: "unisex",
     image:
@@ -3391,7 +3052,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 331,
     name: "NIKE SB DUNK YUTO HORIGOME",
     category: "men",
     image:
@@ -3401,7 +3061,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 332,
     name: "NIKE SB DUNK AMBUSH SAINT SEIYA",
     category: "men",
     image:
@@ -3411,7 +3070,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 333,
     name: "NIKE SB DUNK DUNKIN DONUT",
     category: "men",
     image:
@@ -3421,7 +3079,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 334,
     name: "NIKE SB DUNK SNORLAX",
     category: "men",
     image:
@@ -3431,7 +3088,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 335,
     name: "NIKE SB DUNK HEINEKEN",
     category: "men",
     image:
@@ -3441,7 +3097,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 336,
     name: "NIKE SB DUNK DRAGONBALLS",
     category: "men",
     image:
@@ -3451,7 +3106,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 337,
     name: "NIKE SB DUNK MULTI CAMO",
     category: "men",
     image:
@@ -3461,7 +3115,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 338,
     name: "NIKE SB DUNK CLOT CORK",
     category: "men",
     image:
@@ -3471,7 +3124,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 339,
     name: "NIKE SB DUNK SETSUBAN",
     category: "men",
     image:
@@ -3481,7 +3133,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 340,
     name: "NIKE SB DUNK DISRUPT",
     category: "men",
     image:
@@ -3491,7 +3142,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 341,
     name: "NIKE SB DUNK APRIL",
     category: "men",
     image:
@@ -3501,7 +3151,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 342,
     name: "NIKE SB DUNK PRO LONDON",
     category: "men",
     image:
@@ -3511,7 +3160,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 343,
     name: "NIKE SB DUNK STUSSY BLUE",
     category: "men",
     image:
@@ -3521,7 +3169,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 344,
     name: "NIKE SB DUNK OTOMO KATSUHIRO",
     category: "men",
     image:
@@ -3531,7 +3178,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 345,
     name: "NIKE SB DUNK 2023 CHROME HEARTS",
     category: "men",
     image:
@@ -3541,7 +3187,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 346,
     name: "NIKE SB DUNK GREEN APPLE",
     category: "men",
     image:
@@ -3551,7 +3196,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 347,
     name: "NIKE SB DUNK WHITE GUM",
     category: "men",
     image:
@@ -3561,7 +3205,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 348,
     name: "Puma Palermo",
     category: "men",
     image:
@@ -3571,7 +3214,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 349,
     name: "Puma Palermo",
     category: "men",
     image:
@@ -3581,7 +3223,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 350,
     name: "Puma Cali Dream NYC",
     category: "women",
     image:
@@ -3591,7 +3232,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 351,
     name: "Puma Cali Dream",
     category: "women",
     image:
@@ -3601,7 +3241,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 352,
     name: "PUMA RS BMW",
     category: "men",
     image:
@@ -3611,7 +3250,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 353,
     name: "ASICS GT 2160 WHITE PURE SILVER",
     category: "men",
     image:
@@ -3621,7 +3259,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 354,
     name: "ASICS EX-89 WHITE SKY",
     category: "men",
     image:
@@ -3631,7 +3268,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 355,
     name: "ASICS EX 89 WHITE BLUE",
     category: "men",
     image:
@@ -3641,7 +3277,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 356,
     name: "ASICS EX 89 KITH",
     category: "men",
     image:
@@ -3651,7 +3286,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 357,
     name: "NEW BALANCE 530 SKY",
     category: "women",
     image:
@@ -3661,7 +3295,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 358,
     name: "New Balance 539 Triple White",
     category: "women",
     image:
@@ -3671,7 +3304,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 359,
     name: "New Balance 530 Ivory",
     category: "unisex",
     image:
@@ -3681,7 +3313,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 360,
     name: "New Balance 530 Oreo",
     category: "men",
     image:
@@ -3691,7 +3322,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 361,
     name: "CONVERSE CHUCK 70",
     category: "unisex",
     image:
@@ -3701,7 +3331,6 @@ const products = [
     size: "unisex",
   },
   {
-    id: 362,
     name: "CONVERSE CHUCK 70",
     category: "unisex",
     image:
@@ -3711,7 +3340,6 @@ const products = [
     size: "unisex",
   },
   {
-    id: 363,
     name: "Louis Vuitton Skate Trainer",
     category: "men",
     image:
@@ -3721,7 +3349,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 364,
     name: "Adidas Adimetic Original Grey Blue",
     category: "clearance",
     image:
@@ -3731,7 +3358,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 365,
     name: "ADIDAS ADIMETIC",
     category: "clearance",
     image:
@@ -3741,7 +3367,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 366,
     name: "ADIDAS ADIMETIC",
     category: "clearance",
     image:
@@ -3751,7 +3376,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 367,
     name: "ADIDAS ADIMETIC",
     category: "clearance",
     image:
@@ -3761,7 +3385,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 368,
     name: "ADIDAS ADIMETIC",
     category: "clearance",
     image:
@@ -3771,7 +3394,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 369,
     name: "ONITSUKA TIGER TOKUTEN BLACK WHITE",
     category: "men",
     image:
@@ -3781,7 +3403,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 370,
     name: "ONITSUKA TIGER TOKUTEN HUM SOLE",
     category: "men",
     image:
@@ -3791,7 +3412,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 371,
     name: "ONITSUKA TIGER TOKUTEN HUM SOLE",
     category: "men",
     image:
@@ -3801,7 +3421,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 372,
     name: "ONITSUKA TIGER TOKUTEN HUM SOLE",
     category: "men",
     image:
@@ -3811,7 +3430,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 373,
     name: "ONITSUKA TIGER TOKUTEN HUM SOLE",
     category: "men",
     image:
@@ -3821,7 +3439,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 374,
     name: "CROCS LITERIDE",
     category: "crocs",
     image:
@@ -3831,7 +3448,6 @@ const products = [
     size: "M6-M10",
   },
   {
-    id: 375,
     name: "Nike Jordan 6 City of Flight",
     category: "men",
     image:
@@ -3841,7 +3457,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 376,
     name: "Louis Vuitton",
     category: "men",
     image:
@@ -3851,7 +3466,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 377,
     name: "Louis Vuitton",
     category: "men",
     image:
@@ -3861,7 +3475,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 378,
     name: "Louis Vuitton",
     category: "men",
     image:
@@ -3871,7 +3484,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 379,
     name: "Louis Vuitton",
     category: "men",
     image:
@@ -3881,7 +3493,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 380,
     name: "Louis Vuitton",
     category: "men",
     image:
@@ -3891,7 +3502,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 381,
     name: "Louis Vuitton",
     category: "men",
     image:
@@ -3901,7 +3511,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 382,
     name: "Louis Vuitton",
     category: "men",
     image:
@@ -3911,7 +3520,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 383,
     name: "Louis Vuitton",
     category: "men",
     image:
@@ -3921,7 +3529,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 384,
     name: "CONVERSE CHUCK 70",
     category: "men",
     image:
@@ -3931,7 +3538,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 385,
     name: "CONVERSE CHUCK 70",
     category: "men",
     image:
@@ -3941,7 +3547,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 386,
     name: "Converse All Star",
     category: "unisex",
     image:
@@ -3951,7 +3556,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 387,
     name: "Converse Star Vintage",
     category: "unisex",
     image:
@@ -3961,7 +3565,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 388,
     name: "Nike Blazer Low 77 Jumbo",
     category: "clearance",
     image:
@@ -3971,7 +3574,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 389,
     name: "Nike Blazer Mid 77 Jumbo",
     category: "unisex",
     image:
@@ -3981,7 +3583,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 390,
     name: "NIKE AIRFORCE ONE LOUIS VUITTON",
     category: "men",
     image:
@@ -3991,7 +3592,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 391,
     name: "Air Jordan Retro 4 Paris",
     category: "men",
     image:
@@ -4001,7 +3601,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 392,
     name: "Nike Sb Dunk Jarritos",
     category: "men",
     image:
@@ -4011,7 +3610,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 393,
     name: "Nike Sb Dunk Otomo Katsuhiro",
     category: "men",
     image:
@@ -4021,7 +3619,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 394,
     name: "Nike Sb Dunk Otomo Katsuhiro",
     category: "men",
     image:
@@ -4031,7 +3628,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 395,
     name: "Nike Sb Dunk Otomo Katsuhiro",
     category: "men",
     image:
@@ -4041,7 +3637,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 396,
     name: "Nike Sb Dunk Otomo Katsuhiro",
     category: "men",
     image:
@@ -4051,7 +3646,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 397,
     name: "Nike Sb Dunk Otomo Katsuhiro",
     category: "men",
     image:
@@ -4061,7 +3655,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 398,
     name: "ONITSUKA TIGER TRAINERS SILVER",
     category: "men",
     image:
@@ -4071,7 +3664,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 399,
     name: "Adidas Samba Silver",
     category: "unisex",
     image:
@@ -4081,7 +3673,6 @@ const products = [
     size: "EUR 36-45",
   },
   {
-    id: 400,
     name: "CROCS OFF GRID CLOG",
     category: "crocs",
     image:
@@ -4091,7 +3682,6 @@ const products = [
     size: "m6-m11",
   },
   {
-    id: 401,
     name: "CROCS DYLAN CLOGS",
     category: "crocs",
     image:
@@ -4101,7 +3691,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 402,
     name: "CROCS DYLAN CLOGS",
     category: "crocs",
     image:
@@ -4111,7 +3700,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 403,
     name: "CROCS DYLAN CLOGS",
     category: "crocs",
     image:
@@ -4121,7 +3709,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 404,
     name: "CROCS X SALEHE BEMBURRY POLEX SLIDE",
     category: "slide",
     image:
@@ -4131,7 +3718,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 405,
     name: "CROCS X SALEHE BEMBURRY POLEX SLIDE",
     category: "slide",
     image:
@@ -4141,7 +3727,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 406,
     name: "CROCS X SALEHE BEMBURRY POLEX SLIDE",
     category: "slide",
     image:
@@ -4151,7 +3736,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 407,
     name: "CROCS X SALEHE BEMBURRY POLEX SLIDE",
     category: "slide",
     image:
@@ -4161,7 +3745,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 408,
     name: "CROCS X SALEHE BEMBURRY POLEX SLIDE",
     category: "slide",
     image:
@@ -4171,7 +3754,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 409,
     name: "CROCS LITERIDE 360",
     category: "crocs",
     image:
@@ -4181,7 +3763,6 @@ const products = [
     size: "m6-m11",
   },
   {
-    id: 410,
     name: "CROCS ALL TERRAIN ATLAS",
     category: "crocs",
     image:
@@ -4191,7 +3772,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 411,
     name: "CROCS ALL TERRAIN ATLAS",
     category: "crocs",
     image:
@@ -4201,7 +3781,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 412,
     name: "Crocs Classic all Terrain",
     category: "crocs",
     image:
@@ -4211,7 +3790,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 413,
     name: "Crocs Classic all Terrain",
     category: "crocs",
     image:
@@ -4221,7 +3799,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 414,
     name: "Crocs Classic all Terrain",
     category: "crocs",
     image:
@@ -4231,7 +3808,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 415,
     name: "Crocs Classic all Terrain",
     category: "crocs",
     image:
@@ -4241,7 +3817,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 416,
     name: "Crocs Classic all Terrain",
     category: "crocs",
     image:
@@ -4251,7 +3826,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 417,
     name: "CROCS ALL TERRAIN ATLAS",
     category: "crocs",
     image:
@@ -4261,7 +3835,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 418,
     name: "CROCS ALL TERRAIN ATLAS",
     category: "crocs",
     image:
@@ -4271,7 +3844,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 419,
     name: "CROCS LITERIDE 360",
     category: "crocs",
     image:
@@ -4281,7 +3853,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 420,
     name: "CROCS LITERIDE 360",
     category: "crocs",
     image:
@@ -4291,7 +3862,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 421,
     name: "CROCS LITERIDE 360",
     category: "crocs",
     image:
@@ -4301,7 +3871,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 422,
     name: "CROCS LITERIDE",
     category: "crocs",
     image:
@@ -4311,7 +3880,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 423,
     name: "CROCS LITERIDE",
     category: "crocs",
     image:
@@ -4321,7 +3889,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 424,
     name: "CROCS LITERIDE",
     category: "crocs",
     image:
@@ -4331,7 +3898,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 425,
     name: "ADIDAS SAMBA X WALES BONER",
     category: "men",
     image:
@@ -4341,7 +3907,6 @@ const products = [
     size: "EUR 40-44",
   },
   {
-    id: 426,
     name: "ADIDAS SAMBA X WALES BONER",
     category: "men",
     image:
@@ -4351,7 +3916,6 @@ const products = [
     size: "EUR 40-44",
   },
   {
-    id: 427,
     name: "ADIDAS SAMBA X WALES BONER ESSENTIAL BROWN",
     category: "men",
     image:
@@ -4361,7 +3925,6 @@ const products = [
     size: "EUR 40-44",
   },
   {
-    id: 428,
     name: "ADIDAS SUPERSTAR YANWAI",
     category: "men",
     image:
@@ -4371,7 +3934,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 429,
     name: "ADIDAS SUPERSTAR FLORAL",
     category: "women",
     image:
@@ -4381,7 +3943,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 430,
     name: "ADIDAS SUPERSTAR CHAIN",
     category: "women",
     image:
@@ -4391,7 +3952,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 431,
     name: "Adidas Superstar Bonega",
     category: "women",
     image:
@@ -4401,7 +3961,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 432,
     name: "Adidas Superstar Pride",
     category: "women",
     image:
@@ -4411,7 +3970,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 433,
     name: "Adidas Superstar Multi",
     category: "women",
     image:
@@ -4421,7 +3979,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 434,
     name: "ADIDAS SUPERSTAR TRIPPLE BLACK",
     category: "clearance",
     image:
@@ -4431,7 +3988,6 @@ const products = [
     size: "EUR 36-44",
   },
   {
-    id: 435,
     name: "Adidas Superstar Cappuccino",
     category: "women",
     image:
@@ -4441,7 +3997,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 436,
     name: "Adidas Superstar Hello Kitty",
     category: "women",
     image:
@@ -4451,7 +4006,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 437,
     name: "Adidas Originals Superstar PEACHES",
     category: "men",
     image:
@@ -4461,7 +4015,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 438,
     name: "ADIDAS ORIGINALS SUPERSTAR BROWN BUTTON",
     category: "women",
     image:
@@ -4471,7 +4024,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 439,
     name: "Adidas Superstar Cream Black White",
     category: "women",
     image:
@@ -4481,7 +4033,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 440,
     name: "Adidas Originals SUPERSTAR bloody red",
     category: "men",
     image:
@@ -4491,7 +4042,6 @@ const products = [
     size: "EUR 41-44",
   },
   {
-    id: 441,
     name: "Nike Sb Dunk ninja",
     category: "men",
     image:
@@ -4501,7 +4051,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 442,
     name: "NIKE SB DUNK LOW PRIME BACON",
     category: "men",
     image:
@@ -4511,7 +4060,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 443,
     name: "Nike AIRFORCE dollars",
     category: "men",
     image:
@@ -4521,7 +4069,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 444,
     name: "Nike Airforce North Face Gucci",
     category: "men",
     image:
@@ -4531,7 +4078,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 445,
     name: "Nike Airforce North Face Gucci",
     category: "men",
     image:
@@ -4541,7 +4087,6 @@ const products = [
     size: "EUR 41-45",
   },
   {
-    id: 446,
     name: "ASICS GEL 1130 SILVER SOLAR",
     category: "men",
     image:
@@ -4551,7 +4096,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 447,
     name: "Adidas Samba Gum",
     category: "unisex",
     image:
@@ -4561,7 +4105,6 @@ const products = [
     size: "EUR 36-44",
   },
   {
-    id: 448,
     name: "Adidas Samba Gum",
     category: "women",
     image:
@@ -4571,7 +4114,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 449,
     name: "Adidas Samba white Green",
     category: "unisex",
     image:
@@ -4581,7 +4123,6 @@ const products = [
     size: "EUR 36-44",
   },
   {
-    id: 450,
     name: "Adidas Orginals Ozelia",
     category: "men",
     image:
@@ -4591,7 +4132,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 451,
     name: "Adidas Orginals Ozelia",
     category: "men",
     image:
@@ -4601,7 +4141,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 452,
     name: "Adidas Orginals Ozelia",
     category: "men",
     image:
@@ -4611,7 +4150,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 453,
     name: "Adidas Orginals Ozelia",
     category: "men",
     image:
@@ -4621,7 +4159,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 454,
     name: "Adidas Orginals Ozelia",
     category: "men",
     image:
@@ -4631,7 +4168,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 455,
     name: "Adidas Orginals Ozelia",
     category: "men",
     image:
@@ -4641,7 +4177,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 456,
     name: "Adidas Orginals Ozelia",
     category: "men",
     image:
@@ -4651,7 +4186,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 457,
     name: "Adidas Orginals Ozelia",
     category: "men",
     image:
@@ -4661,7 +4195,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 458,
     name: "Adidas Orginals Ozelia",
     category: "men",
     image:
@@ -4671,7 +4204,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 459,
     name: "Adidas Orginals Ozelia",
     category: "men",
     image:
@@ -4681,7 +4213,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 460,
     name: "Nike sb dunk vegeta",
     category: "men",
     image:
@@ -4691,7 +4222,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 461,
     name: "NIKE SB DUNK OTOMO KATSUHIRO STEAMBOY",
     category: "men",
     image:
@@ -4701,7 +4231,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 462,
     name: "Nike Sb Dunk Dusty Olive Green",
     category: "men",
     image:
@@ -4711,7 +4240,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 463,
     name: "Nike Sb Dunk Chrome Hearts",
     category: "men",
     image:
@@ -4721,7 +4249,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 465,
     name: "NIKE SB DUNK OTOMO KATSUHIRO STEAMBOY",
     category: "Men",
     image:
@@ -4731,7 +4258,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 466,
     name: "Nike Sb Dunk Dusty Olive Green",
     category: "Men",
     image:
@@ -4741,7 +4267,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 467,
     name: "Nike Sb Dunk Chrome Hearts",
     category: "Men",
     image:
@@ -4751,7 +4276,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 468,
     name: "NIKE AIRMAX 1 BROWN STONE",
     category: "Men",
     image:
@@ -4761,7 +4285,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 469,
     name: "NIKE SB DUNK AMBUSH SAINT SEIYA",
     category: "unisex",
     image:
@@ -4771,7 +4294,6 @@ const products = [
     size: "EUR 36-44",
   },
   {
-    id: 470,
     name: "NIKE SB DUNK LOW SE OLDER DANCE",
     category: "Men",
     image:
@@ -4781,7 +4303,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 471,
     name: "NIKE AIR JORDAN RETRO 4 ROYALTY",
     category: "Men",
     image:
@@ -4791,7 +4312,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 472,
     name: "ADIDAS BAD BUNNY BLACK",
     category: "unisex",
     image:
@@ -4801,7 +4321,6 @@ const products = [
     size: "EUR 36-44",
   },
   {
-    id: 473,
     name: "ADIDAS FORUM EXHIBIT MULTI COLOUR",
     category: "Men",
     image:
@@ -4811,7 +4330,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 474,
     name: "ASICS FUZE GEL ORTHO",
     category: "Men",
     image:
@@ -4821,7 +4339,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 475,
     name: "ADIDAS ORIGINALS CAMPUS PANDA",
     category: "unisex",
     image:
@@ -4831,7 +4348,6 @@ const products = [
     size: "EUR 36-44",
   },
   {
-    id: 476,
     name: "NIKE BLAZER CITY LOW",
     category: "unisex",
     image:
@@ -4841,7 +4357,6 @@ const products = [
     size: "EUR 36-44",
   },
   {
-    id: 477,
     name: "CROCS DYLAN CLOGS",
     category: "Men",
     image:
@@ -4851,7 +4366,6 @@ const products = [
     size: "M6-M11",
   },
   {
-    id: 478,
     name: "CROCS DYLAN CLOGS",
     category: "Men",
     image:
@@ -4861,7 +4375,6 @@ const products = [
     size: "M6-M11",
   },
   {
-    id: 479,
     name: "CROCS DYLAN CLOGS",
     category: "Men",
     image:
@@ -4871,7 +4384,6 @@ const products = [
     size: "M6-M11",
   },
   {
-    id: 480,
     name: "ADIDAS SUPERSTAR",
     category: "women",
     image:
@@ -4881,7 +4393,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 481,
     name: "NIKE MK2 TECNO",
     category: "clearance",
     image:
@@ -4891,7 +4402,6 @@ const products = [
     size: "EUR 36-44",
   },
   {
-    id: 482,
     name: "NIKE VAPORFLY NEXT 3",
     category: "men",
     image:
@@ -4901,7 +4411,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 483,
     name: "NEW BALANCE 530 IVORY",
     category: "men",
     image:
@@ -4911,7 +4420,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 484,
     name: "NIKE SB DUNK BATMAN X JOKER",
     category: "men",
     image:
@@ -4921,7 +4429,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 485,
     name: "NIKE AIR JORDAN 1 LOW X DIOR",
     category: "men",
     image:
@@ -4931,7 +4438,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 486,
     name: "NIKE AIRFORCE AMBUSH TRIPPLE WHITE",
     category: "men",
     image:
@@ -4941,7 +4447,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 487,
     name: "NIKE SB DUNK YEAR OF RABBIT 2023",
     category: "men",
     image:
@@ -4951,7 +4456,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 488,
     name: "NIKE AIRMAX WORLDWIDE",
     category: "men",
     image:
@@ -4961,7 +4465,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 489,
     name: "ADIDAS SUPERSTAR SHADOW GRAY",
     category: "women",
     image:
@@ -4971,7 +4474,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 490,
     name: "NIKE AIR JORDAN RETRO 1 LOW TRAVIS SCOTT NOIRE",
     category: "men",
     image:
@@ -4981,7 +4483,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 491,
     name: "ADIDAS FORUM EXHIBIT YELLOW",
     category: "women",
     image:
@@ -4991,7 +4492,6 @@ const products = [
     size: "EUR 36-40",
   },
   {
-    id: 492,
     name: "NIKE X UNION FIELD GENERAL SP SHIMMER",
     category: "men",
     image:
@@ -5001,7 +4501,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 493,
     name: "NIKE AIRFORCE HEMP COCONUT MILK",
     category: "men",
     image: "https://cloudgarment.com/wp-content/uploads/2024/06/Picture3-3.jpg",
@@ -5010,7 +4509,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 494,
     name: "VANS OLD SKOOL KNU BLACK WHITE",
     category: "unisex",
     image:
@@ -5020,7 +4518,6 @@ const products = [
     size: "EUR 36-44",
   },
   {
-    id: 495,
     name: "NIKE AIRFORCE ALL PETALS UNITED BEIGE",
     category: "men",
     image: "https://cdn.dotpe.in/longtail/store-items/6013510/TA4fdAVu.jpeg",
@@ -5029,7 +4526,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 496,
     name: "EMPORIO ARMANI SNEAKERS WHITE",
     category: "men",
     image:
@@ -5039,7 +4535,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 497,
     name: "EMPORIO ARMANI SNEAKERS BLACK",
     category: "men",
     image:
@@ -5049,7 +4544,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 498,
     name: "ADIDAS ORGINALS OZMILLEN",
     category: "Men",
     image:
@@ -5059,7 +4553,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 499,
     name: "CLOGS",
     category: "crocs",
     image:
@@ -5069,7 +4562,6 @@ const products = [
     size: "M6-M11",
   },
   {
-    id: 500,
     name: "VERSACE SLIDES",
     category: "slide",
     image:
@@ -5079,7 +4571,6 @@ const products = [
     size: "EUR 40-45",
   },
   {
-    id: 501,
     name: "LOUIS VUITTON SLIDES",
     category: "slide",
     image:
@@ -5089,3 +4580,5 @@ const products = [
     size: "EUR 40-45",
   }
 ];
+
+export default products;

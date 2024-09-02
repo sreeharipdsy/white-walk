@@ -1,19 +1,31 @@
+
+let cart = [];
+
 document.addEventListener("DOMContentLoaded", () => {
   loadCart();
   updateCart();
 });
 
 function addToCart(productId) {
-  const product = products.find((p) => p.id === productId);
+  // Ensure ID is treated as a string
+  const product = window.products.find((p) => String(p.id) === String(productId));
+  
+  if (!product) {
+    console.error("Product not found for cart:", productId);
+    return;
+  }
+  
   cart.push(product);
   saveCart();
   updateCart();
-  // showToast("Item Added to Cart");
+
   Swal.fire({
     title: "Item Added to Cart",
     icon: "success",
   });
 }
+
+
 
 function showToast() {
   const toast = document.getElementById("toast");
@@ -39,10 +51,10 @@ function updateCart() {
         <img src="${product.image}" alt="${product.name}" width="50">
         <span class="name">${product.name}</span>
         <span>₹${product.discountedPrice}</span>
-        <button onclick="removeFromCart(${product.id})">
+        <button onclick="removeFromCart('${product.id}')">
             Delete
-            <img    src="assets/icons/delete.svg" 
-                    alt="Delete">
+            <img  src="assets/icons/delete.svg" 
+                  alt="Delete">
         </button>
         `;
     cartItems.appendChild(cartItem);
@@ -57,7 +69,7 @@ function updateCart() {
 }
 
 function removeFromCart(productId) {
-  cart = cart.filter((product) => product.id !== productId);
+  cart = cart.filter((product) => String(product.id) !== String(productId));
   saveCart();
   updateCart();
 }

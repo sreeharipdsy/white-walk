@@ -1,38 +1,45 @@
+
 function openProductPage(productId) {
-  const product = products.find((p) => p.id === productId);
+  const product = window.products.find((p) => String(p.id) === String(productId));
+  
+  if (!product) {
+    console.error("Product not found:", productId);
+    return;
+  }
+
   const modalBody = document.getElementById("modal-body");
   modalBody.innerHTML = `
-      <div class="content">
-        <div class="p-image">
-          <img src="${product.image}" alt="${product.name} Image">
-        </div>
-        <div class="p-details">
-          <h1 class="p-name">${product.name}</h1>
-          <div class="price-group">
-            <p class="p-price">
-              <span>₹${product.price}</span> 
-              <span>₹${product.discountedPrice}</span>
-            </p>
-            <div class="reviews">
-              <a href="/reviews">
-                Reviews
-                <img src="assets/icons/arrow-forward.svg" alt="">
-              </a>
-            </div>
-          </div>
-          <p class="size">
-            Sizes: 
-            <span><strong>${product.size}</strong></span> 
-            Available
-          </p>
-          <p class="alert">
-              Check Size & Colour with the dealer while ordering
-          </p>
-          <button class="add-to-cart" onclick="addToCart(${product.id})">Add to Cart</button>
-          <button class="check-out" onclick="buyNow('${product.name}')">Order Via WhatsApp</button>
-        </div>
+    <div class="content">
+      <div class="p-image">
+        <img src="${product.image}" alt="${product.name} Image">
       </div>
-    `;
+      <div class="p-details">
+        <h1 class="p-name">${product.name}</h1>
+        <div class="price-group">
+          <p class="p-price">
+            <span>₹${product.price}</span> 
+            <span>₹${product.discountedPrice}</span>
+          </p>
+          <div class="reviews">
+            <a href="/reviews">
+              Reviews
+              <img src="assets/icons/arrow-forward.svg" alt="">
+            </a>
+          </div>
+        </div>
+        <p class="size">
+          Sizes: 
+          <span><strong>${product.size}</strong></span> 
+          Available
+        </p>
+        <p class="alert">
+            Check Size & Colour with the dealer while ordering
+        </p>
+        <button class="add-to-cart" onclick="addToCart('${product.id}')">Add to Cart</button>
+        <button class="check-out" onclick="buyNow('${product.name}')">Order Via WhatsApp</button>
+      </div>
+    </div>
+  `;
   const productImages = document.querySelectorAll(".p-image img");
   productImages.forEach((image) => {
     image.addEventListener("contextmenu", (event) => {
@@ -41,6 +48,8 @@ function openProductPage(productId) {
   });
   toggleProductModal();
 }
+
+
 
 function toggleProductModal() {
   const modal = document.getElementById("product-modal");
