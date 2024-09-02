@@ -120,35 +120,6 @@ function renderProducts(products) {
           event.preventDefault();
         });
       });
-      function disableLongPress(selector) {
-        const elements = document.querySelectorAll(selector);
-        elements.forEach((element) => {
-          element.addEventListener("contextmenu", (event) =>
-            event.preventDefault()
-          );
-          element.addEventListener(
-            "touchstart",
-            (event) => {
-              element.setAttribute("data-touch-start", new Date().getTime());
-            },
-            { passive: true }
-          );
-          element.addEventListener(
-            "touchend",
-            (event) => {
-              const touchStartTime = parseInt(
-                element.getAttribute("data-touch-start"),
-                10
-              );
-              const touchEndTime = new Date().getTime();
-              if (touchEndTime - touchStartTime >= 500) {
-                event.preventDefault();
-              }
-            },
-            { passive: true }
-          );
-        });
-      }
       disableLongPress(".card img");
       productList.appendChild(productCard);
     });
