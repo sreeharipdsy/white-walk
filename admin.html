@@ -110,6 +110,37 @@
             font-size: 16px;
             color: #d9534f;
         }
+
+        #scroll-to-top,
+        #scroll-to-bottom {
+            position: fixed;
+            background-color: #3f0055;
+            color: white;
+            padding: 6px 14px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 24px;
+            cursor: pointer;
+            z-index: 1000;
+            transition: background-color 0.3s;
+        }
+
+        #scroll-to-top {
+            bottom: 70px;
+            /* Slightly above the bottom arrow */
+            right: 20px;
+        }
+
+        #scroll-to-bottom {
+            bottom: 20px;
+            /* Positioned below the top arrow */
+            right: 20px;
+        }
+
+        #scroll-to-top:hover,
+        #scroll-to-bottom:hover {
+            background-color: #37004fb8;
+        }
     </style>
 </head>
 
@@ -142,13 +173,16 @@
                 <option value="buy1get1">Buy 1 Get 1</option>
             </select>
             <input type="url" id="image" name="image" placeholder="Image URL" required />
-            <input type="number" id="price" name="price" placeholder="Price" required />
-            <input type="number" id="discountedPrice" name="discountedPrice" placeholder="Discounted Price" required />
+            <input type="number" id="price" name="price" placeholder="Offer Rate" required />
+            <input type="number" id="discountedPrice" name="discountedPrice" placeholder="Customer Rate" required />
             <select id="size" name="size" required>
                 <option value="">Select Size</option>
                 <option value="EUR 36-40">EUR 36-40</option>
-                <option value="EUR 40-45">EUR 40-45</option>
+                <option value="EUR 36-44">EUR 36-44</option>
                 <option value="EUR 36-45">EUR 36-45</option>
+                <option value="EUR 40-44">EUR 40-44</option>
+                <option value="EUR 40-45">EUR 40-45</option>
+                <option value="EUR 41-44">EUR 41-44</option>
                 <option value="M6-M10">M6-M10</option>
                 <option value="M8-M10">M8-M10</option>
                 <option value="M6-M11">M6-M11</option>
@@ -175,6 +209,13 @@
             </button>
         </div>
         <div id="product-list"></div>
+    </div>
+
+    <div id="scroll-to-top">
+        &#x2191; <!-- Up arrow symbol -->
+    </div>
+    <div id="scroll-to-bottom">
+        &#x2193; <!-- Down arrow symbol -->
     </div>
 
     <!-- Admin JS as Module File -->
