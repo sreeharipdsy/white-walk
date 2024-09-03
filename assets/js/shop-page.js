@@ -72,21 +72,17 @@ async function fetchProducts() {
   }
 }
 
-let currentProductIndex = 0; // Keeps track of the current index of products shown
-const productsPerPage = 20; // Number of products to display per page
+let currentProductIndex = 0;
+const productsPerPage = 10;
 
 function renderProducts(products) {
   const productList = document.getElementById("product-list");
-  productList.innerHTML = ""; // Clear existing content
-
-  // Sort the products based on createdAt (latest first)
+  productList.innerHTML = "";
   products.sort((a, b) => {
     const timeA = a.createdAt || new Date(0);
     const timeB = b.createdAt || new Date(0);
     return timeB - timeA;
   });
-
-  // Get the next set of products to show
   const productsToShow = products.slice(
     0,
     currentProductIndex + productsPerPage
@@ -260,7 +256,7 @@ function hidePageLoader() {
     } else {
       console.error("Product list not found");
     }
-  }, 1000);
+  }, 100);
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -346,7 +342,7 @@ function filterProducts() {
   setTimeout(() => {
     renderProducts(filteredProducts);
     hideLoadingSpinner();
-  }, 1000);
+  }, 500);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
