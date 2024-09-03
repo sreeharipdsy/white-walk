@@ -188,12 +188,11 @@ document.addEventListener("DOMContentLoaded", () => {
                       <p><strong>${productData.name}</strong></p>
                       <p>Price: ₹${productData.price} | Discounted Price: ₹${productData.discountedPrice}</p>
                       <p>Size: ${productData.size}</p>
-                      <button class="delete" onclick="deleteProduct('${productData.id}')">Delete</button>
                     </div>
                     <div class="product-image" style="max-width: 150px;">
                       <img src="${productData.image}" alt="${productData.name}" style="width: 100%; height: auto; object-fit: cover;">
                     </div>
-                  </div>
+                  </div><button class="delete" onclick="deleteProduct('${productData.id}')">Delete Product</button>
                   <hr>
               `;
           productListContainer.appendChild(productElement);
