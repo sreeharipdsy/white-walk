@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   <div class="product-card" style="display: flex; justify-content: space-between; align-items: center;">
                     <div class="product-details">
                       <p><strong>${productData.name}</strong></p>
-                      <p>Price: ₹${productData.price} | Discounted Price: ₹${productData.discountedPrice}</p>
+                      <p>Max. Rate: ₹${productData.price} <br> Customer Rate: ₹${productData.discountedPrice}</p>
                       <p>Size: ${productData.size}</p>
                     </div>
                     <div class="product-image" style="max-width: 150px;">
