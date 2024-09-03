@@ -239,17 +239,6 @@ header .navbar {
   cursor: pointer;
 }
 
-.section-three .product-img .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: transparent; /* Keep it transparent */
-  z-index: 10;  /* Place the overlay above the image */
-  pointer-events: none;  /* Prevent any interaction */
-}
-
 .section-three .product-description .name-rating {
   display: flex;
   align-items: center;

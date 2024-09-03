@@ -48,7 +48,7 @@ async function addAllProductsToFirestore() {
     console.error("Error adding products to Firebase:", error);
   }
 }
-addAllProductsToFirestore();
+// addAllProductsToFirestore();
 
 let products = [];
 window.products = products;
