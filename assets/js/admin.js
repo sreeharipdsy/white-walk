@@ -22,7 +22,7 @@ const firebaseConfig = {
   projectId: "whitewalk-server",
   storageBucket: "whitewalk-server.appspot.com",
   messagingSenderId: "977648514879",
-  appId: "1:977648514879:web:82dc417449b9f32baa058a"
+  appId: "1:977648514879:web:82dc417449b9f32baa058a",
 };
 
 // Initialize Firebase
@@ -130,57 +130,59 @@ document
     e.target.reset();
   });
 
+document.addEventListener("DOMContentLoaded", () => {
+  window.fetchAndRenderProducts = fetchAndRenderProducts;
 
-  document.addEventListener("DOMContentLoaded", () => {
-    window.fetchAndRenderProducts = fetchAndRenderProducts;
-  
-    const searchInput = document.getElementById("search-input");
-    const searchButton = document.getElementById("search-button");
-  
-    searchButton.addEventListener("click", () => {
+  const searchInput = document.getElementById("search-input");
+  const searchButton = document.getElementById("search-button");
+
+  searchButton.addEventListener("click", () => {
+    fetchAndRenderProducts(searchInput.value.toLowerCase());
+  });
+
+  searchInput.addEventListener("keyup", (e) => {
+    if (e.key === "Enter" || e.keyCode === 13) {
       fetchAndRenderProducts(searchInput.value.toLowerCase());
-    });
-  
-    searchInput.addEventListener("keyup", (e) => {
-      if (e.key === "Enter" || e.keyCode === 13) {
-        fetchAndRenderProducts(searchInput.value.toLowerCase());
+    }
+  });
+
+  async function fetchAndRenderProducts(searchTerm = "") {
+    const productListContainer = document.getElementById("product-list");
+    productListContainer.innerHTML = "";
+
+    try {
+      const productsCollection = collection(db, "products");
+      const querySnapshot = await getDocs(productsCollection);
+
+      if (querySnapshot.empty) {
+        productListContainer.innerHTML = "<p>No products available.</p>";
+        return;
       }
-    });
-  
-    async function fetchAndRenderProducts(searchTerm = "") {
-      const productListContainer = document.getElementById("product-list");
-      productListContainer.innerHTML = "";
-      
-      try {
-        const productsCollection = collection(db, "products");
-        const querySnapshot = await getDocs(productsCollection);
-  
-        if (querySnapshot.empty) {
-          productListContainer.innerHTML = "<p>No products available.</p>";
-          return;
-        }
-  
-        const products = querySnapshot.docs.map(doc => ({
+
+      const products = querySnapshot.docs
+        .map((doc) => ({
           id: doc.id,
-          ...doc.data()
-        })).sort((a, b) => {
+          ...doc.data(),
+        }))
+        .sort((a, b) => {
           if (a.createdAt && b.createdAt) {
             return a.createdAt.toMillis() - b.createdAt.toMillis();
           }
           return 0;
         });
-  
-        const filteredProducts = products.filter(product =>
-          product.name.toLowerCase().includes(searchTerm)
-        );
-  
-        if (filteredProducts.length === 0) {
-          productListContainer.innerHTML = "<p>No products match your search.</p>";
-        } else {
-          filteredProducts.forEach((productData) => {
-            const productElement = document.createElement("div");
-            productElement.classList.add("product-item");
-            productElement.innerHTML = `
+
+      const filteredProducts = products.filter((product) =>
+        product.name.toLowerCase().includes(searchTerm)
+      );
+
+      if (filteredProducts.length === 0) {
+        productListContainer.innerHTML =
+          "<p>No products match your search.</p>";
+      } else {
+        filteredProducts.forEach((productData) => {
+          const productElement = document.createElement("div");
+          productElement.classList.add("product-item");
+          productElement.innerHTML = `
                   <div class="product-card" style="display: flex; justify-content: space-between; align-items: center;">
                     <div class="product-details">
                       <p><strong>${productData.name}</strong></p>
@@ -194,20 +196,17 @@ document
                   </div>
                   <hr>
               `;
-            productListContainer.appendChild(productElement);
-          });
-        }
-      } catch (error) {
-        console.error("Error fetching products:", error);
-        productListContainer.innerHTML = "<p>Error loading products.</p>";
+          productListContainer.appendChild(productElement);
+        });
       }
+    } catch (error) {
+      console.error("Error fetching products:", error);
+      productListContainer.innerHTML = "<p>Error loading products.</p>";
     }
-  
-    fetchAndRenderProducts();
-  });
-  
+  }
 
-  
+  fetchAndRenderProducts();
+});
 
 window.deleteProduct = deleteProduct;
 async function deleteProduct(productId) {

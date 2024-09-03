@@ -16,7 +16,7 @@ const firebaseConfig = {
   projectId: "whitewalk-server",
   storageBucket: "whitewalk-server.appspot.com",
   messagingSenderId: "977648514879",
-  appId: "1:977648514879:web:82dc417449b9f32baa058a"
+  appId: "1:977648514879:web:82dc417449b9f32baa058a",
 };
 
 // Initialize Firebase
@@ -72,23 +72,33 @@ async function fetchProducts() {
   }
 }
 
+let currentProductIndex = 0; // Keeps track of the current index of products shown
+const productsPerPage = 20; // Number of products to display per page
+
 function renderProducts(products) {
+  const productList = document.getElementById("product-list");
+  productList.innerHTML = ""; // Clear existing content
+
+  // Sort the products based on createdAt (latest first)
   products.sort((a, b) => {
     const timeA = a.createdAt || new Date(0);
     const timeB = b.createdAt || new Date(0);
     return timeB - timeA;
   });
 
-  const productList = document.getElementById("product-list");
-  productList.innerHTML = "";
+  // Get the next set of products to show
+  const productsToShow = products.slice(
+    0,
+    currentProductIndex + productsPerPage
+  );
 
-  if (products.length === 0) {
+  if (productsToShow.length === 0) {
     productList.innerHTML = `
       <p style="font-size: 14px; color: #3f0055; padding-top: 1em; text-align: center;">
         No products available...
       </p>`;
   } else {
-    products.forEach((product) => {
+    productsToShow.forEach((product) => {
       const productCard = document.createElement("div");
       productCard.classList.add("card");
       productCard.setAttribute("data-product-id", product.id);
@@ -115,16 +125,41 @@ function renderProducts(products) {
           </div>
         </div>
       `;
-      // const productImages = document.querySelectorAll(".card img");
-      // productImages.forEach((image) => {
-      //   image.addEventListener("contextmenu", (event) => {
-      //     event.preventDefault();
-      //   });
-      // });
-      // disableLongPress(".card img");
       productList.appendChild(productCard);
     });
   }
+  const showMoreButton = document.getElementById("show-more-button");
+  if (productsToShow.length < products.length) {
+    showMoreButton.style.display = "flex";
+  } else {
+    showMoreButton.style.display = "none";
+  }
+}
+
+function showMoreProducts(products) {
+  currentProductIndex += productsPerPage;
+  renderProducts(products);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  let allProducts = [];
+  fetchProductsFromFirebase().then((products) => {
+    allProducts = products;
+    renderProducts(allProducts);
+    const showMoreButton = document.getElementById("show-more-button");
+    showMoreButton.addEventListener("click", () => {
+      showMoreProducts(allProducts);
+    });
+  });
+});
+
+async function fetchProductsFromFirebase() {
+  const productsCollection = collection(db, "products");
+  const querySnapshot = await getDocs(productsCollection);
+  return querySnapshot.docs.map((doc) => ({
+    id: doc.id,
+    ...doc.data(),
+  }));
 }
 
 onSnapshot(collection(db, "products"), (snapshot) => {
