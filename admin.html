@@ -14,134 +14,8 @@
 
     <!-- Sweet alert -->
     <link rel="stylesheet" href="assets/css/sweet-alert.css" />
+    <link rel="stylesheet" href="assets/css/admin.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-
-        h1 {
-            text-align: center;
-            color: #333;
-            margin-top: 20px;
-        }
-
-        #login-section,
-        #admin-section,
-        #product-section {
-            width: 80%;
-            max-width: 600px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        form {
-            display: flex;
-            flex-direction: column;
-        }
-
-        input[type="text"],
-        input[type="email"],
-        input[type="url"],
-        input[type="number"],
-        input[type="password"],
-        select {
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            margin-bottom: 10px;
-            font-size: 16px;
-        }
-
-        button {
-            padding: 10px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        .product-item {
-            margin-bottom: 10px;
-            border-radius: 7.5px;
-        }
-
-        .product-card {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 5px;
-        }
-
-        .product-card img {
-            border-radius: 5px;
-        }
-
-        .product-card p {
-            font-size: 14px;
-        }
-
-        .delete {
-            background: #d20000;
-            width: 100%;
-            margin-top: 3px;
-            border-radius: 5px;
-        }
-
-        .delete:hover {
-            background: #b30000;
-        }
-
-        button:hover {
-            background-color: #0056b3;
-        }
-
-        #message {
-            margin-top: 20px;
-            font-size: 16px;
-            color: #d9534f;
-        }
-
-        #scroll-to-top,
-        #scroll-to-bottom {
-            position: fixed;
-            background-color: #3f0055;
-            color: white;
-            padding: 6px 14px;
-            border-radius: 50%;
-            text-align: center;
-            font-size: 24px;
-            cursor: pointer;
-            z-index: 1000;
-            transition: background-color 0.3s;
-        }
-
-        #scroll-to-top {
-            bottom: 70px;
-            /* Slightly above the bottom arrow */
-            right: 20px;
-        }
-
-        #scroll-to-bottom {
-            bottom: 20px;
-            /* Positioned below the top arrow */
-            right: 20px;
-        }
-
-        #scroll-to-top:hover,
-        #scroll-to-bottom:hover {
-            background-color: #37004fb8;
-        }
-    </style>
 </head>
 
 <body>
@@ -210,13 +84,8 @@
         </div>
         <div id="product-list"></div>
     </div>
-
-    <div id="scroll-to-top">
-        &#x2191; <!-- Up arrow symbol -->
-    </div>
-    <div id="scroll-to-bottom">
-        &#x2193; <!-- Down arrow symbol -->
-    </div>
+    <div id="scroll-to-top">&#x2191;</div>
+    <div id="scroll-to-bottom">&#x2193;</div>
 
     <!-- Admin JS as Module File -->
     <script type="module" src="assets/js/admin.js"></script>
