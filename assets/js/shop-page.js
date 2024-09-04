@@ -82,8 +82,9 @@ async function fetchProducts() {
 // The below code manages the rendering of products fetched from a Firestore database, displaying them in a paginated manner. The `currentProductIndex` keeps track of the starting point for the products currently being displayed, and `productsPerPage` defines the number of products to show per page. The `renderProducts` function first selects the element with the ID `product-list` and clears any existing content. It sorts the products array in descending order based on the `createdAt` timestamp to ensure the most recent products appear first. The products to be displayed are then determined by slicing the `products` array from the start to the end of the current page based on `currentProductIndex` and `productsPerPage`. If no products are available to display, the function shows a message indicating "No products available...". Otherwise, it creates a card for each product, displaying its image, name, rating, price, and buttons for adding to the cart or buying immediately. Each product card includes the product's ID and handles user interactions like opening the product page, adding to the cart, or buying the product. Finally, the function controls the visibility of a "Show More" button. If there are more products to load beyond the current page, the button is displayed; otherwise, it is hidden. This enables users to load additional products dynamically.
 let currentProductIndex = 0;
 const productsPerPage = 10;
+let filteredProducts = [];
+let allProducts = [];
 
-// Rendering products from firestore database
 function renderProducts(products) {
   const productList = document.getElementById("product-list");
   productList.innerHTML = "";
@@ -141,21 +142,21 @@ function renderProducts(products) {
   }
 }
 
-// This function handles displaying additional products when the user clicks the "Show More" button. The `showMoreProducts` function increments the `currentProductIndex` by the number of products per page (`productsPerPage`), effectively moving the starting point to the next set of products. It then calls the `renderProducts` function to update the product display with the new set of products, ensuring that the next batch of products is shown to the user. This approach enables paginated loading of products without refreshing the entire page.
-function showMoreProducts(products) {
+function showMoreProducts() {
   currentProductIndex += productsPerPage;
-  renderProducts(products);
+  renderProducts(filteredProducts);
 }
 
-// This code initializes the product loading and display process when the DOM content is fully loaded. It first defines an empty `allProducts` array to store the products fetched from Firebase. The `fetchProductsFromFirebase` function is called to retrieve the products, which are then stored in the `allProducts` array. Once the products are fetched, the `renderProducts` function is called to display the products on the page. Additionally, the code sets up an event listener for the "Show More" button. When this button is clicked, the `showMoreProducts` function is invoked with the `allProducts` array as its argument, allowing the next set of products to be displayed based on the current pagination state. This setup ensures that the product list is populated and that the user can load more products as needed.
+
+// 
 document.addEventListener("DOMContentLoaded", () => {
-  let allProducts = [];
   fetchProductsFromFirebase().then((products) => {
-    allProducts = products;
-    renderProducts(allProducts);
+    allProducts = products; // Initialize all products
+    filteredProducts = allProducts; // Set initial filtered products to all products
+    renderProducts(filteredProducts);
     const showMoreButton = document.getElementById("show-more-button");
     showMoreButton.addEventListener("click", () => {
-      showMoreProducts(allProducts);
+      showMoreProducts();
     });
   });
 });
@@ -337,26 +338,35 @@ function hideLoadingSpinner() {
   }
 }
 
-// This function, `filterProducts`, filters the global `products` array based on a search term and a selected category. It first shows a loading spinner and hides an element with the ID "empty". It then retrieves the search term from the input field and the selected filter category from a dropdown. The `filteredProducts` array is created by filtering the `products` based on whether the product name includes the search term and if it matches the selected category (if one is specified). After a brief delay of 500 milliseconds, the filtered products are rendered on the page, and the loading spinner is hidden, providing a smooth user experience while the filtering operation completes.
+// 
 function filterProducts() {
   showLoadingSpinner();
-  document.getElementById("empty").style.display = "none";
-  const searchTerm = document
-    .getElementById("search-input")
-    .value.toLowerCase();
+  document.getElementById("recommendations").style.display = "none";
+  const searchTerm = document.getElementById("search-input").value.toLowerCase();
   const filter = document.getElementById("filter").value;
 
-  const filteredProducts = products.filter((product) => {
+  if (searchTerm.length === 0) {
+    hideRecommendations(); // Hide recommendations when search is cleared
+    filteredProducts = allProducts; // Reset to all products
+    renderProducts(filteredProducts); // Optionally show all products again
+    hideLoadingSpinner();
+    return;
+  }
+
+  filteredProducts = allProducts.filter((product) => {
     return (
       product.name.toLowerCase().includes(searchTerm) &&
       (filter === "" || product.category === filter)
     );
   });
 
+  showRecommendations(filteredProducts);
+
   setTimeout(() => {
+    currentProductIndex = 0; // Reset index for filtered products
     renderProducts(filteredProducts);
     hideLoadingSpinner();
-  }, 500);
+  }, 1000);
 }
 
 // This code snippet sets up an event listener that executes when the DOM content is fully loaded. It checks if there's a stored product ID in `localStorage` under the key "viewedProduct". If such an ID exists, it finds the corresponding product card element using a query selector with the attribute `data-product-id` matching the stored ID. If the product card is found, the script scrolls smoothly to the card's position and adds a "highlight" class to it, drawing attention to the viewed product. After processing, it removes the "viewedProduct" item from `localStorage` to clean up. This functionality enhances the user experience by directing attention to a recently viewed product.
