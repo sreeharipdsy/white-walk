@@ -1,4 +1,4 @@
-//form
+// This code snippet handles form submission for a form with the ID `white-walk-form`. When the form is submitted, it prevents the default form submission behavior, displays a loading Swal popup with the message "Please Wait", and sends an AJAX POST request to a Google Apps Script URL. On successful submission, it shows a success Swal popup with a thank you message and reloads the page after resetting the form fields. If an error occurs during the AJAX request, it displays an error Swal popup with a generic error message.
 $("#white-walk-form").submit((e) => {
   e.preventDefault();
   Swal.fire({
@@ -35,7 +35,7 @@ $("#white-walk-form").submit((e) => {
   });
 });
 
-//Mobile Number input takes only numbers maximum 10
+// This jQuery script restricts the input in elements with the class `mob-input` to only allow numeric values. It allows certain key presses like delete, backspace, tab, escape, enter, and numeric keypad input. It also permits navigation keys (home, end, arrow keys) and shortcuts like Ctrl+A. For all other key presses, such as letters or special characters, it prevents the default action, effectively ensuring that only numbers can be entered into these input fields.
 $(document).ready(function () {
   $(".mob-input").keydown(function (e) {
     if (

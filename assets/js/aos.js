@@ -1,1 +1,2 @@
+// The `AOS.init({ once: true })` function initializes the AOS (Animate On Scroll) library with the `once` option set to `true`. This configuration ensures that animations are triggered only once when the user scrolls to the element for the first time. After the initial trigger, the animation will not occur again, even if the user scrolls back to the element. This can be useful for creating smooth, non-repeating animations that enhance the user experience without being overly distracting.
 AOS.init({ once: true })
