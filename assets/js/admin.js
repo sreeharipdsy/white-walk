@@ -104,6 +104,7 @@ async function addProduct(product) {
     });
     document.getElementById("message").innerText =
       "Last Product added with ID: " + docRef.id;
+    fetchAndRenderProducts();
   } catch (error) {
     document.getElementById("message").innerText =
       "Error adding product: " + error.message;
@@ -130,6 +131,7 @@ document
     e.target.reset();
   });
 
+//Fetch and render products in admin page from firestore database
 document.addEventListener("DOMContentLoaded", () => {
   window.fetchAndRenderProducts = fetchAndRenderProducts;
 
@@ -149,16 +151,13 @@ document.addEventListener("DOMContentLoaded", () => {
   async function fetchAndRenderProducts(searchTerm = "") {
     const productListContainer = document.getElementById("product-list");
     productListContainer.innerHTML = "";
-
     try {
       const productsCollection = collection(db, "products");
       const querySnapshot = await getDocs(productsCollection);
-
       if (querySnapshot.empty) {
         productListContainer.innerHTML = "<p>No products available.</p>";
         return;
       }
-
       const products = querySnapshot.docs
         .map((doc) => ({
           id: doc.id,
@@ -203,10 +202,10 @@ document.addEventListener("DOMContentLoaded", () => {
       productListContainer.innerHTML = "<p>Error loading products.</p>";
     }
   }
-
   fetchAndRenderProducts();
 });
 
+// To delete the product from firestore
 window.deleteProduct = deleteProduct;
 async function deleteProduct(productId) {
   Swal.fire({
