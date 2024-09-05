@@ -6,14 +6,24 @@ document.addEventListener("DOMContentLoaded", () => {
   updateCart();
 });
 
-// The `addToCart` function adds a product to the cart by first locating the product from the `window.products` array using the provided `productId`. If the product is found, it is added to the `cart` array. After updating the cart, the function calls `saveCart()` to persist the cart's state (likely to local storage or a database) and `updateCart()` to refresh the cart's display. If the product is successfully added, a SweetAlert notification with a success message is displayed, confirming that the item has been added to the cart. If the product is not found, an error message is logged to the console.
+// 
 function addToCart(productId) {
   const product = window.products.find((p) => String(p.id) === String(productId));
+
   if (!product) {
     console.error("Product not found for cart:", productId);
     return;
   }
-  cart.push(product);
+
+  const existingProduct = cart.find((item) => String(item.id) === String(productId));
+
+  if (existingProduct) {
+    existingProduct.quantity += 1;
+  } else {
+    product.quantity = 1;
+    cart.push(product);
+  }
+
   saveCart();
   updateCart();
   Swal.fire({
@@ -21,6 +31,7 @@ function addToCart(productId) {
     icon: "success",
   });
 }
+
 
 // The `showToast` function displays a toast notification on the screen. It first retrieves the toast element by its ID and then makes it visible by adding the `show` class and setting its display to `flex`. The toast is styled to appear with full opacity and normal scale. After a delay of 2 seconds (during which the toast is visible), the opacity is gradually reduced to 0, and the scale is reduced to 0.5, creating a fade-out and shrink effect. Another delay of 300 milliseconds ensures that the `show` class is removed after the animation completes, hiding the toast element from the DOM.
 function showToast() {
@@ -36,34 +47,62 @@ function showToast() {
   }, 2000);
 }
 
-// The `updateCart` function updates the cart display on the webpage. It starts by updating the cart count displayed in an element with the class `cart-count` to reflect the number of items in the cart. The function then clears the current cart items displayed in an element with the ID `cart-items`. For each product in the cart, it creates a list item (`<li>`) that includes the product's image, name, discounted price, and a delete button. The delete button has an `onclick` event that triggers the `removeFromCart` function for the specific product. After populating the cart items, the function calculates the total price of all items in the cart and updates an element with the ID `total-price` to display this total, formatted to two decimal places.
+// 
 function updateCart() {
   const cartCount = document.querySelector(".cart-count");
   const cartItems = document.getElementById("cart-items");
+  const totalPriceElement = document.getElementById("total-price");
+
   cartCount.textContent = cart.length;
   cartItems.innerHTML = "";
+
+  if (cart.length === 0) {
+    cartItems.innerHTML = "<li>Your cart is empty</li>";
+    totalPriceElement.textContent = "Total: ₹0.00";
+    return;
+  }
+
+  const fragment = document.createDocumentFragment();
+
   cart.forEach((product) => {
     const cartItem = document.createElement("li");
     cartItem.innerHTML = `
-        <img src="${product.image}" alt="${product.name}" width="50">
-        <span class="name">${product.name}</span>
-        <span>₹${product.discountedPrice}</span>
-        <button onclick="removeFromCart('${product.id}')">
-            Delete
-            <img  src="assets/icons/delete.svg" 
-                  alt="Delete">
-        </button>
-        `;
-    cartItems.appendChild(cartItem);
+      <img src="${product.image}" alt="${product.name}" width="50">
+      <span class="name">${product.name}</span>
+      <span>₹${product.discountedPrice.toFixed(2)}</span>
+      <div class="quantity-controls">
+        <button onclick="updateQuantity('${product.id}', -1)">-</button>
+        <span>${product.quantity}</span>
+        <button onclick="updateQuantity('${product.id}', 1)">+</button>
+      </div>
+      <button onclick="removeFromCart('${product.id}')">
+        
+        <img src="assets/icons/delete.svg" alt="Delete">
+      </button>
+    `;
+    fragment.appendChild(cartItem);
   });
+
+  cartItems.appendChild(fragment);
+
   const totalPrice = cart.reduce(
-    (sum, product) => sum + product.discountedPrice,
+    (sum, product) => sum + (Number(product.discountedPrice) * product.quantity || 0),
     0
   );
-  document.getElementById(
-    "total-price"
-  ).textContent = `Total: ₹${totalPrice.toFixed(2)}`;
+
+  totalPriceElement.textContent = `Total: ₹${totalPrice.toFixed(2)}`;
 }
+
+function updateQuantity(productId, change) {
+  const product = cart.find((item) => String(item.id) === String(productId));
+
+  if (product) {
+    product.quantity = Math.max(1, product.quantity + change);
+    saveCart();
+    updateCart();
+  }
+}
+
 
 // The `removeFromCart` function removes a product from the cart by its ID. It filters the `cart` array to exclude the product with the specified ID. After updating the `cart` array, it calls `saveCart` to persist the changes, and then calls `updateCart` to refresh the cart display on the webpage. This ensures that the product is removed both from the cart data and the visible cart list.
 function removeFromCart(productId) {
